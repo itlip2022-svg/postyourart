@@ -1,8 +1,8 @@
 export function Header() {
-    return `
+  return `
     <header class="header">
       <div class="container header-content">
-        <div class="logo">ArtTech</div>
+        <div class="logo">postyour.art</div>
         <nav class="nav">
           <a href="#mission">Mission</a>
           <a href="#technology">Technology</a>

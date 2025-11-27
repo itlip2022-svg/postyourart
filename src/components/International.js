@@ -1,21 +1,21 @@
 export function International() {
-    return `
+  return `
     <section class="section international text-center">
       <div class="container">
-        <h2 class="section-title">Internationale Ausrichtung</h2>
-        <p class="lead">Ein globaler Marktplatz ohne Grenzen.</p>
+        <h2 class="section-title">International Focus</h2>
+        <p class="lead">A global marketplace without borders.</p>
         <div class="grid-3 mt-lg">
           <div class="card">
-            <h3>Globaler Marktplatz</h3>
-            <p>Verbindung von Künstlern und Sammlern weltweit.</p>
+            <h3>Global Marketplace</h3>
+            <p>Connecting artists and collectors worldwide.</p>
           </div>
           <div class="card">
-            <h3>Kein Gatekeeping</h3>
-            <p>Digitale-first Architektur bricht alte Barrieren auf.</p>
+            <h3>No Gatekeeping</h3>
+            <p>Digital-first architecture breaks down old barriers.</p>
           </div>
           <div class="card">
             <h3>Emerging Artists</h3>
-            <p>Fokus auf neue Talente aus allen Regionen.</p>
+            <p>Focus on new talents from all regions.</p>
           </div>
         </div>
       </div>

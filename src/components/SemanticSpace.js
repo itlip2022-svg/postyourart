@@ -1,33 +1,30 @@
 export function SemanticSpace() {
-    return `
+  return `
     <section class="section semantic-space" id="technology">
       <div class="container">
         <div class="grid-2">
           <div class="content-col">
-            <h2 class="section-title">Der semantische Kunstraum</h2>
-            <p class="lead">Wir bauen ein neuronales System für Kunst – eine Infrastruktur, die Orientierung schafft.</p>
+            <h2 class="section-title">The Semantic Art Space</h2>
+            <p class="lead">We are building a neural system for art – an infrastructure that creates orientation.</p>
             <ul class="feature-list">
               <li>
-                <strong>Knowledge Graph für Kunst</strong>
-                <p>Verknüpfung von Werken basierend auf tiefen semantischen Beziehungen.</p>
+                <strong>Knowledge Graph for Art</strong>
+                <p>Connecting works based on deep semantic relationships.</p>
               </li>
               <li>
-                <strong>Stil-, Motiv- & Struktur-Erkennung</strong>
-                <p>KI-gestützte Analyse jenseits von Schlagworten.</p>
+                <strong>Style, Motif & Structure Recognition</strong>
+                <p>AI-supported analysis beyond keywords.</p>
               </li>
               <li>
-                <strong>Menschliche Kuration</strong>
-                <p>Daten werden zur Landkarte, Experten geben die Richtung vor.</p>
+                <strong>Human Curation</strong>
+                <p>Data becomes the map, experts set the direction.</p>
               </li>
             </ul>
           </div>
           <div class="visual-col">
-            <div class="graph-visual">
-              <!-- Placeholder for graph visualization -->
-              <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: var(--color-text-muted);">
-                [Graph Visualization]
-              </div>
-            </div>
+             <div class="graph-visual">
+               <img src="/assets/semantic_graph.png" alt="Semantic Graph" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-lg);">
+             </div>
           </div>
         </div>
       </div>

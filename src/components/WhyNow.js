@@ -1,27 +1,27 @@
 export function WhyNow() {
-    return `
+  return `
     <section class="section why-now" id="mission">
       <div class="container">
         <div class="section-header text-center">
-          <h2>Warum jetzt?</h2>
-          <p class="lead">Der Kunstmarkt ist überfüllt, chaotisch, laut.</p>
+          <h2>Why Now?</h2>
+          <p class="lead">The art market is overcrowded, chaotic, loud.</p>
         </div>
         <div class="grid-3">
           <div class="card">
-            <h3>Künstler</h3>
-            <p>Finden keine Sichtbarkeit mehr im Algorithmus-Chaos.</p>
+            <h3>Artists</h3>
+            <p>Find no visibility in the algorithm chaos.</p>
           </div>
           <div class="card">
-            <h3>Sammler</h3>
-            <p>Finden keine Orientierung in der Masse an Angeboten.</p>
+            <h3>Collectors</h3>
+            <p>Find no orientation in the mass of offers.</p>
           </div>
           <div class="card">
-            <h3>Portale</h3>
-            <p>Stagnieren und bieten keine echten Verbindungen.</p>
+            <h3>Portals</h3>
+            <p>Stagnate and offer no real connections.</p>
           </div>
         </div>
         <div class="text-center mt-lg">
-          <h3 class="highlight-text">Der Markt braucht Bedeutung – nicht mehr Angebote.</h3>
+          <h3 class="highlight-text">The market needs meaning – not more offers.</h3>
         </div>
       </div>
     </section>
