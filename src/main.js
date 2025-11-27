@@ -19,9 +19,18 @@ import { Footer } from './components/Footer.js';
 import { Imprint } from './components/Imprint.js';
 import { Privacy } from './components/Privacy.js';
 
+import { initNetworkAnimation } from './components/NetworkAnimation.js';
+
 const app = document.querySelector('#app');
+let cleanupAnimation = null;
 
 function render() {
+  // Cleanup previous animation if it exists
+  if (cleanupAnimation) {
+    cleanupAnimation();
+    cleanupAnimation = null;
+  }
+
   const hash = window.location.hash;
 
   if (hash === '#imprint') {
@@ -59,6 +68,11 @@ function render() {
       </main>
       ${Footer()}
     `;
+
+    // Initialize animation after DOM is updated
+    requestAnimationFrame(() => {
+      cleanupAnimation = initNetworkAnimation('hero-network-animation');
+    });
   }
 }
 

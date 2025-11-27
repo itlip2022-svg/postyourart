@@ -12,7 +12,7 @@ export function Hero() {
         </div>
         <div class="hero-visual">
           <!-- Placeholder for neural network visual -->
-          <div class="neural-network-placeholder"></div>
+          <div id="hero-network-animation" class="neural-network-placeholder"></div>
         </div>
       </div>
     </section>
