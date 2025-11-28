@@ -123,7 +123,41 @@ export const translations = {
         },
         privacy: {
             title: "Privacy Policy",
-            content: "Privacy Policy content placeholder..."
+            content: `
+        <p><strong>Datenschutzerklärung</strong></p>
+        <p>Letzte Aktualisierung: 10. Oktober 2025</p>
+        <p>Diese Datenschutzrichtlinie beschreibt, wie Markus Lippeck (die „Site“, „wir“, „uns“ oder „unser“) sammelt, verwendet und gibt Ihre persönlichen Daten weiter, wenn Sie lippeck.art (die „Site“) besuchen, unsere Dienste nutzen, einen Kauf dort tätigen oder auf andere Weise bezüglich der Site mit uns kommunizieren (zusammen die „Dienste“).</p>
+        
+        <p><strong>Änderungen dieser Datenschutzrichtlinie</strong></p>
+        <p>Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren, unter anderem, um Änderungen unserer Praktiken widerzuspiegeln, oder aus anderen betrieblichen, rechtlichen oder regulatorischen Gründen.</p>
+        
+        <p><strong>So erfassen und verwenden wir Ihre personenbezogenen Daten</strong></p>
+        <p>Um die Dienste bereitzustellen, sammeln wir personenbezogene Daten. Die Art der personenbezogenen Daten, die wir über Sie erhalten, hängt davon ab, wie Sie mit unserer Site interagieren und unsere Dienste nutzen.</p>
+        
+        <p><strong>Welche persönlichen Daten sammeln wir?</strong></p>
+        <p>Zu den Informationen, die Sie uns direkt über unsere Dienste übermitteln, können gehören: Kontaktdaten, Bestellinformationen, Kontoinformationen, Kaufinformationen, Informationen zum Kundensupport.</p>
+        
+        <p><strong>Cookies</strong></p>
+        <p>Wir verwenden Cookies, um unsere Site und unsere Dienste zu betreiben und zu verbessern. Die meisten Browser akzeptieren Cookies standardmäßig automatisch. Sie können Ihren Browser jedoch so einstellen, dass Cookies entfernt oder abgelehnt werden.</p>
+        
+        <p><strong>Wie wir personenbezogene Daten weitergeben</strong></p>
+        <p>Unter bestimmten Umständen können wir Ihre personenbezogenen Daten an Dritte weitergeben, z.B. an Dienstleister (IT, Zahlung, Versand), Geschäfts- und Marketingpartner oder zur Erfüllung rechtlicher Verpflichtungen.</p>
+        
+        <p><strong>Websites und Links Dritter</strong></p>
+        <p>Unsere Site enthält möglicherweise Links zu Websites Dritter. Wir übernehmen keine Garantie und Verantwortung für den Datenschutz oder die Sicherheit solcher Websites.</p>
+        
+        <p><strong>Sicherheit und Aufbewahrung Ihrer Daten</strong></p>
+        <p>Wir treffen angemessene Sicherheitsvorkehrungen, können aber keine „perfekte Sicherheit“ garantieren. Wir bewahren Ihre Daten so lange auf, wie es für die Bereitstellung der Dienste oder aus rechtlichen Gründen erforderlich ist.</p>
+        
+        <p><strong>Ihre Rechte</strong></p>
+        <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Portabilität Ihrer Daten sowie das Recht, der Verarbeitung zu widersprechen. Kontaktieren Sie uns dazu bitte.</p>
+        
+        <p><strong>Kontakt</strong></p>
+        <p>Bei Fragen zu unseren Datenschutzpraktiken kontaktieren Sie uns bitte unter:<br>
+        Lippeck GmbH<br>
+        Bergstr. 22, 27726 Worpswede<br>
+        E-Mail: markus@lippeck.de</p>
+      `
         }
     },
     de: {
@@ -250,7 +284,41 @@ export const translations = {
         },
         privacy: {
             title: "Datenschutzerklärung",
-            content: "Inhalt der Datenschutzerklärung..."
+            content: `
+        <p><strong>Datenschutzerklärung</strong></p>
+        <p>Letzte Aktualisierung: 10. Oktober 2025</p>
+        <p>Diese Datenschutzrichtlinie beschreibt, wie Markus Lippeck (die „Site“, „wir“, „uns“ oder „unser“) sammelt, verwendet und gibt Ihre persönlichen Daten weiter, wenn Sie lippeck.art (die „Site“) besuchen, unsere Dienste nutzen, einen Kauf dort tätigen oder auf andere Weise bezüglich der Site mit uns kommunizieren (zusammen die „Dienste“).</p>
+        
+        <p><strong>Änderungen dieser Datenschutzrichtlinie</strong></p>
+        <p>Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren, unter anderem, um Änderungen unserer Praktiken widerzuspiegeln, oder aus anderen betrieblichen, rechtlichen oder regulatorischen Gründen.</p>
+        
+        <p><strong>So erfassen und verwenden wir Ihre personenbezogenen Daten</strong></p>
+        <p>Um die Dienste bereitzustellen, sammeln wir personenbezogene Daten. Die Art der personenbezogenen Daten, die wir über Sie erhalten, hängt davon ab, wie Sie mit unserer Site interagieren und unsere Dienste nutzen.</p>
+        
+        <p><strong>Welche persönlichen Daten sammeln wir?</strong></p>
+        <p>Zu den Informationen, die Sie uns direkt über unsere Dienste übermitteln, können gehören: Kontaktdaten, Bestellinformationen, Kontoinformationen, Kaufinformationen, Informationen zum Kundensupport.</p>
+        
+        <p><strong>Cookies</strong></p>
+        <p>Wir verwenden Cookies, um unsere Site und unsere Dienste zu betreiben und zu verbessern. Die meisten Browser akzeptieren Cookies standardmäßig automatisch. Sie können Ihren Browser jedoch so einstellen, dass Cookies entfernt oder abgelehnt werden.</p>
+        
+        <p><strong>Wie wir personenbezogene Daten weitergeben</strong></p>
+        <p>Unter bestimmten Umständen können wir Ihre personenbezogenen Daten an Dritte weitergeben, z.B. an Dienstleister (IT, Zahlung, Versand), Geschäfts- und Marketingpartner oder zur Erfüllung rechtlicher Verpflichtungen.</p>
+        
+        <p><strong>Websites und Links Dritter</strong></p>
+        <p>Unsere Site enthält möglicherweise Links zu Websites Dritter. Wir übernehmen keine Garantie und Verantwortung für den Datenschutz oder die Sicherheit solcher Websites.</p>
+        
+        <p><strong>Sicherheit und Aufbewahrung Ihrer Daten</strong></p>
+        <p>Wir treffen angemessene Sicherheitsvorkehrungen, können aber keine „perfekte Sicherheit“ garantieren. Wir bewahren Ihre Daten so lange auf, wie es für die Bereitstellung der Dienste oder aus rechtlichen Gründen erforderlich ist.</p>
+        
+        <p><strong>Ihre Rechte</strong></p>
+        <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Portabilität Ihrer Daten sowie das Recht, der Verarbeitung zu widersprechen. Kontaktieren Sie uns dazu bitte.</p>
+        
+        <p><strong>Kontakt</strong></p>
+        <p>Bei Fragen zu unseren Datenschutzpraktiken kontaktieren Sie uns bitte unter:<br>
+        Lippeck GmbH<br>
+        Bergstr. 22, 27726 Worpswede<br>
+        E-Mail: markus@lippeck.de</p>
+      `
         }
     }
 };
