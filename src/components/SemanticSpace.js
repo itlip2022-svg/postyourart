@@ -1,23 +1,22 @@
+import { t } from '../utils/i18n.js';
+
 export function SemanticSpace() {
   return `
     <section class="section semantic-space" id="technology">
       <div class="container">
         <div class="grid-2">
           <div class="content-col">
-            <h2 class="section-title">The Semantic Art Space</h2>
-            <p class="lead">We are building a neural system for art – an infrastructure that creates orientation.</p>
+            <h2 class="section-title">${t('semanticSpace.title')}</h2>
+            <p class="lead">${t('semanticSpace.lead')}</p>
             <ul class="feature-list">
               <li>
-                <strong>Knowledge Graph for Art</strong>
-                <p>Connecting works based on deep semantic relationships.</p>
+                ${t('semanticSpace.list.l1')}
               </li>
               <li>
-                <strong>Style, Motif & Structure Recognition</strong>
-                <p>AI-supported analysis beyond keywords.</p>
+                ${t('semanticSpace.list.l2')}
               </li>
               <li>
-                <strong>Human Curation</strong>
-                <p>Data becomes the map, experts set the direction.</p>
+                ${t('semanticSpace.list.l3')}
               </li>
             </ul>
           </div>

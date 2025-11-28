@@ -1,3 +1,5 @@
+import { t } from '../utils/i18n.js';
+
 export function CollectorBenefits() {
   return `
     <section class="section collector-benefits" id="collectors">
@@ -9,19 +11,16 @@ export function CollectorBenefits() {
              </div>
           </div>
           <div class="content-col">
-            <h2 class="section-title">Benefits for Collectors</h2>
+            <h2 class="section-title">${t('collectorBenefits.title')}</h2>
             <ul class="feature-list">
               <li>
-                <strong>Orientation instead of Overload</strong>
-                <p>Stop endless scrolling. Find what truly moves you.</p>
+                ${t('collectorBenefits.list.l1')}
               </li>
               <li>
-                <strong>Discovery Engine</strong>
-                <p>Discover emerging artists before the mainstream does.</p>
+                ${t('collectorBenefits.list.l2')}
               </li>
               <li>
-                <strong>Transparency</strong>
-                <p>Verified data, real profiles, and direct connections.</p>
+                ${t('collectorBenefits.list.l3')}
               </li>
             </ul>
           </div>

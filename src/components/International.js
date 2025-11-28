@@ -1,21 +1,23 @@
+import { t } from '../utils/i18n.js';
+
 export function International() {
   return `
     <section class="section international text-center">
       <div class="container">
-        <h2 class="section-title">International Focus</h2>
-        <p class="lead">A global marketplace without borders.</p>
+        <h2 class="section-title">${t('international.title')}</h2>
+        <p class="lead">${t('international.lead')}</p>
         <div class="grid-3 mt-lg">
           <div class="card">
-            <h3>Global Marketplace</h3>
-            <p>Connecting artists and collectors worldwide.</p>
+            <h3>${t('international.cards.c1.title')}</h3>
+            <p>${t('international.cards.c1.text')}</p>
           </div>
           <div class="card">
-            <h3>No Gatekeeping</h3>
-            <p>Digital-first architecture breaks down old barriers.</p>
+            <h3>${t('international.cards.c2.title')}</h3>
+            <p>${t('international.cards.c2.text')}</p>
           </div>
           <div class="card">
-            <h3>Emerging Artists</h3>
-            <p>Focus on new talents from all regions.</p>
+            <h3>${t('international.cards.c3.title')}</h3>
+            <p>${t('international.cards.c3.text')}</p>
           </div>
         </div>
       </div>

@@ -1,30 +1,32 @@
+import { t } from '../utils/i18n.js';
+
 export function MatchingSystem() {
   return `
     <section class="section matching-system">
       <div class="container text-center">
-        <h2 class="section-title">Matching System</h2>
-        <p class="lead">We connect people and art more precisely than ever before.</p>
+        <h2 class="section-title">${t('matching.title')}</h2>
+        <p class="lead">${t('matching.lead')}</p>
         
         <div class="matching-grid mt-lg">
           <div class="match-card">
             <div class="icon">👤</div>
-            <h3>Buyer Profiles</h3>
-            <p>Detailed taste analysis and preferences.</p>
+            <h3>${t('matching.cards.c1.title')}</h3>
+            <p>${t('matching.cards.c1.text')}</p>
           </div>
           <div class="match-card">
             <div class="icon">❤️</div>
-            <h3>Emotional Parameters</h3>
-            <p>Matching based on mood and aesthetics.</p>
+            <h3>${t('matching.cards.c2.title')}</h3>
+            <p>${t('matching.cards.c2.text')}</p>
           </div>
           <div class="match-card">
             <div class="icon">🔍</div>
-            <h3>Semantic Patterns</h3>
-            <p>Recognition of hidden connections.</p>
+            <h3>${t('matching.cards.c3.title')}</h3>
+            <p>${t('matching.cards.c3.text')}</p>
           </div>
           <div class="match-card">
             <div class="icon">✨</div>
-            <h3>Expert Curation</h3>
-            <p>Quality assurance by real curators.</p>
+            <h3>${t('matching.cards.c4.title')}</h3>
+            <p>${t('matching.cards.c4.text')}</p>
           </div>
         </div>
       </div>
