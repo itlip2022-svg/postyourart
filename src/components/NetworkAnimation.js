@@ -41,9 +41,9 @@ export function initNetworkAnimation(containerId) {
     initialPositions.push(new THREE.Vector3(x, y, z));
 
     velocities.push(new THREE.Vector3(
-      (Math.random() - 0.5) * 0.1,
-      (Math.random() - 0.5) * 0.1,
-      (Math.random() - 0.5) * 0.1
+      (Math.random() - 0.5) * 0.04, // Reduced base velocity
+      (Math.random() - 0.5) * 0.04,
+      (Math.random() - 0.5) * 0.04
     ));
   }
 
@@ -141,21 +141,21 @@ export function initNetworkAnimation(containerId) {
       // If mouse is interacting (intersection pt not 0,0,0) forcefully pull particles towards it
       if (intersectionPoint.length() > 0.1) {
         if (distToMouse < 80) { // Massive interaction radius
-          const pullStrength = (80 - distToMouse) * 0.05; // Extremely strong pull
+          const pullStrength = (80 - distToMouse) * 0.005; // Strong but slower, smoother pull
           velocity.add(dirToMouse.normalize().multiplyScalar(pullStrength));
         }
       }
 
       // Spring back to original position to keep shape roughly intact (much weaker spring so mouse dominates)
       const dirToHome = new THREE.Vector3().subVectors(initialPos, currentPos);
-      velocity.add(dirToHome.multiplyScalar(0.002));
+      velocity.add(dirToHome.multiplyScalar(0.001)); // Reduced spring
 
-      // Add a bit of noise directly to velocity based on time
-      velocity.x += Math.sin(time * 2 + i) * 0.01;
-      velocity.y += Math.cos(time * 2.5 + i) * 0.01;
+      // Add a bit of noise directly to velocity based on time (slower noise)
+      velocity.x += Math.sin(time * 0.5 + i) * 0.005;
+      velocity.y += Math.cos(time * 0.6 + i) * 0.005;
 
-      // Apply friction (damping)
-      velocity.multiplyScalar(0.92);
+      // Apply friction (damping) - increased friction for slower overall movement
+      velocity.multiplyScalar(0.85);
 
       // Update positions
       positions[idx] += velocity.x;
