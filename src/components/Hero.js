@@ -9,7 +9,7 @@ export function Hero() {
           <h1 class="hero-title">${t('hero.title')}</h1>
           <p class="hero-subtitle">${t('hero.subtitle')}</p>
           <div class="hero-actions">
-            <a href="https://login.circle.so/sign_up?request_host=www.artclub.community&user%5Binvitation_token%5D=#email" class="btn btn-primary btn-lg">${t('hero.cta')}</a>
+            <a href="#email" class="btn btn-primary btn-lg">${t('hero.cta')}</a>
           </div>
         </div>
         <div class="hero-visual">

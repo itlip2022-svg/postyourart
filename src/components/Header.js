@@ -22,7 +22,7 @@ export function Header() {
                 <span style="color: var(--color-text-muted)">|</span>
                 <button onclick="setLanguage('de')" style="background: none; border: none; color: ${currentLang === 'de' ? 'var(--color-text)' : 'var(--color-text-muted)'}; cursor: pointer; font-weight: ${currentLang === 'de' ? 'bold' : 'normal'};">DE</button>
             </div>
-            <a href="https://login.circle.so/sign_up?request_host=www.artclub.community&user%5Binvitation_token%5D=#email" class="btn btn-primary">${t('nav.earlyAccess')}</a>
+            <a href="#email" class="btn btn-primary">${t('nav.earlyAccess')}</a>
         </div>
       </div>
     </header>
