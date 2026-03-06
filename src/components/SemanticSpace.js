@@ -2,7 +2,7 @@ import { t } from '../utils/i18n.js';
 
 export function SemanticSpace() {
   return `
-    <section class="section semantic-space" id="technology">
+    <section class="section semantic-space" id="features">
       <div class="container">
         <div class="grid-2">
           <div class="content-col">

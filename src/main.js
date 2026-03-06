@@ -13,7 +13,6 @@ import { ArtistTools } from './components/ArtistTools.js';
 import { CollectorBenefits } from './components/CollectorBenefits.js';
 import { WhyAI } from './components/WhyAI.js';
 import { International } from './components/International.js';
-import { BrandConnection } from './components/BrandConnection.js';
 import { CTA } from './components/CTA.js';
 import { Footer } from './components/Footer.js';
 import { Imprint } from './components/Imprint.js';
@@ -73,7 +72,6 @@ function render() {
         ${CollectorBenefits()}
         ${WhyAI()}
         ${International()}
-        ${BrandConnection()}
         ${CTA()}
       </main>
       ${Footer()}

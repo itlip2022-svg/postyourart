@@ -12,9 +12,9 @@ export function Header() {
         <div class="logo">postyour.art</div>
         <nav class="nav">
           <a href="#mission">${t('nav.mission')}</a>
-          <a href="#technology">${t('nav.technology')}</a>
+          <a href="#features">${t('nav.technology')}</a>
           <a href="#artists">${t('nav.artists')}</a>
-          <a href="#collectors">${t('nav.collectors')}</a>
+          <a href="#organizers">${t('nav.collectors')}</a>
         </nav>
         <div style="display: flex; gap: 1rem; align-items: center;">
             <div class="lang-switch">

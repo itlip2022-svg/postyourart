@@ -2,7 +2,7 @@ import { t } from '../utils/i18n.js';
 
 export function CollectorBenefits() {
   return `
-    <section class="section collector-benefits" id="collectors">
+    <section class="section collector-benefits" id="organizers">
       <div class="container">
         <div class="grid-2 reverse-mobile">
           <div class="visual-col">
