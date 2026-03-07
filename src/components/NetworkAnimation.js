@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 
-export function initNetworkAnimation(containerId) {
+export function initNetworkAnimation(containerId, options = {}) {
   const container = document.getElementById(containerId);
   if (!container) return;
 
@@ -49,12 +49,12 @@ export function initNetworkAnimation(containerId) {
 
   particles.setAttribute('position', new THREE.BufferAttribute(positions, 3));
 
-  // Material for particles - dunkler und blasser (darker and paler)
+  // Material for particles - configurable via options
   const particleMaterial = new THREE.PointsMaterial({
-    color: 0x888888, // Muted cool grey
+    color: options.particleColor || 0x888888,
     size: 0.7,
     transparent: true,
-    opacity: 0.35, // Paler
+    opacity: options.particleOpacity || 0.35,
     blending: THREE.AdditiveBlending
   });
 
@@ -63,9 +63,9 @@ export function initNetworkAnimation(containerId) {
 
   // Lines
   const lineMaterial = new THREE.LineBasicMaterial({
-    color: 0x666666, // Darker
+    color: options.lineColor || 0x666666,
     transparent: true,
-    opacity: 0.12, // Paler
+    opacity: options.lineOpacity || 0.12,
     blending: THREE.AdditiveBlending
   });
 

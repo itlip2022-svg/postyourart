@@ -77,7 +77,12 @@ function render() {
     // Initialize animations after DOM is updated
     requestAnimationFrame(() => {
       const heroCleanup = initNetworkAnimation('hero-network-animation');
-      const semanticCleanup = initNetworkAnimation('semantic-network-animation');
+      const semanticCleanup = initNetworkAnimation('semantic-network-animation', {
+        particleColor: 0xffeb99, // Light yellow
+        particleOpacity: 0.6,
+        lineColor: 0xaaaa88, // Warm grey
+        lineOpacity: 0.25
+      });
 
       if (heroCleanup) cleanupAnimations.push(heroCleanup);
       if (semanticCleanup) cleanupAnimations.push(semanticCleanup);
