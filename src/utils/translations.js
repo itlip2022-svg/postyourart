@@ -17,8 +17,8 @@ export const translations = {
             title: "Two Apps. One Ecosystem.",
             lead: "A seamless workflow from capturing art to discovering it.",
             cards: {
-                c1: { title: "postyour.art (Beta)", text: "The smart AI-driven capture tool. Digitize artworks, stories, and events directly from your studio." },
-                c2: { title: "findyour.art (Coming Soon)", text: "The discovery platform. Where your documented art and events find their audience." }
+                c1: { title: "postyour.art (Beta)", text: "A private content and data bucket that always remains under the creator's ownership, designed to concentrate a semantic dataset over time. Data can be distributed across various channels, processed automatically, and new AI-based content can be generated. The data is leveraged for matching, reach, and marketing." },
+                c2: { title: "findyour.art (Coming Soon)", text: "The platform featuring portfolio presentation, event calendars, geotagging, art matching, community interaction, and the generation of a personalized 'ArtSkill'." }
             },
             highlight: "Focus on creating. Our apps handle the rest."
         },
@@ -27,8 +27,8 @@ export const translations = {
             lead: "Whether you create, curate, or host – we have the right tools.",
             cards: {
                 c1: { title: "Artists", text: "Effortlessly manage your digital portfolio, document your process, and reach new collectors." },
-                c2: { title: "Organizers", text: "Promote exhibitions, manage artist submissions, and attract a wider audience." },
-                c3: { title: "Art Residencies", text: "Showcase your programs and document the creative journeys of your residents." },
+                c2: { title: "Organizers", text: "Promote exhibitions, concerts, performances & events." },
+                c3: { title: "Art Residencies", text: "List your properties, showcase your spaces, and manage your booking offers." },
                 c4: { title: "Artist Colonies", text: "Highlight the collective spirit, history, and ongoing events of your community." }
             }
         },
@@ -45,9 +45,10 @@ export const translations = {
             title: "Publish to Channels",
             lead: "Don't just store data – put it to work. Automated distribution to exactly where you need it.",
             list: {
-                l1: "<strong>Social Media & Communities</strong><p>Push updates to integrated networks like artclub.community.</p>",
+                l1: "<strong>Social Media & Communities</strong><p>Push updates to integrated networks like Instagram or YouTube.</p>",
                 l2: "<strong>Webshops & Galleries</strong><p>Sync available artworks directly to e-commerce platforms.</p>",
-                l3: "<strong>Print & Media</strong><p>Export formatted portfolios for exhibition catalogs or press releases.</p>"
+                l3: "<strong>Print & Media</strong><p>Export formatted portfolios for exhibition catalogs or press releases.</p>",
+                l4: "<strong>Automated Websites</strong><p>Automated creation and continuous updating of your personal website.</p>"
             }
         },
         cta: {
@@ -138,8 +139,8 @@ export const translations = {
             title: "Zwei Apps. Ein Ökosystem.",
             lead: "Ein nahtloser Workflow von der Erfassung der Kunst bis zur Entdeckung.",
             cards: {
-                c1: { title: "postyour.art (Beta)", text: "Das smarte KI-gesteuerte Erfassungstool. Digitalisiere Kunstwerke, Stories und Events direkt aus dem Atelier." },
-                c2: { title: "findyour.art (Demnächst)", text: "Die Entdeckungs-Plattform. Wo deine dokumentierte Kunst und Events ihr Publikum finden." }
+                c1: { title: "postyour.art (Beta)", text: "Eine private Content- und Datenbucket, welche immer im Besitz des Erstellers bleibt und mit der Zeit einen semantischen Datenbestand konzentrieren soll. Die Daten können auf unterschiedlichen Channels ausgeliefert und automatisiert bearbeitet werden. Neuer Content kann KI-basiert erstellt werden. Die Daten können für Matching, Reichweite und Marketing verwendet werden." },
+                c2: { title: "findyour.art (Demnächst)", text: "Plattform mit Portfolio-Präsentation, Eventkalender, Geotagging, Artmatching, Community und der Generierung eines persönlichen 'ArtSkills'." }
             },
             highlight: "Fokus auf das Erschaffen. Unsere Apps erledigen den Rest."
         },
@@ -148,8 +149,8 @@ export const translations = {
             lead: "Egal ob du erschaffst, kuratierst oder veranstaltest – wir haben die richtigen Werkzeuge.",
             cards: {
                 c1: { title: "Künstler", text: "Verwalte mühelos dein digitales Portfolio, dokumentiere deinen Prozess und erreiche neue Sammler." },
-                c2: { title: "Veranstalter", text: "Promote Ausstellungen, verwalte Künstler-Einreichungen und ziehe ein größeres Publikum an." },
-                c3: { title: "Art Residenzen", text: "Präsentiere deine Programme und dokumentiere die kreative Reise deiner Residents." },
+                c2: { title: "Veranstalter", text: "Promote Ausstellungen, Konzerte, Aufführungen & Events." },
+                c3: { title: "Art Residenzen", text: "Erfasse deine Immobilien, präsentiere Räumlichkeiten und verwalte deine Buchungsangebote." },
                 c4: { title: "Künstlerkolonien", text: "Hebe den kollektiven Geist, die Geschichte und laufende Events deiner Gemeinschaft hervor." }
             }
         },
@@ -166,9 +167,10 @@ export const translations = {
             title: "Automatisierte Channels",
             lead: "Speichere Daten nicht nur – lass sie für dich arbeiten. Automatisierte Auslieferung genau dorthin, wo du sie brauchst.",
             list: {
-                l1: "<strong>Social Media & Communities</strong><p>Pushe Updates in integrierte Netzwerke wie artclub.community oder soziale Medien.</p>",
+                l1: "<strong>Social Media & Communities</strong><p>Pushe Updates in integrierte Netzwerke wie Instagram oder YouTube.</p>",
                 l2: "<strong>Webshops & Galerien</strong><p>Synchronisiere verfügbare Kunstwerke auf Wunsch direkt mit E-Commerce-Plattformen.</p>",
-                l3: "<strong>Print & Presse</strong><p>Exportiere formatierte Portfolios und Kataloge für Ausstellungen oder Prospekte.</p>"
+                l3: "<strong>Print & Presse</strong><p>Exportiere formatierte Portfolios und Kataloge für Ausstellungen oder Prospekte.</p>",
+                l4: "<strong>Automatisierte Website</strong><p>Die automatisierte Erstellung und Aktualisierung einer Website.</p>"
             }
         },
         cta: {

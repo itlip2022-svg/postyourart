@@ -7,7 +7,7 @@ export function MatchingSystem() {
         <h2 class="section-title">${t('targetGroups.title')}</h2>
         <p class="lead">${t('targetGroups.lead')}</p>
         
-        <div class="matching-grid mt-lg">
+        <div class="matching-grid" style="margin-top: -1rem;">
           <div class="match-card">
             <div class="icon">🎨</div>
             <h3>${t('targetGroups.cards.c1.title')}</h3>

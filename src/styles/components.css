@@ -268,7 +268,7 @@
 .match-card {
     background: var(--color-surface);
     padding: var(--spacing-lg);
-    margin-top: var(--spacing-xl);
+    margin-top: var(--spacing-md);
 }
 
 .footer-content {

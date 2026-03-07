@@ -157,6 +157,9 @@ export function CollectorBenefits() {
               <li>
                 ${t('channels.list.l3')}
               </li>
+              <li>
+                ${t('channels.list.l4')}
+              </li>
             </ul>
           </div>
         </div>
