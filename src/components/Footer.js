@@ -10,16 +10,9 @@ export function Footer() {
             <p>${t('footer.brand')}</p>
           </div>
           <div class="footer-links">
-            <h4>${t('footer.platform')}</h4>
-            <a href="#mission">${t('nav.mission')}</a>
-            <a href="#technology">${t('nav.technology')}</a>
-            <a href="#artists">${t('nav.artists')}</a>
-            <a href="#collectors">${t('nav.collectors')}</a>
-          </div>
-          <div class="footer-links">
             <h4>${t('footer.network')}</h4>
             <a href="https://lippeck.art" target="_blank">lippeck.art</a>
-            <a href="https://www.artclub.community" target="_blank">artclub.community</a>
+            <a href="https://schluh.art/" target="_blank">SCHLUH.art</a>
           </div>
           <div class="footer-links">
             <h4>${t('footer.legal')}</h4>

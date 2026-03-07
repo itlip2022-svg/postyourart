@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-padding-top: 100px;
+  /* Offsets scroll to account for the fixed header */
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
@@ -58,12 +64,13 @@ img {
 
 .container {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 var(--spacing-md);
 }
 
 .section {
-  padding: var(--spacing-xl) 0;
+  padding: var(--spacing-lg) 0;
   animation: fadeIn 0.8s ease-out forwards;
   opacity: 0;
 }

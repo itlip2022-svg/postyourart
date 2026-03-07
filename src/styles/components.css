@@ -104,7 +104,7 @@
 
 .footer-content {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     gap: var(--spacing-lg);
     margin-bottom: var(--spacing-lg);
 }
@@ -273,7 +273,7 @@
 
 .footer-content {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     gap: var(--spacing-lg);
     margin-bottom: var(--spacing-lg);
 }
@@ -470,7 +470,6 @@
     background: var(--color-surface);
     border-radius: var(--radius-lg);
     position: relative;
-    border: 1px solid var(--color-border);
 }
 
 @media (max-width: 768px) {
@@ -513,9 +512,15 @@
 /* CTA */
 .cta-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: var(--spacing-md);
     margin-top: var(--spacing-lg);
+}
+
+@media (max-width: 768px) {
+    .cta-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .cta-card {
@@ -523,9 +528,16 @@
     padding: var(--spacing-lg);
     border-radius: var(--radius-md);
     border: 1px solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
-    align-items: center;
+
+.cta-card .btn {
+    margin-top: auto;
 }
+
+
 
 .hero-collab {
     font-size: 0.9rem;
@@ -665,7 +677,6 @@
     background: var(--color-surface);
     border-radius: var(--radius-lg);
     position: relative;
-    border: 1px solid var(--color-border);
 }
 
 @media (max-width: 768px) {
@@ -708,9 +719,15 @@
 /* CTA */
 .cta-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: var(--spacing-md);
     margin-top: var(--spacing-lg);
+}
+
+@media (max-width: 768px) {
+    .cta-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .cta-card {
@@ -718,6 +735,13 @@
     padding: var(--spacing-lg);
     border-radius: var(--radius-md);
     border: 1px solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.cta-card .btn {
+    margin-top: auto;
 }
 
 .mb-lg {

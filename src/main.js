@@ -22,14 +22,14 @@ import { Terms } from './components/Terms.js';
 import { initNetworkAnimation } from './components/NetworkAnimation.js';
 
 const app = document.querySelector('#app');
-let cleanupAnimation = null;
+let cleanupAnimations = [];
 
 function render() {
-  // Cleanup previous animation if it exists
-  if (cleanupAnimation) {
-    cleanupAnimation();
-    cleanupAnimation = null;
-  }
+  // Cleanup previous animations if they exist
+  cleanupAnimations.forEach(cleanup => {
+    if (typeof cleanup === 'function') cleanup();
+  });
+  cleanupAnimations = [];
 
   const hash = window.location.hash;
 
@@ -68,18 +68,19 @@ function render() {
         ${WhyNow()}
         ${SemanticSpace()}
         ${MatchingSystem()}
-        ${ArtistTools()}
         ${CollectorBenefits()}
-        ${WhyAI()}
-        ${International()}
         ${CTA()}
       </main>
       ${Footer()}
     `;
 
-    // Initialize animation after DOM is updated
+    // Initialize animations after DOM is updated
     requestAnimationFrame(() => {
-      cleanupAnimation = initNetworkAnimation('hero-network-animation');
+      const heroCleanup = initNetworkAnimation('hero-network-animation');
+      const semanticCleanup = initNetworkAnimation('semantic-network-animation');
+
+      if (heroCleanup) cleanupAnimations.push(heroCleanup);
+      if (semanticCleanup) cleanupAnimations.push(semanticCleanup);
     });
   }
 }
