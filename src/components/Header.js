@@ -25,7 +25,7 @@ export function Header() {
                 <span style="color: #a0a0a0">|</span>
                 <button onclick="setLanguage('de')" style="background: none; border: none; color: ${currentLang === 'de' ? '#fff' : '#a0a0a0'}; cursor: pointer; font-weight: ${currentLang === 'de' ? 'bold' : 'normal'};">DE</button>
             </div>
-            <a href="https://ais-dev-22glzgtbj2bfdhtfjvdgqp-274870056620.europe-west2.run.app" target="_blank" style="background-color: #ffaa00; color: #0a0a0f; padding: 0.6rem 1.5rem; border-radius: 9999px; text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: background-color 0.2s;">${t('nav.earlyAccess')}</a>
+            <a href="https://postyourart.vercel.app/" target="_blank" style="background-color: #ffaa00; color: #0a0a0f; padding: 0.6rem 1.5rem; border-radius: 9999px; text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: background-color 0.2s;">${t('nav.earlyAccess')}</a>
         </div>
 
       </div>

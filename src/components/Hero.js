@@ -9,7 +9,7 @@ export function Hero() {
           <h1 class="hero-title">${t('hero.title')}</h1>
           <p class="hero-subtitle">${t('hero.subtitle')}</p>
           <div class="hero-actions">
-            <a href="https://ais-dev-22glzgtbj2bfdhtfjvdgqp-274870056620.europe-west2.run.app" target="_blank" class="btn btn-primary btn-lg">${t('hero.cta')}</a>
+            <a href="https://postyourart.vercel.app/" target="_blank" class="btn btn-primary btn-lg">${t('hero.cta')}</a>
           </div>
         </div>
         <div class="hero-visual">
