@@ -10,7 +10,7 @@ export const translations = {
         hero: {
             collab: "Powered by <a href=\"https://lippeck.art\" target=\"_blank\">lippeck.art</a>",
             title: "Your Art. Everywhere - <span class=\"text-gradient\">Your Data. With you!</span>",
-            subtitle: "The smart ecosystem for artists, organizers, residencies, and colonies. Capture once, distribute everywhere.",
+            subtitle: "The non-profit ecosystem for artists, organizers, residencies, and colonies. Capture once, distribute everywhere, save time, remain sovereign!",
             dataSovereignty: "Especially in the age of AI, maintaining data sovereignty is crucial. Instead of blindly giving away your information to large corporations, postyour.art enables you to build deep semantic meaning into your documentation over time. Understand the semantics and documentation of your creative process not as a chore, but as an essential part of the artwork itself.",
             cta: "Start with postyour.art"
         },
@@ -133,7 +133,7 @@ export const translations = {
         hero: {
             collab: "Powered by <a href=\"https://lippeck.art\" target=\"_blank\">lippeck.art</a>",
             title: "Deine Kunst. Überall - <span class=\"text-gradient\">Deine Daten. Bei dir!</span>",
-            subtitle: "Das smarte Ökosystem für Künstler, Veranstalter, Residenzen und Kolonien. Einmal erfassen, überall ausspielen.",
+            subtitle: "Das gemeinnützige Ökosystem für Künstler, Veranstalter, Residenzen und Kolonien. Einmal erfassen, überall ausspielen, Zeit gewinnen, souverän bleiben!",
             dataSovereignty: "Besonders in Zeiten von KI ist es entscheidend, seine Datenhoheit zu behalten. Anstatt alles an Konzerne zu verschenken, ermöglicht dir postyour.art, mit der Zeit Tiefe und Bedeutung in die Dokumentation zu bringen. Verstehe die Semantik der künstlerischen Dokumentation als essentiellen Bestandteil des künstlerischen Werkes selbst.",
             cta: "Starten mit postyour.art"
         },
