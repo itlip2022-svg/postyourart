@@ -8,6 +8,9 @@ export function Hero() {
         <div class="hero-text">
           <h1 class="hero-title">${t('hero.title')}</h1>
           <p class="hero-subtitle">${t('hero.subtitle')}</p>
+          <p class="hero-data-sovereignty" style="margin-bottom: 2.5rem; font-size: 1.05rem; color: #a0a0a0; line-height: 1.6; max-width: 650px;">
+            ${t('hero.dataSovereignty')}
+          </p>
           <div class="hero-actions">
             <a href="https://postyourart.vercel.app/" target="_blank" class="btn btn-primary btn-lg">${t('hero.cta')}</a>
           </div>
