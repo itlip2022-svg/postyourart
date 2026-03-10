@@ -18,8 +18,8 @@ export const translations = {
             title: "Two Apps. One Ecosystem.",
             lead: "A seamless workflow from capturing art to discovering it.",
             cards: {
-                c1: { title: "postyour.art (Beta)", text: "A private content and data bucket that always remains under the creator's ownership, designed to concentrate a semantic dataset over time. Data can be distributed across various channels, processed automatically, and new AI-based content can be generated. The data is leveraged for matching, reach, and marketing." },
-                c2: { title: "findyour.art (Coming Soon)", text: "The platform featuring portfolio presentation, event calendars, geotagging, art matching, community interaction, and the generation of a personalized 'ArtSkill'." }
+                c1: { title: "postyour.art (Beta)", text: "A private, semantic data bucket that belongs exclusively to you, designed for sovereign data capture. No data is processed externally without your explicit command. Capture is highly intuitive via chat, images, videos, and documents—and later, through live environmental capture." },
+                c2: { title: "findyour.art (Coming Soon)", text: "The delivery channel for your captured data. Users can create a personalized Skill based on their interests. The app is tailored for deep, 'close-proximity' matching and dynamically integrates real-time information from the surrounding environment. From here, delivery channels such as Instagram or automated website generation can also be activated." }
             },
             highlight: "Focus on creating. Our apps handle the rest."
         },
@@ -141,8 +141,8 @@ export const translations = {
             title: "Zwei Apps. Ein Ökosystem.",
             lead: "Ein nahtloser Workflow von der Erfassung der Kunst bis zur Entdeckung.",
             cards: {
-                c1: { title: "postyour.art (Beta)", text: "Eine private Content- und Datenbucket, welche immer im Besitz des Erstellers bleibt und mit der Zeit einen semantischen Datenbestand konzentrieren soll. Die Daten können auf unterschiedlichen Channels ausgeliefert und automatisiert bearbeitet werden. Neuer Content kann KI-basiert erstellt werden. Die Daten können für Matching, Reichweite und Marketing verwendet werden." },
-                c2: { title: "findyour.art (Demnächst)", text: "Plattform mit Portfolio-Präsentation, Eventkalender, Geotagging, Artmatching, Community und der Generierung eines persönlichen 'ArtSkills'." }
+                c1: { title: "postyour.art (Beta)", text: "Ein privater, semantischer Daten-Bucket, der ausschließlich dir gehört und auf souveräne Erfassung ausgelegt ist. Ohne deinen ausdrücklichen Auftrag werden keine Daten extern verarbeitet. Die Erfassung geschieht intuitiv über Chat, Bilder, Videos und Dokumente – und später auch durch Live-Erfassung deiner Umgebung." },
+                c2: { title: "findyour.art (Demnächst)", text: "Der Auslieferungskanal für die erfassten Daten. Nutzer der App können sich einen Skill entsprechend ihrer Interessen anlegen. Die App ist auf tiefes, 'nahes' Matching ausgelegt und bindet aktuelle Informationen aus der direkten Umgebung dynamisch ein. Von dort können auch Auslieferungs-Channels wie z.B. Instagram oder automatische Website-Generierung aktiviert werden." }
             },
             highlight: "Fokus auf das Erschaffen. Unsere Apps erledigen den Rest."
         },
