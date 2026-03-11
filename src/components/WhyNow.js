@@ -13,9 +13,10 @@ export function WhyNow() {
             <h3>${t('appsEcosystem.cards.c1.title')}</h3>
             <p>${t('appsEcosystem.cards.c1.text')}</p>
           </div>
-          <div class="card">
+          <div class="card" style="display: flex; flex-direction: column;">
             <h3>${t('appsEcosystem.cards.c2.title')}</h3>
             <p>${t('appsEcosystem.cards.c2.text')}</p>
+            <a href="https://findyour.art/" target="_blank" class="btn btn-primary mt-sm" style="margin-top: auto; align-self: flex-start;">${t('appsEcosystem.cards.c2.btn')}</a>
           </div>
         </div>
         <div class="text-center mt-lg">

@@ -20,7 +20,7 @@ export const translations = {
             lead: "A seamless workflow from capturing art to discovering it.",
             cards: {
                 c1: { title: "postyour.art (Beta)", text: "A private, semantic data bucket that belongs exclusively to you, designed for sovereign data capture. No data is processed externally without your explicit command. Capture is highly intuitive via chat, images, videos, and documents—and later, through live environmental capture." },
-                c2: { title: "findyour.art (Coming Soon)", text: "The delivery channel for your captured data. Users can create a personalized Skill based on their interests. The app is tailored for deep, 'close-proximity' matching and dynamically integrates real-time information from the surrounding environment. From here, delivery channels such as Instagram or automated website generation can also be activated." }
+                c2: { title: "findyour.art (Coming Soon)", text: "The delivery channel for your captured data. Users can create a personalized Skill based on their interests. The app is tailored for deep, 'close-proximity' matching and dynamically integrates real-time information from the surrounding environment. From here, delivery channels such as Instagram or automated website generation can also be activated.", btn: "Explore findyour.art" }
             },
             highlight: "Focus on creating. Our apps handle the rest."
         },
@@ -139,7 +139,7 @@ export const translations = {
             lead: "Ein nahtloser Workflow von der Erfassung der Kunst bis zur Entdeckung.",
             cards: {
                 c1: { title: "postyour.art (Beta)", text: "Ein privater, semantischer Daten-Bucket, der ausschließlich dir gehört und auf souveräne Erfassung ausgelegt ist. Ohne deinen ausdrücklichen Auftrag werden keine Daten extern verarbeitet. Die Erfassung geschieht intuitiv über Chat, Bilder, Videos und Dokumente – und später auch durch Live-Erfassung deiner Umgebung." },
-                c2: { title: "findyour.art (Demnächst)", text: "Der Auslieferungskanal für die erfassten Daten. Nutzer der App können sich einen Skill entsprechend ihrer Interessen anlegen. Die App ist auf tiefes, 'nahes' Matching ausgelegt und bindet aktuelle Informationen aus der direkten Umgebung dynamisch ein. Von dort können auch Auslieferungs-Channels wie z.B. Instagram oder automatische Website-Generierung aktiviert werden." }
+                c2: { title: "findyour.art (Demnächst)", text: "Der Auslieferungskanal für die erfassten Daten. Nutzer der App können sich einen Skill entsprechend ihrer Interessen anlegen. Die App ist auf tiefes, 'nahes' Matching ausgelegt und bindet aktuelle Informationen aus der direkten Umgebung dynamisch ein. Von dort können auch Auslieferungs-Channels wie z.B. Instagram oder automatische Website-Generierung aktiviert werden.", btn: "Zu findyour.art" }
             },
             highlight: "Fokus auf das Erschaffen. Unsere Apps erledigen den Rest."
         },
