@@ -10,7 +10,7 @@ export const translations = {
         hero: {
             collab: "Powered by <a href=\"https://lippeck.art\" target=\"_blank\">lippeck.art</a>",
             title: "Your Art. Everywhere - <span class=\"text-gradient\">Your Data. With you!</span>",
-            subtitle: "The non-profit ecosystem for artists, organizers, residencies, and colonies. Capture once, distribute everywhere, save time, remain sovereign!",
+            subtitle: "A non-profit cultural promotion project operated by Schluh.art e.V. Capture once, distribute everywhere, save time, remain sovereign!",
             dataSovereignty: "Especially in the age of AI, maintaining data sovereignty is crucial. Instead of blindly giving away your information to large corporations, postyour.art enables you to build deep semantic meaning into your documentation over time. Understand the semantics and documentation of your creative process not as a chore, but as an essential part of the artwork itself.",
             cta: "Start with postyour.art"
         },
@@ -57,9 +57,12 @@ export const translations = {
             lead: "Join the beta phase of postyour.art and prepare your data for the future.",
             cards: {
                 c1: { title: "Start Now", text: "Access the AI capture tool.", btn: "Open Beta App" },
-                c2: { title: "Stay Updated", text: "Get notified when findyour.art launches.", btn: "Join Waitlist" },
-                c3: { title: "Partner With Us", text: "Connect your channel.", btn: "Contact Us" }
+                c2: { title: "Stay Updated", text: "Get notified when findyour.art launches.", btn: "Coming Soon" },
+                c3: { title: "Partner With Us", text: "Connect your channel.", btn: "Coming Soon" }
             }
+        },
+        sponsors: {
+            title: "Sponsors and Memberships"
         },
         footer: {
             brand: "postyour.art ecosystem.",
@@ -69,27 +72,19 @@ export const translations = {
             imprint: "Imprint",
             privacy: "Privacy Policy",
             terms: "Terms of Service",
-            rights: "Lippeck GmbH. All rights reserved."
+            satzung: "Satzung",
+            rights: "Schluh.art e.V. All rights reserved."
         },
         imprint: {
             title: "Imprint",
             content: `
         <p><strong>Information according to § 5 TMG</strong></p>
-        <p>Lippeck GmbH<br>
-        Bergstr. 22<br>
+        <p>Schluh.art e.V.<br>
+        Im Schluh 71<br>
         27726 Worpswede</p>
-        <p><strong>Represented by:</strong><br>
-        Markus Lippeck</p>
         <p><strong>Contact:</strong><br>
-        Phone: 04792 9899544<br>
-        Email: markus@lippeck.de</p>
-        <p><strong>Register Entry:</strong><br>
-        Entry in the Commercial Register.<br>
-        Register Court: Walsrode<br>
-        Register Number: HRB 209763</p>
-        <p><strong>VAT ID:</strong><br>
-        Sales tax identification number according to § 27 a Sales Tax Law:<br>
-        DE356673676</p>
+        Phone: 04792 9899544 / 0162 6412632<br>
+        Email: schluhart@gmail.com</p>
       `
         },
         privacy: {
@@ -97,7 +92,7 @@ export const translations = {
             content: `
         <p><strong>Datenschutzerklärung</strong></p>
         <p>Letzte Aktualisierung: 10. Oktober 2025</p>
-        <p>Diese Datenschutzrichtlinie beschreibt, wie Markus Lippeck (die „Site“, „wir“, „uns“ oder „unser“) sammelt, verwendet und gibt Ihre persönlichen Daten weiter, wenn Sie lippeck.art (die „Site“) besuchen, unsere Dienste nutzen, einen Kauf dort tätigen oder auf andere Weise bezüglich der Site mit uns kommunizieren (zusammen die „Dienste“).</p>
+        <p>Diese Datenschutzrichtlinie beschreibt, wie Schluh.art e.V. (die „Site“, „wir“, „uns“ oder „unser“) sammelt, verwendet und gibt Ihre persönlichen Daten weiter, wenn Sie postyour.art (die „Site“) besuchen, unsere Dienste nutzen, einen Kauf dort tätigen oder auf andere Weise bezüglich der Site mit uns kommunizieren (zusammen die „Dienste“).</p>
         <p><strong>Änderungen dieser Datenschutzrichtlinie</strong></p>
         <p>Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren, unter anderem, um Änderungen unserer Praktiken widerzuspiegeln, oder aus anderen betrieblichen, rechtlichen oder regulatorischen Gründen.</p>
         <p><strong>So erfassen und verwenden wir Ihre personenbezogenen Daten</strong></p>
@@ -116,9 +111,9 @@ export const translations = {
         <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Portabilität Ihrer Daten sowie das Recht, der Verarbeitung zu widersprechen. Kontaktieren Sie uns dazu bitte.</p>
         <p><strong>Kontakt</strong></p>
         <p>Bei Fragen zu unseren Datenschutzpraktiken kontaktieren Sie uns bitte unter:<br>
-        Lippeck GmbH<br>
-        Bergstr. 22, 27726 Worpswede<br>
-        E-Mail: markus@lippeck.de</p>
+        Schluh.art e.V.<br>
+        Im Schluh 71, 27726 Worpswede<br>
+        E-Mail: schluhart@gmail.com</p>
       `
         }
     },
@@ -133,7 +128,7 @@ export const translations = {
         hero: {
             collab: "Powered by <a href=\"https://lippeck.art\" target=\"_blank\">lippeck.art</a>",
             title: "Deine Kunst. Überall - <span class=\"text-gradient\">Deine Daten. Bei dir!</span>",
-            subtitle: "Das gemeinnützige Ökosystem für Künstler, Veranstalter, Residenzen und Kolonien. Einmal erfassen, überall ausspielen, Zeit gewinnen, souverän bleiben!",
+            subtitle: "Ein gemeinnütziges kulturförderndes Projekt betrieben vom Schluh.art e.V. Einmal erfassen, überall ausspielen, Zeit gewinnen, souverän bleiben!",
             dataSovereignty: "Besonders in Zeiten von KI ist es entscheidend, seine Datenhoheit zu behalten. Anstatt alles an Konzerne zu verschenken, ermöglicht dir postyour.art, mit der Zeit Tiefe und Bedeutung in die Dokumentation zu bringen. Verstehe die Semantik der künstlerischen Dokumentation als essentiellen Bestandteil des künstlerischen Werkes selbst.",
             cta: "Starten mit postyour.art"
         },
@@ -180,9 +175,12 @@ export const translations = {
             lead: "Werde Teil der Beta-Phase von postyour.art und bereite deine Daten für die Zukunft vor.",
             cards: {
                 c1: { title: "Jetzt Starten", text: "Zugang zum KI-Erfassungstool.", btn: "Zur Beta App" },
-                c2: { title: "Auf dem Laufenden bleiben", text: "Erfahre, wenn findyour.art startet.", btn: "Warteliste" },
-                c3: { title: "Partner werden", text: "Verbinde deinen Channel.", btn: "Kontakt" }
+                c2: { title: "Auf dem Laufenden bleiben", text: "Erfahre, wenn findyour.art startet.", btn: "Demnächst" },
+                c3: { title: "Partner werden", text: "Verbinde deinen Channel.", btn: "Demnächst" }
             }
+        },
+        sponsors: {
+            title: "Sponsoren und Mitgliedschaften"
         },
         footer: {
             brand: "postyour.art Ökosystem.",
@@ -192,27 +190,19 @@ export const translations = {
             imprint: "Impressum",
             privacy: "Datenschutzerklärung",
             terms: "AGB",
-            rights: "Lippeck GmbH. Alle Rechte vorbehalten."
+            satzung: "Satzung",
+            rights: "Schluh.art e.V. Alle Rechte vorbehalten."
         },
         imprint: {
             title: "Impressum",
             content: `
         <p><strong>Angaben gemäß § 5 TMG</strong></p>
-        <p>Lippeck GmbH<br>
-        Bergstr. 22<br>
+        <p>Schluh.art e.V.<br>
+        Im Schluh 71<br>
         27726 Worpswede</p>
-        <p><strong>Vertreten durch:</strong><br>
-        Markus Lippeck</p>
         <p><strong>Kontakt:</strong><br>
-        Telefon: 04792 9899544<br>
-        E-Mail: markus@lippeck.de</p>
-        <p><strong>Registereintrag:</strong><br>
-        Eintragung im Handelsregister.<br>
-        Registergericht: Walsrode<br>
-        Registernummer: HRB 209763</p>
-        <p><strong>Umsatzsteuer-ID:</strong><br>
-        Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br>
-        DE356673676</p>
+        Telefon: 04792 9899544 / 0162 6412632<br>
+        E-Mail: schluhart@gmail.com</p>
       `
         },
         privacy: {
@@ -220,7 +210,7 @@ export const translations = {
             content: `
         <p><strong>Datenschutzerklärung</strong></p>
         <p>Letzte Aktualisierung: 10. Oktober 2025</p>
-        <p>Diese Datenschutzrichtlinie beschreibt, wie Markus Lippeck (die „Site“, „wir“, „uns“ oder „unser“) sammelt, verwendet und gibt Ihre persönlichen Daten weiter, wenn Sie lippeck.art (die „Site“) besuchen, unsere Dienste nutzen, einen Kauf dort tätigen oder auf andere Weise bezüglich der Site mit uns kommunizieren (zusammen die „Dienste“).</p>
+        <p>Diese Datenschutzrichtlinie beschreibt, wie Schluh.art e.V. (die „Site“, „wir“, „uns“ oder „unser“) sammelt, verwendet und gibt Ihre persönlichen Daten weiter, wenn Sie postyour.art (die „Site“) besuchen, unsere Dienste nutzen, einen Kauf dort tätigen oder auf andere Weise bezüglich der Site mit uns kommunizieren (zusammen die „Dienste“).</p>
         <p><strong>Änderungen dieser Datenschutzrichtlinie</strong></p>
         <p>Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren, unter anderem, um Änderungen unserer Praktiken widerzuspiegeln, oder aus anderen betrieblichen, rechtlichen oder regulatorischen Gründen.</p>
         <p><strong>So erfassen und verwenden wir Ihre personenbezogenen Daten</strong></p>
@@ -239,9 +229,9 @@ export const translations = {
         <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Portabilität Ihrer Daten sowie das Recht, der Verarbeitung zu widersprechen. Kontaktieren Sie uns dazu bitte.</p>
         <p><strong>Kontakt</strong></p>
         <p>Bei Fragen zu unseren Datenschutzpraktiken kontaktieren Sie uns bitte unter:<br>
-        Lippeck GmbH<br>
-        Bergstr. 22, 27726 Worpswede<br>
-        E-Mail: markus@lippeck.de</p>
+        Schluh.art e.V.<br>
+        Im Schluh 71, 27726 Worpswede<br>
+        E-Mail: schluhart@gmail.com</p>
       `
         }
     }

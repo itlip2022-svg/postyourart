@@ -19,6 +19,7 @@ export function Footer() {
             <a href="#imprint">${t('footer.imprint')}</a>
             <a href="#privacy">${t('footer.privacy')}</a>
             <a href="#terms">${t('footer.terms')}</a>
+            <a href="#satzung">${t('footer.satzung')}</a>
           </div>
         </div>
         <div class="footer-bottom">

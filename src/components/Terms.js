@@ -126,12 +126,12 @@ export function Terms() {
           <p>13.2 Der Verkäufer ist zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle nicht verpflichtet, hierzu aber bereit.</p>
           
           <div class="mt-lg">
-            <p><strong>Lippeck GmbH</strong><br>
-            Bergstr. 22<br>
+            <p><strong>Schluh.art e.V.</strong><br>
+            Im Schluh 71<br>
             27726 Worpswede<br>
             04792 9899544<br>
             0162 6412632<br>
-            markus@lippeck.de</p>
+            schluhart@gmail.com</p>
           </div>
         </div>
       </div>

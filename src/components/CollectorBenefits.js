@@ -7,7 +7,7 @@ export function CollectorBenefits() {
         <div class="grid-2 reverse-mobile">
           <div class="visual-col">
              <div class="discovery-visual" style="display: flex; align-items: center; justify-content: center; background: radial-gradient(circle at center, rgba(255,170,0,0.08), transparent 70%); border-radius: 12px; overflow: hidden; min-height: 500px;">
-               <svg style="width: 100%; height: 100%; max-height: 600px;" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+               <svg style="width: 100%; height: 100%; max-height: 600px;" viewBox="-25 -25 850 850" xmlns="http://www.w3.org/2000/svg">
                  <defs>
                    <linearGradient id="rayGrad" x1="400" y1="400" x2="400" y2="90" gradientUnits="userSpaceOnUse">
                      <stop offset="0%" stop-color="#ffaa00" stop-opacity="0.8"/>
