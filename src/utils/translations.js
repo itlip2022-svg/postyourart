@@ -5,6 +5,7 @@ export const translations = {
             apps: "Apps",
             targetGroups: "For Whom?",
             channels: "Channels",
+            findYourArt: "findyour.art",
             earlyAccess: "Beta Login"
         },
         hero: {
@@ -123,6 +124,7 @@ export const translations = {
             apps: "Apps",
             targetGroups: "Für Wen?",
             channels: "Channels",
+            findYourArt: "findyour.art",
             earlyAccess: "Beta Login"
         },
         hero: {
