@@ -902,3 +902,23 @@
 .pricing-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.6rem; }
 .pricing-list li { color: #d0d0d0; padding-left: 1.6rem; position: relative; line-height: 1.5; }
 .pricing-list li::before { content: '✓'; position: absolute; left: 0; color: #ffaa00; font-weight: 700; }
+
+/* ── Footer negativ: schwarze Schrift auf weißem Grund ─────────────────── */
+.footer {
+    background-color: #ffffff;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    color: #1a1a1a;
+}
+.footer .logo { color: #0a0a0f; }
+.footer .logo .logo-art { color: #9c3b2e; }
+.footer-brand p { color: #4a4a4a; }
+.footer-links h4 { color: #0a0a0f; }
+.footer-links a { color: #4a4a4a; }
+.footer-links a:hover { color: #9c3b2e; }
+.footer-bottom { border-top: 1px solid rgba(0, 0, 0, 0.08); color: #6a6a6a; }
+.footer-brand-row { display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
+.footer-masart { display: inline-flex; flex-direction: column; align-items: center; gap: 0.25rem; text-decoration: none; }
+.footer-masart span { color: #6a6a6a; font-size: 0.75rem; }
+/* Der Schriftzug: .art in Rot (Header auf Dunkel: hellere Stufe) */
+.logo-art { color: #9c3b2e; }
+header .logo-art { color: #d15a41; }

@@ -6,14 +6,14 @@ export function Footer() {
       <div class="container">
         <div class="footer-content">
           <div class="footer-brand">
-            <div class="logo">postyour.art</div>
+            <div class="footer-brand-row">
+              <div class="logo">postyour<span class="logo-art">.art</span></div>
+              <a href="https://www.mas.art" target="_blank" rel="noopener" class="footer-masart">
+                <span>${t('footer.projectOf')}</span>
+                <img src="/assets/masart-logo.png" alt="mas.art" style="height: 72px; width: auto; display: block;">
+              </a>
+            </div>
             <p>${t('footer.brand')}</p>
-            <a href="https://www.mas.art" target="_blank" rel="noopener" style="display: inline-flex; flex-direction: column; align-items: flex-start; gap: 0.5rem; margin-top: 1rem; text-decoration: none;">
-              <span style="color: #a0a0a0; font-size: 0.85rem;">${t('footer.projectOf')}</span>
-              <span style="display: inline-flex; align-items: center; justify-content: center; background: #f4f1ec; border-radius: 14px; padding: 0.6rem 0.9rem;">
-                <img src="/assets/masart-logo.png" alt="mas.art" style="height: 84px; width: auto; display: block;">
-              </span>
-            </a>
           </div>
           <div class="footer-links">
             <h4>${t('footer.network')}</h4>
