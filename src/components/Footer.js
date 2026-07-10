@@ -11,15 +11,14 @@ export function Footer() {
           </div>
           <div class="footer-links">
             <h4>${t('footer.network')}</h4>
+            <a href="https://www.mas.art" target="_blank">mas.art</a>
             <a href="https://lippeck.art" target="_blank">lippeck.art</a>
-            <a href="https://schluh.art/" target="_blank">SCHLUH.art</a>
           </div>
           <div class="footer-links">
             <h4>${t('footer.legal')}</h4>
             <a href="#imprint">${t('footer.imprint')}</a>
             <a href="#privacy">${t('footer.privacy')}</a>
-            <a href="#terms">${t('footer.terms')}</a>
-            <a href="#satzung">${t('footer.satzung')}</a>
+            <a href="https://mas.art/policies/terms-of-service" target="_blank">${t('footer.terms')}</a>
           </div>
         </div>
         <div class="footer-bottom">

@@ -17,9 +17,7 @@ import { CTA } from './components/CTA.js';
 import { Footer } from './components/Footer.js';
 import { Imprint } from './components/Imprint.js';
 import { Privacy } from './components/Privacy.js';
-import { Terms } from './components/Terms.js';
-import { Satzung } from './components/Satzung.js';
-import { Sponsors } from './components/Sponsors.js';
+import { ValueProps } from './components/ValueProps.js';
 
 import { initNetworkAnimation } from './components/NetworkAnimation.js';
 
@@ -53,36 +51,18 @@ function render() {
       ${Footer()}
     `;
     window.scrollTo(0, 0);
-  } else if (hash === '#terms') {
-    app.innerHTML = `
-      ${Header()}
-      <main style="padding-top: 80px;">
-        ${Terms()}
-      </main>
-      ${Footer()}
-    `;
-    window.scrollTo(0, 0);
-  } else if (hash === '#satzung') {
-    app.innerHTML = `
-      ${Header()}
-      <main style="padding-top: 80px;">
-        ${Satzung()}
-      </main>
-      ${Footer()}
-    `;
-    window.scrollTo(0, 0);
-  } else {
+    } else {
     app.innerHTML = `
       ${Header()}
       <main>
         ${Hero()}
         ${WhyNow()}
+        ${ValueProps()}
         ${SemanticSpace()}
         ${MatchingSystem()}
         ${CollectorBenefits()}
         ${CTA()}
       </main>
-      ${Sponsors()}
       ${Footer()}
     `;
 

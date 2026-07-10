@@ -15,7 +15,7 @@ export function CTA() {
           <div class="cta-card">
             <h3>${t('cta.cards.c2.title')}</h3>
             <p>${t('cta.cards.c2.text')}</p>
-            <button class="btn btn-disabled" disabled>${t('cta.cards.c2.btn')}</button>
+            <a href="https://findyour.art/" target="_blank" class="btn btn-primary">${t('cta.cards.c2.btn')}</a>
           </div>
           <div class="cta-card">
             <h3>${t('cta.cards.c3.title')}</h3>

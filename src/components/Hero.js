@@ -6,6 +6,7 @@ export function Hero() {
       <div id="hero-network-animation" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none;"></div>
       <div class="container hero-content" style="position: relative; z-index: 1;">
         <div class="hero-text">
+          <p class="hero-collab" style="color: #a0a0a0; font-size: 0.9rem; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 1rem;">${t('hero.collab')}</p>
           <h1 class="hero-title">${t('hero.title')}</h1>
           <p class="hero-subtitle">${t('hero.subtitle')}</p>
           <p class="hero-data-sovereignty" style="margin-bottom: 2.5rem; font-size: 1.05rem; color: #a0a0a0; line-height: 1.6; max-width: 650px;">

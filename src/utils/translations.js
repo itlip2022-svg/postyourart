@@ -2,31 +2,41 @@ export const translations = {
     en: {
         nav: {
             mission: "Mission",
-            apps: "Apps",
+            apps: "The App",
             targetGroups: "For Whom?",
             channels: "Channels",
-            findYourArt: "findyour.art",
+            findYourArt: "Shop",
             earlyAccess: "Beta Login"
         },
         hero: {
-            collab: "Powered by <a href=\"https://lippeck.art\" target=\"_blank\">lippeck.art</a>",
+            collab: "Provided by <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
             title: "Your Art. Everywhere - <span class=\"text-gradient\">Your Data. With you!</span>",
-            subtitle: "A non-profit cultural promotion project operated by Schluh.art e.V. Capture once, distribute everywhere, save time, remain sovereign!",
-            dataSovereignty: "Especially in the age of AI, maintaining data sovereignty is crucial. Instead of blindly giving away your information to large corporations, postyour.art enables you to build deep semantic meaning into your documentation over time. Understand the semantics and documentation of your creative process not as a chore, but as an essential part of the artwork itself.",
+            subtitle: "The AI vault for artists. Capture once, publish everywhere — more time for art, less noise on social media.",
+            dataSovereignty: "Photograph your work, say a few words about it — done. Your assistant files everything into your private vault: artworks, stories, dates, history. And your data stays yours: nothing is handed to data corporations, nothing trains third-party AI models, nothing leaves the vault without your explicit command. Full export and complete deletion — any time.",
             cta: "Start with postyour.art"
         },
         appsEcosystem: {
-            title: "Two Apps. One Ecosystem.",
-            lead: "A seamless workflow from capturing art to discovering it.",
+            title: "One App. Everything in One Place.",
+            lead: "From capturing in the studio to selling — without scattering your work across ten cloud services.",
             cards: {
-                c1: { title: "postyour.art (Beta)", text: "A private, semantic data bucket that belongs exclusively to you, designed for sovereign data capture. No data is processed externally without your explicit command. Capture is highly intuitive via chat, images, videos, and documents—and later, through live environmental capture." },
-                c2: { title: "findyour.art (Coming Soon)", text: "The delivery channel for your captured data. Users can create a personalized Skill based on their interests. The app is tailored for deep, 'close-proximity' matching and dynamically integrates real-time information from the surrounding environment. From here, delivery channels such as Instagram or automated website generation can also be activated.", btn: "Explore findyour.art" }
+                c1: { title: "postyour.art (Beta)", text: "Your private vault. Capture is faster than typing: chat, photo, voice note or Telegram — the assistant structures titles, techniques, dimensions, prices and the story behind each piece. Nothing is processed externally without your explicit command." },
+                c2: { title: "Selling via findyour.art", text: "Not a second app — it's your storefront: the online shop run by mas.art (built on Shopify). Works you release appear there for sale. You never maintain anything twice; the vault delivers the data.", btn: "Visit the Shop" }
             },
-            highlight: "Focus on creating. Our apps handle the rest."
+            highlight: "You create. The vault handles the rest."
+        },
+        valueProps: {
+            title: "Time. Nerves. Sovereignty.",
+            lead: "Three promises the vault makes to you.",
+            cards: {
+                c1: { icon: "⏱️", title: "Save Time", text: "Speak instead of typing: photograph a piece, tell two sentences — captured. Catalogs, portfolios and posts are generated from your vault at the press of a button instead of weekend sessions." },
+                c2: { icon: "🗄️", title: "Everything in One Vault", text: "Works, stories, exhibition dates, prices, and the full history of every piece — in one place instead of scattered across phone photos, notebooks and cloud folders." },
+                c3: { icon: "🔐", title: "Stay Sovereign", text: "Your data belongs to you — it is not given away to big tech clouds or used to train AI models. Export everything or delete your account entirely, any time, with one click." }
+            },
+            highlight: "More time for art. Less noise on social media."
         },
         targetGroups: {
             title: "Designed For You",
-            lead: "Whether you create, curate, or host – we have the right tools.",
+            lead: "Whether you create, curate, or host – the vault works for you.",
             cards: {
                 c1: { title: "Artists", text: "Effortlessly manage your digital portfolio, document your process, and reach new collectors." },
                 c2: { title: "Organizers", text: "Promote exhibitions, concerts, performances & events." },
@@ -36,116 +46,112 @@ export const translations = {
         },
         coreFeature: {
             title: "Smart AI Capture",
-            lead: "postyour.art isn't just an archive. It's an intelligent assistant.",
+            lead: "postyour.art isn't just an archive. It's an assistant that saves you evenings of admin work.",
             list: {
-                l1: "<strong>Automated Tagging</strong><p>AI helps categorize your artworks and events automatically for better discoverability.</p>",
-                l2: "<strong>Storytelling Assistant</strong><p>Get help drafting engaging descriptions for your creative process.</p>",
-                l3: "<strong>Central Hub</strong><p>Your data belongs to you. Capture it once, manage it centrally.</p>"
+                l1: "<strong>Capture by Voice & Photo</strong><p>Photograph the piece, talk about it — the assistant extracts title, technique, dimensions and price, and files the story with the work.</p>",
+                l2: "<strong>Storytelling Assistant</strong><p>Get help drafting engaging descriptions for your creative process — in your own tone.</p>",
+                l3: "<strong>Data Sovereignty Built In</strong><p>Your data belongs to you: no resale, no AI training with your works, full export and complete account deletion at any time.</p>"
             }
         },
         channels: {
             title: "Publish to Channels",
-            lead: "Don't just store data – put it to work. Automated distribution to exactly where you need it.",
+            lead: "Don't just store data – put it to work. You decide what goes out, where and when — instead of feeding every channel by hand.",
             list: {
-                l1: "<strong>Social Media & Communities</strong><p>Push updates to integrated networks like Instagram or YouTube.</p>",
-                l2: "<strong>Webshops & Galleries</strong><p>Sync available artworks directly to e-commerce platforms.</p>",
+                l1: "<strong>Social Media & Communities</strong><p>Push updates to networks like Instagram or YouTube — prepared from your vault, released by you.</p>",
+                l2: "<strong>Webshop & Galleries</strong><p>Sync released artworks directly to your storefront on mas.art / findyour.art.</p>",
                 l3: "<strong>Print & Media</strong><p>Export formatted portfolios for exhibition catalogs or press releases.</p>",
                 l4: "<strong>Automated Websites</strong><p>Automated creation and continuous updating of your personal website.</p>"
             }
         },
         cta: {
             title: "Ready to Capture?",
-            lead: "Join the beta phase of postyour.art and prepare your data for the future.",
+            lead: "Join the beta phase of postyour.art and win back your studio time.",
             cards: {
                 c1: { title: "Start Now", text: "Access the AI capture tool.", btn: "Open Beta App" },
-                c2: { title: "Stay Updated", text: "Get notified when findyour.art launches.", btn: "Coming Soon" },
+                c2: { title: "Sell Your Art", text: "Your storefront on mas.art / findyour.art.", btn: "Visit the Shop" },
                 c3: { title: "Partner With Us", text: "Connect your channel.", btn: "Coming Soon" }
             }
         },
-        sponsors: {
-            title: "Sponsors and Memberships"
-        },
         footer: {
-            brand: "postyour.art ecosystem.",
+            brand: "The vault for your art. Provided by mas.art.",
             platform: "Platform",
             network: "Network",
             legal: "Legal",
             imprint: "Imprint",
             privacy: "Privacy Policy",
             terms: "Terms of Service",
-            satzung: "Satzung",
-            rights: "Schluh.art e.V. All rights reserved."
+            rights: "mas.art · Lippeck GmbH. All rights reserved."
         },
         imprint: {
             title: "Imprint",
             content: `
         <p><strong>Information according to § 5 TMG</strong></p>
-        <p>Schluh.art e.V.<br>
+        <p>Lippeck GmbH<br>
         Im Schluh 71<br>
-        27726 Worpswede</p>
+        27726 Worpswede<br>
+        Germany</p>
+        <p><strong>Represented by:</strong><br>
+        Markus Lippeck (Managing Director)</p>
+        <p><strong>Commercial register:</strong> HRB 209187, Amtsgericht Walsrode<br>
+        <strong>VAT ID:</strong> DE340905729</p>
         <p><strong>Contact:</strong><br>
-        Phone: 04792 9899544 / 0162 6412632<br>
-        Email: schluhart@gmail.com</p>
+        Phone: 0162 6412632<br>
+        Email: hello@mas.art</p>
+        <p>postyour.art is a service by <a href="https://www.mas.art" target="_blank">mas.art</a>.
+        Full legal notice: <a href="https://mas.art/policies/legal-notice" target="_blank">mas.art/policies/legal-notice</a></p>
       `
         },
         privacy: {
             title: "Privacy Policy",
             content: `
-        <p><strong>Datenschutzerklärung</strong></p>
-        <p>Letzte Aktualisierung: 10. Oktober 2025</p>
-        <p>Diese Datenschutzrichtlinie beschreibt, wie Schluh.art e.V. (die „Site“, „wir“, „uns“ oder „unser“) sammelt, verwendet und gibt Ihre persönlichen Daten weiter, wenn Sie postyour.art (die „Site“) besuchen, unsere Dienste nutzen, einen Kauf dort tätigen oder auf andere Weise bezüglich der Site mit uns kommunizieren (zusammen die „Dienste“).</p>
-        <p><strong>Änderungen dieser Datenschutzrichtlinie</strong></p>
-        <p>Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren, unter anderem, um Änderungen unserer Praktiken widerzuspiegeln, oder aus anderen betrieblichen, rechtlichen oder regulatorischen Gründen.</p>
-        <p><strong>So erfassen und verwenden wir Ihre personenbezogenen Daten</strong></p>
-        <p>Um die Dienste bereitzustellen, sammeln wir personenbezogene Daten. Die Art der personenbezogenen Daten, die wir über Sie erhalten, hängt davon ab, wie Sie mit unserer Site interagieren und unsere Dienste nutzen.</p>
-        <p><strong>Welche persönlichen Daten sammeln wir?</strong></p>
-        <p>Zu den Informationen, die Sie uns direkt über unsere Dienste übermitteln, können gehören: Kontaktdaten, Bestellinformationen, Kontoinformationen, Kaufinformationen, Informationen zum Kundensupport.</p>
-        <p><strong>Cookies</strong></p>
-        <p>Wir verwenden Cookies, um unsere Site und unsere Dienste zu betreiben und zu verbessern. Die meisten Browser akzeptieren Cookies standardmäßig automatisch. Sie können Ihren Browser jedoch so einstellen, dass Cookies entfernt oder abgelehnt werden.</p>
-        <p><strong>Wie wir personenbezogene Daten weitergeben</strong></p>
-        <p>Unter bestimmten Umständen können wir Ihre personenbezogenen Daten an Dritte weitergeben, z.B. an Dienstleister (IT, Zahlung, Versand), Geschäfts- und Marketingpartner oder zur Erfüllung rechtlicher Verpflichtungen.</p>
-        <p><strong>Websites und Links Dritter</strong></p>
-        <p>Unsere Site enthält möglicherweise Links zu Websites Dritter. Wir übernehmen keine Garantie und Verantwortung für den Datenschutz oder die Sicherheit solcher Websites.</p>
-        <p><strong>Sicherheit und Aufbewahrung Ihrer Daten</strong></p>
-        <p>Wir treffen angemessene Sicherheitsvorkehrungen, können aber keine „perfekte Sicherheit“ garantieren. Wir bewahren Ihre Daten so lange auf, wie es für die Bereitstellung der Dienste oder aus rechtlichen Gründen erforderlich ist.</p>
-        <p><strong>Ihre Rechte</strong></p>
-        <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Portabilität Ihrer Daten sowie das Recht, der Verarbeitung zu widersprechen. Kontaktieren Sie uns dazu bitte.</p>
-        <p><strong>Kontakt</strong></p>
-        <p>Bei Fragen zu unseren Datenschutzpraktiken kontaktieren Sie uns bitte unter:<br>
-        Schluh.art e.V.<br>
-        Im Schluh 71, 27726 Worpswede<br>
-        E-Mail: schluhart@gmail.com</p>
+        <p>postyour.art is provided by Lippeck GmbH (mas.art), Im Schluh 71, 27726 Worpswede, Germany.</p>
+        <p>The complete privacy policy of mas.art applies:<br>
+        <a href="https://mas.art/policies/privacy-policy" target="_blank">mas.art/policies/privacy-policy</a></p>
+        <p><strong>In addition, for the postyour.art app:</strong></p>
+        <p>Your vault belongs to you. Works, stories, dates and media that you capture are stored solely to provide the service. They are not sold, not shared with advertising networks, and not used to train AI models. AI processing happens only on your explicit command and only with providers that contractually exclude training on your data.</p>
+        <p>You can export your complete data as a ZIP archive at any time and delete your account including all data — permanently and without asking twice.</p>
+        <p><strong>Contact for privacy matters:</strong> hello@mas.art</p>
       `
         }
     },
     de: {
         nav: {
             mission: "Mission",
-            apps: "Apps",
+            apps: "Die App",
             targetGroups: "Für Wen?",
             channels: "Channels",
-            findYourArt: "findyour.art",
+            findYourArt: "Shop",
             earlyAccess: "Beta Login"
         },
         hero: {
-            collab: "Powered by <a href=\"https://lippeck.art\" target=\"_blank\">lippeck.art</a>",
+            collab: "Ein Angebot von <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
             title: "Deine Kunst. Überall - <span class=\"text-gradient\">Deine Daten. Bei dir!</span>",
-            subtitle: "Ein gemeinnütziges kulturförderndes Projekt betrieben vom Schluh.art e.V. Einmal erfassen, überall ausspielen, Zeit gewinnen, souverän bleiben!",
-            dataSovereignty: "Besonders in Zeiten von KI ist es entscheidend, seine Datenhoheit zu behalten. Anstatt alles an Konzerne zu verschenken, ermöglicht dir postyour.art, mit der Zeit Tiefe und Bedeutung in die Dokumentation zu bringen. Verstehe die Semantik der künstlerischen Dokumentation als essentiellen Bestandteil des künstlerischen Werkes selbst.",
+            subtitle: "Die KI-Vault für Künstler. Einmal erfassen, überall ausspielen — mehr Zeit für Kunst, weniger Lärm in Social Media.",
+            dataSovereignty: "Du fotografierst dein Werk, erzählst zwei Sätze dazu — fertig. Dein Assistent ordnet alles in deiner privaten Vault: Werke, Stories, Termine, Historie. Und deine Daten bleiben deine: nichts wird an Datenkonzerne verschenkt, nichts trainiert fremde KI-Modelle, nichts verlässt die Vault ohne deinen ausdrücklichen Auftrag. Kompletter Export und endgültige Löschung — jederzeit.",
             cta: "Starten mit postyour.art"
         },
         appsEcosystem: {
-            title: "Zwei Apps. Ein Ökosystem.",
-            lead: "Ein nahtloser Workflow von der Erfassung der Kunst bis zur Entdeckung.",
+            title: "Eine App. Alles an einem Ort.",
+            lead: "Von der Erfassung im Atelier bis zum Verkauf — ohne dein Werk über zehn Cloud-Dienste zu verzetteln.",
             cards: {
-                c1: { title: "postyour.art (Beta)", text: "Ein privater, semantischer Daten-Bucket, der ausschließlich dir gehört und auf souveräne Erfassung ausgelegt ist. Ohne deinen ausdrücklichen Auftrag werden keine Daten extern verarbeitet. Die Erfassung geschieht intuitiv über Chat, Bilder, Videos und Dokumente – und später auch durch Live-Erfassung deiner Umgebung." },
-                c2: { title: "findyour.art (Demnächst)", text: "Der Auslieferungskanal für die erfassten Daten. Nutzer der App können sich einen Skill entsprechend ihrer Interessen anlegen. Die App ist auf tiefes, 'nahes' Matching ausgelegt und bindet aktuelle Informationen aus der direkten Umgebung dynamisch ein. Von dort können auch Auslieferungs-Channels wie z.B. Instagram oder automatische Website-Generierung aktiviert werden.", btn: "Zu findyour.art" }
+                c1: { title: "postyour.art (Beta)", text: "Deine private Vault. Erfassen geht schneller als Tippen: per Chat, Foto, Sprachnotiz oder Telegram — der Assistent strukturiert Titel, Technik, Maße, Preis und die Geschichte hinter jedem Werk. Ohne deinen ausdrücklichen Auftrag wird nichts extern verarbeitet." },
+                c2: { title: "Verkaufen über findyour.art", text: "Keine zweite App, sondern dein Schaufenster: der Online-Shop von mas.art (technisch: Shopify). Werke, die du freigibst, erscheinen dort zum Verkauf. Du pflegst nichts doppelt — die Vault liefert die Daten.", btn: "Zum Shop" }
             },
-            highlight: "Fokus auf das Erschaffen. Unsere Apps erledigen den Rest."
+            highlight: "Du erschaffst. Die Vault erledigt den Rest."
+        },
+        valueProps: {
+            title: "Zeit. Nerven. Souveränität.",
+            lead: "Drei Versprechen, die dir die Vault gibt.",
+            cards: {
+                c1: { icon: "⏱️", title: "Zeit sparen", text: "Sprechen statt tippen: Werk fotografieren, zwei Sätze erzählen — erfasst. Kataloge, Portfolios und Posts entstehen auf Knopfdruck aus deiner Vault statt in Wochenend-Sitzungen." },
+                c2: { icon: "🗄️", title: "Alles in einer Vault", text: "Werke, Stories, Ausstellungstermine, Preise und die komplette Historie jedes Werks — an einem Ort statt verstreut über Handyfotos, Notizbücher und Cloud-Ordner." },
+                c3: { icon: "🔐", title: "Souverän bleiben", text: "Deine Daten gehören dir — sie werden nicht an Big-Tech-Clouds verschenkt und trainieren keine fremden KI-Modelle. Alles exportieren oder das Konto komplett löschen: jederzeit, mit einem Klick." }
+            },
+            highlight: "Mehr Zeit für Kunst. Weniger Lärm in Social Media."
         },
         targetGroups: {
             title: "Gemacht für Dich",
-            lead: "Egal ob du erschaffst, kuratierst oder veranstaltest – wir haben die richtigen Werkzeuge.",
+            lead: "Egal ob du erschaffst, kuratierst oder veranstaltest – die Vault arbeitet für dich.",
             cards: {
                 c1: { title: "Künstler", text: "Verwalte mühelos dein digitales Portfolio, dokumentiere deinen Prozess und erreiche neue Sammler." },
                 c2: { title: "Veranstalter", text: "Promote Ausstellungen, Konzerte, Aufführungen & Events." },
@@ -155,85 +161,71 @@ export const translations = {
         },
         coreFeature: {
             title: "Smarte KI-Erfassung",
-            lead: "postyour.art ist nicht nur ein Archiv. Es ist ein intelligenter Assistent.",
+            lead: "postyour.art ist nicht nur ein Archiv. Es ist ein Assistent, der dir Abende voller Verwaltungsarbeit erspart.",
             list: {
-                l1: "<strong>Automatisches Tagging</strong><p>KI hilft, deine Kunstwerke und Events automatisch zu kategorisieren für bessere Auffindbarkeit.</p>",
-                l2: "<strong>Storytelling-Assistent</strong><p>Lass dir beim Verfassen fesselnder Beschreibungen für deinen kreativen Prozess helfen.</p>",
-                l3: "<strong>Zentraler Hub</strong><p>Deine Daten gehören dir. Einmal erfassen, zentral und sicher verwalten.</p>"
+                l1: "<strong>Erfassen per Sprache & Foto</strong><p>Werk fotografieren, kurz drüber reden — der Assistent zieht Titel, Technik, Maße und Preis heraus und legt die Geschichte gleich zum Werk.</p>",
+                l2: "<strong>Storytelling-Assistent</strong><p>Lass dir beim Verfassen fesselnder Beschreibungen für deinen kreativen Prozess helfen — in deinem Ton.</p>",
+                l3: "<strong>Datensouveränität eingebaut</strong><p>Deine Daten gehören dir: kein Weiterverkauf, kein KI-Training mit deinen Werken, jederzeit kompletter Export und endgültige Konto-Löschung.</p>"
             }
         },
         channels: {
             title: "Automatisierte Channels",
-            lead: "Speichere Daten nicht nur – lass sie für dich arbeiten. Automatisierte Auslieferung genau dorthin, wo du sie brauchst.",
+            lead: "Speichere Daten nicht nur – lass sie für dich arbeiten. Du entscheidest, was wann und wohin geht — statt jeden Kanal von Hand zu füttern.",
             list: {
-                l1: "<strong>Social Media & Communities</strong><p>Pushe Updates in integrierte Netzwerke wie Instagram oder YouTube.</p>",
-                l2: "<strong>Webshops & Galerien</strong><p>Synchronisiere verfügbare Kunstwerke auf Wunsch direkt mit E-Commerce-Plattformen.</p>",
+                l1: "<strong>Social Media & Communities</strong><p>Pushe Updates in Netzwerke wie Instagram oder YouTube — aus der Vault vorbereitet, von dir freigegeben.</p>",
+                l2: "<strong>Webshop & Galerien</strong><p>Synchronisiere freigegebene Kunstwerke direkt in dein Schaufenster auf mas.art / findyour.art.</p>",
                 l3: "<strong>Print & Presse</strong><p>Exportiere formatierte Portfolios und Kataloge für Ausstellungen oder Prospekte.</p>",
                 l4: "<strong>Automatisierte Website</strong><p>Die automatisierte Erstellung und Aktualisierung einer Website.</p>"
             }
         },
         cta: {
             title: "Bereit zur Erfassung?",
-            lead: "Werde Teil der Beta-Phase von postyour.art und bereite deine Daten für die Zukunft vor.",
+            lead: "Werde Teil der Beta-Phase von postyour.art und hol dir deine Atelierzeit zurück.",
             cards: {
                 c1: { title: "Jetzt Starten", text: "Zugang zum KI-Erfassungstool.", btn: "Zur Beta App" },
-                c2: { title: "Auf dem Laufenden bleiben", text: "Erfahre, wenn findyour.art startet.", btn: "Demnächst" },
+                c2: { title: "Kunst verkaufen", text: "Dein Schaufenster auf mas.art / findyour.art.", btn: "Zum Shop" },
                 c3: { title: "Partner werden", text: "Verbinde deinen Channel.", btn: "Demnächst" }
             }
         },
-        sponsors: {
-            title: "Sponsoren und Mitgliedschaften"
-        },
         footer: {
-            brand: "postyour.art Ökosystem.",
+            brand: "Die Vault für deine Kunst. Ein Angebot von mas.art.",
             platform: "Plattform",
             network: "Netzwerk",
             legal: "Rechtliches",
             imprint: "Impressum",
             privacy: "Datenschutzerklärung",
             terms: "AGB",
-            satzung: "Satzung",
-            rights: "Schluh.art e.V. Alle Rechte vorbehalten."
+            rights: "mas.art · Lippeck GmbH. Alle Rechte vorbehalten."
         },
         imprint: {
             title: "Impressum",
             content: `
         <p><strong>Angaben gemäß § 5 TMG</strong></p>
-        <p>Schluh.art e.V.<br>
+        <p>Lippeck GmbH<br>
         Im Schluh 71<br>
-        27726 Worpswede</p>
+        27726 Worpswede<br>
+        Deutschland</p>
+        <p><strong>Vertreten durch:</strong><br>
+        Markus Lippeck (geschäftsführender Gesellschafter)</p>
+        <p><strong>Handelsregister:</strong> HRB 209187, Amtsgericht Walsrode<br>
+        <strong>USt-IdNr.:</strong> DE340905729</p>
         <p><strong>Kontakt:</strong><br>
-        Telefon: 04792 9899544 / 0162 6412632<br>
-        E-Mail: schluhart@gmail.com</p>
+        Telefon: 0162 6412632<br>
+        E-Mail: hello@mas.art</p>
+        <p>postyour.art ist ein Angebot von <a href="https://www.mas.art" target="_blank">mas.art</a>.
+        Vollständiges Impressum: <a href="https://mas.art/policies/legal-notice" target="_blank">mas.art/policies/legal-notice</a></p>
       `
         },
         privacy: {
             title: "Datenschutzerklärung",
             content: `
-        <p><strong>Datenschutzerklärung</strong></p>
-        <p>Letzte Aktualisierung: 10. Oktober 2025</p>
-        <p>Diese Datenschutzrichtlinie beschreibt, wie Schluh.art e.V. (die „Site“, „wir“, „uns“ oder „unser“) sammelt, verwendet und gibt Ihre persönlichen Daten weiter, wenn Sie postyour.art (die „Site“) besuchen, unsere Dienste nutzen, einen Kauf dort tätigen oder auf andere Weise bezüglich der Site mit uns kommunizieren (zusammen die „Dienste“).</p>
-        <p><strong>Änderungen dieser Datenschutzrichtlinie</strong></p>
-        <p>Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren, unter anderem, um Änderungen unserer Praktiken widerzuspiegeln, oder aus anderen betrieblichen, rechtlichen oder regulatorischen Gründen.</p>
-        <p><strong>So erfassen und verwenden wir Ihre personenbezogenen Daten</strong></p>
-        <p>Um die Dienste bereitzustellen, sammeln wir personenbezogene Daten. Die Art der personenbezogenen Daten, die wir über Sie erhalten, hängt davon ab, wie Sie mit unserer Site interagieren und unsere Dienste nutzen.</p>
-        <p><strong>Welche persönlichen Daten sammeln wir?</strong></p>
-        <p>Zu den Informationen, die Sie uns direkt über unsere Dienste übermitteln, können gehören: Kontaktdaten, Bestellinformationen, Kontoinformationen, Kaufinformationen, Informationen zum Kundensupport.</p>
-        <p><strong>Cookies</strong></p>
-        <p>Wir verwenden Cookies, um unsere Site und unsere Dienste zu betreiben und zu verbessern. Die meisten Browser akzeptieren Cookies standardmäßig automatisch. Sie können Ihren Browser jedoch so einstellen, dass Cookies entfernt oder abgelehnt werden.</p>
-        <p><strong>Wie wir personenbezogene Daten weitergeben</strong></p>
-        <p>Unter bestimmten Umständen können wir Ihre personenbezogenen Daten an Dritte weitergeben, z.B. an Dienstleister (IT, Zahlung, Versand), Geschäfts- und Marketingpartner oder zur Erfüllung rechtlicher Verpflichtungen.</p>
-        <p><strong>Websites und Links Dritter</strong></p>
-        <p>Unsere Site enthält möglicherweise Links zu Websites Dritter. Wir übernehmen keine Garantie und Verantwortung für den Datenschutz oder die Sicherheit solcher Websites.</p>
-        <p><strong>Sicherheit und Aufbewahrung Ihrer Daten</strong></p>
-        <p>Wir treffen angemessene Sicherheitsvorkehrungen, können aber keine „perfekte Sicherheit“ garantieren. Wir bewahren Ihre Daten so lange auf, wie es für die Bereitstellung der Dienste oder aus rechtlichen Gründen erforderlich ist.</p>
-        <p><strong>Ihre Rechte</strong></p>
-        <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Portabilität Ihrer Daten sowie das Recht, der Verarbeitung zu widersprechen. Kontaktieren Sie uns dazu bitte.</p>
-        <p><strong>Kontakt</strong></p>
-        <p>Bei Fragen zu unseren Datenschutzpraktiken kontaktieren Sie uns bitte unter:<br>
-        Schluh.art e.V.<br>
-        Im Schluh 71, 27726 Worpswede<br>
-        E-Mail: schluhart@gmail.com</p>
+        <p>postyour.art wird bereitgestellt von der Lippeck GmbH (mas.art), Im Schluh 71, 27726 Worpswede.</p>
+        <p>Es gilt die vollständige Datenschutzerklärung von mas.art:<br>
+        <a href="https://mas.art/policies/privacy-policy" target="_blank">mas.art/policies/privacy-policy</a></p>
+        <p><strong>Ergänzend für die postyour.art-App:</strong></p>
+        <p>Deine Vault gehört dir. Werke, Stories, Termine und Medien, die du erfasst, werden ausschließlich zur Bereitstellung des Dienstes gespeichert. Sie werden nicht verkauft, nicht an Werbenetzwerke weitergegeben und nicht zum Training von KI-Modellen verwendet. KI-Verarbeitung geschieht nur auf deinen ausdrücklichen Auftrag und nur mit Anbietern, die ein Training mit deinen Daten vertraglich ausschließen.</p>
+        <p>Du kannst deine kompletten Daten jederzeit als ZIP-Archiv exportieren und dein Konto samt aller Daten löschen — endgültig und ohne Rückfragen.</p>
+        <p><strong>Kontakt für Datenschutzfragen:</strong> hello@mas.art</p>
       `
         }
     }
