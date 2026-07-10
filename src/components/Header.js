@@ -14,6 +14,7 @@ export function Header() {
         
         <nav style="display: flex; gap: 2rem; align-items: center;" class="desktop-nav">
           <a href="#apps" class="nav-link" style="color: #a0a0a0; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s;">${t('nav.apps')}</a>
+          <a href="#how-it-works" class="nav-link" style="color: #a0a0a0; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s;">${t('nav.howItWorks')}</a>
           <a href="#target-groups" class="nav-link" style="color: #a0a0a0; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s;">${t('nav.targetGroups')}</a>
           <a href="#ai-capture" class="nav-link" style="color: #a0a0a0; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s;">${t('coreFeature.title')}</a>
           <a href="#channels" class="nav-link" style="color: #a0a0a0; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s;">${t('nav.channels')}</a>

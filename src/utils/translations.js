@@ -5,7 +5,8 @@ export const translations = {
             apps: "The App",
             targetGroups: "For Whom?",
             channels: "Channels",
-            findYourArt: "Shop",
+            findYourArt: "findyour.art",
+            howItWorks: "How it works",
             earlyAccess: "Beta Login"
         },
         hero: {
@@ -20,7 +21,7 @@ export const translations = {
             lead: "From capturing in the studio to selling — without scattering your work across ten cloud services.",
             cards: {
                 c1: { title: "postyour.art (Beta)", text: "Your private vault. Capture is faster than typing: chat, photo, voice note or Telegram — the assistant structures titles, techniques, dimensions, prices and the story behind each piece. Nothing is processed externally without your explicit command." },
-                c2: { title: "Selling via findyour.art", text: "Not a second app — it's your storefront: the online shop run by mas.art (built on Shopify). Works you release appear there for sale. You never maintain anything twice; the vault delivers the data.", btn: "Visit the Shop" }
+                c2: { title: "Selling via findyour.art", text: "Not a second app — it's your storefront: the online shop findyour.art (built on Shopify). Works you release appear there for sale. You never maintain anything twice; the vault delivers the data.", btn: "Visit the Shop" }
             },
             highlight: "You create. The vault handles the rest."
         },
@@ -58,7 +59,7 @@ export const translations = {
             lead: "Don't just store data – put it to work. You decide what goes out, where and when — instead of feeding every channel by hand.",
             list: {
                 l1: "<strong>Social Media & Communities</strong><p>Push updates to networks like Instagram or YouTube — prepared from your vault, released by you.</p>",
-                l2: "<strong>Webshop & Galleries</strong><p>Sync released artworks directly to your storefront on mas.art / findyour.art.</p>",
+                l2: "<strong>Webshop & Galleries</strong><p>Sync released artworks directly to your storefront on findyour.art.</p>",
                 l3: "<strong>Print & Media</strong><p>Export formatted portfolios for exhibition catalogs or press releases.</p>",
                 l4: "<strong>Automated Websites</strong><p>Automated creation and continuous updating of your personal website.</p>"
             }
@@ -102,7 +103,7 @@ export const translations = {
             paid: {
                 badge: "Later — only if you use them",
                 title: "Channels",
-                items: ["Selling via the mas.art shop", "Print: catalogs & portfolios", "Social media posts & reels", "Your own artist website"],
+                items: ["Selling via findyour.art", "Print: catalogs & portfolios", "Social media posts & reels", "Your own artist website"],
                 note: "Channels are optional. The vault never becomes paid."
             }
         },
@@ -111,12 +112,13 @@ export const translations = {
             lead: "Join the beta phase of postyour.art and win back your studio time.",
             cards: {
                 c1: { title: "Start Now", text: "Access the AI capture tool.", btn: "Open Beta App" },
-                c2: { title: "Sell Your Art", text: "Your storefront on mas.art / findyour.art.", btn: "Visit the Shop" },
+                c2: { title: "Sell Your Art", text: "Your storefront: findyour.art.", btn: "Visit the Shop" },
                 c3: { title: "Partner With Us", text: "Connect your channel.", btn: "Coming Soon" }
             }
         },
         footer: {
-            brand: "The vault for your art. Provided by mas.art.",
+            brand: "The vault for your art.",
+            projectOf: "A project by",
             platform: "Platform",
             network: "Network",
             legal: "Legal",
@@ -163,7 +165,8 @@ export const translations = {
             apps: "Die App",
             targetGroups: "Für Wen?",
             channels: "Channels",
-            findYourArt: "Shop",
+            findYourArt: "findyour.art",
+            howItWorks: "So funktioniert’s",
             earlyAccess: "Beta Login"
         },
         hero: {
@@ -178,7 +181,7 @@ export const translations = {
             lead: "Von der Erfassung im Atelier bis zum Verkauf — ohne dein Werk über zehn Cloud-Dienste zu verzetteln.",
             cards: {
                 c1: { title: "postyour.art (Beta)", text: "Deine private Vault. Erfassen geht schneller als Tippen: per Chat, Foto, Sprachnotiz oder Telegram — der Assistent strukturiert Titel, Technik, Maße, Preis und die Geschichte hinter jedem Werk. Ohne deinen ausdrücklichen Auftrag wird nichts extern verarbeitet." },
-                c2: { title: "Verkaufen über findyour.art", text: "Keine zweite App, sondern dein Schaufenster: der Online-Shop von mas.art (technisch: Shopify). Werke, die du freigibst, erscheinen dort zum Verkauf. Du pflegst nichts doppelt — die Vault liefert die Daten.", btn: "Zum Shop" }
+                c2: { title: "Verkaufen über findyour.art", text: "Keine zweite App, sondern dein Schaufenster: der Online-Shop findyour.art (technisch: Shopify). Werke, die du freigibst, erscheinen dort zum Verkauf. Du pflegst nichts doppelt — die Vault liefert die Daten.", btn: "Zum Shop" }
             },
             highlight: "Du erschaffst. Die Vault erledigt den Rest."
         },
@@ -216,7 +219,7 @@ export const translations = {
             lead: "Speichere Daten nicht nur – lass sie für dich arbeiten. Du entscheidest, was wann und wohin geht — statt jeden Kanal von Hand zu füttern.",
             list: {
                 l1: "<strong>Social Media & Communities</strong><p>Pushe Updates in Netzwerke wie Instagram oder YouTube — aus der Vault vorbereitet, von dir freigegeben.</p>",
-                l2: "<strong>Webshop & Galerien</strong><p>Synchronisiere freigegebene Kunstwerke direkt in dein Schaufenster auf mas.art / findyour.art.</p>",
+                l2: "<strong>Webshop & Galerien</strong><p>Synchronisiere freigegebene Kunstwerke direkt in dein Schaufenster auf findyour.art.</p>",
                 l3: "<strong>Print & Presse</strong><p>Exportiere formatierte Portfolios und Kataloge für Ausstellungen oder Prospekte.</p>",
                 l4: "<strong>Automatisierte Website</strong><p>Die automatisierte Erstellung und Aktualisierung einer Website.</p>"
             }
@@ -260,7 +263,7 @@ export const translations = {
             paid: {
                 badge: "Später — nur wenn du sie nutzt",
                 title: "Channels",
-                items: ["Verkaufen über den mas.art-Shop", "Print: Kataloge & Portfolios", "Social-Media-Posts & Reels", "Deine eigene Künstler-Website"],
+                items: ["Verkaufen über findyour.art", "Print: Kataloge & Portfolios", "Social-Media-Posts & Reels", "Deine eigene Künstler-Website"],
                 note: "Channels sind optional. Die Vault selbst wird nie kostenpflichtig."
             }
         },
@@ -269,12 +272,13 @@ export const translations = {
             lead: "Werde Teil der Beta-Phase von postyour.art und hol dir deine Atelierzeit zurück.",
             cards: {
                 c1: { title: "Jetzt Starten", text: "Zugang zum KI-Erfassungstool.", btn: "Zur Beta App" },
-                c2: { title: "Kunst verkaufen", text: "Dein Schaufenster auf mas.art / findyour.art.", btn: "Zum Shop" },
+                c2: { title: "Kunst verkaufen", text: "Dein Schaufenster: findyour.art.", btn: "Zum Shop" },
                 c3: { title: "Partner werden", text: "Verbinde deinen Channel.", btn: "Demnächst" }
             }
         },
         footer: {
-            brand: "Die Vault für deine Kunst. Ein Angebot von mas.art.",
+            brand: "Die Vault für deine Kunst.",
+            projectOf: "Ein Projekt von",
             platform: "Plattform",
             network: "Netzwerk",
             legal: "Rechtliches",
