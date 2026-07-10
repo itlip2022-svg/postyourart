@@ -63,6 +63,49 @@ export const translations = {
                 l4: "<strong>Automated Websites</strong><p>Automated creation and continuous updating of your personal website.</p>"
             }
         },
+        howItWorks: {
+            title: "Capturing a Work — Live",
+            lead: "Photo in, two sentences spoken — the assistant does the paperwork. This is what it looks like:",
+            steps: {
+                s1: { title: "Photograph & tell", text: "Drop a photo into the chat and say two sentences — by text, voice note, or simply via Telegram from your studio." },
+                s2: { title: "The assistant files it", text: "Title, technique, dimensions, price and the story behind the piece are structured automatically. Missing details? It asks — once." },
+                s3: { title: "Done — it's in your vault", text: "The work sits in your gallery with photo, data and full history. Additions? Just tell the assistant later: \"That one is from 2026.\"" }
+            }
+        },
+        vaultTour: {
+            title: "A Look Inside the Vault",
+            lead: "Everything that piles up in an artist's life — in one place, always in order.",
+            cards: {
+                c1: { title: "Your Gallery", text: "Every work with photo, dimensions and price — searchable, exportable, ready for catalogs." },
+                c2: { title: "Dates & Exhibitions", text: "\"Vernissage on the 15th, 6 pm at the gallery\" — spoken once, filed forever. Even via voice note." },
+                c3: { title: "Stories", text: "The tale behind each piece — captured while it's fresh. Later it becomes your catalog text, your post, your artist statement." }
+            }
+        },
+        ownership: {
+            title: "Your Vault Is Yours. Really.",
+            lead: "Not rented, not locked in — owned.",
+            points: {
+                p1: "<strong>Your property, not a subscription trap</strong><p>The vault always belongs to you. Works, stories, photos, history — nothing is held hostage.</p>",
+                p2: "<strong>Take everything with you</strong><p>One click downloads a ZIP with all entries and every photo in original quality. No export fee, no begging.</p>",
+                p3: "<strong>Delete means delete</strong><p>Close your account and everything is gone — media, history, profile, login. Permanently.</p>",
+                p4: "<strong>AI only on your command</strong><p>Nothing is processed without you asking for it — and never used to train third-party models.</p>"
+            }
+        },
+        pricing: {
+            title: "The Vault Is Free.",
+            lead: "You pay nothing to capture, organize and own your work. Later, you pay only for the channels you actually use.",
+            free: {
+                badge: "Free — forever",
+                title: "Your Vault",
+                items: ["AI capture via chat, photo & voice", "Gallery, stories, dates, archive", "Telegram connection", "Full export & deletion", "Your data, your property"]
+            },
+            paid: {
+                badge: "Later — only if you use them",
+                title: "Channels",
+                items: ["Selling via the mas.art shop", "Print: catalogs & portfolios", "Social media posts & reels", "Your own artist website"],
+                note: "Channels are optional. The vault never becomes paid."
+            }
+        },
         cta: {
             title: "Ready to Capture?",
             lead: "Join the beta phase of postyour.art and win back your studio time.",
@@ -176,6 +219,49 @@ export const translations = {
                 l2: "<strong>Webshop & Galerien</strong><p>Synchronisiere freigegebene Kunstwerke direkt in dein Schaufenster auf mas.art / findyour.art.</p>",
                 l3: "<strong>Print & Presse</strong><p>Exportiere formatierte Portfolios und Kataloge für Ausstellungen oder Prospekte.</p>",
                 l4: "<strong>Automatisierte Website</strong><p>Die automatisierte Erstellung und Aktualisierung einer Website.</p>"
+            }
+        },
+        howItWorks: {
+            title: "Ein Werk erfassen — live",
+            lead: "Foto rein, zwei Sätze gesprochen — der Assistent macht den Papierkram. So sieht das aus:",
+            steps: {
+                s1: { title: "Fotografieren & erzählen", text: "Foto in den Chat, zwei Sätze dazu — per Text, Sprachnotiz oder einfach via Telegram aus dem Atelier." },
+                s2: { title: "Der Assistent ordnet ein", text: "Titel, Technik, Maße, Preis und die Geschichte hinter dem Werk werden automatisch strukturiert. Fehlt etwas, fragt er nach — einmal." },
+                s3: { title: "Fertig — liegt in der Vault", text: "Das Werk steht in deiner Galerie, mit Foto, Daten und kompletter Historie. Nachträge? Sag es dem Assistenten einfach später: „Das ist von 2026.“" }
+            }
+        },
+        vaultTour: {
+            title: "Ein Blick in die Vault",
+            lead: "Alles, was sich im Künstlerleben ansammelt — an einem Ort, immer sortiert.",
+            cards: {
+                c1: { title: "Deine Galerie", text: "Jedes Werk mit Foto, Maßen und Preis — durchsuchbar, exportierbar, bereit für Kataloge." },
+                c2: { title: "Termine & Ausstellungen", text: "„Vernissage am 15., 18 Uhr in der Galerie“ — einmal gesagt, für immer notiert. Auch per Sprachnotiz." },
+                c3: { title: "Stories", text: "Die Geschichte hinter jedem Werk — festgehalten, solange sie frisch ist. Später wird daraus dein Katalogtext, dein Post, dein Künstlerstatement." }
+            }
+        },
+        ownership: {
+            title: "Deine Vault gehört dir. Wirklich.",
+            lead: "Nicht gemietet, nicht eingesperrt — dein Besitz.",
+            points: {
+                p1: "<strong>Dein Eigentum, keine Abo-Falle</strong><p>Die Vault ist immer in deinem Besitz. Werke, Stories, Fotos, Historie — nichts wird als Geisel gehalten.</p>",
+                p2: "<strong>Alles mitnehmen</strong><p>Ein Klick lädt ein ZIP mit allen Einträgen und jedem Foto in Originalqualität. Keine Export-Gebühr, kein Betteln.</p>",
+                p3: "<strong>Löschen heißt löschen</strong><p>Konto schließen — und alles ist weg: Medien, Historie, Profil, Login. Endgültig.</p>",
+                p4: "<strong>KI nur auf deinen Auftrag</strong><p>Nichts wird verarbeitet, ohne dass du es anstößt — und nichts trainiert fremde KI-Modelle.</p>"
+            }
+        },
+        pricing: {
+            title: "Die Vault ist kostenlos.",
+            lead: "Erfassen, ordnen, besitzen — dafür zahlst du nichts. Bezahlt wird später nur für die Channels, die du wirklich nutzt.",
+            free: {
+                badge: "Kostenlos — für immer",
+                title: "Deine Vault",
+                items: ["KI-Erfassung per Chat, Foto & Sprache", "Galerie, Stories, Termine, Archiv", "Telegram-Anbindung", "Kompletter Export & Löschung", "Deine Daten, dein Eigentum"]
+            },
+            paid: {
+                badge: "Später — nur wenn du sie nutzt",
+                title: "Channels",
+                items: ["Verkaufen über den mas.art-Shop", "Print: Kataloge & Portfolios", "Social-Media-Posts & Reels", "Deine eigene Künstler-Website"],
+                note: "Channels sind optional. Die Vault selbst wird nie kostenpflichtig."
             }
         },
         cta: {

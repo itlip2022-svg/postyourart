@@ -8,7 +8,7 @@ export function WhyNow() {
           <h2>${t('appsEcosystem.title')}</h2>
           <p class="lead">${t('appsEcosystem.lead')}</p>
         </div>
-        <div class="grid-3" style="grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));">
+        <div class="grid-3" style="grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));">
           <div class="card">
             <h3>${t('appsEcosystem.cards.c1.title')}</h3>
             <p>${t('appsEcosystem.cards.c1.text')}</p>

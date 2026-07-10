@@ -830,3 +830,75 @@
         justify-content: center;
     }
 }
+
+/* ── App-Showcase: Telefonrahmen, Ablauf-Animation, Preise ─────────────── */
+.phone-frame {
+  position: relative;
+  width: 280px;
+  aspect-ratio: 390 / 844;
+  border-radius: 32px;
+  border: 3px solid rgba(255, 255, 255, 0.14);
+  background: #000;
+  overflow: hidden;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(0, 0, 0, 0.6);
+}
+.phone-frame img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 29px;
+}
+.phone-sm { width: 240px; }
+/* Drei Screens im Wechsel: 1 -> 2 -> 3 -> 1 (je ~4s, weiche Blende) */
+.phone-anim img { opacity: 0; animation: phone-cycle 12s infinite; }
+.phone-anim img:nth-child(1) { animation-delay: 0s; }
+.phone-anim img:nth-child(2) { animation-delay: 4s; }
+.phone-anim img:nth-child(3) { animation-delay: 8s; }
+@keyframes phone-cycle {
+  0% { opacity: 0; }
+  4% { opacity: 1; }
+  33% { opacity: 1; }
+  40% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .phone-anim img { animation: none; }
+  .phone-anim img:nth-child(1) { opacity: 1; }
+}
+
+.steps-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 1.75rem; }
+.steps-list li { display: flex; gap: 1.25rem; align-items: flex-start; }
+.steps-list .step-num {
+  flex-shrink: 0;
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 170, 0, 0.12);
+  border: 1px solid rgba(255, 170, 0, 0.5);
+  color: #ffaa00;
+  font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+}
+.steps-list strong { display: block; color: #fff; margin-bottom: 0.35rem; font-size: 1.1rem; }
+.steps-list p { color: #a0a0a0; line-height: 1.6; margin: 0; }
+
+.tour-card { display: flex; flex-direction: column; align-items: center; gap: 1rem; }
+.tour-card .phone-frame { margin-bottom: 0.5rem; }
+.tour-card h3 { color: #fff; }
+.tour-card p { color: #a0a0a0; line-height: 1.6; max-width: 320px; }
+
+.pricing-card { position: relative; padding-top: 2.75rem !important; }
+.pricing-badge {
+  position: absolute; top: 1rem; left: 1.5rem;
+  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  color: #ffaa00; background: rgba(255, 170, 0, 0.12);
+  border: 1px solid rgba(255, 170, 0, 0.4);
+  padding: 0.25rem 0.7rem; border-radius: 9999px;
+}
+.pricing-badge-muted { color: #a0a0a0; background: rgba(255, 255, 255, 0.06); border-color: rgba(255, 255, 255, 0.15); }
+.pricing-free { border-color: rgba(255, 170, 0, 0.45) !important; }
+.pricing-price { font-size: 2.4rem; font-weight: 700; color: #fff; margin: 0.5rem 0 1rem; font-family: 'Outfit', sans-serif; }
+.pricing-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.6rem; }
+.pricing-list li { color: #d0d0d0; padding-left: 1.6rem; position: relative; line-height: 1.5; }
+.pricing-list li::before { content: '✓'; position: absolute; left: 0; color: #ffaa00; font-weight: 700; }

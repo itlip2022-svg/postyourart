@@ -18,6 +18,10 @@ import { Footer } from './components/Footer.js';
 import { Imprint } from './components/Imprint.js';
 import { Privacy } from './components/Privacy.js';
 import { ValueProps } from './components/ValueProps.js';
+import { HowItWorks } from './components/HowItWorks.js';
+import { VaultTour } from './components/VaultTour.js';
+import { Ownership } from './components/Ownership.js';
+import { Pricing } from './components/Pricing.js';
 
 import { initNetworkAnimation } from './components/NetworkAnimation.js';
 
@@ -61,6 +65,10 @@ function render() {
         ${SemanticSpace()}
         ${MatchingSystem()}
         ${CollectorBenefits()}
+        ${HowItWorks()}
+        ${VaultTour()}
+        ${Ownership()}
+        ${Pricing()}
         ${CTA()}
       </main>
       ${Footer()}
