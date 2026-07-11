@@ -1,17 +1,17 @@
-// Vercel Serverless Function: POST /api/subscribe
-// Beta-Anmeldungen für postyour.art — gleiches Prinzip wie der
-// Worpswede-Funnel: Kontakt landet in Brevo (Attribute VORNAME + QUELLE),
-// optional in einer Liste (BREVO_LIST_ID). Die Adressen werden zunächst
-// gesammelt, um potenzielle Nutzer zum Beta-Programm einzuladen.
+// Cloudflare Pages Function: POST /api/subscribe
 //
-// Env (Vercel-Projekt `postyourart`):
+// postyour.art wird über Cloudflare Pages ausgeliefert — dieses File ist
+// das Pendant zu api/subscribe.js (Vercel), damit das Beta-Formular auf
+// beiden Plattformen funktioniert. Logik bewusst gespiegelt.
+//
+// Env (Cloudflare Pages → Settings → Variables):
 //   BREVO_API_KEY   Pflicht — ohne Key antwortet der Endpoint mit 500,
 //                   damit keine Anmeldungen stillschweigend verloren gehen.
 //   BREVO_LIST_ID   optional — ID der Brevo-Liste (z.B. "Beta postyour.art")
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
-async function saveToBrevo(entry) {
+async function saveToBrevo(entry, env) {
   const body = {
     email: entry.email,
     updateEnabled: true,
@@ -20,13 +20,13 @@ async function saveToBrevo(entry) {
       QUELLE: entry.source || "postyour.art",
     },
   };
-  const listId = parseInt(process.env.BREVO_LIST_ID, 10);
+  const listId = parseInt(env.BREVO_LIST_ID, 10);
   if (!isNaN(listId)) body.listIds = [listId];
 
   const res = await fetch("https://api.brevo.com/v3/contacts", {
     method: "POST",
     headers: {
-      "api-key": process.env.BREVO_API_KEY,
+      "api-key": env.BREVO_API_KEY,
       "content-type": "application/json",
     },
     body: JSON.stringify(body),
@@ -38,7 +38,7 @@ async function saveToBrevo(entry) {
   }
 }
 
-async function handleSubscribe(payload) {
+async function handleSubscribe(payload, env) {
   const { email, name, source, website } = payload || {};
 
   // Honeypot: echte Nutzer füllen das unsichtbare Feld "website" nie aus.
@@ -52,18 +52,15 @@ async function handleSubscribe(payload) {
     email: String(email).trim().toLowerCase(),
     name: String(name || "").trim().slice(0, 100),
     source: String(source || "postyour.art").slice(0, 50),
-    ts: new Date().toISOString(),
   };
 
-  if (!process.env.BREVO_API_KEY) {
-    // Bewusst ein sichtbarer Fehler statt stillem Datenverlust:
-    // Vercel-Logs sind flüchtig, eine Beta-Warteliste darf nicht dort landen.
+  if (!env.BREVO_API_KEY) {
     console.error("[subscribe] BREVO_API_KEY fehlt! Anmeldung abgewiesen:", entry.email);
     return { status: 500, body: { ok: false, error: "not_configured" } };
   }
 
   try {
-    await saveToBrevo(entry);
+    await saveToBrevo(entry, env);
     console.log("[subscribe] Neue Beta-Anmeldung:", entry.email, "via", entry.source);
     return { status: 200, body: { ok: true } };
   } catch (err) {
@@ -72,14 +69,19 @@ async function handleSubscribe(payload) {
   }
 }
 
-// ESM (Root-package.json hat "type": "module")
-export default async function handler(req, res) {
-  if (req.method !== "POST") {
-    res.status(405).json({ ok: false, error: "method_not_allowed" });
-    return;
-  }
-  const { status, body } = await handleSubscribe(req.body);
-  res.status(status).json(body);
+export async function onRequestPost({ request, env }) {
+  const payload = await request.json().catch(() => ({}));
+  const { status, body } = await handleSubscribe(payload, env);
+  return new Response(JSON.stringify(body), {
+    status,
+    headers: { "content-type": "application/json" },
+  });
 }
 
-export { handleSubscribe };
+export async function onRequest({ request, env }) {
+  if (request.method === "POST") return onRequestPost({ request, env });
+  return new Response(JSON.stringify({ ok: false, error: "method_not_allowed" }), {
+    status: 405,
+    headers: { "content-type": "application/json" },
+  });
+}
