@@ -39,10 +39,16 @@ async function saveToBrevo(entry) {
 }
 
 async function handleSubscribe(payload) {
-  const { email, name, source, website } = payload || {};
+  const { email, name, source, website, beta_hp: hp } = payload || {};
 
-  // Honeypot: echte Nutzer füllen das unsichtbare Feld "website" nie aus.
-  if (website) return { status: 200, body: { ok: true } };
+  // Honeypot: echte Nutzer füllen das unsichtbare Feld nie aus. Es heißt
+  // bewusst NICHT "website" o.ä. — solche Namen befüllt Browser-Autofill,
+  // und echte Anmeldungen würden hier still verworfen. ("website" bleibt
+  // als Alt-Feldname aus der ersten Version berücksichtigt.)
+  if (hp || website) {
+    console.log("[subscribe] Honeypot ausgelöst — verworfen:", String(email || "").slice(0, 60));
+    return { status: 200, body: { ok: true } };
+  }
 
   if (!email || !EMAIL_RE.test(String(email).trim())) {
     return { status: 400, body: { ok: false, error: "invalid_email" } };

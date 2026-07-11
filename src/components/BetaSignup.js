@@ -24,7 +24,7 @@ export function BetaSignup() {
               <input type="text" id="beta-name" name="name" autocomplete="given-name" placeholder="${t('betaSignup.namePh')}" />
               <label for="beta-email">${t('betaSignup.emailLabel')}</label>
               <input type="email" id="beta-email" name="email" autocomplete="email" required placeholder="${t('betaSignup.emailPh')}" />
-              <input type="text" name="website" class="beta-hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+              <input type="text" name="beta_hp" class="beta-hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
               <label class="beta-consent">
                 <input type="checkbox" id="beta-consent" required />
                 <span>${t('betaSignup.consent')}</span>
@@ -76,7 +76,7 @@ export function initBetaSignup() {
           email,
           name: document.getElementById('beta-name').value.trim(),
           source: 'postyour.art-beta',
-          website: form.querySelector('.beta-hp').value,
+          beta_hp: form.querySelector('.beta-hp').value,
         }),
       });
       const data = await res.json().catch(() => ({}));
