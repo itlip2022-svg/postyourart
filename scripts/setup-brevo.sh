@@ -46,9 +46,21 @@ for ENVT in production preview; do
   printf '%s' "$LIST_ID" | npx vercel env add BREVO_LIST_ID "$ENVT" >/dev/null
 done
 
-echo "4/4  Produktion neu deployen, damit die Variablen greifen …"
+echo "4/4  Vercel-Produktion neu deployen, damit die Variablen greifen …"
 npx vercel --prod
 
 echo
-echo "Fertig. Test: auf https://www.postyour.art das Beta-Formular absenden —"
-echo "der Kontakt erscheint in Brevo in der Liste '$LIST_NAME' (QUELLE=postyour.art-beta)."
+echo "WICHTIG — die Live-Domain postyour.art läuft über CLOUDFLARE PAGES,"
+echo "nicht über Vercel. Dort müssen die Variablen von Hand gesetzt werden:"
+echo
+echo "  1. In Brevo einen NEUEN API-Key anlegen (Einstellungen → API-Schlüssel,"
+echo "     Name z.B. 'postyour.art') — Keys sind nur bei der Erstellung sichtbar."
+echo "  2. dash.cloudflare.com → Workers & Pages → Projekt 'postyourart'"
+echo "     → Settings → Variables and Secrets → hinzufügen:"
+echo "        BREVO_API_KEY = <neuer Key>   (als Secret)"
+echo "        BREVO_LIST_ID = $LIST_ID"
+echo "  3. Deployments → letztes Deployment → 'Retry deployment', damit die"
+echo "     Variablen greifen."
+echo
+echo "Test danach: auf https://postyour.art das Beta-Formular absenden — der"
+echo "Kontakt erscheint in Brevo in der Liste '$LIST_NAME' (QUELLE=postyour.art-beta)."
