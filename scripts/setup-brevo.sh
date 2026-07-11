@@ -20,13 +20,23 @@ KEY=""
 if (cd "$FUNNEL_DIR" && npx vercel env pull "$TMP_ENV" --environment=production --yes >/dev/null 2>&1); then
   KEY="$(grep '^BREVO_API_KEY=' "$TMP_ENV" | sed 's/^BREVO_API_KEY=//; s/^"//; s/"$//' || true)"
 fi
-if [ -z "$KEY" ]; then
-  # Sensitive-Variablen gibt Vercel nicht heraus — Key direkt abfragen.
-  # (Eingabe bleibt unsichtbar und landet nirgends außer in Brevo-Aufrufen.)
+# Sensitive-Variablen gibt Vercel nicht heraus — Key ggf. direkt abfragen.
+# (Eingabe bleibt unsichtbar und landet nirgends außer in Brevo-Aufrufen.)
+[ -z "$KEY" ] && KEY="${BREVO_API_KEY:-}"
+attempt=0
+while [ -z "$KEY" ] && [ $attempt -lt 3 ]; do
   echo "     Kein Key auslesbar (Sensitive-Variable). Bitte Brevo-API-Key einfügen"
-  read -rs -p "     (Eingabe unsichtbar, Enter zum Bestätigen): " KEY
+  read -rs -p "     (Eingabe unsichtbar, Enter zum Bestätigen): " KEY || true
   echo
-fi
+  # Whitespace/Zeilenumbrüche aus dem Clipboard entfernen; ein führender
+  # Umbruch macht die erste Eingabe leer — dann fängt der nächste Versuch
+  # den eigentlichen Key aus dem Puffer ab.
+  KEY="$(printf '%s' "$KEY" | tr -d '[:space:]')"
+  if [ -n "$KEY" ]; then
+    echo "     Key erkannt: ${KEY:0:10}… (${#KEY} Zeichen)"
+  fi
+  attempt=$((attempt + 1))
+done
 if [ -z "$KEY" ]; then
   echo "FEHLER: Kein BREVO_API_KEY angegeben." >&2
   exit 1
