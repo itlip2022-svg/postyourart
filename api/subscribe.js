@@ -10,6 +10,29 @@
 //   BREVO_LIST_ID   optional — ID der Brevo-Liste (z.B. "Beta postyour.art")
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+const LIST_NAME = "Beta postyour.art";
+
+// Fallback, wenn BREVO_LIST_ID nicht gesetzt ist: Liste einmal per Name
+// suchen und den Treffer für die Lebensdauer der Instanz merken.
+let cachedListId = null;
+
+async function resolveListId() {
+  const configured = parseInt(process.env.BREVO_LIST_ID, 10);
+  if (!isNaN(configured)) return configured;
+  if (cachedListId) return cachedListId;
+  try {
+    const res = await fetch("https://api.brevo.com/v3/contacts/lists?limit=50", {
+      headers: { "api-key": process.env.BREVO_API_KEY },
+    });
+    if (!res.ok) return null;
+    const lists = (await res.json()).lists || [];
+    const hit = lists.find((l) => l.name === LIST_NAME);
+    cachedListId = hit ? hit.id : null;
+  } catch (err) {
+    console.error("[subscribe] Listen-Lookup fehlgeschlagen:", err.message);
+  }
+  return cachedListId;
+}
 
 async function saveToBrevo(entry) {
   const body = {
@@ -20,8 +43,9 @@ async function saveToBrevo(entry) {
       QUELLE: entry.source || "postyour.art",
     },
   };
-  const listId = parseInt(process.env.BREVO_LIST_ID, 10);
-  if (!isNaN(listId)) body.listIds = [listId];
+  const listId = await resolveListId();
+  if (listId) body.listIds = [listId];
+  else console.error("[subscribe] Keine Liste gefunden — Kontakt landet ohne Listen-Zuordnung in Brevo.");
 
   const res = await fetch("https://api.brevo.com/v3/contacts", {
     method: "POST",
