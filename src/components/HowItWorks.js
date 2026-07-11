@@ -15,6 +15,7 @@ export function HowItWorks() {
             <div class="phone-frame phone-anim">
               <img src="/screens/capture-chat.webp" alt="Erfassung im Chat: Foto und Beschreibung, der Assistent legt das Werk an" loading="lazy">
               <img src="/screens/artwork-detail.webp" alt="Das erfasste Werk mit Titel, Technik, Maßen und Preis" loading="lazy">
+              <img src="/screens/telegram-capture.webp" alt="Erfassung per Telegram: Foto mit Beschreibung und Sprachnachricht, der Assistent legt das Werk an" loading="lazy">
               <img src="/screens/gallery.webp" alt="Die Galerie mit allen erfassten Werken" loading="lazy">
             </div>
           </div>

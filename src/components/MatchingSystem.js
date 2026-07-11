@@ -14,12 +14,12 @@ export function MatchingSystem() {
             <p>${t('targetGroups.cards.c1.text')}</p>
           </div>
           <div class="match-card">
-            <div class="icon">🏛️</div>
+            <div class="icon">🗿</div>
             <h3>${t('targetGroups.cards.c2.title')}</h3>
             <p>${t('targetGroups.cards.c2.text')}</p>
           </div>
           <div class="match-card">
-            <div class="icon">🏘️</div>
+            <div class="icon">📷</div>
             <h3>${t('targetGroups.cards.c3.title')}</h3>
             <p>${t('targetGroups.cards.c3.text')}</p>
           </div>

@@ -1,5 +1,7 @@
 import { t } from '../utils/i18n.js';
 
+// "Deine Daten. Dein Wert." — die Lösung in zwei Karten:
+// Vault (Beta-Button) und Verkauf über findyour.art.
 export function WhyNow() {
   return `
     <section class="section why-now" id="apps">
@@ -9,14 +11,15 @@ export function WhyNow() {
           <p class="lead">${t('appsEcosystem.lead')}</p>
         </div>
         <div class="grid-3" style="grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));">
-          <div class="card">
+          <div class="card" style="display: flex; flex-direction: column;">
             <h3>${t('appsEcosystem.cards.c1.title')}</h3>
             <p>${t('appsEcosystem.cards.c1.text')}</p>
+            <a href="https://postyourart.vercel.app/" target="_blank" class="btn btn-primary mt-sm" style="margin-top: auto; align-self: flex-start;">${t('appsEcosystem.cards.c1.btn')}</a>
           </div>
           <div class="card" style="display: flex; flex-direction: column;">
             <h3>${t('appsEcosystem.cards.c2.title')}</h3>
             <p>${t('appsEcosystem.cards.c2.text')}</p>
-            <a href="https://findyour.art/" target="_blank" class="btn btn-primary mt-sm" style="margin-top: auto; align-self: flex-start;">${t('appsEcosystem.cards.c2.btn')}</a>
+            <a href="https://findyour.art/" target="_blank" class="btn btn-outline mt-sm" style="margin-top: auto; align-self: flex-start;">${t('appsEcosystem.cards.c2.btn')}</a>
           </div>
         </div>
         <div class="text-center mt-lg">

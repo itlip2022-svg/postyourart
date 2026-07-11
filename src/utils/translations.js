@@ -2,7 +2,7 @@ export const translations = {
     en: {
         nav: {
             mission: "Mission",
-            apps: "The App",
+            apps: "The Solution",
             targetGroups: "For Whom?",
             channels: "Channels",
             findYourArt: "findyour.art",
@@ -12,37 +12,37 @@ export const translations = {
         hero: {
             collab: "Provided by <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
             title: "Your Art. Everywhere - <span class=\"text-gradient\">Your Data. With you!</span>",
-            subtitle: "The AI vault for artists. Capture once, publish everywhere — more time for art, less noise on social media.",
+            subtitle: "postyour.art collects the knowledge about your art with minimal effort — and turns it, whenever you want, into finished social media and print products. Your data stays raw, portable and under your control. You only pay for real relief.",
             dataSovereignty: "Photograph your work, say a few words about it — done. Your assistant files everything into your private vault: artworks, stories, dates, history. And your data stays yours: nothing is handed to data corporations, nothing trains third-party AI models, nothing leaves the vault without your explicit command. Full export and complete deletion — any time.",
             cta: "Start with postyour.art"
         },
         appsEcosystem: {
-            title: "One App. Everything in One Place.",
-            lead: "From capturing in the studio to selling — without scattering your work across ten cloud services.",
+            title: "Your Data. Your Value.",
+            lead: "Not another app — a solution: the knowledge about your art is captured once, and then it works for you. From the studio to the sale.",
             cards: {
-                c1: { title: "postyour.art (Beta)", text: "Your private vault. Capture is faster than typing: chat, photo, voice note or Telegram — the assistant structures titles, techniques, dimensions, prices and the story behind each piece. Nothing is processed externally without your explicit command." },
-                c2: { title: "Selling via findyour.art", text: "Not a second app — it's your storefront: the online shop findyour.art (built on Shopify). Works you release appear there for sale. You never maintain anything twice; the vault delivers the data.", btn: "Visit the Shop" }
+                c1: { title: "postyour.art — your vault (beta)", text: "You take a photo, say two sentences — that's all the effort it takes. Out of it grows your private collection of knowledge: works, stories, prices, dates, history. Raw, portable, yours to take along any time — the value stays with you.", btn: "Open the Beta" },
+                c2: { title: "Selling via findyour.art", text: "Your storefront: works you release appear on findyour.art for sale — free of charge. You never maintain anything twice; your vault delivers everything.", btn: "Go to findyour.art" }
             },
-            highlight: "You create. The vault handles the rest."
+            highlight: "You create. The rest takes care of itself."
         },
         valueProps: {
             title: "Time. Nerves. Sovereignty.",
             lead: "Three promises the vault makes to you.",
             cards: {
                 c1: { icon: "⏱️", title: "Save Time", text: "Speak instead of typing: photograph a piece, tell two sentences — captured. Catalogs, portfolios and posts are generated from your vault at the press of a button instead of weekend sessions." },
-                c2: { icon: "🗄️", title: "Everything in One Vault", text: "Works, stories, exhibition dates, prices, and the full history of every piece — in one place instead of scattered across phone photos, notebooks and cloud folders." },
+                c2: { icon: "📈", title: "Value That Grows", text: "Works, stories, dates, prices, history — all in one place. And every capture preserves more than a photo: context and meaning. This knowledge about your art grows with every entry — and makes every catalog, post and website built from it more valuable." },
                 c3: { icon: "🔐", title: "Stay Sovereign", text: "Your data belongs to you — it is not given away to big tech clouds or used to train AI models. Export everything or delete your account entirely, any time, with one click." }
             },
             highlight: "More time for art. Less noise on social media."
         },
         targetGroups: {
             title: "Designed For You",
-            lead: "Whether you create, curate, or host – the vault works for you.",
+            lead: "postyour.art is made for visual artists — from the first studio year to an established exhibition practice.",
             cards: {
-                c1: { title: "Artists", text: "Effortlessly manage your digital portfolio, document your process, and reach new collectors." },
-                c2: { title: "Organizers", text: "Promote exhibitions, concerts, performances & events." },
-                c3: { title: "Art Residencies", text: "List your properties, showcase your spaces, and manage your booking offers." },
-                c4: { title: "Artist Colonies", text: "Highlight the collective spirit, history, and ongoing events of your community." }
+                c1: { title: "Painting & Graphic Art", text: "Oil, acrylic, watercolor, printmaking: your catalogue of works, prices and the story behind every piece — captured on the side." },
+                c2: { title: "Sculpture & Objects", text: "Sculpture, ceramics, installation: material, dimensions and making-of documented — with photos from every angle." },
+                c3: { title: "Photography & Digital Art", text: "Series, editions and formats under control — including the files themselves, exportable in original quality at any time." },
+                c4: { title: "Professional Artists", text: "With gallery, press and a full exhibition calendar: your catalogue of works stays current — and the documents are ready at the press of a button." }
             }
         },
         coreFeature: {
@@ -94,24 +94,31 @@ export const translations = {
         },
         pricing: {
             title: "The Vault Is Free.",
-            lead: "You pay nothing to capture, organize and own your work. Later, you pay only for the channels you actually use.",
+            lead: "Capture, organize, own — free. Selling on findyour.art is free as well. You only pay for channels that bring real relief — billed purely by usage, no subscription.",
             free: {
                 badge: "Free — forever",
                 title: "Your Vault",
-                items: ["AI capture via chat, photo & voice", "Gallery, stories, dates, archive", "Telegram connection", "Full export & deletion", "Your data, your property"]
+                items: ["AI capture via chat, photo & voice", "Gallery, stories, dates, archive", "Telegram connection", "Selling on findyour.art", "Full export & deletion", "Your data, your property"]
             },
             paid: {
-                badge: "Later — only if you use them",
+                badge: "Billed by usage only",
                 title: "Channels",
-                items: ["Selling via findyour.art", "Print: catalogs & portfolios", "Social media posts & reels", "Your own artist website"],
-                note: "Channels are optional. The vault never becomes paid."
+                items: ["Print: catalogs & portfolios", "Social media posts & reels", "Your own artist website"],
+                note: "Billed purely by usage — no subscription. The vault itself never becomes paid."
+            },
+            pro: {
+                badge: "For professional artists",
+                title: "Professional Support",
+                price: "individual",
+                items: ["Exhibitions: preparation, catalogs, publicity", "Press & public relations", "Personal support by mas.art"],
+                note: "On request: hello@mas.art"
             }
         },
         cta: {
             title: "Ready to Capture?",
             lead: "Join the beta phase of postyour.art and win back your studio time.",
             cards: {
-                c1: { title: "Start Now", text: "Access the AI capture tool.", btn: "Open Beta App" },
+                c1: { title: "Start Now", text: "Access the AI capture tool.", btn: "Open the Beta" },
                 c2: { title: "Sell Your Art", text: "Your storefront: findyour.art.", btn: "Visit the Shop" },
                 c3: { title: "Partner With Us", text: "Connect your channel.", btn: "Coming Soon" }
             }
@@ -162,7 +169,7 @@ export const translations = {
     de: {
         nav: {
             mission: "Mission",
-            apps: "Die App",
+            apps: "Die Lösung",
             targetGroups: "Für Wen?",
             channels: "Channels",
             findYourArt: "findyour.art",
@@ -172,37 +179,37 @@ export const translations = {
         hero: {
             collab: "Ein Angebot von <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
             title: "Deine Kunst. Überall - <span class=\"text-gradient\">Deine Daten. Bei dir!</span>",
-            subtitle: "Die KI-Vault für Künstler. Einmal erfassen, überall ausspielen — mehr Zeit für Kunst, weniger Lärm in Social Media.",
+            subtitle: "postyour.art sammelt das Wissen über deine Kunst mit minimalem Aufwand — und verwandelt es bei Bedarf in fertige Social-Media- und Printprodukte. Deine Daten bleiben roh, portabel und unter deiner Kontrolle. Du bezahlst nur für die konkrete Entlastung.",
             dataSovereignty: "Du fotografierst dein Werk, erzählst zwei Sätze dazu — fertig. Dein Assistent ordnet alles in deiner privaten Vault: Werke, Stories, Termine, Historie. Und deine Daten bleiben deine: nichts wird an Datenkonzerne verschenkt, nichts trainiert fremde KI-Modelle, nichts verlässt die Vault ohne deinen ausdrücklichen Auftrag. Kompletter Export und endgültige Löschung — jederzeit.",
             cta: "Starten mit postyour.art"
         },
         appsEcosystem: {
-            title: "Eine App. Alles an einem Ort.",
-            lead: "Von der Erfassung im Atelier bis zum Verkauf — ohne dein Werk über zehn Cloud-Dienste zu verzetteln.",
+            title: "Deine Daten. Dein Wert.",
+            lead: "Keine weitere App, sondern eine Lösung: Das Wissen über deine Kunst wird einmal festgehalten — und arbeitet dann für dich. Vom Atelier bis zum Verkauf.",
             cards: {
-                c1: { title: "postyour.art (Beta)", text: "Deine private Vault. Erfassen geht schneller als Tippen: per Chat, Foto, Sprachnotiz oder Telegram — der Assistent strukturiert Titel, Technik, Maße, Preis und die Geschichte hinter jedem Werk. Ohne deinen ausdrücklichen Auftrag wird nichts extern verarbeitet." },
-                c2: { title: "Verkaufen über findyour.art", text: "Keine zweite App, sondern dein Schaufenster: der Online-Shop findyour.art (technisch: Shopify). Werke, die du freigibst, erscheinen dort zum Verkauf. Du pflegst nichts doppelt — die Vault liefert die Daten.", btn: "Zum Shop" }
+                c1: { title: "postyour.art — deine Vault (Beta)", text: "Du fotografierst, erzählst zwei Sätze — mehr Aufwand ist es nicht. Daraus wächst deine private Wissenssammlung: Werke, Geschichten, Preise, Termine, Historie. Roh, portabel, jederzeit mitnehmbar — der Wert bleibt bei dir.", btn: "Zur Beta" },
+                c2: { title: "Verkaufen über findyour.art", text: "Dein Schaufenster: Werke, die du freigibst, erscheinen auf findyour.art zum Verkauf — kostenlos. Du pflegst nichts doppelt, deine Vault liefert alles.", btn: "Zu findyour.art" }
             },
-            highlight: "Du erschaffst. Die Vault erledigt den Rest."
+            highlight: "Du erschaffst. Der Rest erledigt sich."
         },
         valueProps: {
             title: "Zeit. Nerven. Souveränität.",
             lead: "Drei Versprechen, die dir die Vault gibt.",
             cards: {
                 c1: { icon: "⏱️", title: "Zeit sparen", text: "Sprechen statt tippen: Werk fotografieren, zwei Sätze erzählen — erfasst. Kataloge, Portfolios und Posts entstehen auf Knopfdruck aus deiner Vault statt in Wochenend-Sitzungen." },
-                c2: { icon: "🗄️", title: "Alles in einer Vault", text: "Werke, Stories, Ausstellungstermine, Preise und die komplette Historie jedes Werks — an einem Ort statt verstreut über Handyfotos, Notizbücher und Cloud-Ordner." },
+                c2: { icon: "📈", title: "Ein Wert, der wächst", text: "Werke, Stories, Termine, Preise, Historie — alles an einem Ort. Und jede Erfassung hält mehr fest als ein Foto: Zusammenhänge, Bedeutung, Geschichte. Dieses Wissen über deine Kunst wächst mit jedem Eintrag — und macht jeden Katalog, jeden Post und jede Website daraus wertvoller." },
                 c3: { icon: "🔐", title: "Souverän bleiben", text: "Deine Daten gehören dir — sie werden nicht an Big-Tech-Clouds verschenkt und trainieren keine fremden KI-Modelle. Alles exportieren oder das Konto komplett löschen: jederzeit, mit einem Klick." }
             },
             highlight: "Mehr Zeit für Kunst. Weniger Lärm in Social Media."
         },
         targetGroups: {
             title: "Gemacht für Dich",
-            lead: "Egal ob du erschaffst, kuratierst oder veranstaltest – die Vault arbeitet für dich.",
+            lead: "postyour.art ist für bildende Künstlerinnen und Künstler gemacht — vom ersten Atelierjahr bis zum etablierten Ausstellungsbetrieb.",
             cards: {
-                c1: { title: "Künstler", text: "Verwalte mühelos dein digitales Portfolio, dokumentiere deinen Prozess und erreiche neue Sammler." },
-                c2: { title: "Veranstalter", text: "Promote Ausstellungen, Konzerte, Aufführungen & Events." },
-                c3: { title: "Art Residenzen", text: "Erfasse deine Immobilien, präsentiere Räumlichkeiten und verwalte deine Buchungsangebote." },
-                c4: { title: "Künstlerkolonien", text: "Hebe den kollektiven Geist, die Geschichte und laufende Events deiner Gemeinschaft hervor." }
+                c1: { title: "Malerei & Grafik", text: "Öl, Acryl, Aquarell, Druckgrafik: Werkverzeichnis, Preise und die Geschichte hinter jedem Bild — nebenbei festgehalten." },
+                c2: { title: "Bildhauerei & Objekte", text: "Skulptur, Keramik, Installation: Material, Maße und Entstehung dokumentiert — mit Fotos aus jedem Blickwinkel." },
+                c3: { title: "Fotografie & Digitale Kunst", text: "Serien, Editionen und Formate im Griff — inklusive der Dateien selbst, jederzeit in Originalqualität exportierbar." },
+                c4: { title: "Berufskünstler", text: "Mit Galerie, Presse und vollem Ausstellungskalender: Dein Werkverzeichnis bleibt aktuell — und die Unterlagen kommen auf Knopfdruck." }
             }
         },
         coreFeature: {
@@ -254,24 +261,31 @@ export const translations = {
         },
         pricing: {
             title: "Die Vault ist kostenlos.",
-            lead: "Erfassen, ordnen, besitzen — dafür zahlst du nichts. Bezahlt wird später nur für die Channels, die du wirklich nutzt.",
+            lead: "Erfassen, ordnen, besitzen — kostenlos. Auch das Verkaufen auf findyour.art kostet nichts. Bezahlt werden nur Channels, die dich konkret entlasten — rein nach Nutzung, ohne Abo.",
             free: {
                 badge: "Kostenlos — für immer",
                 title: "Deine Vault",
-                items: ["KI-Erfassung per Chat, Foto & Sprache", "Galerie, Stories, Termine, Archiv", "Telegram-Anbindung", "Kompletter Export & Löschung", "Deine Daten, dein Eigentum"]
+                items: ["KI-Erfassung per Chat, Foto & Sprache", "Galerie, Stories, Termine, Archiv", "Telegram-Anbindung", "Verkaufen auf findyour.art", "Kompletter Export & Löschung", "Deine Daten, dein Eigentum"]
             },
             paid: {
-                badge: "Später — nur wenn du sie nutzt",
+                badge: "Nur nach Nutzung",
                 title: "Channels",
-                items: ["Verkaufen über findyour.art", "Print: Kataloge & Portfolios", "Social-Media-Posts & Reels", "Deine eigene Künstler-Website"],
-                note: "Channels sind optional. Die Vault selbst wird nie kostenpflichtig."
+                items: ["Print: Kataloge & Portfolios", "Social-Media-Posts & Reels", "Deine eigene Künstler-Website"],
+                note: "Abgerechnet wird rein nach Nutzung — kein Abo. Die Vault selbst wird nie kostenpflichtig."
+            },
+            pro: {
+                badge: "Für Berufskünstler",
+                title: "Profi-Betreuung",
+                price: "individuell",
+                items: ["Ausstellungen: Vorbereitung, Kataloge, Öffentlichkeitswirkung", "Presse- & Öffentlichkeitsarbeit", "Persönliche Betreuung durch mas.art"],
+                note: "Auf Anfrage: hello@mas.art"
             }
         },
         cta: {
             title: "Bereit zur Erfassung?",
             lead: "Werde Teil der Beta-Phase von postyour.art und hol dir deine Atelierzeit zurück.",
             cards: {
-                c1: { title: "Jetzt Starten", text: "Zugang zum KI-Erfassungstool.", btn: "Zur Beta App" },
+                c1: { title: "Jetzt Starten", text: "Zugang zum KI-Erfassungstool.", btn: "Zur Beta" },
                 c2: { title: "Kunst verkaufen", text: "Dein Schaufenster: findyour.art.", btn: "Zum Shop" },
                 c3: { title: "Partner werden", text: "Verbinde deinen Channel.", btn: "Demnächst" }
             }
