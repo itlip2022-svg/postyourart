@@ -14,7 +14,7 @@ export function WhyNow() {
           <div class="card" style="display: flex; flex-direction: column;">
             <h3>${t('appsEcosystem.cards.c1.title')}</h3>
             <p>${t('appsEcosystem.cards.c1.text')}</p>
-            <a href="https://postyourart.vercel.app/" target="_blank" class="btn btn-primary mt-sm" style="margin-top: auto; align-self: flex-start;">${t('appsEcosystem.cards.c1.btn')}</a>
+            <a href="#beta" class="btn btn-primary mt-sm" style="margin-top: auto; align-self: flex-start;">${t('appsEcosystem.cards.c1.btn')}</a>
           </div>
           <div class="card" style="display: flex; flex-direction: column;">
             <h3>${t('appsEcosystem.cards.c2.title')}</h3>

@@ -13,7 +13,7 @@ export function Hero() {
             ${t('hero.dataSovereignty')}
           </p>
           <div class="hero-actions">
-            <a href="https://postyourart.vercel.app/" target="_blank" class="btn btn-primary btn-lg">${t('hero.cta')}</a>
+            <a href="#beta" class="btn btn-primary btn-lg">${t('hero.cta')}</a>
           </div>
         </div>
         <div class="hero-visual">

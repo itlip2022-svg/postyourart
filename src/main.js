@@ -22,20 +22,29 @@ import { HowItWorks } from './components/HowItWorks.js';
 import { VaultTour } from './components/VaultTour.js';
 import { Ownership } from './components/Ownership.js';
 import { Pricing } from './components/Pricing.js';
+import { BetaSignup, initBetaSignup } from './components/BetaSignup.js';
 
 import { initNetworkAnimation } from './components/NetworkAnimation.js';
 
 const app = document.querySelector('#app');
 let cleanupAnimations = [];
+let currentView = null;
 
 function render() {
+  const hash = window.location.hash;
+
+  // Anker-Sprünge innerhalb der Startseite (#beta, #apps, …) lösen KEIN
+  // Re-Rendering aus — sonst gingen Formular-Zustand, Scroll-Position
+  // und laufende Animationen verloren.
+  const view = hash === '#imprint' ? 'imprint' : hash === '#privacy' ? 'privacy' : 'home';
+  if (view === 'home' && currentView === 'home') return;
+  currentView = view;
+
   // Cleanup previous animations if they exist
   cleanupAnimations.forEach(cleanup => {
     if (typeof cleanup === 'function') cleanup();
   });
   cleanupAnimations = [];
-
-  const hash = window.location.hash;
 
   if (hash === '#imprint') {
     app.innerHTML = `
@@ -66,6 +75,7 @@ function render() {
         ${MatchingSystem()}
         ${CollectorBenefits()}
         ${HowItWorks()}
+        ${BetaSignup()}
         ${VaultTour()}
         ${Ownership()}
         ${Pricing()}
@@ -86,6 +96,8 @@ function render() {
 
       if (heroCleanup) cleanupAnimations.push(heroCleanup);
       if (semanticCleanup) cleanupAnimations.push(semanticCleanup);
+
+      initBetaSignup();
     });
   }
 }

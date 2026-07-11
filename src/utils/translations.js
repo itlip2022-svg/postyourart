@@ -14,13 +14,33 @@ export const translations = {
             title: "Your Art. Everywhere - <span class=\"text-gradient\">Your Data. With you!</span>",
             subtitle: "postyour.art collects the knowledge about your art with minimal effort — and turns it, whenever you want, into finished social media and print products. Your data stays raw, portable and under your control. You only pay for real relief.",
             dataSovereignty: "Photograph your work, say a few words about it — done. Your assistant files everything into your private vault: artworks, stories, dates, history. And your data stays yours: nothing is handed to data corporations, nothing trains third-party AI models, nothing leaves the vault without your explicit command. Full export and complete deletion — any time.",
-            cta: "Start with postyour.art"
+            cta: "Secure your beta spot"
+        },
+        betaSignup: {
+            kicker: "Beta program",
+            title: "Secure your spot in the beta",
+            lead: "We are opening postyour.art step by step for visual artists. Sign up — we will invite you personally as soon as a spot opens up.",
+            b1: "Free access during the entire beta phase",
+            b2: "Personal onboarding instead of an anonymous waitlist",
+            b3: "Your data stays raw, portable and under your control",
+            nameLabel: "First name",
+            optional: "(optional)",
+            namePh: "Your first name",
+            emailLabel: "Email address",
+            emailPh: "you@email.com",
+            consent: "Yes, invite me to the beta program and keep me posted by email. Unsubscribe any time. The <a href=\"#privacy\">privacy policy</a> applies.",
+            submit: "Secure my beta spot",
+            successTitle: "You're on the list!",
+            successText: "Thank you! We'll email you personally as soon as your beta access is ready — no newsletter bombardment.",
+            errorInvalid: "Please enter a valid email address.",
+            errorConsent: "Please confirm the checkbox so we may email you.",
+            errorServer: "That didn't work, unfortunately. Please try again later."
         },
         appsEcosystem: {
             title: "Your Data. Your Value.",
             lead: "Not another app — a solution: the knowledge about your art is captured once, and then it works for you. From the studio to the sale.",
             cards: {
-                c1: { title: "postyour.art — your vault (beta)", text: "You take a photo, say two sentences — that's all the effort it takes. Out of it grows your private collection of knowledge: works, stories, prices, dates, history. Raw, portable, yours to take along any time — the value stays with you.", btn: "Open the Beta" },
+                c1: { title: "postyour.art — your vault (beta)", text: "You take a photo, say two sentences — that's all the effort it takes. Out of it grows your private collection of knowledge: works, stories, prices, dates, history. Raw, portable, yours to take along any time — the value stays with you.", btn: "Secure a beta spot" },
                 c2: { title: "Selling via findyour.art", text: "Your storefront: works you release appear on findyour.art for sale — free of charge. You never maintain anything twice; your vault delivers everything.", btn: "Go to findyour.art" }
             },
             highlight: "You create. The rest takes care of itself."
@@ -119,7 +139,7 @@ export const translations = {
             title: "Ready to Capture?",
             lead: "Join the beta phase of postyour.art and win back your studio time.",
             cards: {
-                c1: { title: "Start Now", text: "Access the AI capture tool.", btn: "Open the Beta" },
+                c1: { title: "Start Now", text: "Sign up for the beta — we'll invite you personally.", btn: "Secure a beta spot" },
                 c2: { title: "Sell Your Art", text: "Your storefront: findyour.art.", btn: "Visit the Shop" },
                 c3: { title: "Partner With Us", text: "Connect your channel.", btn: "Coming Soon" }
             }
@@ -182,13 +202,33 @@ export const translations = {
             title: "Deine Kunst. Überall - <span class=\"text-gradient\">Deine Daten. Bei dir!</span>",
             subtitle: "postyour.art sammelt das Wissen über deine Kunst mit minimalem Aufwand — und verwandelt es bei Bedarf in fertige Social-Media- und Printprodukte. Deine Daten bleiben roh, portabel und unter deiner Kontrolle. Du bezahlst nur für die konkrete Entlastung.",
             dataSovereignty: "Du fotografierst dein Werk, erzählst zwei Sätze dazu — fertig. Dein Assistent ordnet alles in deiner privaten Vault: Werke, Stories, Termine, Historie. Und deine Daten bleiben deine: nichts wird an Datenkonzerne verschenkt, nichts trainiert fremde KI-Modelle, nichts verlässt die Vault ohne deinen ausdrücklichen Auftrag. Kompletter Export und endgültige Löschung — jederzeit.",
-            cta: "Starten mit postyour.art"
+            cta: "Jetzt Beta-Platz sichern"
+        },
+        betaSignup: {
+            kicker: "Beta-Programm",
+            title: "Sichere dir deinen Platz in der Beta",
+            lead: "Wir öffnen postyour.art Schritt für Schritt für bildende Künstlerinnen und Künstler. Trag dich ein — wir laden dich persönlich ein, sobald ein Platz frei wird.",
+            b1: "Kostenloser Zugang während der gesamten Beta-Phase",
+            b2: "Persönliches Onboarding statt anonymer Warteliste",
+            b3: "Deine Daten bleiben roh, portabel und unter deiner Kontrolle",
+            nameLabel: "Vorname",
+            optional: "(optional)",
+            namePh: "Dein Vorname",
+            emailLabel: "E-Mail-Adresse",
+            emailPh: "deine@email.de",
+            consent: "Ja, ladet mich zum Beta-Programm ein und haltet mich per E-Mail auf dem Laufenden. Abmeldung jederzeit möglich. Es gilt die <a href=\"#privacy\">Datenschutzerklärung</a>.",
+            submit: "Beta-Platz sichern",
+            successTitle: "Du stehst auf der Liste!",
+            successText: "Danke! Wir melden uns persönlich per E-Mail, sobald dein Beta-Zugang bereit ist — kein Newsletter-Bombardement.",
+            errorInvalid: "Bitte gib eine gültige E-Mail-Adresse an.",
+            errorConsent: "Bitte bestätige das Häkchen, damit wir dir schreiben dürfen.",
+            errorServer: "Das hat leider nicht geklappt. Bitte versuch es später noch einmal."
         },
         appsEcosystem: {
             title: "Deine Daten. Dein Wert.",
             lead: "Keine weitere App, sondern eine Lösung: Das Wissen über deine Kunst wird einmal festgehalten — und arbeitet dann für dich. Vom Atelier bis zum Verkauf.",
             cards: {
-                c1: { title: "postyour.art — deine Vault (Beta)", text: "Du fotografierst, erzählst zwei Sätze — mehr Aufwand ist es nicht. Daraus wächst deine private Wissenssammlung: Werke, Geschichten, Preise, Termine, Historie. Roh, portabel, jederzeit mitnehmbar — der Wert bleibt bei dir.", btn: "Zur Beta" },
+                c1: { title: "postyour.art — deine Vault (Beta)", text: "Du fotografierst, erzählst zwei Sätze — mehr Aufwand ist es nicht. Daraus wächst deine private Wissenssammlung: Werke, Geschichten, Preise, Termine, Historie. Roh, portabel, jederzeit mitnehmbar — der Wert bleibt bei dir.", btn: "Beta-Platz sichern" },
                 c2: { title: "Verkaufen über findyour.art", text: "Dein Schaufenster: Werke, die du freigibst, erscheinen auf findyour.art zum Verkauf — kostenlos. Du pflegst nichts doppelt, deine Vault liefert alles.", btn: "Zu findyour.art" }
             },
             highlight: "Du erschaffst. Der Rest erledigt sich."
@@ -287,7 +327,7 @@ export const translations = {
             title: "Bereit zur Erfassung?",
             lead: "Werde Teil der Beta-Phase von postyour.art und hol dir deine Atelierzeit zurück.",
             cards: {
-                c1: { title: "Jetzt Starten", text: "Zugang zum KI-Erfassungstool.", btn: "Zur Beta" },
+                c1: { title: "Jetzt Starten", text: "Trag dich für die Beta ein — wir laden dich persönlich ein.", btn: "Beta-Platz sichern" },
                 c2: { title: "Kunst verkaufen", text: "Dein Schaufenster: findyour.art.", btn: "Zum Shop" },
                 c3: { title: "Partner werden", text: "Verbinde deinen Channel.", btn: "Demnächst" }
             }
