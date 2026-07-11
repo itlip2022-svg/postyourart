@@ -71,7 +71,8 @@ export const translations = {
                 s1: { title: "Photograph & tell", text: "Drop a photo into the chat and say two sentences — by text, voice note, or simply via Telegram from your studio." },
                 s2: { title: "The assistant files it", text: "Title, technique, dimensions, price and the story behind the piece are structured automatically. Missing details? It asks — once." },
                 s3: { title: "Done — it's in your vault", text: "The work sits in your gallery with photo, data and full history. Additions? Just tell the assistant later: \"That one is from 2026.\"" }
-            }
+            },
+            note: "<strong>No extra app needed.</strong> Capturing works entirely through Telegram: send a photo and a voice message to your personal bot straight from the studio — the assistant does the rest. And of course everything also works directly in the browser."
         },
         vaultTour: {
             title: "A Look Inside the Vault",
@@ -238,7 +239,8 @@ export const translations = {
                 s1: { title: "Fotografieren & erzählen", text: "Foto in den Chat, zwei Sätze dazu — per Text, Sprachnotiz oder einfach via Telegram aus dem Atelier." },
                 s2: { title: "Der Assistent ordnet ein", text: "Titel, Technik, Maße, Preis und die Geschichte hinter dem Werk werden automatisch strukturiert. Fehlt etwas, fragt er nach — einmal." },
                 s3: { title: "Fertig — liegt in der Vault", text: "Das Werk steht in deiner Galerie, mit Foto, Daten und kompletter Historie. Nachträge? Sag es dem Assistenten einfach später: „Das ist von 2026.“" }
-            }
+            },
+            note: "<strong>Ganz ohne zusätzliche App.</strong> Die Erfassung funktioniert komplett über Telegram: Foto und Sprachnachricht direkt aus dem Atelier an deinen persönlichen Bot schicken — den Rest erledigt der Assistent. Und natürlich geht alles auch direkt im Browser."
         },
         vaultTour: {
             title: "Ein Blick in die Vault",
