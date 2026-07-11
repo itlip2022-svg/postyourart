@@ -16,10 +16,24 @@ TMP_ENV="$(mktemp)"
 trap 'rm -f "$TMP_ENV"' EXIT
 
 echo "1/4  BREVO_API_KEY aus dem Funnel-Projekt ziehen …"
-(cd "$FUNNEL_DIR" && npx vercel env pull "$TMP_ENV" --environment=production --yes >/dev/null)
-KEY="$(grep '^BREVO_API_KEY=' "$TMP_ENV" | sed 's/^BREVO_API_KEY=//; s/^"//; s/"$//')"
+KEY=""
+if (cd "$FUNNEL_DIR" && npx vercel env pull "$TMP_ENV" --environment=production --yes >/dev/null 2>&1); then
+  KEY="$(grep '^BREVO_API_KEY=' "$TMP_ENV" | sed 's/^BREVO_API_KEY=//; s/^"//; s/"$//' || true)"
+fi
 if [ -z "$KEY" ]; then
-  echo "FEHLER: BREVO_API_KEY im Funnel-Projekt nicht gefunden." >&2
+  # Sensitive-Variablen gibt Vercel nicht heraus — Key direkt abfragen.
+  # (Eingabe bleibt unsichtbar und landet nirgends außer in Brevo-Aufrufen.)
+  echo "     Kein Key auslesbar (Sensitive-Variable). Bitte Brevo-API-Key einfügen"
+  read -rs -p "     (Eingabe unsichtbar, Enter zum Bestätigen): " KEY
+  echo
+fi
+if [ -z "$KEY" ]; then
+  echo "FEHLER: Kein BREVO_API_KEY angegeben." >&2
+  exit 1
+fi
+# Kurzer Verbindungstest, bevor irgendetwas angelegt wird
+if ! curl -sf "https://api.brevo.com/v3/account" -H "api-key: $KEY" >/dev/null; then
+  echo "FEHLER: Brevo lehnt den Key ab (401?) — bitte Key prüfen." >&2
   exit 1
 fi
 
