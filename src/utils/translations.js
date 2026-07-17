@@ -38,12 +38,27 @@ export const translations = {
         },
         appsEcosystem: {
             title: "Your Data. Your Value.",
-            lead: "Not another app — a solution: the knowledge about your art is captured once, and then it works for you. From the studio to the sale.",
-            cards: {
-                c1: { title: "postyour.art — your vault (beta)", text: "You take a photo, say two sentences — that's all the effort it takes. Out of it grows your private collection of knowledge: works, stories, prices, dates, history. Raw, portable, yours to take along any time — the value stays with you.", btn: "Secure a beta spot" },
-                c2: { title: "Selling via findyour.art", text: "Your storefront: works you release appear on findyour.art for sale — free of charge. You never maintain anything twice; your vault delivers everything.", btn: "Go to findyour.art" }
+            lead: "The documentation of your art is your capital: catalogue of works, stories, prices, exhibitions. Whoever owns it owns the value of your artistic life.",
+            para: "That is why it belongs in one place — structured and semantically captured, so photos and notes become real knowledge about your work: searchable, connected, reusable for catalogs, applications and sales. postyour.art is built for exactly that — and it is completely free.",
+            promises: {
+                c1: { title: "Your data belongs to you", text: "The vault is your property — no landlord, no hostage-taking, no lock-in." },
+                c2: { title: "AI only on your command", text: "Nothing is processed by AI without you asking for it — and nothing trains third-party models." },
+                c3: { title: "Never used for advertising", text: "Your data is not marketed and not passed on to advertising networks." },
+                c4: { title: "Exportable, not locked in", text: "One click exports everything in original quality — you are never bound to the system." }
             },
-            highlight: "You create. The rest takes care of itself."
+            highlight: "Free. Yours. Forever.",
+            ctaBeta: "Secure a beta spot",
+            ctaApp: "See how the app works"
+        },
+        findyourart: {
+            title: "Selling on findyour.art",
+            lead: "Your sales portal with catalog and artist portfolio — fed directly from your vault, free of charge.",
+            cards: {
+                c1: { title: "Sales Portal", text: "Works you release appear on findyour.art for sale — no double maintenance, your vault delivers everything." },
+                c2: { title: "Catalog", text: "Your catalogue of works as a curated, always up-to-date catalog — with prices, dimensions and the story behind each piece." },
+                c3: { title: "Artist Portfolio", text: "Your artist page with portrait, vita and works — presented the way galleries and collectors expect it." }
+            },
+            btn: "Go to findyour.art"
         },
         valueProps: {
             title: "Time. Nerves. Sovereignty.",
@@ -242,12 +257,27 @@ export const translations = {
         },
         appsEcosystem: {
             title: "Deine Daten. Dein Wert.",
-            lead: "Keine weitere App, sondern eine Lösung: Das Wissen über deine Kunst wird einmal festgehalten — und arbeitet dann für dich. Vom Atelier bis zum Verkauf.",
-            cards: {
-                c1: { title: "postyour.art — deine Vault (Beta)", text: "Du fotografierst, erzählst zwei Sätze — mehr Aufwand ist es nicht. Daraus wächst deine private Wissenssammlung: Werke, Geschichten, Preise, Termine, Historie. Roh, portabel, jederzeit mitnehmbar — der Wert bleibt bei dir.", btn: "Beta-Platz sichern" },
-                c2: { title: "Verkaufen über findyour.art", text: "Dein Schaufenster: Werke, die du freigibst, erscheinen auf findyour.art zum Verkauf — kostenlos. Du pflegst nichts doppelt, deine Vault liefert alles.", btn: "Zu findyour.art" }
+            lead: "Die Dokumentation deiner Kunst ist dein Kapital: Werkverzeichnis, Geschichten, Preise, Ausstellungen. Wer sie besitzt, besitzt den Wert deines künstlerischen Lebens.",
+            para: "Genau deshalb gehört sie an einen Ort — strukturiert und semantisch erfasst, damit aus Fotos und Notizen echtes Wissen über dein Werk wird: durchsuchbar, verknüpft, wiederverwendbar für Kataloge, Bewerbungen und Verkauf. postyour.art ist genau dafür gebaut — und komplett frei und kostenlos.",
+            promises: {
+                c1: { title: "Deine Daten gehören dir", text: "Die Vault ist dein Eigentum — kein Vermieter, keine Geiselhaft, kein Lock-in." },
+                c2: { title: "KI nur auf deinen Auftrag", text: "Nichts wird ungefragt von KI verarbeitet — und nichts trainiert fremde Modelle." },
+                c3: { title: "Nie für Werbezwecke", text: "Deine Daten werden nicht vermarktet und nicht an Werbenetzwerke weitergegeben." },
+                c4: { title: "Exportierbar, nicht gebunden", text: "Ein Klick exportiert alles in Originalqualität — du bist nie an das System gebunden." }
             },
-            highlight: "Du erschaffst. Der Rest erledigt sich."
+            highlight: "Frei. Kostenlos. Deins.",
+            ctaBeta: "Beta-Platz sichern",
+            ctaApp: "So funktioniert die App"
+        },
+        findyourart: {
+            title: "Verkaufen auf findyour.art",
+            lead: "Dein Verkaufsportal mit Katalog und Künstlerportfolio — direkt aus deiner Vault gespeist, kostenlos.",
+            cards: {
+                c1: { title: "Verkaufsportal", text: "Werke, die du freigibst, erscheinen auf findyour.art zum Verkauf — ohne doppelte Pflege, deine Vault liefert alles." },
+                c2: { title: "Katalog", text: "Dein Werkverzeichnis als gepflegter, immer aktueller Katalog — mit Preisen, Maßen und der Geschichte hinter jedem Werk." },
+                c3: { title: "Künstlerportfolio", text: "Deine Künstlerseite mit Porträt, Vita und Werken — präsentiert, wie Galerien und Sammler es erwarten." }
+            },
+            btn: "Zu findyour.art"
         },
         valueProps: {
             title: "Zeit. Nerven. Souveränität.",
