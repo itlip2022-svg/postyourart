@@ -56,17 +56,19 @@ export const translations = {
             cards: {
                 c1: { title: "Sales Portal", text: "Works you release appear on findyour.art for sale — no double maintenance, your vault delivers everything." },
                 c2: { title: "Catalog", text: "Your catalogue of works as a curated, always up-to-date catalog — with prices, dimensions and the story behind each piece." },
-                c3: { title: "Artist Portfolio", text: "Your artist page with portrait, vita and works — presented the way galleries and collectors expect it." }
+                c3: { title: "Artist Portfolio", text: "Your artist page with portrait, vita and works — presented the way galleries and collectors expect it." },
+                c4: { title: "Free to Present", text: "Presenting costs you nothing — sales portal, catalog and portfolio are completely free. A commission only applies when a work is sold through the platform." }
             },
             btn: "Go to findyour.art"
         },
         valueProps: {
             title: "Time. Nerves. Sovereignty.",
-            lead: "Three promises the vault makes to you.",
+            lead: "Four promises the vault makes to you.",
             cards: {
                 c1: { icon: "⏱️", title: "Save Time", text: "Speak instead of typing: photograph a piece, tell two sentences — captured. Catalogs, portfolios and posts are generated from your vault at the press of a button instead of weekend sessions." },
                 c2: { icon: "📈", title: "Value That Grows", text: "Works, stories, dates, prices, history — all in one place. And every capture preserves more than a photo: context and meaning. This knowledge about your art grows with every entry — and makes every catalog, post and website built from it more valuable." },
-                c3: { icon: "🔐", title: "Stay Sovereign", text: "Your data belongs to you — it is not given away to big tech clouds or used to train AI models. Export everything or delete your account entirely, any time, with one click." }
+                c3: { icon: "🔐", title: "Stay Sovereign", text: "Your data belongs to you — it is not given away to big tech clouds or used to train AI models. Export everything or delete your account entirely, any time, with one click." },
+                c4: { icon: "💬", title: "No New App to Learn", text: "Capturing requires learning nothing new: a photo and a voice message via Telegram are enough — tools you already know. And soon it gets even more direct, all the way to smart glasses that simply watch along in the studio." }
             },
             highlight: "More time for art. Less noise on social media."
         },
@@ -276,17 +278,19 @@ export const translations = {
             cards: {
                 c1: { title: "Verkaufsportal", text: "Werke, die du freigibst, erscheinen auf findyour.art zum Verkauf — ohne doppelte Pflege, deine Vault liefert alles." },
                 c2: { title: "Katalog", text: "Dein Werkverzeichnis als gepflegter, immer aktueller Katalog — mit Preisen, Maßen und der Geschichte hinter jedem Werk." },
-                c3: { title: "Künstlerportfolio", text: "Deine Künstlerseite mit Porträt, Vita und Werken — präsentiert, wie Galerien und Sammler es erwarten." }
+                c3: { title: "Künstlerportfolio", text: "Deine Künstlerseite mit Porträt, Vita und Werken — präsentiert, wie Galerien und Sammler es erwarten." },
+                c4: { title: "Kostenlos präsentieren", text: "Die Präsentation kostet dich nichts — Verkaufsportal, Katalog und Portfolio sind komplett kostenlos. Nur wenn ein Werk über die Plattform verkauft wird, fällt eine Provision an." }
             },
             btn: "Zu findyour.art"
         },
         valueProps: {
             title: "Zeit. Nerven. Souveränität.",
-            lead: "Drei Versprechen, die dir die Vault gibt.",
+            lead: "Vier Versprechen, die dir die Vault gibt.",
             cards: {
                 c1: { icon: "⏱️", title: "Zeit sparen", text: "Sprechen statt tippen: Werk fotografieren, zwei Sätze erzählen — erfasst. Kataloge, Portfolios und Posts entstehen auf Knopfdruck aus deiner Vault statt in Wochenend-Sitzungen." },
                 c2: { icon: "📈", title: "Ein Wert, der wächst", text: "Werke, Stories, Termine, Preise, Historie — alles an einem Ort. Und jede Erfassung hält mehr fest als ein Foto: Zusammenhänge, Bedeutung, Geschichte. Dieses Wissen über deine Kunst wächst mit jedem Eintrag — und macht jeden Katalog, jeden Post und jede Website daraus wertvoller." },
-                c3: { icon: "🔐", title: "Souverän bleiben", text: "Deine Daten gehören dir — sie werden nicht an Big-Tech-Clouds verschenkt und trainieren keine fremden KI-Modelle. Alles exportieren oder das Konto komplett löschen: jederzeit, mit einem Klick." }
+                c3: { icon: "🔐", title: "Souverän bleiben", text: "Deine Daten gehören dir — sie werden nicht an Big-Tech-Clouds verschenkt und trainieren keine fremden KI-Modelle. Alles exportieren oder das Konto komplett löschen: jederzeit, mit einem Klick." },
+                c4: { icon: "💬", title: "Keine neue App lernen", text: "Zum Erfassen musst du dich in nichts Neues einarbeiten: Foto und Sprachnachricht per Telegram genügen — Werkzeuge, die du längst kennst. Und künftig geht es noch direkter, bis hin zu Smartglasses, die einfach aus dem Atelier mitschauen." }
             },
             highlight: "Mehr Zeit für Kunst. Weniger Lärm in Social Media."
         },

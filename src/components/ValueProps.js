@@ -7,7 +7,7 @@ export function ValueProps() {
         <h2 class="section-title">${t('valueProps.title')}</h2>
         <p class="lead">${t('valueProps.lead')}</p>
 
-        <div class="grid-3" style="margin-top: 2rem; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); text-align: left;">
+        <div class="grid-3" style="margin-top: 2rem; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); text-align: left;">
           <div class="card">
             <div class="icon" style="font-size: 2rem; margin-bottom: 0.75rem;">${t('valueProps.cards.c1.icon')}</div>
             <h3>${t('valueProps.cards.c1.title')}</h3>
@@ -22,6 +22,11 @@ export function ValueProps() {
             <div class="icon" style="font-size: 2rem; margin-bottom: 0.75rem;">${t('valueProps.cards.c3.icon')}</div>
             <h3>${t('valueProps.cards.c3.title')}</h3>
             <p>${t('valueProps.cards.c3.text')}</p>
+          </div>
+          <div class="card">
+            <div class="icon" style="font-size: 2rem; margin-bottom: 0.75rem;">${t('valueProps.cards.c4.icon')}</div>
+            <h3>${t('valueProps.cards.c4.title')}</h3>
+            <p>${t('valueProps.cards.c4.text')}</p>
           </div>
         </div>
 
