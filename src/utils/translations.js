@@ -81,7 +81,23 @@ export const translations = {
                 l1: "<strong>Social Media & Communities</strong><p>Push updates to networks like Instagram or YouTube — prepared from your vault, released by you.</p>",
                 l2: "<strong>Webshop & Galleries</strong><p>Sync released artworks directly to your storefront on findyour.art.</p>",
                 l3: "<strong>Print & Media</strong><p>Export formatted portfolios for exhibition catalogs or press releases.</p>",
-                l4: "<strong>Automated Websites</strong><p>Automated creation and continuous updating of your personal website.</p>"
+                l4: "<strong>Automated Websites</strong><p>Automated creation and continuous updating of your personal website.</p>",
+                l5: "<strong>Canva Integrated</strong><p>Designs are prepared right in Canva from your vault — and you can optionally adjust every design individually before it goes out.</p>",
+                l6: "<strong>Artist Agency</strong><p>Personal contact instead of platform anonymity: support with your applications for exhibitions, art prizes and competitions.</p>"
+            },
+            vault: "Your Vault",
+            hint: "Tap a channel to see what it does.",
+            nodes: {
+                instagram: { label: "Instagram", text: "Posts, stories and reels — prepared from your vault, released by you." },
+                canva: { label: "Canva", text: "Canva is integrated: templates are filled from your vault — individual design changes are possible any time." },
+                website: { label: "Website", text: "Your artist website — created automatically and always up to date." },
+                agentur: { label: "Artist Agency", text: "Personal contact: support with applications for exhibitions, art prizes and competitions." },
+                print: { label: "Print & PDF", text: "Catalogs, portfolios and press kits — fully formatted from your vault." },
+                shopify: { label: "Shopify", text: "Your webshop: released works go straight on sale." },
+                google: { label: "Google", text: "Up-to-date profile and works — so collectors find you in search." },
+                youtube: { label: "YouTube", text: "Videos and shorts about your works and exhibitions." },
+                pinterest: { label: "Pinterest", text: "Pins that keep your works discoverable for years." },
+                facebook: { label: "Facebook", text: "Page and community posts — created from your works at the press of a button." }
             }
         },
         howItWorks: {
@@ -269,7 +285,23 @@ export const translations = {
                 l1: "<strong>Social Media & Communities</strong><p>Pushe Updates in Netzwerke wie Instagram oder YouTube — aus der Vault vorbereitet, von dir freigegeben.</p>",
                 l2: "<strong>Webshop & Galerien</strong><p>Synchronisiere freigegebene Kunstwerke direkt in dein Schaufenster auf findyour.art.</p>",
                 l3: "<strong>Print & Presse</strong><p>Exportiere formatierte Portfolios und Kataloge für Ausstellungen oder Prospekte.</p>",
-                l4: "<strong>Automatisierte Website</strong><p>Die automatisierte Erstellung und Aktualisierung einer Website.</p>"
+                l4: "<strong>Automatisierte Website</strong><p>Die automatisierte Erstellung und Aktualisierung einer Website.</p>",
+                l5: "<strong>Canva integriert</strong><p>Designs entstehen direkt in Canva aus deiner Vault — optional passt du jedes Design individuell an, bevor es rausgeht.</p>",
+                l6: "<strong>Künstleragentur</strong><p>Persönlicher Kontakt statt Plattform-Anonymität: Unterstützung bei deinen Bewerbungen zu Ausstellungen, Kunstpreisen und Wettbewerben.</p>"
+            },
+            vault: "Deine Vault",
+            hint: "Tippe einen Channel an, um zu sehen, was er kann.",
+            nodes: {
+                instagram: { label: "Instagram", text: "Posts, Stories und Reels — aus der Vault vorbereitet, von dir freigegeben." },
+                canva: { label: "Canva", text: "Canva ist integriert: Vorlagen werden aus deiner Vault befüllt — individuelle Designänderungen sind jederzeit möglich." },
+                website: { label: "Website", text: "Deine Künstler-Website — automatisch erstellt und immer aktuell." },
+                agentur: { label: "Künstleragentur", text: "Persönlicher Kontakt: Unterstützung bei Bewerbungen zu Ausstellungen, Kunstpreisen und Wettbewerben." },
+                print: { label: "Print & PDF", text: "Kataloge, Portfolios und Presse-Unterlagen — fertig formatiert aus deiner Vault." },
+                shopify: { label: "Shopify", text: "Dein Webshop: freigegebene Werke stehen direkt zum Verkauf." },
+                google: { label: "Google", text: "Aktuelles Profil und Werke — damit Sammler dich in der Suche finden." },
+                youtube: { label: "YouTube", text: "Videos und Shorts rund um deine Werke und Ausstellungen." },
+                pinterest: { label: "Pinterest", text: "Pins, die deine Werke über Jahre auffindbar machen." },
+                facebook: { label: "Facebook", text: "Beiträge für Seite und Community — auf Knopfdruck aus deinen Werken." }
             }
         },
         howItWorks: {
