@@ -131,7 +131,8 @@ export const translations = {
             cards: {
                 c1: { title: "Your Gallery", text: "Every work with photo, dimensions and price — searchable, exportable, ready for catalogs." },
                 c2: { title: "Dates & Exhibitions", text: "\"Vernissage on the 15th, 6 pm at the gallery\" — spoken once, filed forever. Even via voice note." },
-                c3: { title: "Stories", text: "The tale behind each piece — captured while it's fresh. Later it becomes your catalog text, your post, your artist statement." }
+                c3: { title: "Stories", text: "The tale behind each piece — captured while it's fresh. Later it becomes your catalog text, your post, your artist statement." },
+                c4: { title: "Channels", text: "Print, web, sales and marketing: trigger it, pick it up, approve it — the studio does the rest." }
             }
         },
         ownership: {
@@ -350,7 +351,8 @@ export const translations = {
             cards: {
                 c1: { title: "Deine Galerie", text: "Jedes Werk mit Foto, Maßen und Preis — durchsuchbar, exportierbar, bereit für Kataloge." },
                 c2: { title: "Termine & Ausstellungen", text: "„Vernissage am 15., 18 Uhr in der Galerie“ — einmal gesagt, für immer notiert. Auch per Sprachnotiz." },
-                c3: { title: "Stories", text: "Die Geschichte hinter jedem Werk — festgehalten, solange sie frisch ist. Später wird daraus dein Katalogtext, dein Post, dein Künstlerstatement." }
+                c3: { title: "Stories", text: "Die Geschichte hinter jedem Werk — festgehalten, solange sie frisch ist. Später wird daraus dein Katalogtext, dein Post, dein Künstlerstatement." },
+                c4: { title: "Channels", text: "Druck, Web, Verkauf und Marketing: auslösen, abholen, freigeben — das Studio erledigt den Rest." }
             }
         },
         ownership: {
