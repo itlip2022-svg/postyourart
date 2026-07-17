@@ -20,16 +20,16 @@ export function Pricing() {
           <div class="card pricing-card">
             <span class="pricing-badge pricing-badge-muted">${t('pricing.paid.badge')}</span>
             <h3>${t('pricing.paid.title')}</h3>
-            <div class="pricing-price" style="color: #a0a0a0;">—</div>
+            <div class="pricing-price pricing-price-muted">—</div>
             <ul class="pricing-list">${items('paid')}</ul>
-            <p style="font-size: 0.9rem; color: #a0a0a0; margin-top: 1rem;">${t('pricing.paid.note')}</p>
+            <p class="pricing-note">${t('pricing.paid.note')}</p>
           </div>
           <div class="card pricing-card">
             <span class="pricing-badge pricing-badge-muted">${t('pricing.pro.badge')}</span>
             <h3>${t('pricing.pro.title')}</h3>
-            <div class="pricing-price" style="color: #a0a0a0; font-size: 1.6rem;">${t('pricing.pro.price')}</div>
+            <div class="pricing-price pricing-price-individual">${t('pricing.pro.price')}</div>
             <ul class="pricing-list">${items('pro')}</ul>
-            <p style="font-size: 0.9rem; color: #a0a0a0; margin-top: 1rem;">${t('pricing.pro.note')}</p>
+            <p class="pricing-note">${t('pricing.pro.note')}</p>
           </div>
         </div>
       </div>

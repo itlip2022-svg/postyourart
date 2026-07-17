@@ -34,8 +34,8 @@ export function HowItWorks() {
                 <div><strong>${t('howItWorks.steps.s3.title')}</strong><p>${t('howItWorks.steps.s3.text')}</p></div>
               </li>
             </ol>
-            <div class="telegram-note" style="margin-top: 2rem; padding: 1.1rem 1.35rem; border: 1px solid rgba(255, 170, 0, 0.35); border-left: 4px solid #ffaa00; border-radius: 12px; background: rgba(255, 170, 0, 0.06); font-size: 0.98rem; line-height: 1.55;">
-              <span style="font-size: 1.15rem; margin-right: 0.5rem;">📲</span>${t('howItWorks.note')}
+            <div class="telegram-note">
+              <span class="emoji">📲</span>${t('howItWorks.note')}
             </div>
           </div>
         </div>
