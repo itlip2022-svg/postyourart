@@ -9,7 +9,7 @@ import { Hero } from './components/Hero.js';
 import { WhyNow } from './components/WhyNow.js';
 import { SemanticSpace } from './components/SemanticSpace.js';
 import { MatchingSystem } from './components/MatchingSystem.js';
-import { CollectorBenefits } from './components/CollectorBenefits.js';
+import { CollectorBenefits, initChannelsVisual } from './components/CollectorBenefits.js';
 import { CTA } from './components/CTA.js';
 import { Footer } from './components/Footer.js';
 import { Imprint } from './components/Imprint.js';
@@ -112,6 +112,9 @@ function render() {
       initHeader();
       initBetaSignup();
       initReveal();
+
+      const channelsCleanup = initChannelsVisual();
+      if (channelsCleanup) cleanupAnimations.push(channelsCleanup);
 
       loadNetworkAnimation().then(({ initNetworkAnimation }) => {
         // Zwischenzeitlicher Wechsel auf Impressum/Datenschutz?
