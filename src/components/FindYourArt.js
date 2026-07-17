@@ -14,10 +14,11 @@ export function FindYourArt() {
       <div class="container text-center">
         <h2 class="section-title">${t('findyourart.title')}</h2>
         <p class="lead">${t('findyourart.lead')}</p>
-        <div class="grid-3" style="margin-top: 2rem; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); text-align: left;">
+        <div class="grid-3" style="margin-top: 2rem; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); text-align: left;">
           ${card('c1')}
           ${card('c2')}
           ${card('c3')}
+          ${card('c4')}
         </div>
         <div class="mt-lg">
           <a href="https://findyour.art/" target="_blank" rel="noopener" class="btn btn-primary btn-lg">${t('findyourart.btn')}</a>
