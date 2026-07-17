@@ -1,16 +1,30 @@
 :root {
   /* Colors */
   --color-bg: #0a0a0f;
-  --color-surface: #1a1a20;
-  --color-text: #ffffff;
-  --color-text-muted: #a0a0a0;
+  --color-bg-soft: #0e0e15;
+  --color-surface: #14141c;
+  --color-surface-raised: #191922;
+  --color-text: #f5f4f2;
+  --color-text-muted: #a3a1a8;
+  --color-text-soft: #cfcdd4;
   --color-accent-primary: #ffaa00; /* Warm Amber */
-  --color-accent-secondary: #ff4400; /* Warm Orange */
-  --color-border: #333333;
+  --color-accent-secondary: #ff6a00; /* Warm Orange */
+  --color-border: rgba(255, 255, 255, 0.09);
+  --color-border-strong: rgba(255, 255, 255, 0.16);
+
+  /* Accent helpers */
+  --accent-gradient: linear-gradient(135deg, var(--color-accent-primary), var(--color-accent-secondary));
+  --accent-glow: rgba(255, 170, 0, 0.16);
+  --accent-soft: rgba(255, 170, 0, 0.1);
+  --accent-line: rgba(255, 170, 0, 0.4);
 
   /* Typography */
   --font-heading: 'Outfit', sans-serif;
   --font-body: 'Inter', sans-serif;
+  --text-display: clamp(2.6rem, 6vw, 4.3rem);
+  --text-h2: clamp(1.9rem, 3.6vw, 2.7rem);
+  --text-h3: 1.25rem;
+  --text-lead: clamp(1.05rem, 1.8vw, 1.3rem);
 
   /* Spacing */
   --spacing-xs: 0.5rem;
@@ -18,14 +32,22 @@
   --spacing-md: 1.5rem;
   --spacing-lg: 2.5rem;
   --spacing-xl: 4rem;
+  --spacing-section: clamp(4rem, 9vw, 6.5rem);
 
   /* Border Radius */
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 16px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
   --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --shadow-glow: 0 0 40px var(--accent-glow);
 
   /* Transitions */
   --transition-fast: 0.2s ease;
   --transition-normal: 0.3s ease;
+
+  /* Header */
+  --header-height: 76px;
 }

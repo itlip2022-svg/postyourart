@@ -21,7 +21,7 @@ export function SemanticSpace() {
             </ul>
           </div>
           <div class="visual-col">
-             <div class="graph-visual" id="semantic-network-animation" style="position: relative; overflow: hidden; width: 100%; height: 100%; min-height: 400px; border-radius: var(--radius-lg); border: 1px solid rgba(255, 255, 255, 0.15); background: radial-gradient(circle at center, rgba(255,170,0,0.05), transparent 70%);">
+             <div class="graph-visual" id="semantic-network-animation" style="width: 100%; height: 100%; min-height: 400px; border: 1px solid var(--color-border-strong); background: radial-gradient(circle at center, var(--accent-soft), transparent 70%);">
              </div>
           </div>
         </div>
