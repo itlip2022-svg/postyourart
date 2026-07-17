@@ -308,17 +308,18 @@ body.menu-open .nav-toggle span:nth-child(3) {
 
 .hero-subtitle {
     font-size: var(--text-lead);
-    color: var(--color-text-soft);
-    margin-bottom: var(--spacing-md);
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-sm);
     max-width: 720px;
 }
 
 .hero-data-sovereignty {
     margin-bottom: var(--spacing-lg);
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--color-text-muted);
     line-height: 1.7;
-    max-width: 680px;
+    max-width: 640px;
 }
 
 .hero-actions {

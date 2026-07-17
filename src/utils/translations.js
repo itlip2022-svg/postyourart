@@ -12,8 +12,8 @@ export const translations = {
         hero: {
             collab: "Provided by <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
             title: "Your Art. Everywhere - <span class=\"text-gradient\">Your Data. With you!</span>",
-            subtitle: "postyour.art collects the knowledge about your art with minimal effort — and turns it, whenever you want, into finished social media and print products. Your data stays raw, portable and under your control. You only pay for real relief.",
-            dataSovereignty: "Photograph your work, say a few words about it — done. Your assistant files everything into your private vault: artworks, stories, dates, history. And your data stays yours: nothing is handed to data corporations, nothing trains third-party AI models, nothing leaves the vault without your explicit command. Full export and complete deletion — any time.",
+            subtitle: "Your data, your art documentation, your artist diary.",
+            dataSovereignty: "Delivered automatically to your channels — more value, enormous time savings and less attention wasted on social media.",
             cta: "Secure your beta spot"
         },
         betaSignup: {
@@ -216,8 +216,8 @@ export const translations = {
         hero: {
             collab: "Ein Angebot von <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
             title: "Deine Kunst. Überall - <span class=\"text-gradient\">Deine Daten. Bei dir!</span>",
-            subtitle: "postyour.art sammelt das Wissen über deine Kunst mit minimalem Aufwand — und verwandelt es bei Bedarf in fertige Social-Media- und Printprodukte. Deine Daten bleiben roh, portabel und unter deiner Kontrolle. Du bezahlst nur für die konkrete Entlastung.",
-            dataSovereignty: "Du fotografierst dein Werk, erzählst zwei Sätze dazu — fertig. Dein Assistent ordnet alles in deiner privaten Vault: Werke, Stories, Termine, Historie. Und deine Daten bleiben deine: nichts wird an Datenkonzerne verschenkt, nichts trainiert fremde KI-Modelle, nichts verlässt die Vault ohne deinen ausdrücklichen Auftrag. Kompletter Export und endgültige Löschung — jederzeit.",
+            subtitle: "Deine Daten, deine Kunstdokumentation, dein Künstlertagebuch.",
+            dataSovereignty: "Automatische Auslieferung in deine Channels — mehr Wert, enorme Zeitersparnis und weniger verschwendete Aufmerksamkeit auf Social Media.",
             cta: "Jetzt Beta-Platz sichern"
         },
         betaSignup: {
