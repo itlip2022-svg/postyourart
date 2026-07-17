@@ -149,24 +149,44 @@ export const translations = {
         },
         pricing: {
             title: "The Vault Is Free.",
-            lead: "Capture, organize, own — free. Selling on findyour.art is free as well. You only pay for channels that bring real relief — billed purely by usage, no subscription.",
-            free: {
-                badge: "Free — forever",
-                title: "Your Vault",
-                items: ["AI capture via chat, photo & voice", "Gallery, stories, dates, archive", "Telegram connection", "Selling on findyour.art", "Full export & deletion", "Your data, your property"]
+            lead: "Capture, organize, own — your vault is free, forever. Add storage, channels and personal support when your art needs the stage.",
+            billing: {
+                label: "Billing period",
+                monthly: "Monthly",
+                yearly: "Yearly",
+                save: "save up to 20%",
+                perMonth: "month",
+                monthlyNote: "All prices per month.",
+                yearlyNote: "All prices per month, billed yearly."
             },
-            paid: {
-                badge: "Billed by usage only",
-                title: "Channels",
-                items: ["Print: catalogs & portfolios", "Social media posts & reels", "Your own artist website"],
-                note: "Billed purely by usage — no subscription. The vault itself never becomes paid."
-            },
-            pro: {
-                badge: "For professional artists",
-                title: "Professional Support",
-                price: "individual",
-                items: ["Exhibitions: preparation, catalogs, publicity", "Press & public relations", "Personal support by mas.art"],
-                note: "On request: hello@mas.art"
+            plans: {
+                community: {
+                    badge: "Free — forever",
+                    title: "Community",
+                    price: "0 €",
+                    items: ["Your vault", "AI capture via chat, photo & voice", "Gallery, stories, dates, archive", "Telegram connection", "Full export & deletion", "Your data, your property"]
+                },
+                standard: {
+                    badge: "Vault + channel",
+                    title: "Standard",
+                    monthly: "9.90 €",
+                    yearly: "7.90 €",
+                    items: ["Everything in Community", "5 GB vault storage", "One channel of your choice", "Selling on findyour.art"]
+                },
+                premium: {
+                    badge: "Recommended",
+                    title: "Premium",
+                    monthly: "29 €",
+                    yearly: "24 €",
+                    items: ["Everything in Standard", "100 GB vault storage", "Three channels of your choice", "Agency channel: applications to competitions & exhibitions"]
+                },
+                pro: {
+                    badge: "For professional artists",
+                    title: "Professional Support",
+                    price: "On request",
+                    items: ["Exhibitions: preparation, catalogs, publicity", "Press & public relations", "Personal support by mas.art"],
+                    note: "Individual quote: hello@mas.art"
+                }
             }
         },
         cta: {
@@ -371,24 +391,44 @@ export const translations = {
         },
         pricing: {
             title: "Die Vault ist kostenlos.",
-            lead: "Erfassen, ordnen, besitzen — kostenlos. Auch das Verkaufen auf findyour.art kostet nichts. Bezahlt werden nur Channels, die dich konkret entlasten — rein nach Nutzung, ohne Abo.",
-            free: {
-                badge: "Kostenlos — für immer",
-                title: "Deine Vault",
-                items: ["KI-Erfassung per Chat, Foto & Sprache", "Galerie, Stories, Termine, Archiv", "Telegram-Anbindung", "Verkaufen auf findyour.art", "Kompletter Export & Löschung", "Deine Daten, dein Eigentum"]
+            lead: "Erfassen, ordnen, besitzen — deine Vault ist kostenlos, für immer. Mehr Speicher, Channels und persönliche Betreuung holst du dir dazu, wenn deine Kunst die Bühne braucht.",
+            billing: {
+                label: "Abrechnungszeitraum",
+                monthly: "Monatlich",
+                yearly: "Jährlich",
+                save: "bis zu 20 % sparen",
+                perMonth: "Monat",
+                monthlyNote: "Alle Preise pro Monat.",
+                yearlyNote: "Alle Preise pro Monat bei jährlicher Abrechnung."
             },
-            paid: {
-                badge: "Nur nach Nutzung",
-                title: "Channels",
-                items: ["Print: Kataloge & Portfolios", "Social-Media-Posts & Reels", "Deine eigene Künstler-Website"],
-                note: "Abgerechnet wird rein nach Nutzung — kein Abo. Die Vault selbst wird nie kostenpflichtig."
-            },
-            pro: {
-                badge: "Für Berufskünstler",
-                title: "Profi-Betreuung",
-                price: "individuell",
-                items: ["Ausstellungen: Vorbereitung, Kataloge, Öffentlichkeitswirkung", "Presse- & Öffentlichkeitsarbeit", "Persönliche Betreuung durch mas.art"],
-                note: "Auf Anfrage: hello@mas.art"
+            plans: {
+                community: {
+                    badge: "Kostenlos — für immer",
+                    title: "Community",
+                    price: "0 €",
+                    items: ["Deine Vault", "KI-Erfassung per Chat, Foto & Sprache", "Galerie, Stories, Termine, Archiv", "Telegram-Anbindung", "Kompletter Export & Löschung", "Deine Daten, dein Eigentum"]
+                },
+                standard: {
+                    badge: "Vault + Channel",
+                    title: "Standard",
+                    monthly: "9,90 €",
+                    yearly: "7,90 €",
+                    items: ["Alles aus Community", "5 GB Vault-Speicher", "Ein Channel nach Wahl", "Verkaufen auf findyour.art"]
+                },
+                premium: {
+                    badge: "Empfehlung",
+                    title: "Premium",
+                    monthly: "29 €",
+                    yearly: "24 €",
+                    items: ["Alles aus Standard", "100 GB Vault-Speicher", "Drei Channels nach Wahl", "Channel „Künstleragentur“: Bewerbungen für Wettbewerbe & Ausstellungen"]
+                },
+                pro: {
+                    badge: "Für Berufskünstler",
+                    title: "Profi-Betreuung",
+                    price: "Auf Anfrage",
+                    items: ["Ausstellungen: Vorbereitung, Kataloge, Öffentlichkeitswirkung", "Presse- & Öffentlichkeitsarbeit", "Persönliche Betreuung durch mas.art"],
+                    note: "Individuelles Angebot: hello@mas.art"
+                }
             }
         },
         cta: {

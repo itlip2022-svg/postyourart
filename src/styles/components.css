@@ -791,9 +791,98 @@ body.menu-open .nav-toggle span:nth-child(3) {
     border-color: var(--color-border-strong);
 }
 
-.pricing-free {
+.pricing-featured {
     border-color: var(--accent-line) !important;
     box-shadow: var(--shadow-glow);
+}
+
+/* Umschalter Monatlich/Jährlich */
+.billing-toggle {
+    display: inline-flex;
+    gap: 0.25rem;
+    margin-top: 2rem;
+    padding: 0.3rem;
+    border: 1px solid var(--color-border-strong);
+    border-radius: var(--radius-full);
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.billing-toggle button {
+    border: 0;
+    background: transparent;
+    color: var(--color-text-muted);
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 0.5rem 1.3rem;
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.billing-toggle button.active {
+    background: var(--color-accent-primary);
+    color: #1a1208;
+}
+
+.billing-save {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--color-accent-primary);
+    margin-left: 0.35rem;
+}
+
+.billing-toggle button.active .billing-save {
+    color: inherit;
+}
+
+.billing-note {
+    margin-top: 0.9rem;
+    font-size: 0.88rem;
+    color: var(--color-text-muted);
+}
+
+/* Nur die Preise des gewählten Abrechnungszeitraums sind sichtbar */
+.pricing .price-yearly {
+    display: none;
+}
+
+.pricing.billing-yearly .price-yearly {
+    display: inline;
+}
+
+.pricing.billing-yearly .price-monthly {
+    display: none;
+}
+
+/* Plan-Reihe: Desktop eine Reihe, mobil wischbares Karussell */
+.pricing-plans {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+    gap: 1.5rem;
+    margin-top: 2.25rem;
+    text-align: left;
+}
+
+@media (max-width: 900px) {
+    .pricing-plans {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        gap: 1rem;
+        padding: 0.25rem 0.25rem 1.25rem;
+    }
+
+    .pricing-plans::-webkit-scrollbar {
+        display: none;
+    }
+
+    .pricing-plans .pricing-card {
+        flex: 0 0 min(320px, 86%);
+        scroll-snap-align: center;
+    }
 }
 
 .pricing-price {
@@ -805,6 +894,12 @@ body.menu-open .nav-toggle span:nth-child(3) {
 }
 
 .pricing-price-muted {
+    color: var(--color-text-muted);
+}
+
+.pricing-period {
+    font-size: 1rem;
+    font-weight: 600;
     color: var(--color-text-muted);
 }
 
