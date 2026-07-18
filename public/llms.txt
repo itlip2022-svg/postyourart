@@ -1,0 +1,31 @@
+# postyour.art
+
+> The vault for visual artists: capture artworks by photo and voice — the AI assistant structures
+> title, technique, dimensions, price and the story behind each piece into a private, exportable
+> vault. Free forever. Automated channels deliver catalogs, websites, social media posts and sales
+> listings from the vault. A service by mas.art (Lippeck GmbH, Worpswede, Germany).
+
+Key facts:
+
+- Capture works entirely via Telegram (photo + voice message) or in the browser — no new app to learn.
+- The vault stores: gallery of works, stories, dates/exhibitions, prices, full history, media archive.
+- Data ownership promise: full ZIP export any time, permanent account deletion, no AI training on
+  user data, no advertising use. AI processing only on explicit user command.
+- Channels (automated publishing from the vault): print/PDF catalogs and labels, personal artist
+  website, Instagram/Pinterest/YouTube/Facebook, Canva-integrated designs, Google presence,
+  Shopify, selling on findyour.art, and a personal artist agency for competition and exhibition
+  applications.
+- Selling: presentation on findyour.art is free; commission only applies when a work sells.
+- Plans: Community (free forever) · Standard 9.90 €/month or 7.90 €/month billed yearly
+  (5 GB storage, one channel, selling on findyour.art) · Premium 29 €/month or 24 €/month billed
+  yearly (100 GB, three channels, artist-agency channel) · Professional support on request.
+- Languages: English (default), German, French, Spanish, Italian, Portuguese, Russian —
+  each at https://www.postyour.art/?lang=de|fr|es|it|pt|ru
+- Currently in beta: personal onboarding, free access during the beta phase.
+
+Links:
+
+- Website: https://www.postyour.art/
+- Sales portal: https://findyour.art/
+- Provider: https://www.mas.art/
+- Contact: hello@mas.art

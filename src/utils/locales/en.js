@@ -1,5 +1,9 @@
 // Englisch — Referenzsprache
 export const en = {
+        meta: {
+            title: "postyour.art – The Vault for Your Art. Your Data. With You.",
+            description: "Capture artworks by photo and voice: catalogue of works, stories, dates and prices in your own vault. Free forever, exportable any time — with channels for print, web, social media and selling on findyour.art."
+        },
         nav: {
             mission: "Mission",
             apps: "The Solution",
