@@ -4,8 +4,10 @@ import { de } from './locales/de.js';
 import { fr } from './locales/fr.js';
 import { es } from './locales/es.js';
 import { it } from './locales/it.js';
+import { pt } from './locales/pt.js';
+import { ru } from './locales/ru.js';
 
-export const translations = { en, de, fr, es, it };
+export const translations = { en, de, fr, es, it, pt, ru };
 
 // Reihenfolge = Anzeige im Sprachmenü; label = Eigenbezeichnung der Sprache.
 export const languages = [
@@ -14,4 +16,6 @@ export const languages = [
     { code: 'fr', label: 'Français' },
     { code: 'es', label: 'Español' },
     { code: 'it', label: 'Italiano' },
+    { code: 'pt', label: 'Português' },
+    { code: 'ru', label: 'Русский' },
 ];
