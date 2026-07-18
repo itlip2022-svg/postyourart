@@ -1,6 +1,16 @@
 import { translations } from './translations.js';
 
-let currentLang = localStorage.getItem('lang') || 'en';
+const SUPPORTED = Object.keys(translations);
+
+// Sprachwahl: gespeicherte Wahl > Browsersprache > Englisch.
+function detectLanguage() {
+    const stored = localStorage.getItem('lang');
+    if (stored && SUPPORTED.includes(stored)) return stored;
+    const browser = (navigator.language || 'en').slice(0, 2).toLowerCase();
+    return SUPPORTED.includes(browser) ? browser : 'en';
+}
+
+let currentLang = detectLanguage();
 
 export function getLanguage() {
     return currentLang;
