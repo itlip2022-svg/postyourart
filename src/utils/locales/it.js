@@ -1,5 +1,9 @@
 // Italienisch
 export const it = {
+    meta: {
+        title: "postyour.art – La Vault per la tua arte. I tuoi dati. Con te.",
+        description: "Registra le tue opere con foto e voce: catalogo delle opere, storie, date e prezzi nella tua Vault. Gratis per sempre, esportabile in ogni momento — con channels per print, web, social media e vendita su findyour.art."
+    },
     nav: {
         mission: "Missione",
         apps: "La soluzione",

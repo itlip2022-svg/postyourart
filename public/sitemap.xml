@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.postyour.art/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.postyour.art/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.postyour.art/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.postyour.art/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.postyour.art/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.postyour.art/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.postyour.art/?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.postyour.art/?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.postyour.art/?lang=ru"/>
+  </url>
+  <url>
+    <loc>https://www.postyour.art/?lang=de</loc>
+  </url>
+  <url>
+    <loc>https://www.postyour.art/?lang=fr</loc>
+  </url>
+  <url>
+    <loc>https://www.postyour.art/?lang=es</loc>
+  </url>
+  <url>
+    <loc>https://www.postyour.art/?lang=it</loc>
+  </url>
+  <url>
+    <loc>https://www.postyour.art/?lang=pt</loc>
+  </url>
+  <url>
+    <loc>https://www.postyour.art/?lang=ru</loc>
+  </url>
+</urlset>

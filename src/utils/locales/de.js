@@ -1,5 +1,9 @@
 // Deutsch
 export const de = {
+        meta: {
+            title: "postyour.art – Die Vault für deine Kunst. Deine Daten. Bei dir.",
+            description: "Kunstwerke per Foto und Sprache erfassen: Werkverzeichnis, Stories, Termine und Preise in deiner eigenen Vault. Für immer kostenlos, jederzeit exportierbar — mit Channels für Print, Web, Social Media und Verkauf auf findyour.art."
+        },
         nav: {
             mission: "Mission",
             apps: "Die Lösung",

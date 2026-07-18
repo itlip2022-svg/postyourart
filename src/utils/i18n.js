@@ -2,8 +2,14 @@ import { translations } from './translations.js';
 
 const SUPPORTED = Object.keys(translations);
 
-// Sprachwahl: gespeicherte Wahl > Browsersprache > Englisch.
+// Sprachwahl: URL-Parameter (?lang=xx, für indexierbare Sprachversionen)
+// > gespeicherte Wahl > Browsersprache > Englisch.
 function detectLanguage() {
+    const param = new URLSearchParams(window.location.search).get('lang');
+    if (param && SUPPORTED.includes(param)) {
+        localStorage.setItem('lang', param);
+        return param;
+    }
     const stored = localStorage.getItem('lang');
     if (stored && SUPPORTED.includes(stored)) return stored;
     const browser = (navigator.language || 'en').slice(0, 2).toLowerCase();
@@ -22,8 +28,13 @@ export function setLanguage(lang) {
         localStorage.setItem('lang', lang);
         // Dispatch a custom event so components can listen for changes if needed
         window.dispatchEvent(new CustomEvent('languageChanged', { detail: lang }));
-        // For this simple app, we might just reload the page or re-render
-        location.reload();
+        // Neuladen mit ?lang=xx in der URL — so ist jede Sprachversion
+        // eigenständig verlinkbar und für Suchmaschinen indexierbar.
+        const url = new URL(window.location.href);
+        if (lang === 'en') url.searchParams.delete('lang');
+        else url.searchParams.set('lang', lang);
+        window.location.href = url.toString();
+        if (url.toString() === window.location.href) location.reload();
     }
 }
 

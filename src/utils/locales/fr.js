@@ -1,5 +1,9 @@
 // Französisch
 export const fr = {
+    meta: {
+        title: "postyour.art – La Vault pour ton art. Tes données. Chez toi.",
+        description: "Enregistre tes œuvres par photo et voix : catalogue d'œuvres, histoires, dates et prix dans ta propre Vault. Gratuit pour toujours, exportable à tout moment — avec des channels pour le print, le web, les réseaux sociaux et la vente sur findyour.art."
+    },
     nav: {
         mission: "Mission",
         apps: "La solution",

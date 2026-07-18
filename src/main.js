@@ -22,6 +22,7 @@ import { Ownership } from './components/Ownership.js';
 import { Pricing, initPricingToggle } from './components/Pricing.js';
 import { BetaSignup, initBetaSignup } from './components/BetaSignup.js';
 import { getLanguage } from './utils/i18n.js';
+import { applySeo } from './utils/seo.js';
 
 const app = document.querySelector('#app');
 let cleanupAnimations = [];
@@ -62,6 +63,7 @@ function initReveal() {
 }
 
 function render() {
+  applySeo();
   const hash = window.location.hash;
 
   // Anker-Sprünge innerhalb der Startseite (#beta, #apps, …) lösen KEIN
