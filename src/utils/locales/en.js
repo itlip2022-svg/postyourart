@@ -95,6 +95,15 @@ export const en = {
                 l3: "<strong>Data Sovereignty Built In</strong><p>Your data belongs to you: no resale, no AI training with your works, full export and complete account deletion at any time.</p>"
             }
         },
+        secondBrain: {
+            title: "More Than a Collection: Your Second Brain",
+            lead: "In the future, the vault won't offer your data as a simple collection but truly semantically — understood by content and connected with each other.",
+            cards: {
+                c1: { icon: "🔍", title: "Searchable & Enriched", text: "All works, photos, videos and entire stories become searchable and editorially prepared — by motif, technique, place and context, not just by file name." },
+                c2: { icon: "🧠", title: "A Second Memory", text: "In the long run your vault becomes the second brain of your artistic practice: nothing gets lost, everything stays retrievable in context — even after years." },
+                c3: { icon: "💡", title: "Context for What's Next", text: "Your entire body of work stands ready as the contextual foundation for future ideas and publications — for catalogs, posts, exhibitions and works yet to come." }
+            }
+        },
         channels: {
             title: "Publish to Channels",
             lead: "Don't just store data – put it to work. You decide what goes out, where and when — instead of feeding every channel by hand.",
