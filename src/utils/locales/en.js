@@ -45,10 +45,8 @@ export const en = {
             lead: "The documentation of your art is your capital: catalogue of works, stories, prices, exhibitions. Whoever owns it owns the value of your artistic life.",
             para: "That is why it belongs in one place — structured and semantically captured, so photos and notes become real knowledge about your work: searchable, connected, reusable for catalogs, applications and sales. postyour.art is built for exactly that — and it is completely free.",
             promises: {
-                c1: { title: "Your data belongs to you", text: "The vault is your property — no landlord, no hostage-taking, no lock-in." },
-                c2: { title: "AI only on your command", text: "Nothing is processed by AI without you asking for it — and nothing trains third-party models." },
-                c3: { title: "Never used for advertising", text: "Your data is not marketed and not passed on to advertising networks." },
-                c4: { title: "Exportable, not locked in", text: "One click exports everything in original quality — you are never bound to the system." },
+                c1: { title: "Your Property — Exportable, Never Locked In", text: "The vault is your property: no landlord, no hostage-taking, no lock-in. One click exports everything in original quality — you are never bound to the system." },
+                c2: { title: "AI Only on Your Command — Never for Advertising", text: "Nothing is processed by AI without you asking, and nothing trains third-party models. Your data is never marketed or passed on to advertising networks." },
                 c5: { title: "Data Points Become a Work", text: "Every entry is a point: together your data forms a sculpture — the value of your artistic life, made visible." }
             },
             highlight: "Free. Yours. Forever.",

@@ -45,10 +45,8 @@ export const de = {
             lead: "Die Dokumentation deiner Kunst ist dein Kapital: Werkverzeichnis, Geschichten, Preise, Ausstellungen. Wer sie besitzt, besitzt den Wert deines künstlerischen Lebens.",
             para: "Genau deshalb gehört sie an einen Ort — strukturiert und semantisch erfasst, damit aus Fotos und Notizen echtes Wissen über dein Werk wird: durchsuchbar, verknüpft, wiederverwendbar für Kataloge, Bewerbungen und Verkauf. postyour.art ist genau dafür gebaut — und komplett frei und kostenlos.",
             promises: {
-                c1: { title: "Deine Daten gehören dir", text: "Die Vault ist dein Eigentum — kein Vermieter, keine Geiselhaft, kein Lock-in." },
-                c2: { title: "KI nur auf deinen Auftrag", text: "Nichts wird ungefragt von KI verarbeitet — und nichts trainiert fremde Modelle." },
-                c3: { title: "Nie für Werbezwecke", text: "Deine Daten werden nicht vermarktet und nicht an Werbenetzwerke weitergegeben." },
-                c4: { title: "Exportierbar, nicht gebunden", text: "Ein Klick exportiert alles in Originalqualität — du bist nie an das System gebunden." },
+                c1: { title: "Dein Eigentum — exportierbar, nie gebunden", text: "Die Vault ist dein Eigentum: kein Vermieter, keine Geiselhaft, kein Lock-in. Ein Klick exportiert alles in Originalqualität — du bist nie an das System gebunden." },
+                c2: { title: "KI nur auf deinen Auftrag — nie für Werbung", text: "Nichts wird ungefragt von KI verarbeitet, nichts trainiert fremde Modelle. Und deine Daten werden nicht vermarktet und nicht an Werbenetzwerke weitergegeben." },
                 c5: { title: "Aus Datenpunkten wird ein Werk", text: "Jeder Eintrag ein Punkt: Zusammen formen deine Daten eine Skulptur — der Wert deines künstlerischen Lebens, sichtbar gemacht." }
             },
             highlight: "Frei. Kostenlos. Deins.",
