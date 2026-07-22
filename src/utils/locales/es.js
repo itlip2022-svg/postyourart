@@ -55,13 +55,13 @@ export const es = {
         ctaApp: "Ver cómo funciona la app"
     },
     findyourart: {
-        title: "Vender en findyour.art",
-        lead: "Tu portal de ventas con catálogo y portfolio de artista — alimentado directamente desde tu Vault, gratis.",
+        title: "findyour.art — donde el arte encuentra a su gente",
+        lead: "El contrapunto de postyour.art: mientras tu Vault reúne el conocimiento sobre tu arte, findyour.art lo convierte en el lugar donde los coleccionistas lo descubren — basado en e-commerce, tu catálogo de obras y productos y el conocimiento semántico de tu Vault.",
         cards: {
-            c1: { title: "Portal de ventas", text: "Las obras que publiques aparecen a la venta en findyour.art — sin mantenimiento duplicado, tu Vault lo aporta todo." },
-            c2: { title: "Catálogo", text: "Tu catálogo de obras cuidado y siempre actualizado — con precios, medidas y la historia detrás de cada pieza." },
-            c3: { title: "Portfolio de artista", text: "Tu página de artista con retrato, trayectoria y obras — presentada como galerías y coleccionistas esperan." },
-            c4: { title: "Presentación gratuita", text: "Presentarte no te cuesta nada — portal de ventas, catálogo y portfolio son completamente gratuitos. Solo cuando una obra se vende a través de la plataforma se aplica una comisión." }
+            c1: { title: "Más que una tienda", text: "E-commerce basado en tu catálogo de obras y productos — enriquecido con la información semántica de tu Vault: historias, contexto, significado." },
+            c2: { title: "Matching en vez de catálogo masivo", text: "Ya nadie hojea catálogos gigantes. findyour.art lleva a los interesados adecuados hasta tus obras y hasta ti — según sus preferencias y su gusto." },
+            c3: { title: "Presentación individual", text: "De los intereses y el gusto de cada visitante nacerá una presentación personal de tu arte — entretenida, profunda y contada semánticamente." },
+            c4: { title: "Presentación gratuita", text: "Presentarte no te cuesta nada — portal, catálogo y portfolio son completamente gratuitos. Solo cuando una obra se vende a través de la plataforma se aplica una comisión." }
         },
         btn: "Ir a findyour.art"
     },

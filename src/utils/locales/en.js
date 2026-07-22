@@ -55,13 +55,13 @@ export const en = {
             ctaApp: "See how the app works"
         },
         findyourart: {
-            title: "Selling on findyour.art",
-            lead: "Your sales portal with catalog and artist portfolio — fed directly from your vault, free of charge.",
+            title: "findyour.art — Where Art Finds Its People",
+            lead: "The counterpart to postyour.art: while your vault collects the knowledge about your art, findyour.art turns it into the place where collectors discover it — built on e-commerce, your catalogue of works and products, and the semantic knowledge of your vault.",
             cards: {
-                c1: { title: "Sales Portal", text: "Works you release appear on findyour.art for sale — no double maintenance, your vault delivers everything." },
-                c2: { title: "Catalog", text: "Your catalogue of works as a curated, always up-to-date catalog — with prices, dimensions and the story behind each piece." },
-                c3: { title: "Artist Portfolio", text: "Your artist page with portrait, vita and works — presented the way galleries and collectors expect it." },
-                c4: { title: "Free to Present", text: "Presenting costs you nothing — sales portal, catalog and portfolio are completely free. A commission only applies when a work is sold through the platform." }
+                c1: { title: "More Than a Shop", text: "E-commerce built on your catalogue of works and products — enriched with the semantic information from your vault: stories, context, meaning." },
+                c2: { title: "Matching, Not Mass Catalog", text: "Nobody browses giant catalogs anymore. findyour.art brings the right prospects to your works and to you — matched to their interests and taste." },
+                c3: { title: "Individual Presentation", text: "From a visitor's interests and taste, a personal presentation of your art will emerge — entertaining, deep and semantically told." },
+                c4: { title: "Free to Present", text: "Presenting costs you nothing — portal, catalog and portfolio are completely free. A commission only applies when a work is sold through the platform." }
             },
             btn: "Go to findyour.art"
         },

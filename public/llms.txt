@@ -15,7 +15,11 @@ Key facts:
   website, Instagram/Pinterest/YouTube/Facebook, Canva-integrated designs, Google presence,
   Shopify, selling on findyour.art, and a personal artist agency for competition and exhibition
   applications.
-- Selling: presentation on findyour.art is free; commission only applies when a work sells.
+- findyour.art (companion platform): the collector-facing counterpart to postyour.art — e-commerce
+  built on the catalogue of works and products plus the vault's semantic knowledge. Instead of a
+  giant catalog, it matches interested buyers to artworks and artists by preference and taste, and
+  will generate individual, semantically rich presentations per visitor. Presentation is free;
+  commission only applies when a work sells.
 - Plans: Community (free forever) · Standard 9.90 €/month or 7.90 €/month billed yearly
   (5 GB storage, one channel, selling on findyour.art) · Premium 29 €/month or 24 €/month billed
   yearly (100 GB, three channels, artist-agency channel) · Professional support on request.
