@@ -101,7 +101,8 @@ export const de = {
             cards: {
                 c1: { icon: "🔍", title: "Durchsuchbar & aufbereitet", text: "Alle Werke, Fotos, Videos und ganze Stories werden durchsuchbar und inhaltlich aufbereitet — nach Motiven, Techniken, Orten und Zusammenhängen, nicht nur nach Dateinamen." },
                 c2: { icon: "🧠", title: "Ein zweites Gedächtnis", text: "Langfristig wird deine Vault zum Second Brain deines künstlerischen Schaffens: Nichts geht verloren, alles bleibt im Zusammenhang abrufbar — auch nach Jahren." },
-                c3: { icon: "💡", title: "Kontext für Neues", text: "Dein gesamtes Schaffen steht als kontextuelle Grundlage für zukünftige Ideen und Veröffentlichungen bereit — für Kataloge, Posts, Ausstellungen und Werke, die noch kommen." }
+                c3: { icon: "💡", title: "Kontext für Neues", text: "Dein gesamtes Schaffen steht als kontextuelle Grundlage für zukünftige Ideen und Veröffentlichungen bereit — für Kataloge, Posts, Ausstellungen und Werke, die noch kommen." },
+                c4: { title: "Deine Vault als Wissensgraph", text: "Werke, Stories, Fotos und Termine als lebendiges Netz aus Knoten und Verbindungen — verknüpft wie Gedanken in einem Gehirn." }
             }
         },
         channels: {

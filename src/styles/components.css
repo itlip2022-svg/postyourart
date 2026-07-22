@@ -824,6 +824,22 @@ body.menu-open .nav-toggle span:nth-child(3) {
     max-width: 320px;
 }
 
+/* ── Second Brain: rotierender Gehirn-Graph in der Kachel ─────────────── */
+.brain-graph {
+    width: 100%;
+    height: 210px;
+    margin-bottom: 0.75rem;
+    border-radius: var(--radius-md);
+    background: radial-gradient(circle at center, var(--accent-soft), transparent 72%);
+    overflow: hidden;
+}
+
+.brain-graph canvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+}
+
 /* ── Preise ───────────────────────────────────────────────────────────── */
 .pricing-card {
     position: relative;

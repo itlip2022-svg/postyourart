@@ -101,7 +101,8 @@ export const en = {
             cards: {
                 c1: { icon: "🔍", title: "Searchable & Enriched", text: "All works, photos, videos and entire stories become searchable and editorially prepared — by motif, technique, place and context, not just by file name." },
                 c2: { icon: "🧠", title: "A Second Memory", text: "In the long run your vault becomes the second brain of your artistic practice: nothing gets lost, everything stays retrievable in context — even after years." },
-                c3: { icon: "💡", title: "Context for What's Next", text: "Your entire body of work stands ready as the contextual foundation for future ideas and publications — for catalogs, posts, exhibitions and works yet to come." }
+                c3: { icon: "💡", title: "Context for What's Next", text: "Your entire body of work stands ready as the contextual foundation for future ideas and publications — for catalogs, posts, exhibitions and works yet to come." },
+                c4: { title: "Your Vault as a Knowledge Graph", text: "Works, stories, photos and dates as a living web of nodes and connections — linked like thoughts in a brain." }
             }
         },
         channels: {

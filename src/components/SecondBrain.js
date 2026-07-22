@@ -16,7 +16,12 @@ export function SecondBrain() {
       <div class="container text-center">
         <h2 class="section-title">${t('secondBrain.title')}</h2>
         <p class="lead" style="max-width: 760px; margin-left: auto; margin-right: auto;">${t('secondBrain.lead')}</p>
-        <div class="grid-3" style="margin-top: 2rem; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); text-align: left;">
+        <div class="grid-3" style="margin-top: 2rem; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); text-align: left;">
+          <div class="card brain-card">
+            <div id="brain-graph" class="brain-graph" aria-hidden="true"></div>
+            <h3>${t('secondBrain.cards.c4.title')}</h3>
+            <p>${t('secondBrain.cards.c4.text')}</p>
+          </div>
           ${card('c1')}
           ${card('c2')}
           ${card('c3')}
