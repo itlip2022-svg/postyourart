@@ -55,13 +55,13 @@ export const fr = {
         ctaApp: "Voir comment fonctionne l'app"
     },
     findyourart: {
-        title: "Vendre sur findyour.art",
-        lead: "Ton portail de vente avec catalogue et portfolio d'artiste — alimenté directement par ta Vault, gratuitement.",
+        title: "findyour.art — là où l'art trouve les siens",
+        lead: "Le pendant de postyour.art : tandis que ta Vault rassemble le savoir sur ton art, findyour.art en fait le lieu où les collectionneurs le découvrent — fondé sur l'e-commerce, ton catalogue d'œuvres et de produits et le savoir sémantique de ta Vault.",
         cards: {
-            c1: { title: "Portail de vente", text: "Les œuvres que tu publies apparaissent en vente sur findyour.art — sans double saisie, ta Vault fournit tout." },
-            c2: { title: "Catalogue", text: "Ton catalogue d'œuvres soigné et toujours à jour — avec prix, dimensions et l'histoire derrière chaque pièce." },
-            c3: { title: "Portfolio d'artiste", text: "Ta page d'artiste avec portrait, parcours et œuvres — présentée comme les galeries et les collectionneurs l'attendent." },
-            c4: { title: "Présentation gratuite", text: "La présentation ne te coûte rien — portail de vente, catalogue et portfolio sont entièrement gratuits. Une commission ne s'applique que lorsqu'une œuvre est vendue via la plateforme." }
+            c1: { title: "Plus qu'une boutique", text: "De l'e-commerce fondé sur ton catalogue d'œuvres et de produits — enrichi des informations sémantiques de ta Vault : histoires, contexte, signification." },
+            c2: { title: "Matching plutôt que catalogue de masse", text: "Plus personne ne feuillette des catalogues géants. findyour.art amène les bons amateurs vers tes œuvres et vers toi — selon leurs préférences et leur goût." },
+            c3: { title: "Présentation individuelle", text: "À partir des intérêts et du goût d'un visiteur naîtra une présentation personnelle de ton art — divertissante, profonde et racontée sémantiquement." },
+            c4: { title: "Présentation gratuite", text: "La présentation ne te coûte rien — portail, catalogue et portfolio sont entièrement gratuits. Une commission ne s'applique que lorsqu'une œuvre est vendue via la plateforme." }
         },
         btn: "Aller sur findyour.art"
     },

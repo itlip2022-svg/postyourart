@@ -55,13 +55,13 @@ export const it = {
         ctaApp: "Scopri come funziona l'app"
     },
     findyourart: {
-        title: "Vendere su findyour.art",
-        lead: "Il tuo portale di vendita con catalogo e portfolio d'artista — alimentato direttamente dalla tua Vault, gratis.",
+        title: "findyour.art — dove l'arte trova le sue persone",
+        lead: "Il contraltare di postyour.art: mentre la tua Vault raccoglie la conoscenza sulla tua arte, findyour.art la trasforma nel luogo dove i collezionisti la scoprono — basato su e-commerce, il tuo catalogo di opere e prodotti e la conoscenza semantica della tua Vault.",
         cards: {
-            c1: { title: "Portale di vendita", text: "Le opere che pubblichi appaiono in vendita su findyour.art — senza doppia gestione, la tua Vault fornisce tutto." },
-            c2: { title: "Catalogo", text: "Il tuo catalogo delle opere curato e sempre aggiornato — con prezzi, misure e la storia dietro ogni pezzo." },
-            c3: { title: "Portfolio d'artista", text: "La tua pagina d'artista con ritratto, biografia e opere — presentata come gallerie e collezionisti si aspettano." },
-            c4: { title: "Presentazione gratuita", text: "Presentarti non ti costa nulla — portale di vendita, catalogo e portfolio sono completamente gratuiti. Solo quando un'opera viene venduta tramite la piattaforma si applica una commissione." }
+            c1: { title: "Più di uno shop", text: "E-commerce basato sul tuo catalogo di opere e prodotti — arricchito con le informazioni semantiche della tua Vault: storie, contesto, significato." },
+            c2: { title: "Matching invece di catalogo di massa", text: "Nessuno sfoglia più cataloghi giganteschi. findyour.art porta gli interessati giusti alle tue opere e a te — in base alle loro preferenze e al loro gusto." },
+            c3: { title: "Presentazione individuale", text: "Dagli interessi e dal gusto di ogni visitatore nascerà una presentazione personale della tua arte — divertente, profonda e raccontata semanticamente." },
+            c4: { title: "Presentazione gratuita", text: "Presentarti non ti costa nulla — portale, catalogo e portfolio sono completamente gratuiti. Solo quando un'opera viene venduta tramite la piattaforma si applica una commissione." }
         },
         btn: "Vai su findyour.art"
     },

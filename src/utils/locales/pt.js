@@ -55,13 +55,13 @@ export const pt = {
         ctaApp: "Ver como funciona a app"
     },
     findyourart: {
-        title: "Vender no findyour.art",
-        lead: "O teu portal de vendas com catálogo e portefólio de artista — alimentado diretamente pela tua Vault, gratuitamente.",
+        title: "findyour.art — onde a arte encontra as suas pessoas",
+        lead: "O contraponto do postyour.art: enquanto a tua Vault reúne o conhecimento sobre a tua arte, o findyour.art transforma-o no lugar onde os colecionadores a descobrem — assente em e-commerce, no teu catálogo de obras e produtos e no conhecimento semântico da tua Vault.",
         cards: {
-            c1: { title: "Portal de vendas", text: "As obras que publicas aparecem à venda no findyour.art — sem manutenção duplicada, a tua Vault fornece tudo." },
-            c2: { title: "Catálogo", text: "O teu catálogo de obras cuidado e sempre atualizado — com preços, medidas e a história por trás de cada peça." },
-            c3: { title: "Portefólio de artista", text: "A tua página de artista com retrato, percurso e obras — apresentada como galerias e colecionadores esperam." },
-            c4: { title: "Apresentação gratuita", text: "Apresentar-te não te custa nada — portal de vendas, catálogo e portefólio são completamente gratuitos. Só quando uma obra é vendida através da plataforma se aplica uma comissão." }
+            c1: { title: "Mais do que uma loja", text: "E-commerce assente no teu catálogo de obras e produtos — enriquecido com a informação semântica da tua Vault: histórias, contexto, significado." },
+            c2: { title: "Matching em vez de catálogo de massa", text: "Já ninguém folheia catálogos gigantes. O findyour.art leva os interessados certos até às tuas obras e até ti — de acordo com as suas preferências e o seu gosto." },
+            c3: { title: "Apresentação individual", text: "Dos interesses e do gosto de cada visitante nascerá uma apresentação pessoal da tua arte — divertida, profunda e contada semanticamente." },
+            c4: { title: "Apresentação gratuita", text: "Apresentares-te não te custa nada — portal, catálogo e portefólio são completamente gratuitos. Só quando uma obra é vendida através da plataforma se aplica uma comissão." }
         },
         btn: "Ir para findyour.art"
     },

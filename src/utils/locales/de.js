@@ -55,13 +55,13 @@ export const de = {
             ctaApp: "So funktioniert die App"
         },
         findyourart: {
-            title: "Verkaufen auf findyour.art",
-            lead: "Dein Verkaufsportal mit Katalog und Künstlerportfolio — direkt aus deiner Vault gespeist, kostenlos.",
+            title: "findyour.art — wo Kunst ihre Menschen findet",
+            lead: "Der Gegenpol zu postyour.art: Während deine Vault das Wissen über deine Kunst sammelt, macht findyour.art daraus den Ort, an dem Sammler sie entdecken — gespeist aus E-Commerce, Werk- und Produktkatalog und dem semantischen Wissen deiner Vault.",
             cards: {
-                c1: { title: "Verkaufsportal", text: "Werke, die du freigibst, erscheinen auf findyour.art zum Verkauf — ohne doppelte Pflege, deine Vault liefert alles." },
-                c2: { title: "Katalog", text: "Dein Werkverzeichnis als gepflegter, immer aktueller Katalog — mit Preisen, Maßen und der Geschichte hinter jedem Werk." },
-                c3: { title: "Künstlerportfolio", text: "Deine Künstlerseite mit Porträt, Vita und Werken — präsentiert, wie Galerien und Sammler es erwarten." },
-                c4: { title: "Kostenlos präsentieren", text: "Die Präsentation kostet dich nichts — Verkaufsportal, Katalog und Portfolio sind komplett kostenlos. Nur wenn ein Werk über die Plattform verkauft wird, fällt eine Provision an." }
+                c1: { title: "Mehr als ein Shop", text: "E-Commerce auf der Basis deines Werk- und Produktkatalogs — angereichert mit den semantischen Informationen aus deiner Vault: Geschichten, Zusammenhänge, Bedeutung." },
+                c2: { title: "Matching statt Massenkatalog", text: "Riesige Kataloge schaut niemand mehr durch. findyour.art bringt die richtigen Interessenten zu deinen Werken und zu dir — passend zu ihren Vorlieben und ihrem Geschmack." },
+                c3: { title: "Individuelle Präsentation", text: "Aus den Interessen und dem Geschmack eines Besuchers entsteht künftig eine persönliche Präsentation deiner Kunst — unterhaltsam, tiefgehend und semantisch erzählt." },
+                c4: { title: "Kostenlos präsentieren", text: "Die Präsentation kostet dich nichts — Portal, Katalog und Portfolio sind komplett kostenlos. Nur wenn ein Werk über die Plattform verkauft wird, fällt eine Provision an." }
             },
             btn: "Zu findyour.art"
         },
