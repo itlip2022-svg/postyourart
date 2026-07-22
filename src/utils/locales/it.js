@@ -45,10 +45,8 @@ export const it = {
         lead: "La documentazione della tua arte è il tuo capitale: catalogo delle opere, storie, prezzi, mostre. Chi la possiede, possiede il valore della tua vita artistica.",
         para: "Proprio per questo deve stare in un unico posto — strutturata e registrata semanticamente, così che foto e appunti diventino vera conoscenza della tua opera: consultabile, collegata, riutilizzabile per cataloghi, candidature e vendite. postyour.art è costruito esattamente per questo — ed è completamente gratuito.",
         promises: {
-            c1: { title: "I tuoi dati appartengono a te", text: "La Vault è di tua proprietà — nessun padrone di casa, nessun ostaggio, nessun lock-in." },
-            c2: { title: "IA solo su tuo incarico", text: "Nulla viene elaborato dall'IA senza che tu lo chieda — e nulla addestra modelli di terzi." },
-            c3: { title: "Mai per scopi pubblicitari", text: "I tuoi dati non vengono commercializzati né ceduti a reti pubblicitarie." },
-            c4: { title: "Esportabile, mai vincolato", text: "Un clic esporta tutto in qualità originale — non sei mai legato al sistema." },
+            c1: { title: "La tua proprietà — esportabile, mai vincolato", text: "La Vault è di tua proprietà: nessun padrone di casa, nessun ostaggio, nessun lock-in. Un clic esporta tutto in qualità originale — non sei mai legato al sistema." },
+            c2: { title: "IA solo su tuo incarico — mai per la pubblicità", text: "Nulla viene elaborato dall'IA senza che tu lo chieda, nulla addestra modelli di terzi. E i tuoi dati non vengono commercializzati né ceduti a reti pubblicitarie." },
             c5: { title: "Dai punti dati nasce un'opera", text: "Ogni voce è un punto: insieme i tuoi dati formano una scultura — il valore della tua vita artistica, reso visibile." }
         },
         highlight: "Libero. Gratuito. Tuo.",

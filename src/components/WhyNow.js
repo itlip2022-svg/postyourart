@@ -26,8 +26,6 @@ export function WhyNow() {
           </div>
           ${promise('c1')}
           ${promise('c2')}
-          ${promise('c3')}
-          ${promise('c4')}
         </div>
         <div class="text-center mt-lg">
           <h3 class="highlight-text">${t('appsEcosystem.highlight')}</h3>
