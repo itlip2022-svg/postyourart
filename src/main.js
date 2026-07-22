@@ -123,6 +123,12 @@ function render() {
       const channelsCleanup = initChannelsVisual();
       if (channelsCleanup) cleanupAnimations.push(channelsCleanup);
 
+      import('./components/BrainGraph.js').then(({ initBrainGraph }) => {
+        if (currentView !== 'home') return;
+        const brainCleanup = initBrainGraph('brain-graph');
+        if (brainCleanup) cleanupAnimations.push(brainCleanup);
+      });
+
       loadNetworkAnimation().then(({ initNetworkAnimation }) => {
         // Zwischenzeitlicher Wechsel auf Impressum/Datenschutz?
         if (currentView !== 'home') return;

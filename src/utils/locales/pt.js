@@ -101,7 +101,8 @@ export const pt = {
         cards: {
             c1: { icon: "🔍", title: "Pesquisável e enriquecido", text: "Todas as obras, fotos, vídeos e histórias completas tornam-se pesquisáveis e preparadas pelo conteúdo — por motivo, técnica, lugar e contexto, não apenas pelo nome do ficheiro." },
             c2: { icon: "🧠", title: "Uma segunda memória", text: "A longo prazo, a tua Vault torna-se o segundo cérebro da tua prática artística: nada se perde, tudo permanece acessível no seu contexto — mesmo passados anos." },
-            c3: { icon: "💡", title: "Contexto para o que vem", text: "Toda a tua obra fica disponível como base contextual para futuras ideias e publicações — catálogos, posts, exposições e obras que ainda virão." }
+            c3: { icon: "💡", title: "Contexto para o que vem", text: "Toda a tua obra fica disponível como base contextual para futuras ideias e publicações — catálogos, posts, exposições e obras que ainda virão." },
+            c4: { title: "A tua Vault como grafo de conhecimento", text: "Obras, histórias, fotos e datas como uma rede viva de nós e ligações — unidos como pensamentos num cérebro." }
         }
     },
     channels: {

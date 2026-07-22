@@ -101,7 +101,8 @@ export const it = {
         cards: {
             c1: { icon: "🔍", title: "Consultabile e arricchito", text: "Tutte le opere, foto, video e storie intere diventano consultabili e preparate nel contenuto — per motivo, tecnica, luogo e contesto, non solo per nome del file." },
             c2: { icon: "🧠", title: "Una seconda memoria", text: "A lungo termine la tua Vault diventa il secondo cervello della tua pratica artistica: nulla va perso, tutto resta accessibile nel suo contesto — anche dopo anni." },
-            c3: { icon: "💡", title: "Contesto per ciò che verrà", text: "Tutta la tua opera è disponibile come base contestuale per idee e pubblicazioni future — cataloghi, post, mostre e opere ancora da venire." }
+            c3: { icon: "💡", title: "Contesto per ciò che verrà", text: "Tutta la tua opera è disponibile come base contestuale per idee e pubblicazioni future — cataloghi, post, mostre e opere ancora da venire." },
+            c4: { title: "La tua Vault come grafo di conoscenza", text: "Opere, storie, foto e date come una rete viva di nodi e collegamenti — connessi come pensieri in un cervello." }
         }
     },
     channels: {
