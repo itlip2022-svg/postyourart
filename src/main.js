@@ -145,6 +145,12 @@ function render() {
         if (brainCleanup) cleanupAnimations.push(brainCleanup);
       });
 
+      importWithRetry(() => import('./components/DataSculpture.js')).then(({ initDataSculpture }) => {
+        if (currentView !== 'home') return;
+        const sculptureCleanup = initDataSculpture('data-sculpture');
+        if (sculptureCleanup) cleanupAnimations.push(sculptureCleanup);
+      });
+
       loadNetworkAnimation().then(({ initNetworkAnimation }) => {
         // Zwischenzeitlicher Wechsel auf Impressum/Datenschutz?
         if (currentView !== 'home') return;

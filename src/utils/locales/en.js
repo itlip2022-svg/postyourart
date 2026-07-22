@@ -48,7 +48,8 @@ export const en = {
                 c1: { title: "Your data belongs to you", text: "The vault is your property — no landlord, no hostage-taking, no lock-in." },
                 c2: { title: "AI only on your command", text: "Nothing is processed by AI without you asking for it — and nothing trains third-party models." },
                 c3: { title: "Never used for advertising", text: "Your data is not marketed and not passed on to advertising networks." },
-                c4: { title: "Exportable, not locked in", text: "One click exports everything in original quality — you are never bound to the system." }
+                c4: { title: "Exportable, not locked in", text: "One click exports everything in original quality — you are never bound to the system." },
+                c5: { title: "Data Points Become a Work", text: "Every entry is a point: together your data forms a sculpture — the value of your artistic life, made visible." }
             },
             highlight: "Free. Yours. Forever.",
             ctaBeta: "Secure a beta spot",

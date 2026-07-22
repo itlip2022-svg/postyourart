@@ -48,7 +48,8 @@ export const es = {
             c1: { title: "Tus datos te pertenecen", text: "La Vault es tu propiedad — sin casero, sin rehenes, sin ataduras." },
             c2: { title: "IA solo cuando tú lo pides", text: "Nada se procesa con IA sin que lo pidas — y nada entrena modelos de terceros." },
             c3: { title: "Nunca con fines publicitarios", text: "Tus datos no se comercializan ni se ceden a redes publicitarias." },
-            c4: { title: "Exportable, sin ataduras", text: "Un clic exporta todo en calidad original — nunca estás atado al sistema." }
+            c4: { title: "Exportable, sin ataduras", text: "Un clic exporta todo en calidad original — nunca estás atado al sistema." },
+            c5: { title: "De puntos de datos nace una obra", text: "Cada registro es un punto: juntos, tus datos forman una escultura — el valor de tu vida artística, hecho visible." }
         },
         highlight: "Libre. Gratis. Tuyo.",
         ctaBeta: "Reservar una plaza beta",
