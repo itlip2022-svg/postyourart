@@ -32,11 +32,27 @@ let revealObserver = null;
 
 document.documentElement.lang = getLanguage();
 
+// Nachgeladene Chunks mit Wiederholung: Schlägt ein import() fehl
+// (Netz-Schluckauf, Cache-Wechsel während eines Deploys), verschwinden
+// sonst alle Animationen dieses Chunks still. Bis zu zwei erneute
+// Versuche mit Wartezeit beheben das in der Praxis.
+function importWithRetry(importer, retries = 2, delayMs = 1500) {
+  return importer().catch((err) => {
+    if (retries <= 0) throw err;
+    return new Promise((resolve) => setTimeout(resolve, delayMs))
+      .then(() => importWithRetry(importer, retries - 1, delayMs * 2));
+  });
+}
+
 // Three.js (~150 kB gzip) wird erst nach dem ersten Rendern nachgeladen,
 // damit Inhalt und Styles sofort sichtbar sind.
 let networkModule;
 function loadNetworkAnimation() {
-  networkModule ??= import('./components/NetworkAnimation.js');
+  networkModule ??= importWithRetry(() => import('./components/NetworkAnimation.js'))
+    .catch((err) => {
+      networkModule = null; // nächster Aufruf darf es erneut versuchen
+      throw err;
+    });
   return networkModule;
 }
 
@@ -123,7 +139,7 @@ function render() {
       const channelsCleanup = initChannelsVisual();
       if (channelsCleanup) cleanupAnimations.push(channelsCleanup);
 
-      import('./components/BrainGraph.js').then(({ initBrainGraph }) => {
+      importWithRetry(() => import('./components/BrainGraph.js')).then(({ initBrainGraph }) => {
         if (currentView !== 'home') return;
         const brainCleanup = initBrainGraph('brain-graph');
         if (brainCleanup) cleanupAnimations.push(brainCleanup);
