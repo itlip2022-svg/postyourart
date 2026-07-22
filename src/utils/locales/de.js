@@ -48,7 +48,8 @@ export const de = {
                 c1: { title: "Deine Daten gehören dir", text: "Die Vault ist dein Eigentum — kein Vermieter, keine Geiselhaft, kein Lock-in." },
                 c2: { title: "KI nur auf deinen Auftrag", text: "Nichts wird ungefragt von KI verarbeitet — und nichts trainiert fremde Modelle." },
                 c3: { title: "Nie für Werbezwecke", text: "Deine Daten werden nicht vermarktet und nicht an Werbenetzwerke weitergegeben." },
-                c4: { title: "Exportierbar, nicht gebunden", text: "Ein Klick exportiert alles in Originalqualität — du bist nie an das System gebunden." }
+                c4: { title: "Exportierbar, nicht gebunden", text: "Ein Klick exportiert alles in Originalqualität — du bist nie an das System gebunden." },
+                c5: { title: "Aus Datenpunkten wird ein Werk", text: "Jeder Eintrag ein Punkt: Zusammen formen deine Daten eine Skulptur — der Wert deines künstlerischen Lebens, sichtbar gemacht." }
             },
             highlight: "Frei. Kostenlos. Deins.",
             ctaBeta: "Beta-Platz sichern",

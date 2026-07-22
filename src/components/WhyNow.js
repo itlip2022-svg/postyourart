@@ -19,6 +19,11 @@ export function WhyNow() {
           <p class="data-value-para">${t('appsEcosystem.para')}</p>
         </div>
         <div class="grid-3 promise-grid">
+          <div class="card promise-card">
+            <div id="data-sculpture" class="tile-3d" aria-hidden="true"></div>
+            <h3>${t('appsEcosystem.promises.c5.title')}</h3>
+            <p>${t('appsEcosystem.promises.c5.text')}</p>
+          </div>
           ${promise('c1')}
           ${promise('c2')}
           ${promise('c3')}

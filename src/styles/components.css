@@ -399,7 +399,7 @@ body.menu-open .nav-toggle span:nth-child(3) {
 }
 
 .promise-grid {
-    grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
     text-align: left;
 }
 
@@ -824,7 +824,22 @@ body.menu-open .nav-toggle span:nth-child(3) {
     max-width: 320px;
 }
 
-/* ── Second Brain: rotierender Gehirn-Graph in der Kachel ─────────────── */
+/* ── 3D-Kacheln: rotierender Gehirn-Graph & Daten-Skulptur ────────────── */
+.tile-3d {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 0.75rem;
+    border-radius: var(--radius-md);
+    background: radial-gradient(circle at center, var(--accent-soft), transparent 72%);
+    overflow: hidden;
+}
+
+.tile-3d canvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+}
+
 .brain-graph {
     width: 100%;
     height: 210px;
