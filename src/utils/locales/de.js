@@ -95,6 +95,15 @@ export const de = {
                 l3: "<strong>Datensouveränität eingebaut</strong><p>Deine Daten gehören dir: kein Weiterverkauf, kein KI-Training mit deinen Werken, jederzeit kompletter Export und endgültige Konto-Löschung.</p>"
             }
         },
+        secondBrain: {
+            title: "Mehr als eine Sammlung: dein Second Brain",
+            lead: "Aus der Vault heraus stehen deine Daten künftig nicht nur als simple Sammlung bereit, sondern wirklich semantisch — inhaltlich verstanden und miteinander verknüpft.",
+            cards: {
+                c1: { icon: "🔍", title: "Durchsuchbar & aufbereitet", text: "Alle Werke, Fotos, Videos und ganze Stories werden durchsuchbar und inhaltlich aufbereitet — nach Motiven, Techniken, Orten und Zusammenhängen, nicht nur nach Dateinamen." },
+                c2: { icon: "🧠", title: "Ein zweites Gedächtnis", text: "Langfristig wird deine Vault zum Second Brain deines künstlerischen Schaffens: Nichts geht verloren, alles bleibt im Zusammenhang abrufbar — auch nach Jahren." },
+                c3: { icon: "💡", title: "Kontext für Neues", text: "Dein gesamtes Schaffen steht als kontextuelle Grundlage für zukünftige Ideen und Veröffentlichungen bereit — für Kataloge, Posts, Ausstellungen und Werke, die noch kommen." }
+            }
+        },
         channels: {
             title: "Automatisierte Channels",
             lead: "Speichere Daten nicht nur – lass sie für dich arbeiten. Du entscheidest, was wann und wohin geht — statt jeden Kanal von Hand zu füttern.",

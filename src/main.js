@@ -9,6 +9,7 @@ import { Hero } from './components/Hero.js';
 import { WhyNow } from './components/WhyNow.js';
 import { FindYourArt } from './components/FindYourArt.js';
 import { SemanticSpace } from './components/SemanticSpace.js';
+import { SecondBrain } from './components/SecondBrain.js';
 import { MatchingSystem } from './components/MatchingSystem.js';
 import { CollectorBenefits, initChannelsVisual } from './components/CollectorBenefits.js';
 import { CTA } from './components/CTA.js';
@@ -100,6 +101,7 @@ function render() {
         ${CollectorBenefits()}
         ${ValueProps()}
         ${SemanticSpace()}
+        ${SecondBrain()}
         ${MatchingSystem()}
         ${HowItWorks()}
         ${BetaSignup()}

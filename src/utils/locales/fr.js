@@ -95,6 +95,15 @@ export const fr = {
             l3: "<strong>Souveraineté des données intégrée</strong><p>Tes données t'appartiennent : pas de revente, pas d'entraînement d'IA avec tes œuvres, export complet et suppression définitive du compte à tout moment.</p>"
         }
     },
+    secondBrain: {
+        title: "Plus qu'une collection : ton second cerveau",
+        lead: "À l'avenir, la Vault ne présentera pas tes données comme une simple collection, mais de façon vraiment sémantique — comprises dans leur contenu et reliées entre elles.",
+        cards: {
+            c1: { icon: "🔍", title: "Consultable & enrichi", text: "Toutes les œuvres, photos, vidéos et histoires entières deviennent consultables et préparées par leur contenu — par motif, technique, lieu et contexte, pas seulement par nom de fichier." },
+            c2: { icon: "🧠", title: "Une seconde mémoire", text: "À long terme, ta Vault devient le second cerveau de ta pratique artistique : rien ne se perd, tout reste accessible dans son contexte — même après des années." },
+            c3: { icon: "💡", title: "Du contexte pour la suite", text: "Toute ton œuvre est disponible comme fondement contextuel pour tes idées et publications futures — catalogues, posts, expositions et œuvres à venir." }
+        }
+    },
     channels: {
         title: "Channels automatisés",
         lead: "Ne te contente pas de stocker tes données – fais-les travailler pour toi. Tu décides ce qui part, où et quand — au lieu de nourrir chaque canal à la main.",
