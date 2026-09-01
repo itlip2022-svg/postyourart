@@ -15,11 +15,16 @@ Key facts:
   website, Instagram/Pinterest/YouTube/Facebook, Canva-integrated designs, Google presence,
   Shopify, selling on findyour.art, and a personal artist agency for competition and exhibition
   applications.
-- findyour.art (companion platform): the collector-facing counterpart to postyour.art — e-commerce
-  built on the catalogue of works and products plus the vault's semantic knowledge. Instead of a
-  giant catalog, it matches interested buyers to artworks and artists by preference and taste, and
-  will generate individual, semantically rich presentations per visitor. Presentation is free;
-  commission only applies when a work sells.
+- findyour.art (companion platform, live): the collector-facing counterpart to postyour.art — an
+  online shop fed directly from the vault. Works the artist releases appear for sale with photos,
+  technique, tags and price; an AI gallery copywriter writes each product page from the vault's
+  semantic knowledge (one paragraph on the work, one on the artist); every artist automatically
+  gets their own collection page. Updates sync without duplicates and nothing goes live without
+  the artist's approval. Presentation is free; commission only applies when a work sells.
+  Presentation form: walkable 3D worlds instead of a catalog shop — an infotainment experience
+  (live example: https://findyour.art/kuenstler/markus-lippeck), later also planned for TV and VR.
+  Next stage: matching interested buyers to artworks and artists by preference and taste, up to
+  individual, semantically rich presentations per visitor.
 - Plans: Community (free forever) · Standard 9.90 €/month or 7.90 €/month billed yearly
   (5 GB storage, one channel, selling on findyour.art) · Premium 29 €/month or 24 €/month billed
   yearly (100 GB, three channels, artist-agency channel) · Professional support on request.

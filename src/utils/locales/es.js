@@ -55,12 +55,19 @@ export const es = {
     },
     findyourart: {
         title: "findyour.art — donde el arte encuentra a su gente",
-        lead: "El contrapunto de postyour.art: mientras tu Vault reúne el conocimiento sobre tu arte, findyour.art lo convierte en el lugar donde los coleccionistas lo descubren — basado en e-commerce, tu catálogo de obras y productos y el conocimiento semántico de tu Vault.",
+        lead: "El contrapunto de postyour.art — ya conectado hoy con tu Vault: lo que publicas está a la venta como original en la tienda. El conocimiento semántico de tu Vault aporta los contenidos; el matching con los coleccionistas adecuados es la siguiente etapa.",
         cards: {
-            c1: { title: "Más que una tienda", text: "E-commerce basado en tu catálogo de obras y productos — enriquecido con la información semántica de tu Vault: historias, contexto, significado." },
-            c2: { title: "Matching en vez de catálogo masivo", text: "Ya nadie hojea catálogos gigantes. findyour.art lleva a los interesados adecuados hasta tus obras y hasta ti — según sus preferencias y su gusto." },
-            c3: { title: "Presentación individual", text: "De los intereses y el gusto de cada visitante nacerá una presentación personal de tu arte — entretenida, profunda y contada semánticamente." },
-            c4: { title: "Presentación gratuita", text: "Presentarte no te cuesta nada — portal, catálogo y portfolio son completamente gratuitos. Solo cuando una obra se vende a través de la plataforma se aplica una comisión." }
+            c1: { title: "En vivo: tu escaparate desde la Vault", text: "Las obras que publicas aparecen a la venta en findyour.art — con fotos, técnica, etiquetas y precio directamente desde tu Vault. Nada sale en línea sin tu aprobación, y los cambios fluyen automáticamente — sin mantenimiento duplicado, sin duplicados." },
+            c2: { title: "Textos de galería y página de artista", text: "El texto de cada página de producto lo escribe el redactor de galería con IA a partir del conocimiento de tu Vault — un párrafo sobre la obra, otro sobre ti. Y cada artista recibe automáticamente su propia página con todas las obras publicadas." },
+            c3: { title: "Presentación gratuita", text: "Presentarte no te cuesta nada — portal, catálogo y portfolio son completamente gratuitos. Solo cuando una obra se vende a través de la plataforma se aplica una comisión." },
+            c4: { title: "Lo siguiente: matching", text: "Ya nadie hojea catálogos gigantes. La siguiente etapa lleva a los interesados adecuados hasta tus obras y hasta ti — según sus preferencias y su gusto, hasta una presentación personal contada semánticamente." }
+        },
+        experience: {
+            title: "Una experiencia, no un portal de ventas",
+            text: "findyour.art no quiere ser otra tienda aburrida. El arte se presenta como una experiencia de infoentretenimiento: en mundos 3D transitables, contados de forma entretenida y profunda. Más adelante vivirás estos mundos también en el televisor — e incluso con gafas de realidad virtual.",
+            start: "Iniciar el mundo 3D",
+            open: "Abrir en una pestaña nueva",
+            caption: "Ejemplo en vivo: el mundo 3D transitable de un artista en findyour.art"
         },
         btn: "Ir a findyour.art"
     },
