@@ -214,7 +214,7 @@ export const fr = {
         lead: "Rejoins la phase bêta de postyour.art et récupère ton temps d'atelier.",
         cards: {
             c1: { title: "Commencer maintenant", text: "Inscris-toi à la bêta — nous t'inviterons personnellement.", btn: "Réserver une place en bêta" },
-            c2: { title: "Vendre ton art", text: "Ta vitrine : findyour.art.", btn: "Voir la boutique" },
+            c2: { title: "Fais vivre ton art", text: "Ta scène sur findyour.art : l'art comme expérience 3D à parcourir — découvrir, plonger, acheter.", btn: "Découvrir l'expérience" },
             c3: { title: "Devenir partenaire", text: "Connecte ton channel.", btn: "Bientôt disponible" }
         }
     },
