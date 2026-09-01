@@ -21,6 +21,8 @@ Key facts:
   semantic knowledge (one paragraph on the work, one on the artist); every artist automatically
   gets their own collection page. Updates sync without duplicates and nothing goes live without
   the artist's approval. Presentation is free; commission only applies when a work sells.
+  Presentation form: walkable 3D worlds instead of a catalog shop — an infotainment experience
+  (live example: https://findyour.art/kuenstler/markus-lippeck), later also planned for TV and VR.
   Next stage: matching interested buyers to artworks and artists by preference and taste, up to
   individual, semantically rich presentations per visitor.
 - Plans: Community (free forever) · Standard 9.90 €/month or 7.90 €/month billed yearly

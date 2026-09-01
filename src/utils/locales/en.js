@@ -62,6 +62,13 @@ export const en = {
                 c3: { title: "Free to Present", text: "Presenting costs you nothing — portal, catalog and portfolio are completely free. A commission only applies when a work is sold through the platform." },
                 c4: { title: "Next Up: Matching, Not Mass Catalog", text: "Nobody browses giant catalogs anymore. The next stage brings the right prospects to your works and to you — matched to interests and taste, all the way to a personal, semantically told presentation." }
             },
+            experience: {
+                title: "An Experience, Not a Sales Portal",
+                text: "findyour.art is not meant to be yet another boring shop. Art is presented as an infotainment experience: in walkable 3D worlds, told in an entertaining and profound way. Later you will experience these worlds on your TV — and even through VR glasses.",
+                start: "Launch the 3D world",
+                open: "Open in a new tab",
+                caption: "Live example: an artist's walkable 3D world on findyour.art"
+            },
             btn: "Go to findyour.art"
         },
         valueProps: {

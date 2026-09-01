@@ -62,6 +62,13 @@ export const es = {
             c3: { title: "Presentación gratuita", text: "Presentarte no te cuesta nada — portal, catálogo y portfolio son completamente gratuitos. Solo cuando una obra se vende a través de la plataforma se aplica una comisión." },
             c4: { title: "Lo siguiente: matching", text: "Ya nadie hojea catálogos gigantes. La siguiente etapa lleva a los interesados adecuados hasta tus obras y hasta ti — según sus preferencias y su gusto, hasta una presentación personal contada semánticamente." }
         },
+        experience: {
+            title: "Una experiencia, no un portal de ventas",
+            text: "findyour.art no quiere ser otra tienda aburrida. El arte se presenta como una experiencia de infoentretenimiento: en mundos 3D transitables, contados de forma entretenida y profunda. Más adelante vivirás estos mundos también en el televisor — e incluso con gafas de realidad virtual.",
+            start: "Iniciar el mundo 3D",
+            open: "Abrir en una pestaña nueva",
+            caption: "Ejemplo en vivo: el mundo 3D transitable de un artista en findyour.art"
+        },
         btn: "Ir a findyour.art"
     },
     valueProps: {

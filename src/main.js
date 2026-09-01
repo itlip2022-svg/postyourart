@@ -7,7 +7,7 @@ import './styles/components.css';
 import { Header, initHeader } from './components/Header.js';
 import { Hero } from './components/Hero.js';
 import { WhyNow } from './components/WhyNow.js';
-import { FindYourArt } from './components/FindYourArt.js';
+import { FindYourArt, initFyaWorld } from './components/FindYourArt.js';
 import { SemanticSpace } from './components/SemanticSpace.js';
 import { SecondBrain } from './components/SecondBrain.js';
 import { MatchingSystem } from './components/MatchingSystem.js';
@@ -134,6 +134,7 @@ function render() {
       initHeader();
       initBetaSignup();
       initPricingToggle();
+      initFyaWorld();
       initReveal();
 
       const channelsCleanup = initChannelsVisual();
