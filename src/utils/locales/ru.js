@@ -223,10 +223,12 @@ export const ru = {
         projectOf: "Проект",
         platform: "Платформа",
         network: "Сеть",
-        legal: "Правовая информация",
+        legal: "Инфо",
         imprint: "Выходные данные",
         privacy: "Политика конфиденциальности",
         terms: "Условия использования",
+        withdrawal: "Право на возврат",
+        shipping: "Доставка",
         rights: "mas.art · Lippeck GmbH. Все права защищены."
     },
     imprint: {

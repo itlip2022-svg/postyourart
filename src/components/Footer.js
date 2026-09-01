@@ -18,13 +18,15 @@ export function Footer() {
           <div class="footer-links">
             <h4>${t('footer.network')}</h4>
             <a href="https://www.mas.art" target="_blank">mas.art</a>
-            <a href="https://lippeck.art" target="_blank">lippeck.art</a>
+            <a href="https://schluh.art" target="_blank">Schluh.art</a>
           </div>
           <div class="footer-links">
             <h4>${t('footer.legal')}</h4>
-            <a href="#imprint">${t('footer.imprint')}</a>
-            <a href="#privacy">${t('footer.privacy')}</a>
-            <a href="https://mas.art/policies/terms-of-service" target="_blank">${t('footer.terms')}</a>
+            <a href="https://findyour.art/policies/legal-notice" target="_blank" rel="noopener">${t('footer.imprint')}</a>
+            <a href="https://findyour.art/policies/privacy-policy" target="_blank" rel="noopener">${t('footer.privacy')}</a>
+            <a href="https://findyour.art/policies/refund-policy" target="_blank" rel="noopener">${t('footer.withdrawal')}</a>
+            <a href="https://findyour.art/policies/terms-of-service" target="_blank" rel="noopener">${t('footer.terms')}</a>
+            <a href="https://findyour.art/policies/shipping-policy" target="_blank" rel="noopener">${t('footer.shipping')}</a>
           </div>
         </div>
         <div class="footer-bottom">
