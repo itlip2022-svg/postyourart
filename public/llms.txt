@@ -32,6 +32,22 @@ Key facts:
   each at https://www.postyour.art/?lang=de|fr|es|it|pt|ru
 - Currently in beta: personal onboarding, free access during the beta phase.
 
+FAQ (short answers, also on the page at https://www.postyour.art/#faq):
+
+- What is postyour.art? The vault for your art: capture works by photo and voice; AI structures
+  title, technique, dimensions, price and the story. Free, exportable, the artist's property.
+- What does it cost? The vault is free forever; Standard 9.90 €/month (7.90 € yearly),
+  Premium 29 €/month (24 € yearly), professional support on request.
+- Who owns the data? The artist. No third-party AI training, no advertising use, full ZIP export
+  and permanent deletion at any time.
+- How is a work captured? Photo plus two spoken sentences, in the browser or via Telegram; the
+  AI assistant structures everything. No new app to learn.
+- What are channels? Automated publishing from the vault: PDF catalogs/labels, artist website,
+  social media, Canva, Shopify, selling on findyour.art, artist agency for applications.
+- What is findyour.art? The collector-facing counterpart: art as a walkable 3D experience;
+  released works are for sale there; presentation free, commission only on sale.
+- Languages? Seven: German, English, French, Spanish, Italian, Portuguese, Russian.
+
 Links:
 
 - Website: https://www.postyour.art/

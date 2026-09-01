@@ -209,6 +209,20 @@ export const de = {
                 }
             }
         },
+        faq: {
+            title: "Häufige Fragen",
+            lead: "Kurz beantwortet — alles Wichtige zu Vault, Preisen und Channels.",
+            items: {
+                q1: { q: "Was ist postyour.art?", a: "postyour.art ist die Vault für deine Kunst: Du erfasst Werke per Foto und Sprache, die KI strukturiert Titel, Technik, Maße, Preis und die Geschichte dahinter. Die Vault ist kostenlos, jederzeit exportierbar und bleibt dein Eigentum." },
+                q2: { q: "Was kostet postyour.art?", a: "Die Vault ist für immer kostenlos (Community). Standard kostet 9,90 € pro Monat (7,90 € bei jährlicher Abrechnung), Premium 29 € pro Monat (24 € jährlich), die Profi-Betreuung gibt es auf Anfrage." },
+                q3: { q: "Wem gehören meine Daten?", a: "Dir. Deine Daten trainieren keine fremden KI-Modelle und werden nicht für Werbung verwendet. Du kannst jederzeit alles als ZIP in Originalqualität exportieren und dein Konto endgültig löschen." },
+                q4: { q: "Wie erfasse ich ein Kunstwerk?", a: "Foto aufnehmen, zwei Sätze dazu sagen — fertig. Das geht direkt im Browser oder per Telegram aus dem Atelier; der KI-Assistent strukturiert alle Angaben automatisch." },
+                q5: { q: "Brauche ich eine neue App?", a: "Nein. Die Erfassung funktioniert komplett über Telegram oder den Browser — Werkzeuge, die du längst kennst. Künftig geht es noch direkter, bis hin zu Smartglasses." },
+                q6: { q: "Was sind Channels?", a: "Automatische Ausspielungen aus deiner Vault: Kataloge und Etiketten als PDF, deine Künstler-Website, Social-Media-Posts, Canva-Designs, Shopify, der Verkauf auf findyour.art und die Künstleragentur für Bewerbungen." },
+                q7: { q: "Was ist findyour.art?", a: "Der Gegenpol zu postyour.art: Dort entdecken Sammler Kunst als begehbares 3D-Erlebnis. Werke, die du freigibst, stehen dort zum Verkauf — die Präsentation ist kostenlos, eine Provision fällt nur bei Verkauf an." },
+                q8: { q: "In welchen Sprachen gibt es postyour.art?", a: "In sieben Sprachen: Deutsch, Englisch, Französisch, Spanisch, Italienisch, Portugiesisch und Russisch. Die Sprache wird automatisch erkannt und ist jederzeit umschaltbar." }
+            }
+        },
         cta: {
             title: "Bereit zur Erfassung?",
             lead: "Werde Teil der Beta-Phase von postyour.art und hol dir deine Atelierzeit zurück.",
