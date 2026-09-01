@@ -22,11 +22,11 @@ export function Footer() {
           </div>
           <div class="footer-links">
             <h4>${t('footer.legal')}</h4>
-            <a href="https://findyour.art/policies/legal-notice" target="_blank" rel="noopener">${t('footer.imprint')}</a>
-            <a href="https://findyour.art/policies/privacy-policy" target="_blank" rel="noopener">${t('footer.privacy')}</a>
-            <a href="https://findyour.art/policies/refund-policy" target="_blank" rel="noopener">${t('footer.withdrawal')}</a>
-            <a href="https://findyour.art/policies/terms-of-service" target="_blank" rel="noopener">${t('footer.terms')}</a>
-            <a href="https://findyour.art/policies/shipping-policy" target="_blank" rel="noopener">${t('footer.shipping')}</a>
+            <a href="https://findyour.art/impressum" target="_blank" rel="noopener">${t('footer.imprint')}</a>
+            <a href="https://findyour.art/datenschutz" target="_blank" rel="noopener">${t('footer.privacy')}</a>
+            <a href="https://findyour.art/widerruf" target="_blank" rel="noopener">${t('footer.withdrawal')}</a>
+            <a href="https://findyour.art/agb" target="_blank" rel="noopener">${t('footer.terms')}</a>
+            <a href="https://findyour.art/versand" target="_blank" rel="noopener">${t('footer.shipping')}</a>
           </div>
         </div>
         <div class="footer-bottom">
