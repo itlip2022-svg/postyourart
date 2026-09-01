@@ -55,12 +55,12 @@ export const fr = {
     },
     findyourart: {
         title: "findyour.art — là où l'art trouve les siens",
-        lead: "Le pendant de postyour.art : tandis que ta Vault rassemble le savoir sur ton art, findyour.art en fait le lieu où les collectionneurs le découvrent — fondé sur l'e-commerce, ton catalogue d'œuvres et de produits et le savoir sémantique de ta Vault.",
+        lead: "Le pendant de postyour.art — déjà relié à ta Vault aujourd'hui : ce que tu publies est en vente comme original dans la boutique. Le savoir sémantique de ta Vault fournit les contenus ; le matching avec les bons collectionneurs est la prochaine étape.",
         cards: {
-            c1: { title: "Plus qu'une boutique", text: "De l'e-commerce fondé sur ton catalogue d'œuvres et de produits — enrichi des informations sémantiques de ta Vault : histoires, contexte, signification." },
-            c2: { title: "Matching plutôt que catalogue de masse", text: "Plus personne ne feuillette des catalogues géants. findyour.art amène les bons amateurs vers tes œuvres et vers toi — selon leurs préférences et leur goût." },
-            c3: { title: "Présentation individuelle", text: "À partir des intérêts et du goût d'un visiteur naîtra une présentation personnelle de ton art — divertissante, profonde et racontée sémantiquement." },
-            c4: { title: "Présentation gratuite", text: "La présentation ne te coûte rien — portail, catalogue et portfolio sont entièrement gratuits. Une commission ne s'applique que lorsqu'une œuvre est vendue via la plateforme." }
+            c1: { title: "En ligne : ta vitrine depuis la Vault", text: "Les œuvres que tu publies apparaissent en vente sur findyour.art — avec photos, technique, tags et prix directement depuis ta Vault. Rien ne part en ligne sans ta validation, et les modifications suivent automatiquement — sans double saisie, sans doublons." },
+            c2: { title: "Textes de galerie & page d'artiste", text: "Le texte de chaque page produit est écrit par le rédacteur de galerie IA à partir du savoir de ta Vault — un paragraphe sur l'œuvre, un sur toi. Et chaque artiste reçoit automatiquement sa propre page avec toutes les œuvres publiées." },
+            c3: { title: "Présentation gratuite", text: "La présentation ne te coûte rien — portail, catalogue et portfolio sont entièrement gratuits. Une commission ne s'applique que lorsqu'une œuvre est vendue via la plateforme." },
+            c4: { title: "Prochaine étape : le matching", text: "Plus personne ne feuillette des catalogues géants. La prochaine étape amène les bons amateurs vers tes œuvres et vers toi — selon leurs préférences et leur goût, jusqu'à une présentation personnelle racontée sémantiquement." }
         },
         btn: "Aller sur findyour.art"
     },

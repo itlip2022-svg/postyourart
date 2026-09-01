@@ -55,12 +55,12 @@ export const it = {
     },
     findyourart: {
         title: "findyour.art — dove l'arte trova le sue persone",
-        lead: "Il contraltare di postyour.art: mentre la tua Vault raccoglie la conoscenza sulla tua arte, findyour.art la trasforma nel luogo dove i collezionisti la scoprono — basato su e-commerce, il tuo catalogo di opere e prodotti e la conoscenza semantica della tua Vault.",
+        lead: "Il contraltare di postyour.art — già collegato oggi alla tua Vault: ciò che pubblichi è in vendita come originale nello shop. La conoscenza semantica della tua Vault fornisce i contenuti; il matching con i collezionisti giusti è la prossima tappa.",
         cards: {
-            c1: { title: "Più di uno shop", text: "E-commerce basato sul tuo catalogo di opere e prodotti — arricchito con le informazioni semantiche della tua Vault: storie, contesto, significato." },
-            c2: { title: "Matching invece di catalogo di massa", text: "Nessuno sfoglia più cataloghi giganteschi. findyour.art porta gli interessati giusti alle tue opere e a te — in base alle loro preferenze e al loro gusto." },
-            c3: { title: "Presentazione individuale", text: "Dagli interessi e dal gusto di ogni visitatore nascerà una presentazione personale della tua arte — divertente, profonda e raccontata semanticamente." },
-            c4: { title: "Presentazione gratuita", text: "Presentarti non ti costa nulla — portale, catalogo e portfolio sono completamente gratuiti. Solo quando un'opera viene venduta tramite la piattaforma si applica una commissione." }
+            c1: { title: "Live: la tua vetrina dalla Vault", text: "Le opere che pubblichi appaiono in vendita su findyour.art — con foto, tecnica, tag e prezzo direttamente dalla tua Vault. Nulla va online senza la tua approvazione, e le modifiche fluiscono automaticamente — senza doppia gestione, senza duplicati." },
+            c2: { title: "Testi da galleria e pagina d'artista", text: "Il testo di ogni pagina prodotto lo scrive il redattore di galleria IA dalla conoscenza della tua Vault — un paragrafo sull'opera, uno su di te. E ogni artista riceve automaticamente la propria pagina con tutte le opere pubblicate." },
+            c3: { title: "Presentazione gratuita", text: "Presentarti non ti costa nulla — portale, catalogo e portfolio sono completamente gratuiti. Solo quando un'opera viene venduta tramite la piattaforma si applica una commissione." },
+            c4: { title: "Prossima tappa: il matching", text: "Nessuno sfoglia più cataloghi giganteschi. La prossima tappa porta gli interessati giusti alle tue opere e a te — in base a preferenze e gusto, fino a una presentazione personale raccontata semanticamente." }
         },
         btn: "Vai su findyour.art"
     },

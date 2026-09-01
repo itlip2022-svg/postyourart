@@ -55,12 +55,12 @@ export const de = {
         },
         findyourart: {
             title: "findyour.art — wo Kunst ihre Menschen findet",
-            lead: "Der Gegenpol zu postyour.art: Während deine Vault das Wissen über deine Kunst sammelt, macht findyour.art daraus den Ort, an dem Sammler sie entdecken — gespeist aus E-Commerce, Werk- und Produktkatalog und dem semantischen Wissen deiner Vault.",
+            lead: "Der Gegenpol zu postyour.art — und schon heute mit deiner Vault verbunden: Was du freigibst, steht als Original im Shop. Das semantische Wissen deiner Vault liefert die Inhalte; das Matching zu den richtigen Sammlern ist die nächste Stufe.",
             cards: {
-                c1: { title: "Mehr als ein Shop", text: "E-Commerce auf der Basis deines Werk- und Produktkatalogs — angereichert mit den semantischen Informationen aus deiner Vault: Geschichten, Zusammenhänge, Bedeutung." },
-                c2: { title: "Matching statt Massenkatalog", text: "Riesige Kataloge schaut niemand mehr durch. findyour.art bringt die richtigen Interessenten zu deinen Werken und zu dir — passend zu ihren Vorlieben und ihrem Geschmack." },
-                c3: { title: "Individuelle Präsentation", text: "Aus den Interessen und dem Geschmack eines Besuchers entsteht künftig eine persönliche Präsentation deiner Kunst — unterhaltsam, tiefgehend und semantisch erzählt." },
-                c4: { title: "Kostenlos präsentieren", text: "Die Präsentation kostet dich nichts — Portal, Katalog und Portfolio sind komplett kostenlos. Nur wenn ein Werk über die Plattform verkauft wird, fällt eine Provision an." }
+                c1: { title: "Live: dein Schaufenster aus der Vault", text: "Werke, die du freigibst, erscheinen auf findyour.art zum Verkauf — mit Fotos, Technik, Tags und Preis direkt aus deiner Vault. Nichts geht ohne deine Freigabe online, Änderungen fließen automatisch nach — ohne doppelte Pflege, ohne Dubletten." },
+                c2: { title: "Galerietexte & Künstlerseite", text: "Den Text jeder Produktseite schreibt der KI-Galerietexter aus dem Wissen deiner Vault — ein Absatz zum Werk, einer zu dir. Und jeder Künstler bekommt automatisch eine eigene Shop-Seite mit allen freigegebenen Werken." },
+                c3: { title: "Kostenlos präsentieren", text: "Die Präsentation kostet dich nichts — Portal, Katalog und Portfolio sind komplett kostenlos. Nur wenn ein Werk über die Plattform verkauft wird, fällt eine Provision an." },
+                c4: { title: "Als Nächstes: Matching statt Massenkatalog", text: "Riesige Kataloge schaut niemand mehr durch. Die nächste Stufe bringt die richtigen Interessenten zu deinen Werken und zu dir — passend zu Vorlieben und Geschmack, bis hin zur persönlichen, semantisch erzählten Präsentation." }
             },
             btn: "Zu findyour.art"
         },

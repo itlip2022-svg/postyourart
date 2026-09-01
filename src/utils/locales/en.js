@@ -55,12 +55,12 @@ export const en = {
         },
         findyourart: {
             title: "findyour.art — Where Art Finds Its People",
-            lead: "The counterpart to postyour.art: while your vault collects the knowledge about your art, findyour.art turns it into the place where collectors discover it — built on e-commerce, your catalogue of works and products, and the semantic knowledge of your vault.",
+            lead: "The counterpart to postyour.art — already connected to your vault today: what you release goes on sale as an original in the shop. The semantic knowledge of your vault provides the content; matching the right collectors is the next stage.",
             cards: {
-                c1: { title: "More Than a Shop", text: "E-commerce built on your catalogue of works and products — enriched with the semantic information from your vault: stories, context, meaning." },
-                c2: { title: "Matching, Not Mass Catalog", text: "Nobody browses giant catalogs anymore. findyour.art brings the right prospects to your works and to you — matched to their interests and taste." },
-                c3: { title: "Individual Presentation", text: "From a visitor's interests and taste, a personal presentation of your art will emerge — entertaining, deep and semantically told." },
-                c4: { title: "Free to Present", text: "Presenting costs you nothing — portal, catalog and portfolio are completely free. A commission only applies when a work is sold through the platform." }
+                c1: { title: "Live: Your Storefront From the Vault", text: "Works you release appear on findyour.art for sale — with photos, technique, tags and price straight from your vault. Nothing goes live without your approval, and changes flow through automatically — no double maintenance, no duplicates." },
+                c2: { title: "Gallery Texts & Artist Page", text: "The text of every product page is written by the AI gallery copywriter from the knowledge in your vault — one paragraph about the work, one about you. And every artist automatically gets their own shop page with all released works." },
+                c3: { title: "Free to Present", text: "Presenting costs you nothing — portal, catalog and portfolio are completely free. A commission only applies when a work is sold through the platform." },
+                c4: { title: "Next Up: Matching, Not Mass Catalog", text: "Nobody browses giant catalogs anymore. The next stage brings the right prospects to your works and to you — matched to interests and taste, all the way to a personal, semantically told presentation." }
             },
             btn: "Go to findyour.art"
         },
