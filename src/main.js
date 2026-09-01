@@ -21,6 +21,7 @@ import { HowItWorks } from './components/HowItWorks.js';
 import { VaultTour } from './components/VaultTour.js';
 import { Ownership } from './components/Ownership.js';
 import { Pricing, initPricingToggle } from './components/Pricing.js';
+import { Faq } from './components/Faq.js';
 import { BetaSignup, initBetaSignup } from './components/BetaSignup.js';
 import { getLanguage } from './utils/i18n.js';
 import { applySeo } from './utils/seo.js';
@@ -124,6 +125,7 @@ function render() {
         ${VaultTour()}
         ${Ownership()}
         ${Pricing()}
+        ${Faq()}
         ${CTA()}
       </main>
       ${Footer()}

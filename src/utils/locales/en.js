@@ -209,6 +209,20 @@ export const en = {
                 }
             }
         },
+        faq: {
+            title: "Frequently Asked Questions",
+            lead: "Short answers — everything important about the vault, pricing and channels.",
+            items: {
+                q1: { q: "What is postyour.art?", a: "postyour.art is the vault for your art: you capture works by photo and voice, and the AI structures title, technique, dimensions, price and the story behind each piece. The vault is free, exportable at any time and remains your property." },
+                q2: { q: "What does postyour.art cost?", a: "The vault is free forever (Community). Standard costs €9.90 per month (€7.90 billed yearly), Premium €29 per month (€24 yearly), and professional support is available on request." },
+                q3: { q: "Who owns my data?", a: "You do. Your data never trains third-party AI models and is never used for advertising. You can export everything as a ZIP in original quality at any time and delete your account permanently." },
+                q4: { q: "How do I capture an artwork?", a: "Take a photo, say two sentences about it — done. This works directly in the browser or via Telegram from your studio; the AI assistant structures all the details automatically." },
+                q5: { q: "Do I need a new app?", a: "No. Capturing works entirely through Telegram or the browser — tools you already know. Soon it gets even more direct, all the way to smart glasses." },
+                q6: { q: "What are channels?", a: "Automated publishing from your vault: catalogs and labels as PDF, your artist website, social media posts, Canva designs, Shopify, selling on findyour.art and the artist agency for applications." },
+                q7: { q: "What is findyour.art?", a: "The counterpart to postyour.art: there, collectors discover art as a walkable 3D experience. Works you release go on sale there — presentation is free, a commission only applies when a work sells." },
+                q8: { q: "Which languages is postyour.art available in?", a: "Seven languages: German, English, French, Spanish, Italian, Portuguese and Russian. The language is detected automatically and can be switched at any time." }
+            }
+        },
         cta: {
             title: "Ready to Capture?",
             lead: "Join the beta phase of postyour.art and win back your studio time.",

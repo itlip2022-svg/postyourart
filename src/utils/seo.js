@@ -1,5 +1,6 @@
 import { t, getLanguage } from './i18n.js';
 import { languages } from './translations.js';
+import { faqItems } from '../components/Faq.js';
 
 // SEO/KI-Optimierung pro Sprache: Titel, Description, Open Graph,
 // Canonical + hreflang-Alternates und strukturierte Daten (JSON-LD).
@@ -42,7 +43,9 @@ function upsertLink(rel, href, hreflang) {
     el.setAttribute('href', href);
 }
 
-// Strukturierte Daten: Organisation + Web-App mit den Preisplänen.
+// Strukturierte Daten: Organisation, Website, Web-App mit den Preisplänen
+// und FAQPage — die FAQ-Einträge kommen aus denselben Übersetzungen wie
+// die sichtbare FAQ-Sektion, damit Markup und Seiteninhalt übereinstimmen.
 function jsonLd(lang) {
     return {
         '@context': 'https://schema.org',
@@ -53,6 +56,8 @@ function jsonLd(lang) {
                 name: 'mas.art · Lippeck GmbH',
                 url: 'https://www.mas.art',
                 email: 'hello@mas.art',
+                logo: `${BASE_URL}assets/masart-logo.png`,
+                sameAs: ['https://findyour.art', 'https://schluh.art'],
                 address: {
                     '@type': 'PostalAddress',
                     streetAddress: 'Im Schluh 71',
@@ -62,6 +67,15 @@ function jsonLd(lang) {
                 },
             },
             {
+                '@type': 'WebSite',
+                '@id': `${BASE_URL}#website`,
+                name: 'postyour.art',
+                alternateName: 'post your art',
+                url: BASE_URL,
+                inLanguage: languages.map((l) => l.code),
+                publisher: { '@id': 'https://www.mas.art/#org' },
+            },
+            {
                 '@type': 'WebApplication',
                 '@id': `${BASE_URL}#app`,
                 name: 'postyour.art',
@@ -69,13 +83,25 @@ function jsonLd(lang) {
                 description: t('meta.description'),
                 applicationCategory: 'BusinessApplication',
                 operatingSystem: 'Web, Telegram',
+                image: `${BASE_URL}assets/semantic_graph.png`,
                 inLanguage: languages.map((l) => l.code),
                 provider: { '@id': 'https://www.mas.art/#org' },
+                isPartOf: { '@id': `${BASE_URL}#website` },
                 offers: [
                     { '@type': 'Offer', name: t('pricing.plans.community.title'), price: '0', priceCurrency: 'EUR' },
                     { '@type': 'Offer', name: t('pricing.plans.standard.title'), price: '9.90', priceCurrency: 'EUR' },
                     { '@type': 'Offer', name: t('pricing.plans.premium.title'), price: '29.00', priceCurrency: 'EUR' },
                 ],
+            },
+            {
+                '@type': 'FAQPage',
+                '@id': `${BASE_URL}#faq`,
+                inLanguage: lang,
+                mainEntity: faqItems().map(({ q, a }) => ({
+                    '@type': 'Question',
+                    name: q,
+                    acceptedAnswer: { '@type': 'Answer', text: a },
+                })),
             },
         ],
     };
