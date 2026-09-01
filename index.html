@@ -4,6 +4,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>
+    // Selbstheilung nach Deploys: Die Skript-Dateien tragen einen Hash im
+    // Namen und wechseln mit jedem Deploy. Ein zwischengespeichertes HTML
+    // zeigt dann auf eine Datei, die es nicht mehr gibt — die Seite bliebe
+    // stumm weiß. Schlägt das Laden eines Asset-Skripts fehl, laden wir
+    // die Seite einmalig neu (holt frisches HTML mit den neuen Namen).
+    // Zeitschloss statt Einmal-Flag, damit es bei künftigen Deploys wieder
+    // greift, aber nie in einer Schleife endet.
+    window.addEventListener('error', function (e) {
+      var el = e.target;
+      if (!el || el.tagName !== 'SCRIPT' || !el.src || el.src.indexOf('/assets/') === -1) return;
+      try {
+        var last = Number(sessionStorage.getItem('assetReload') || 0);
+        if (Date.now() - last < 60000) return;
+        sessionStorage.setItem('assetReload', String(Date.now()));
+      } catch (err) { return; }
+      location.reload();
+    }, true);
+  </script>
   <title>postyour.art – Your Art. Everywhere. Your Data. With You.</title>
   <meta name="description"
     content="postyour.art collects the knowledge about your art with minimal effort — photograph a piece, say two sentences, done. Your private vault: artworks, stories, dates, history. Your data stays raw, portable and under your control." />
