@@ -149,12 +149,18 @@ export const fr = {
     },
     vaultTour: {
         title: "Un regard dans la Vault",
-        lead: "Tout ce qui s'accumule dans une vie d'artiste — au même endroit, toujours en ordre.",
+        lead: "Tout ce qui s'accumule dans une vie d'artiste — à un seul endroit, toujours trié.",
+        live: {
+            badge: "Nouveau",
+            title: "Capture en direct",
+            text: "Caméra allumée, micro allumé — travaille, c'est tout. L'app écoute et observe : elle transcrit en direct ce que tu dis, capture automatiquement des images à intervalles réguliers et résume au fil de la session. À la fin, l'IA en fait un rapport d'atelier ou un article — avec photos, citations originales et transcription complète, prêt pour l'archive, une story ou un post.",
+            points: ["Sous-titres en direct & transcription en temps réel", "Images clés automatiques + résumés intermédiaires", "Deux modes : capture objective ou interprétation artistique", "Trois étapes : enregistrement → lieu & web → produit fini"]
+        },
         cards: {
-            c1: { title: "Ta galerie", text: "Chaque œuvre avec photo, dimensions et prix — consultable, exportable, prête pour les catalogues." },
-            c2: { title: "Dates & expositions", text: "« Vernissage le 15 à 18 h à la galerie » — dit une fois, noté pour toujours. Même par message vocal." },
-            c3: { title: "Stories", text: "L'histoire derrière chaque œuvre — retenue tant qu'elle est fraîche. Elle deviendra ton texte de catalogue, ton post, ta déclaration d'artiste." },
-            c4: { title: "Channels", text: "Print, web, vente et marketing : déclencher, récupérer, valider — le studio fait le reste." }
+            c1: { title: "Ta galerie", text: "Chaque œuvre avec technique, dimensions, prix, motif, palette de couleurs et tags de style — structurée et décrite par l'IA, prête pour les catalogues." },
+            c2: { title: "Stories", text: "L'histoire derrière chaque œuvre — capturée tant qu'elle est fraîche. Plus tard, elle devient ton texte de catalogue, ton post, ton statement d'artiste." },
+            c3: { title: "Mon archive", text: "Dossiers et albums pour tout ce qui entoure ton art — croquis, processus, presse, documents. L'IA catégorise automatiquement, la recherche retrouve tout." },
+            c4: { title: "Channels", text: "Impression, web, vente et marketing & SEO : déclencher, récupérer, valider — ton agence s'occupe du reste, directement depuis la Vault." }
         }
     },
     ownership: {

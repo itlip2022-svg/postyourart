@@ -150,11 +150,17 @@ export const de = {
         vaultTour: {
             title: "Ein Blick in die Vault",
             lead: "Alles, was sich im Künstlerleben ansammelt — an einem Ort, immer sortiert.",
+            live: {
+                badge: "Neu",
+                title: "Live-Erfassung",
+                text: "Kamera an, Mikro an — und einfach arbeiten. Die App hört zu und schaut zu: Sie transkribiert live, was du sagst, hält automatisch in Intervallen Bilder fest und fasst zwischendurch zusammen. Am Ende macht die KI aus der Session einen Werkstattbericht oder Artikel — mit Fotos, O-Tönen und komplettem Transkript, fertig für Archiv, Story oder Post.",
+                points: ["Live-Untertitel & Transkription in Echtzeit", "Automatische Keyframes + Zwischen-Summaries", "Zwei Modi: objektive Erfassung oder künstlerische Interpretation", "Drei Stufen: Aufnahme → Standort & Web → fertiges Produkt"]
+            },
             cards: {
-                c1: { title: "Deine Galerie", text: "Jedes Werk mit Foto, Maßen und Preis — durchsuchbar, exportierbar, bereit für Kataloge." },
-                c2: { title: "Termine & Ausstellungen", text: "„Vernissage am 15., 18 Uhr in der Galerie“ — einmal gesagt, für immer notiert. Auch per Sprachnotiz." },
-                c3: { title: "Stories", text: "Die Geschichte hinter jedem Werk — festgehalten, solange sie frisch ist. Später wird daraus dein Katalogtext, dein Post, dein Künstlerstatement." },
-                c4: { title: "Channels", text: "Druck, Web, Verkauf und Marketing: auslösen, abholen, freigeben — das Studio erledigt den Rest." }
+                c1: { title: "Deine Galerie", text: "Jedes Werk mit Technik, Maßen, Preis, Motiv, Farbpalette und Stil-Tags — von der KI strukturiert und beschrieben, bereit für Kataloge." },
+                c2: { title: "Stories", text: "Die Geschichte hinter jedem Werk — festgehalten, solange sie frisch ist. Später wird daraus dein Katalogtext, dein Post, dein Künstlerstatement." },
+                c3: { title: "Mein Archiv", text: "Ordner und Alben für alles rund um deine Kunst — Skizzen, Prozesse, Presse, Dokumente. Die KI kategorisiert automatisch, die Suche findet alles wieder." },
+                c4: { title: "Channels", text: "Druck, Web, Verkauf und Marketing & SEO: auslösen, abholen, freigeben — deine Agentur erledigt den Rest, direkt aus der Vault." }
             }
         },
         ownership: {

@@ -148,13 +148,19 @@ export const es = {
         note: "<strong>Sin ninguna app adicional.</strong> El registro funciona completamente por Telegram: envía una foto y un mensaje de voz a tu bot personal directamente desde el estudio — el asistente hace el resto. Y por supuesto, todo funciona también directamente en el navegador."
     },
     vaultTour: {
-        title: "Una mirada dentro de la Vault",
+        title: "Una mirada a la Vault",
         lead: "Todo lo que se acumula en la vida de un artista — en un solo lugar, siempre ordenado.",
+        live: {
+            badge: "Nuevo",
+            title: "Captura en vivo",
+            text: "Cámara encendida, micro encendido — tú solo trabaja. La app escucha y observa: transcribe en vivo lo que dices, captura imágenes automáticamente a intervalos y resume sobre la marcha. Al final, la IA convierte la sesión en un informe de taller o un artículo — con fotos, citas originales y la transcripción completa, listo para el archivo, una story o una publicación.",
+            points: ["Subtítulos en vivo y transcripción en tiempo real", "Fotogramas automáticos + resúmenes intermedios", "Dos modos: captura objetiva o interpretación artística", "Tres etapas: grabación → lugar y web → producto terminado"]
+        },
         cards: {
-            c1: { title: "Tu galería", text: "Cada obra con foto, medidas y precio — consultable, exportable, lista para catálogos." },
-            c2: { title: "Fechas y exposiciones", text: "«Vernissage el 15 a las 18 h en la galería» — dicho una vez, anotado para siempre. También por nota de voz." },
-            c3: { title: "Stories", text: "La historia detrás de cada obra — capturada mientras está fresca. Después se convierte en tu texto de catálogo, tu post, tu statement de artista." },
-            c4: { title: "Channels", text: "Print, web, ventas y marketing: lanzar, recoger, aprobar — el estudio hace el resto." }
+            c1: { title: "Tu galería", text: "Cada obra con técnica, medidas, precio, motivo, paleta de colores y tags de estilo — estructurada y descrita por la IA, lista para catálogos." },
+            c2: { title: "Stories", text: "La historia detrás de cada obra — capturada mientras está fresca. Después se convierte en tu texto de catálogo, tu publicación, tu statement de artista." },
+            c3: { title: "Mi archivo", text: "Carpetas y álbumes para todo lo que rodea tu arte — bocetos, procesos, prensa, documentos. La IA categoriza automáticamente, la búsqueda lo encuentra todo." },
+            c4: { title: "Channels", text: "Impresión, web, venta y marketing & SEO: lanzar, recoger, aprobar — tu agencia se encarga del resto, directamente desde la Vault." }
         }
     },
     ownership: {
