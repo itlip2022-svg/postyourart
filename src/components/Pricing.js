@@ -1,16 +1,22 @@
 import { t } from '../utils/i18n.js';
 
-// Preis-Sektion: vier Pläne (Community, Standard, Premium, Profi-Betreuung)
-// mit Umschalter für monatliche/jährliche Abrechnung. Auf dem Desktop eine
-// Reihe, mobil ein wischbares Karussell (Scroll-Snap, reines CSS).
+// Preis-Sektion, Credit-Modell: Die Vault ist komplett kostenlos und keine
+// Daten verlassen den persönlichen Bereich — es gibt kein Abo. Nur
+// Auslieferungen in die Channels kosten Credits, gekauft als Pakete;
+// größere Pakete senken den Preis pro Credit. Die Paket-Reihe ist auf dem
+// Desktop eine Reihe, mobil ein wischbares Karussell (Scroll-Snap, CSS).
 export function Pricing() {
-  const items = (key) => t(`pricing.plans.${key}.items`).map((i) => `<li>${i}</li>`).join('');
+  const freeItems = t('pricing.free.items').map((i) => `<li>${i}</li>`).join('');
+  const facts = t('pricing.credits.facts').map((f) => `<li>${f}</li>`).join('');
 
-  // Preis mit beiden Abrechnungsvarianten — sichtbar ist je nach
-  // Umschalter-Zustand nur eine (CSS über .billing-yearly am <section>).
-  const price = (key) => `
-    <div class="pricing-price">
-      <span class="price-monthly">${t(`pricing.plans.${key}.monthly`)}</span><span class="price-yearly">${t(`pricing.plans.${key}.yearly`)}</span><span class="pricing-period">&nbsp;/&nbsp;${t('pricing.billing.perMonth')}</span>
+  const pack = (key, { featured = false, save = true } = {}) => `
+    <div class="card pricing-card credit-card${featured ? ' pricing-featured' : ''}">
+      <span class="pricing-badge${featured ? '' : ' pricing-badge-muted'}">${t(`pricing.credits.packs.${key}.name`)}${featured ? ` · ${t(`pricing.credits.packs.${key}.flag`)}` : ''}</span>
+      ${save ? `<span class="credit-save">${t(`pricing.credits.packs.${key}.save`)}</span>` : ''}
+      <div class="credit-amount">${t(`pricing.credits.packs.${key}.credits`)}<span class="credit-unit">${t('pricing.credits.unit')}</span></div>
+      <div class="pricing-price">${t(`pricing.credits.packs.${key}.price`)}</div>
+      <p class="credit-per">${t(`pricing.credits.packs.${key}.per`)}</p>
+      <p class="credit-use">${t(`pricing.credits.packs.${key}.use`)}</p>
     </div>
   `;
 
@@ -20,60 +26,25 @@ export function Pricing() {
         <h2 class="section-title">${t('pricing.title')}</h2>
         <p class="lead" style="max-width: 760px; margin-left: auto; margin-right: auto;">${t('pricing.lead')}</p>
 
-        <div class="billing-toggle" role="group" aria-label="${t('pricing.billing.label')}">
-          <button type="button" class="active" data-billing="monthly" aria-pressed="true">${t('pricing.billing.monthly')}</button>
-          <button type="button" data-billing="yearly" aria-pressed="false">${t('pricing.billing.yearly')} <span class="billing-save">${t('pricing.billing.save')}</span></button>
+        <div class="card pricing-card pricing-featured pricing-free">
+          <span class="pricing-badge">${t('pricing.free.badge')}</span>
+          <h3>${t('pricing.free.title')}</h3>
+          <p class="pricing-free-text">${t('pricing.free.text')}</p>
+          <ul class="pricing-list">${freeItems}</ul>
         </div>
-        <p class="billing-note">
-          <span class="price-monthly">${t('pricing.billing.monthlyNote')}</span><span class="price-yearly">${t('pricing.billing.yearlyNote')}</span>
-        </p>
+
+        <h3 class="credits-title">${t('pricing.credits.title')}</h3>
+        <p class="credits-lead">${t('pricing.credits.lead')}</p>
 
         <div class="pricing-plans">
-          <div class="card pricing-card">
-            <span class="pricing-badge">${t('pricing.plans.community.badge')}</span>
-            <h3>${t('pricing.plans.community.title')}</h3>
-            <div class="pricing-price">${t('pricing.plans.community.price')}</div>
-            <ul class="pricing-list">${items('community')}</ul>
-          </div>
-          <div class="card pricing-card">
-            <span class="pricing-badge pricing-badge-muted">${t('pricing.plans.standard.badge')}</span>
-            <h3>${t('pricing.plans.standard.title')}</h3>
-            ${price('standard')}
-            <ul class="pricing-list">${items('standard')}</ul>
-          </div>
-          <div class="card pricing-card pricing-featured">
-            <span class="pricing-badge">${t('pricing.plans.premium.badge')}</span>
-            <h3>${t('pricing.plans.premium.title')}</h3>
-            ${price('premium')}
-            <ul class="pricing-list">${items('premium')}</ul>
-          </div>
-          <div class="card pricing-card">
-            <span class="pricing-badge pricing-badge-muted">${t('pricing.plans.pro.badge')}</span>
-            <h3>${t('pricing.plans.pro.title')}</h3>
-            <div class="pricing-price pricing-price-individual">${t('pricing.plans.pro.price')}</div>
-            <ul class="pricing-list">${items('pro')}</ul>
-            <p class="pricing-note">${t('pricing.plans.pro.note')}</p>
-          </div>
+          ${pack('p1', { save: false })}
+          ${pack('p2', { featured: true })}
+          ${pack('p3')}
         </div>
+
+        <ul class="credit-facts">${facts}</ul>
+        <p class="pricing-note pricing-pro-note">${t('pricing.pro')}</p>
       </div>
     </section>
   `;
-}
-
-// Umschalter Monatlich/Jährlich: setzt .billing-yearly am <section>,
-// die Preis-Spans werden rein über CSS ein-/ausgeblendet.
-export function initPricingToggle() {
-  const section = document.getElementById('pricing');
-  if (!section) return;
-  const buttons = [...section.querySelectorAll('.billing-toggle button')];
-  buttons.forEach((btn) => {
-    btn.addEventListener('click', () => {
-      section.classList.toggle('billing-yearly', btn.dataset.billing === 'yearly');
-      buttons.forEach((b) => {
-        const active = b === btn;
-        b.classList.toggle('active', active);
-        b.setAttribute('aria-pressed', String(active));
-      });
-    });
-  });
 }

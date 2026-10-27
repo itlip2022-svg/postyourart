@@ -25,9 +25,11 @@ Key facts:
   (live example: https://findyour.art/kuenstler/markus-lippeck), later also planned for TV and VR.
   Next stage: matching interested buyers to artworks and artists by preference and taste, up to
   individual, semantically rich presentations per visitor.
-- Plans: Community (free forever) · Standard 9.90 €/month or 7.90 €/month billed yearly
-  (5 GB storage, one channel, selling on findyour.art) · Premium 29 €/month or 24 €/month billed
-  yearly (100 GB, three channels, artist-agency channel) · Professional support on request.
+- Pricing (credit model, no subscription): the vault itself is completely free, forever — no data
+  leaves the artist's personal space. Only deliveries out of the vault (catalogs, social media
+  posts, website updates, applications) cost credits. Credit packs: Starter 100 credits 9.90 € ·
+  Creator 300 credits 24.90 € · Studio 1,000 credits 69 €. Credits never expire; larger packs
+  lower the per-credit price. Professional support on request.
 - Languages: English (default), German, French, Spanish, Italian, Portuguese, Russian —
   each at https://www.postyour.art/?lang=de|fr|es|it|pt|ru
 - Currently in beta: personal onboarding, free access during the beta phase.
@@ -36,8 +38,9 @@ FAQ (short answers, also on the page at https://www.postyour.art/#faq):
 
 - What is postyour.art? The vault for your art: capture works by photo and voice; AI structures
   title, technique, dimensions, price and the story. Free, exportable, the artist's property.
-- What does it cost? The vault is free forever; Standard 9.90 €/month (7.90 € yearly),
-  Premium 29 €/month (24 € yearly), professional support on request.
+- What does it cost? The vault is completely free, with no subscription and no data leaving the
+  personal space. Only deliveries to channels cost credits; packs start at 9.90 € (100 credits),
+  never expire, and larger packs are cheaper per credit. Professional support on request.
 - Who owns the data? The artist. No third-party AI training, no advertising use, full ZIP export
   and permanent deletion at any time.
 - How is a work captured? Photo plus two spoken sentences, in the browser or via Telegram; the

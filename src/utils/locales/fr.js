@@ -168,53 +168,33 @@ export const fr = {
         }
     },
     pricing: {
-        title: "La Vault est gratuite.",
-        lead: "Enregistrer, organiser, posséder — ta Vault est gratuite, pour toujours. Plus de stockage, des channels et un accompagnement personnel s'ajoutent quand ton art a besoin de la scène.",
-        billing: {
-            label: "Période de facturation",
-            monthly: "Mensuel",
-            yearly: "Annuel",
-            save: "jusqu'à 20 % d'économie",
-            perMonth: "mois",
-            monthlyNote: "Tous les prix par mois.",
-            yearlyNote: "Tous les prix par mois, facturés annuellement."
+        title: "La Vault est gratuite. Sans abonnement.",
+        lead: "Tout ce qui se passe dans ta Vault est entièrement gratuit — et aucune donnée ne quitte ton espace personnel. Les crédits ne servent que lorsque tu envoies quelque chose dans le monde : les diffusions vers tes channels se paient avec des packs de crédits, achetés exactement quand tu en as besoin.",
+        free: {
+            badge: "0 € — pour toujours",
+            title: "Ta Vault",
+            text: "Enregistrer, organiser, posséder : tout ton espace privé ne coûte rien — sans abonnement, sans limite, sans frais cachés.",
+            items: ["Saisie IA par chat, photo & voix", "Galerie, stories, dates, archives", "Connexion Telegram", "Aucune donnée ne quitte ton espace personnel", "Export complet & suppression à tout moment", "Tes données, ta propriété"]
         },
-        plans: {
-            community: {
-                badge: "Gratuit — pour toujours",
-                title: "Community",
-                price: "0 €",
-                items: ["Ta Vault", "Saisie IA par chat, photo & voix", "Galerie, stories, dates, archives", "Connexion Telegram", "Export complet & suppression", "Tes données, ta propriété"]
+        credits: {
+            title: "Des crédits pour les diffusions",
+            lead: "Seul ce qui sort de ta Vault coûte des crédits : un catalogue, un post sur les réseaux, une mise à jour de ton site, une candidature. Pour cela, tu achètes des packs de crédits — sans abonnement, sans engagement.",
+            unit: "crédits",
+            packs: {
+                p1: { name: "Starter", credits: "100", price: "9,90 €", per: "9,9 centimes par crédit", use: "Pour essayer et pour des diffusions occasionnelles" },
+                p2: { name: "Creator", flag: "Populaire", credits: "300", price: "24,90 €", per: "8,3 centimes par crédit", save: "16 % moins cher", use: "Pour des posts réguliers, des catalogues et ton site" },
+                p3: { name: "Studio", credits: "1 000", price: "69 €", per: "6,9 centimes par crédit", save: "30 % moins cher", use: "Pour une présence complète sur plusieurs channels" }
             },
-            standard: {
-                badge: "Vault + channel",
-                title: "Standard",
-                monthly: "9,90 €",
-                yearly: "7,90 €",
-                items: ["Tout de Community", "5 Go de stockage Vault", "Un channel au choix", "Vendre sur findyour.art"]
-            },
-            premium: {
-                badge: "Recommandé",
-                title: "Premium",
-                monthly: "29 €",
-                yearly: "24 €",
-                items: ["Tout de Standard", "100 Go de stockage Vault", "Trois channels au choix", "Channel « Agence d'artistes » : candidatures aux concours & expositions"]
-            },
-            pro: {
-                badge: "Pour artistes professionnels",
-                title: "Accompagnement Pro",
-                price: "Sur demande",
-                items: ["Expositions : préparation, catalogues, rayonnement", "Presse & relations publiques", "Accompagnement personnel par mas.art"],
-                note: "Offre individuelle : hello@mas.art"
-            }
-        }
+            facts: ["Sans abonnement — des packs seulement en cas de besoin", "Les crédits n'expirent jamais", "Les grands packs réduisent le prix par crédit"]
+        },
+        pro: "Accompagnement professionnel pour artistes de métier — expositions, presse & relations publiques, suivi personnel par mas.art. Offre individuelle : hello@mas.art"
     },
     faq: {
         title: "Questions fréquentes",
         lead: "Réponses brèves — l'essentiel sur la Vault, les prix et les channels.",
         items: {
             q1: { q: "Qu'est-ce que postyour.art ?", a: "postyour.art est la Vault pour ton art : tu enregistres tes œuvres par photo et voix, l'IA structure titre, technique, dimensions, prix et l'histoire de chaque pièce. La Vault est gratuite, exportable à tout moment et reste ta propriété." },
-            q2: { q: "Combien coûte postyour.art ?", a: "La Vault est gratuite pour toujours (Community). Standard coûte 9,90 € par mois (7,90 € en facturation annuelle), Premium 29 € par mois (24 € en annuel), et l'accompagnement Pro est disponible sur demande." },
+            q2: { q: "Combien coûte postyour.art ?", a: "La Vault est entièrement gratuite — il n'y a pas d'abonnement et aucune donnée ne quitte ton espace personnel. Seules les diffusions vers les channels coûtent des crédits : les packs commencent à 9,90 € (100 crédits), ils n'expirent jamais et les grands packs reviennent moins cher par crédit. Accompagnement professionnel sur demande." },
             q3: { q: "À qui appartiennent mes données ?", a: "À toi. Tes données n'entraînent jamais de modèles d'IA tiers et ne servent jamais à la publicité. Tu peux tout exporter en ZIP en qualité d'origine à tout moment et supprimer ton compte définitivement." },
             q4: { q: "Comment enregistrer une œuvre ?", a: "Prends une photo, dis deux phrases — c'est fait. Cela fonctionne directement dans le navigateur ou via Telegram depuis l'atelier ; l'assistant IA structure automatiquement tous les détails." },
             q5: { q: "Ai-je besoin d'une nouvelle app ?", a: "Non. La saisie fonctionne entièrement via Telegram ou le navigateur — des outils que tu connais déjà. Bientôt, ce sera encore plus direct, jusqu'aux lunettes connectées." },

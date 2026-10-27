@@ -976,66 +976,114 @@ body.menu-open .nav-toggle span:nth-child(3) {
     box-shadow: var(--shadow-glow);
 }
 
-/* Umschalter Monatlich/Jährlich */
-.billing-toggle {
-    display: inline-flex;
-    gap: 0.25rem;
-    margin-top: 2rem;
-    padding: 0.3rem;
-    border: 1px solid var(--color-border-strong);
-    border-radius: var(--radius-full);
-    background: rgba(255, 255, 255, 0.04);
+/* Kostenlose Vault: breite Karte über der Paket-Reihe */
+.pricing-free {
+    max-width: 880px;
+    margin: 2.5rem auto 0;
 }
 
-.billing-toggle button {
-    border: 0;
-    background: transparent;
+.pricing-free-text {
+    color: var(--color-text-soft);
+    margin-bottom: 1.1rem;
+    max-width: 680px;
+}
+
+.pricing-free .pricing-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+    gap: 0.6rem 2rem;
+}
+
+/* Credit-Pakete für Auslieferungen */
+.credits-title {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    margin-top: 3.5rem;
+}
+
+.credits-lead {
     color: var(--color-text-muted);
-    font-family: inherit;
-    font-size: 0.95rem;
-    font-weight: 600;
-    padding: 0.5rem 1.3rem;
-    border-radius: var(--radius-full);
-    cursor: pointer;
-    transition: background 0.2s ease, color 0.2s ease;
+    max-width: 720px;
+    margin: 0.75rem auto 0;
+    line-height: 1.6;
 }
 
-.billing-toggle button.active {
-    background: var(--color-accent-primary);
-    color: #1a1208;
-}
-
-.billing-save {
-    font-size: 0.78rem;
+.credit-amount {
+    font-family: var(--font-heading);
+    font-size: 2.6rem;
     font-weight: 700;
-    color: var(--color-accent-primary);
-    margin-left: 0.35rem;
+    color: var(--color-text);
+    margin-top: 0.4rem;
+    line-height: 1.1;
 }
 
-.billing-toggle button.active .billing-save {
-    color: inherit;
+.credit-unit {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
 }
 
-.billing-note {
-    margin-top: 0.9rem;
+.credit-card .pricing-price {
+    font-size: 1.7rem;
+    margin: 0.9rem 0 0.15rem;
+}
+
+.credit-per {
     font-size: 0.88rem;
     color: var(--color-text-muted);
 }
 
-/* Nur die Preise des gewählten Abrechnungszeitraums sind sichtbar */
-.pricing .price-yearly {
-    display: none;
+.credit-save {
+    position: absolute;
+    top: 1.1rem;
+    right: 1.25rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--color-accent-primary);
 }
 
-.pricing.billing-yearly .price-yearly {
-    display: inline;
+.credit-use {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-border-strong);
+    color: var(--color-text-soft);
+    font-size: 0.95rem;
+    line-height: 1.5;
 }
 
-.pricing.billing-yearly .price-monthly {
-    display: none;
+/* Spielregeln der Credits: kompakte Checkliste unter den Paketen */
+.credit-facts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem 2rem;
+    margin-top: 1.75rem;
 }
 
-/* Plan-Reihe: Desktop eine Reihe, mobil wischbares Karussell */
+.credit-facts li {
+    color: var(--color-text-soft);
+    padding-left: 1.4rem;
+    position: relative;
+    font-size: 0.95rem;
+}
+
+.credit-facts li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--color-accent-primary);
+    font-weight: 700;
+}
+
+.pricing-pro-note {
+    max-width: 720px;
+    margin: 1.5rem auto 0;
+}
+
+/* Paket-Reihe: Desktop eine Reihe, mobil wischbares Karussell */
 .pricing-plans {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
@@ -1071,21 +1119,6 @@ body.menu-open .nav-toggle span:nth-child(3) {
     color: var(--color-text);
     margin: 0.5rem 0 1rem;
     font-family: var(--font-heading);
-}
-
-.pricing-price-muted {
-    color: var(--color-text-muted);
-}
-
-.pricing-period {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--color-text-muted);
-}
-
-.pricing-price-individual {
-    color: var(--color-text-muted);
-    font-size: 1.6rem;
 }
 
 .pricing-list {
