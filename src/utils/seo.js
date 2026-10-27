@@ -47,7 +47,9 @@ function upsertLink(rel, href, hreflang) {
 // (kostenlose Vault + Credit-Pakete für Auslieferungen) und FAQPage — die
 // FAQ-Einträge kommen aus denselben Übersetzungen wie die sichtbare
 // FAQ-Sektion, damit Markup und Seiteninhalt übereinstimmen.
-function jsonLd(lang) {
+// Exportiert, damit das Build-Prerendering (scripts/prerender.mjs)
+// dieselben Daten statisch in das HTML schreiben kann.
+export function jsonLd(lang) {
     return {
         '@context': 'https://schema.org',
         '@graph': [
@@ -88,6 +90,13 @@ function jsonLd(lang) {
                 inLanguage: languages.map((l) => l.code),
                 provider: { '@id': 'https://www.mas.art/#org' },
                 isPartOf: { '@id': `${BASE_URL}#website` },
+                isAccessibleForFree: true,
+                featureList: [
+                    ...t('pricing.free.items'),
+                    t('vaultTour.live.title'),
+                    t('vaultTour.cards.c3.title'),
+                    t('vaultTour.cards.c4.title'),
+                ],
                 offers: [
                     { '@type': 'Offer', name: t('pricing.free.title'), price: '0', priceCurrency: 'EUR' },
                     { '@type': 'Offer', name: `${t('pricing.credits.packs.p1.name')} — 100 Credits`, price: '9.90', priceCurrency: 'EUR' },

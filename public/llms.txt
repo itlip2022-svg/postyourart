@@ -8,7 +8,13 @@
 Key facts:
 
 - Capture works entirely via Telegram (photo + voice message) or in the browser — no new app to learn.
-- The vault stores: gallery of works, stories, dates/exhibitions, prices, full history, media archive.
+- Live capture: camera and microphone run during a studio session; the app transcribes speech in
+  real time, automatically saves keyframes at intervals and writes interim summaries. In three
+  stages (recording → location & web → finished product) the AI turns the session into a studio
+  report or article with photos, original quotes and the full transcript.
+- The vault stores: gallery of works (technique, dimensions, price, motif, color palette, style
+  tags), stories, dates/exhibitions, full history, and an archive of folders and albums
+  (sketches, processes, press, documents) with automatic AI categorization and search.
 - Data ownership promise: full ZIP export any time, permanent account deletion, no AI training on
   user data, no advertising use. AI processing only on explicit user command.
 - Channels (automated publishing from the vault): print/PDF catalogs and labels, personal artist

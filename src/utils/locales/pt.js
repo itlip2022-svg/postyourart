@@ -2,7 +2,7 @@
 export const pt = {
     meta: {
         title: "postyour.art – A Vault para a tua arte. Os teus dados. Contigo.",
-        description: "Regista as tuas obras por foto e voz: catálogo de obras, histórias, datas e preços na tua própria Vault. Gratuito para sempre, exportável a qualquer momento — com channels para print, web, redes sociais e venda no findyour.art."
+        description: "Regista as tuas obras por foto e voz: catálogo de obras, histórias, datas e preços na tua própria Vault. Gratuito para sempre, sem assinatura, exportável a qualquer momento — com channels para print, web, redes sociais e venda no findyour.art."
     },
     nav: {
         mission: "Missão",
