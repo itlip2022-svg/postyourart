@@ -149,12 +149,18 @@ export const en = {
         },
         vaultTour: {
             title: "A Look Inside the Vault",
-            lead: "Everything that piles up in an artist's life — in one place, always in order.",
+            lead: "Everything that piles up in an artist's life — in one place, always sorted.",
+            live: {
+                badge: "New",
+                title: "Live capture",
+                text: "Camera on, mic on — just work. The app listens and watches: it transcribes what you say in real time, automatically captures keyframes at intervals, and marks highlights with a tap. At the end, the AI turns the session into a studio report or article — with photos, original quotes and the full transcript, ready for your archive, a story or a post.",
+                points: ["Live subtitles & real-time transcription", "Automatic keyframes + highlights with a tap", "Two modes: objective capture or artistic interpretation"]
+            },
             cards: {
-                c1: { title: "Your Gallery", text: "Every work with photo, dimensions and price — searchable, exportable, ready for catalogs." },
-                c2: { title: "Dates & Exhibitions", text: "\"Vernissage on the 15th, 6 pm at the gallery\" — spoken once, filed forever. Even via voice note." },
-                c3: { title: "Stories", text: "The tale behind each piece — captured while it's fresh. Later it becomes your catalog text, your post, your artist statement." },
-                c4: { title: "Channels", text: "Print, web, sales and marketing: trigger it, pick it up, approve it — the studio does the rest." }
+                c1: { title: "Your gallery", text: "Every work with photo, technique, dimensions and price — structured by the AI, searchable, exportable, ready for catalogs." },
+                c2: { title: "Dates & exhibitions", text: "“Vernissage on the 15th, 6 pm at the gallery” — said once, noted forever. Voice notes work too." },
+                c3: { title: "Stories", text: "The story behind each work — captured while it's fresh. Later it becomes your catalog text, your post, your artist statement." },
+                c4: { title: "Channels", text: "Print, web, social and selling: trigger, review, release — every delivery starts right from your vault." }
             }
         },
         ownership: {

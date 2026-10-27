@@ -150,11 +150,17 @@ export const de = {
         vaultTour: {
             title: "Ein Blick in die Vault",
             lead: "Alles, was sich im Künstlerleben ansammelt — an einem Ort, immer sortiert.",
+            live: {
+                badge: "Neu",
+                title: "Live-Erfassung",
+                text: "Kamera an, Mikro an — und einfach arbeiten. Die App hört zu und schaut zu: Sie transkribiert live, was du sagst, hält automatisch in Intervallen Bilder fest und markiert Höhepunkte per Tipp. Am Ende macht die KI aus der Session einen Werkstattbericht oder Artikel — mit Fotos, O-Tönen und komplettem Transkript, fertig für Archiv, Story oder Post.",
+                points: ["Live-Untertitel & Transkription in Echtzeit", "Automatische Keyframes + Highlights per Tipp", "Zwei Modi: objektive Erfassung oder künstlerische Interpretation"]
+            },
             cards: {
-                c1: { title: "Deine Galerie", text: "Jedes Werk mit Foto, Maßen und Preis — durchsuchbar, exportierbar, bereit für Kataloge." },
+                c1: { title: "Deine Galerie", text: "Jedes Werk mit Foto, Technik, Maßen und Preis — von der KI strukturiert, durchsuchbar, exportierbar, bereit für Kataloge." },
                 c2: { title: "Termine & Ausstellungen", text: "„Vernissage am 15., 18 Uhr in der Galerie“ — einmal gesagt, für immer notiert. Auch per Sprachnotiz." },
                 c3: { title: "Stories", text: "Die Geschichte hinter jedem Werk — festgehalten, solange sie frisch ist. Später wird daraus dein Katalogtext, dein Post, dein Künstlerstatement." },
-                c4: { title: "Channels", text: "Druck, Web, Verkauf und Marketing: auslösen, abholen, freigeben — das Studio erledigt den Rest." }
+                c4: { title: "Channels", text: "Druck, Web, Social und Verkauf: auslösen, prüfen, freigeben — jede Auslieferung startet direkt aus deiner Vault." }
             }
         },
         ownership: {

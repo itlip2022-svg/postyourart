@@ -149,12 +149,18 @@ export const fr = {
     },
     vaultTour: {
         title: "Un regard dans la Vault",
-        lead: "Tout ce qui s'accumule dans une vie d'artiste — au même endroit, toujours en ordre.",
+        lead: "Tout ce qui s'accumule dans une vie d'artiste — à un seul endroit, toujours trié.",
+        live: {
+            badge: "Nouveau",
+            title: "Capture en direct",
+            text: "Caméra allumée, micro allumé — travaille, c'est tout. L'app écoute et observe : elle transcrit en direct ce que tu dis, capture automatiquement des images à intervalles réguliers et marque les moments forts d'un simple geste. À la fin, l'IA transforme la session en rapport d'atelier ou en article — avec photos, citations originales et transcription complète, prêt pour l'archive, une story ou un post.",
+            points: ["Sous-titres en direct & transcription en temps réel", "Images clés automatiques + moments forts d'un geste", "Deux modes : capture objective ou interprétation artistique"]
+        },
         cards: {
-            c1: { title: "Ta galerie", text: "Chaque œuvre avec photo, dimensions et prix — consultable, exportable, prête pour les catalogues." },
-            c2: { title: "Dates & expositions", text: "« Vernissage le 15 à 18 h à la galerie » — dit une fois, noté pour toujours. Même par message vocal." },
-            c3: { title: "Stories", text: "L'histoire derrière chaque œuvre — retenue tant qu'elle est fraîche. Elle deviendra ton texte de catalogue, ton post, ta déclaration d'artiste." },
-            c4: { title: "Channels", text: "Print, web, vente et marketing : déclencher, récupérer, valider — le studio fait le reste." }
+            c1: { title: "Ta galerie", text: "Chaque œuvre avec photo, technique, dimensions et prix — structurée par l'IA, consultable, exportable, prête pour les catalogues." },
+            c2: { title: "Dates & expositions", text: "« Vernissage le 15 à 18 h à la galerie » — dit une fois, noté pour toujours. Aussi par note vocale." },
+            c3: { title: "Stories", text: "L'histoire derrière chaque œuvre — capturée tant qu'elle est fraîche. Plus tard, elle devient ton texte de catalogue, ton post, ton statement d'artiste." },
+            c4: { title: "Channels", text: "Impression, web, réseaux et vente : déclencher, vérifier, valider — chaque diffusion part directement de ta Vault." }
         }
     },
     ownership: {

@@ -149,12 +149,18 @@ export const pt = {
     },
     vaultTour: {
         title: "Um olhar dentro da Vault",
-        lead: "Tudo o que se acumula na vida de um artista — num só lugar, sempre em ordem.",
+        lead: "Tudo o que se acumula na vida de um artista — num só lugar, sempre organizado.",
+        live: {
+            badge: "Novo",
+            title: "Captura ao vivo",
+            text: "Câmara ligada, micro ligado — simplesmente trabalha. A app ouve e observa: transcreve ao vivo o que dizes, capta imagens automaticamente em intervalos e marca os destaques com um toque. No fim, a IA transforma a sessão num relatório de atelier ou num artigo — com fotos, citações originais e a transcrição completa, pronto para o arquivo, uma story ou uma publicação.",
+            points: ["Legendas ao vivo e transcrição em tempo real", "Keyframes automáticos + destaques com um toque", "Dois modos: captura objetiva ou interpretação artística"]
+        },
         cards: {
-            c1: { title: "A tua galeria", text: "Cada obra com foto, medidas e preço — pesquisável, exportável, pronta para catálogos." },
-            c2: { title: "Datas e exposições", text: "«Vernissage no dia 15, às 18h na galeria» — dito uma vez, anotado para sempre. Também por mensagem de voz." },
-            c3: { title: "Stories", text: "A história por trás de cada obra — captada enquanto está fresca. Depois torna-se o teu texto de catálogo, o teu post, o teu statement de artista." },
-            c4: { title: "Channels", text: "Print, web, vendas e marketing: acionar, recolher, aprovar — o estúdio faz o resto." }
+            c1: { title: "A tua galeria", text: "Cada obra com foto, técnica, medidas e preço — estruturada pela IA, pesquisável, exportável, pronta para catálogos." },
+            c2: { title: "Datas e exposições", text: "«Vernissage no dia 15, às 18 h na galeria» — dito uma vez, anotado para sempre. Também por nota de voz." },
+            c3: { title: "Stories", text: "A história por trás de cada obra — captada enquanto está fresca. Mais tarde torna-se o teu texto de catálogo, a tua publicação, o teu statement de artista." },
+            c4: { title: "Channels", text: "Impressão, web, redes e venda: aciona, revê, aprova — cada entrega sai diretamente da tua Vault." }
         }
     },
     ownership: {
