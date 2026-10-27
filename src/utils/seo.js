@@ -43,9 +43,10 @@ function upsertLink(rel, href, hreflang) {
     el.setAttribute('href', href);
 }
 
-// Strukturierte Daten: Organisation, Website, Web-App mit den Preisplänen
-// und FAQPage — die FAQ-Einträge kommen aus denselben Übersetzungen wie
-// die sichtbare FAQ-Sektion, damit Markup und Seiteninhalt übereinstimmen.
+// Strukturierte Daten: Organisation, Website, Web-App mit dem Credit-Modell
+// (kostenlose Vault + Credit-Pakete für Auslieferungen) und FAQPage — die
+// FAQ-Einträge kommen aus denselben Übersetzungen wie die sichtbare
+// FAQ-Sektion, damit Markup und Seiteninhalt übereinstimmen.
 function jsonLd(lang) {
     return {
         '@context': 'https://schema.org',
@@ -88,9 +89,10 @@ function jsonLd(lang) {
                 provider: { '@id': 'https://www.mas.art/#org' },
                 isPartOf: { '@id': `${BASE_URL}#website` },
                 offers: [
-                    { '@type': 'Offer', name: t('pricing.plans.community.title'), price: '0', priceCurrency: 'EUR' },
-                    { '@type': 'Offer', name: t('pricing.plans.standard.title'), price: '9.90', priceCurrency: 'EUR' },
-                    { '@type': 'Offer', name: t('pricing.plans.premium.title'), price: '29.00', priceCurrency: 'EUR' },
+                    { '@type': 'Offer', name: t('pricing.free.title'), price: '0', priceCurrency: 'EUR' },
+                    { '@type': 'Offer', name: `${t('pricing.credits.packs.p1.name')} — 100 Credits`, price: '9.90', priceCurrency: 'EUR' },
+                    { '@type': 'Offer', name: `${t('pricing.credits.packs.p2.name')} — 300 Credits`, price: '24.90', priceCurrency: 'EUR' },
+                    { '@type': 'Offer', name: `${t('pricing.credits.packs.p3.name')} — 1000 Credits`, price: '69.00', priceCurrency: 'EUR' },
                 ],
             },
             {
