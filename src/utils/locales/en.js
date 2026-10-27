@@ -153,14 +153,14 @@ export const en = {
             live: {
                 badge: "New",
                 title: "Live capture",
-                text: "Camera on, mic on — just work. The app listens and watches: it transcribes what you say in real time, automatically captures keyframes at intervals, and marks highlights with a tap. At the end, the AI turns the session into a studio report or article — with photos, original quotes and the full transcript, ready for your archive, a story or a post.",
-                points: ["Live subtitles & real-time transcription", "Automatic keyframes + highlights with a tap", "Two modes: objective capture or artistic interpretation"]
+                text: "Camera on, mic on — just work. The app listens and watches: it transcribes what you say in real time, automatically captures keyframes at intervals and summarizes along the way. At the end, the AI turns the session into a studio report or article — with photos, original quotes and the full transcript, ready for your archive, a story or a post.",
+                points: ["Live subtitles & real-time transcription", "Automatic keyframes + interim summaries", "Two modes: objective capture or artistic interpretation", "Three stages: recording → location & web → finished product"]
             },
             cards: {
-                c1: { title: "Your gallery", text: "Every work with photo, technique, dimensions and price — structured by the AI, searchable, exportable, ready for catalogs." },
-                c2: { title: "Dates & exhibitions", text: "“Vernissage on the 15th, 6 pm at the gallery” — said once, noted forever. Voice notes work too." },
-                c3: { title: "Stories", text: "The story behind each work — captured while it's fresh. Later it becomes your catalog text, your post, your artist statement." },
-                c4: { title: "Channels", text: "Print, web, social and selling: trigger, review, release — every delivery starts right from your vault." }
+                c1: { title: "Your gallery", text: "Every work with technique, dimensions, price, motif, color palette and style tags — structured and described by the AI, ready for catalogs." },
+                c2: { title: "Stories", text: "The story behind each work — captured while it's fresh. Later it becomes your catalog text, your post, your artist statement." },
+                c3: { title: "My archive", text: "Folders and albums for everything around your art — sketches, processes, press, documents. The AI categorizes automatically, search finds it all again." },
+                c4: { title: "Channels", text: "Print, web, selling and marketing & SEO: trigger, pick up, release — your agency handles the rest, straight from the vault." }
             }
         },
         ownership: {

@@ -2,12 +2,14 @@ import { t } from '../utils/i18n.js';
 
 // Rundgang durch die App: eine hervorgehobene Karte für die Live-Erfassung
 // (Kamera + Mikro laufen, Transkription in Echtzeit, automatische Keyframes,
-// am Ende Werkstattbericht/Artikel) plus vier Ansichten mit Erklärungen.
+// in drei Stufen zum fertigen Produkt) plus Ansichten mit Erklärungen.
+// Die Screenshots stammen aus der aktuellen App (dunkles Design, 2:3),
+// daher der App-Rahmen statt des Telefon-Rahmens.
 export function VaultTour() {
   const card = (img, alt, key) => `
     <div class="tour-card">
-      <div class="phone-frame phone-sm">
-        <img src="${img}" alt="${alt}" loading="lazy" style="opacity: 1; position: static;">
+      <div class="app-frame app-frame-sm">
+        <img src="${img}" alt="${alt}" loading="lazy">
       </div>
       <h3>${t(`vaultTour.cards.${key}.title`)}</h3>
       <p>${t(`vaultTour.cards.${key}.text`)}</p>
@@ -21,8 +23,8 @@ export function VaultTour() {
         <p class="lead">${t('vaultTour.lead')}</p>
 
         <div class="card tour-live">
-          <div class="phone-frame phone-sm">
-            <img src="/screens/live.webp" alt="Live-Erfassung: aktive Session mit Kamera, Aufnahme-Anzeige und Live-Transkription" loading="lazy" style="opacity: 1; position: static;">
+          <div class="app-frame">
+            <img src="/screens/vault-live-start.webp" alt="Live-Erfassung, Stufe 1: Aufnahme mit Kamera und Mikrofon starten, Foto-Intervall und Zwischen-Summaries einstellen" loading="lazy">
           </div>
           <div class="tour-live-info">
             <span class="tour-live-badge">${t('vaultTour.live.badge')}</span>
@@ -33,10 +35,10 @@ export function VaultTour() {
         </div>
 
         <div class="grid-3" style="margin-top: 2rem; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 2rem;">
-          ${card('/screens/gallery.webp', 'Galerie-Ansicht der Vault mit Werken, Jahr und Preis', 'c1')}
-          ${card('/screens/appointments.webp', 'Terminübersicht mit Vernissage-Eintrag', 'c2')}
-          ${card('/screens/stories.webp', 'Story-Ansicht mit Fotos und Videos aus dem Atelier', 'c3')}
-          ${card('/screens/channels.webp', 'Channels-Übersicht: Druck, Web, Social und Verkauf direkt aus der Vault', 'c4')}
+          ${card('/screens/vault-gallery.webp', 'Werk-Detail in der Galerie: Technik, Maße, Preis, Motiv, Farbpalette und Stil-Tags', 'c1')}
+          ${card('/screens/vault-stories.webp', 'Story-Editor mit Foto aus dem Atelier und Medienleiste', 'c2')}
+          ${card('/screens/vault-archive.webp', 'Mein Archiv: Ordner in Alben sortiert, mit KI-Kategorisierung und Suche', 'c3')}
+          ${card('/screens/vault-channels.webp', 'Channels-Übersicht: Druck, Web, Sell und Marketing & SEO mit eingereichten Aufträgen', 'c4')}
         </div>
       </div>
     </section>

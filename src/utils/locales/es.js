@@ -153,14 +153,14 @@ export const es = {
         live: {
             badge: "Nuevo",
             title: "Captura en vivo",
-            text: "Cámara encendida, micro encendido — tú solo trabaja. La app escucha y observa: transcribe en vivo lo que dices, captura imágenes automáticamente a intervalos y marca los momentos clave con un toque. Al final, la IA convierte la sesión en un informe de taller o un artículo — con fotos, citas originales y la transcripción completa, listo para el archivo, una story o una publicación.",
-            points: ["Subtítulos en vivo y transcripción en tiempo real", "Fotogramas automáticos + momentos clave con un toque", "Dos modos: captura objetiva o interpretación artística"]
+            text: "Cámara encendida, micro encendido — tú solo trabaja. La app escucha y observa: transcribe en vivo lo que dices, captura imágenes automáticamente a intervalos y resume sobre la marcha. Al final, la IA convierte la sesión en un informe de taller o un artículo — con fotos, citas originales y la transcripción completa, listo para el archivo, una story o una publicación.",
+            points: ["Subtítulos en vivo y transcripción en tiempo real", "Fotogramas automáticos + resúmenes intermedios", "Dos modos: captura objetiva o interpretación artística", "Tres etapas: grabación → lugar y web → producto terminado"]
         },
         cards: {
-            c1: { title: "Tu galería", text: "Cada obra con foto, técnica, medidas y precio — estructurada por la IA, consultable, exportable, lista para catálogos." },
-            c2: { title: "Fechas y exposiciones", text: "«Vernissage el 15 a las 18 h en la galería» — dicho una vez, anotado para siempre. También por nota de voz." },
-            c3: { title: "Stories", text: "La historia detrás de cada obra — capturada mientras está fresca. Después se convierte en tu texto de catálogo, tu publicación, tu statement de artista." },
-            c4: { title: "Channels", text: "Impresión, web, redes y venta: lanzar, revisar, aprobar — cada entrega sale directamente de tu Vault." }
+            c1: { title: "Tu galería", text: "Cada obra con técnica, medidas, precio, motivo, paleta de colores y tags de estilo — estructurada y descrita por la IA, lista para catálogos." },
+            c2: { title: "Stories", text: "La historia detrás de cada obra — capturada mientras está fresca. Después se convierte en tu texto de catálogo, tu publicación, tu statement de artista." },
+            c3: { title: "Mi archivo", text: "Carpetas y álbumes para todo lo que rodea tu arte — bocetos, procesos, prensa, documentos. La IA categoriza automáticamente, la búsqueda lo encuentra todo." },
+            c4: { title: "Channels", text: "Impresión, web, venta y marketing & SEO: lanzar, recoger, aprobar — tu agencia se encarga del resto, directamente desde la Vault." }
         }
     },
     ownership: {
