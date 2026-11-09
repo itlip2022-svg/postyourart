@@ -861,7 +861,8 @@ body.menu-open .nav-toggle span:nth-child(3) {
     box-shadow: var(--shadow-glow);
 }
 
-.tour-live .app-frame {
+.tour-live .app-frame,
+.tour-live .phone-frame {
     margin: 0 auto;
 }
 

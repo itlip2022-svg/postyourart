@@ -14,8 +14,8 @@ export function SocialConnect() {
         <p class="lead" style="max-width: 760px; margin-left: auto; margin-right: auto;">${t('socialConnect.lead')}</p>
 
         <div class="card tour-live social-connect-card">
-          <div class="app-frame">
-            <img src="/screens/social-connect.png" alt="Channel-Ansicht in der App: Instagram-Konto per 1-Klick verbinden und direkt aus der Vault posten" loading="lazy">
+          <div class="phone-frame">
+            <img src="/screens/social-instagram.webp" alt="Instagram-Channel in der App: Konto verbunden über die zentrale API, Feed-Post, Reel und Werkserie direkt senden" loading="lazy">
           </div>
           <div class="tour-live-info">
             <span class="tour-live-badge">${t('socialConnect.badge')}</span>
