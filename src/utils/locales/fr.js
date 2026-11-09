@@ -187,11 +187,23 @@ export const fr = {
             lead: "Seul ce qui sort de ta Vault coûte des crédits : un catalogue, un post sur les réseaux, une mise à jour de ton site, une candidature. Pour cela, tu achètes des packs de crédits — sans abonnement, sans engagement.",
             unit: "crédits",
             packs: {
-                p1: { name: "Starter", credits: "100", price: "9,90 €", per: "9,9 centimes par crédit", use: "Pour essayer et pour des diffusions occasionnelles" },
-                p2: { name: "Creator", flag: "Populaire", credits: "300", price: "24,90 €", per: "8,3 centimes par crédit", save: "16 % moins cher", use: "Pour des posts réguliers, des catalogues et ton site" },
-                p3: { name: "Studio", credits: "1 000", price: "69 €", per: "6,9 centimes par crédit", save: "30 % moins cher", use: "Pour une présence complète sur plusieurs channels" }
+                p1: { name: "Starter", credits: "1 000", price: "9,90 €", per: "0,99 centime par crédit", use: "Pour essayer et pour des diffusions occasionnelles" },
+                p2: { name: "Creator", flag: "Populaire", credits: "3 000", price: "24,90 €", per: "0,83 centime par crédit", save: "16 % moins cher", use: "Pour des posts réguliers, des catalogues et ton site" },
+                p3: { name: "Studio", credits: "10 000", price: "69 €", per: "0,69 centime par crédit", save: "30 % moins cher", use: "Pour une présence complète sur plusieurs channels" }
             },
             facts: ["Sans abonnement — des packs seulement en cas de besoin", "Les crédits n'expirent jamais", "Les grands packs réduisent le prix par crédit"]
+        },
+        pricelist: {
+            button: "Liste de prix complète",
+            title: "Liste de prix complète",
+            close: "Fermer",
+            note: "Ta Vault avec 1 Go reste gratuite pour toujours — les crédits ne servent que pour plus de stockage, les channels et les diffusions.",
+            sections: {
+                s1: { title: "Stockage de la Vault", items: [["1 Go", "gratuit"], ["10 Go", "50 crédits / mois"], ["50 Go", "200 crédits / mois"], ["200 Go", "500 crédits / mois"]] },
+                s2: { title: "Channels", items: [["Activation par channel", "50 crédits / mois"]] },
+                s3: { title: "Impression", items: [["Commande d'impression (catalogue, étiquettes, cartes …)", "10 crédits / commande"]] },
+                s4: { title: "Réseaux sociaux", items: [["Post sur les réseaux", "5 crédits / commande"], ["Post premium (vidéo)", "50 crédits / commande"]] }
+            }
         },
         pro: "Accompagnement professionnel pour artistes de métier — expositions, presse & relations publiques, suivi personnel par mas.art. Offre individuelle : hello@mas.art"
     },
@@ -200,7 +212,7 @@ export const fr = {
         lead: "Réponses brèves — l'essentiel sur la Vault, les prix et les channels.",
         items: {
             q1: { q: "Qu'est-ce que postyour.art ?", a: "postyour.art est la Vault pour ton art : tu enregistres tes œuvres par photo et voix, l'IA structure titre, technique, dimensions, prix et l'histoire de chaque pièce. La Vault est gratuite, exportable à tout moment et reste ta propriété." },
-            q2: { q: "Combien coûte postyour.art ?", a: "La Vault est entièrement gratuite — il n'y a pas d'abonnement et aucune donnée ne quitte ton espace personnel. Seules les diffusions vers les channels coûtent des crédits : les packs commencent à 9,90 € (100 crédits), ils n'expirent jamais et les grands packs reviennent moins cher par crédit. Accompagnement professionnel sur demande." },
+            q2: { q: "Combien coûte postyour.art ?", a: "La Vault est entièrement gratuite — il n'y a pas d'abonnement et aucune donnée ne quitte ton espace personnel. Seules les diffusions et les extras coûtent des crédits : les packs commencent à 9,90 € (1 000 crédits), ils n'expirent jamais et les grands packs reviennent moins cher par crédit. La liste de prix complète se trouve dans la section prix ; accompagnement professionnel sur demande." },
             q3: { q: "À qui appartiennent mes données ?", a: "À toi. Tes données n'entraînent jamais de modèles d'IA tiers et ne servent jamais à la publicité. Tu peux tout exporter en ZIP en qualité d'origine à tout moment et supprimer ton compte définitivement." },
             q4: { q: "Comment enregistrer une œuvre ?", a: "Prends une photo, dis deux phrases — c'est fait. Cela fonctionne directement dans le navigateur ou via Telegram depuis l'atelier ; l'assistant IA structure automatiquement tous les détails." },
             q5: { q: "Ai-je besoin d'une nouvelle app ?", a: "Non. La saisie fonctionne entièrement via Telegram ou le navigateur — des outils que tu connais déjà. Bientôt, ce sera encore plus direct, jusqu'aux lunettes connectées." },

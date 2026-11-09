@@ -187,11 +187,23 @@ export const pt = {
             lead: "Só o que sai da tua Vault custa créditos: um catálogo, uma publicação nas redes, uma atualização do site, uma candidatura. Para isso compras packs de créditos — sem assinatura, sem compromisso.",
             unit: "créditos",
             packs: {
-                p1: { name: "Starter", credits: "100", price: "9,90 €", per: "9,9 cêntimos por crédito", use: "Para experimentar e para entregas ocasionais" },
-                p2: { name: "Creator", flag: "Popular", credits: "300", price: "24,90 €", per: "8,3 cêntimos por crédito", save: "16 % mais barato", use: "Para publicações regulares, catálogos e o teu site" },
-                p3: { name: "Studio", credits: "1.000", price: "69 €", per: "6,9 cêntimos por crédito", save: "30 % mais barato", use: "Para uma presença completa em vários channels" }
+                p1: { name: "Starter", credits: "1.000", price: "9,90 €", per: "0,99 cêntimos por crédito", use: "Para experimentar e para entregas ocasionais" },
+                p2: { name: "Creator", flag: "Popular", credits: "3.000", price: "24,90 €", per: "0,83 cêntimos por crédito", save: "16 % mais barato", use: "Para publicações regulares, catálogos e o teu site" },
+                p3: { name: "Studio", credits: "10.000", price: "69 €", per: "0,69 cêntimos por crédito", save: "30 % mais barato", use: "Para uma presença completa em vários channels" }
             },
             facts: ["Sem assinatura — packs apenas quando precisas", "Os créditos não expiram", "Packs maiores reduzem o preço por crédito"]
+        },
+        pricelist: {
+            button: "Lista de preços completa",
+            title: "Lista de preços completa",
+            close: "Fechar",
+            note: "A tua Vault com 1 GB continua gratuita para sempre — só precisas de créditos para mais espaço, channels e entregas.",
+            sections: {
+                s1: { title: "Armazenamento da Vault", items: [["1 GB", "gratuito"], ["10 GB", "50 créditos / mês"], ["50 GB", "200 créditos / mês"], ["200 GB", "500 créditos / mês"]] },
+                s2: { title: "Channels", items: [["Ativação por channel", "50 créditos / mês"]] },
+                s3: { title: "Impressão", items: [["Pedido de impressão (catálogo, etiquetas, cartões …)", "10 créditos / pedido"]] },
+                s4: { title: "Redes sociais", items: [["Publicação nas redes", "5 créditos / pedido"], ["Publicação premium (vídeo)", "50 créditos / pedido"]] }
+            }
         },
         pro: "Acompanhamento profissional para artistas de profissão — exposições, imprensa e relações públicas, acompanhamento pessoal da mas.art. Proposta individual: hello@mas.art"
     },
@@ -200,7 +212,7 @@ export const pt = {
         lead: "Respostas breves — o essencial sobre a Vault, os preços e os channels.",
         items: {
             q1: { q: "O que é o postyour.art?", a: "O postyour.art é a Vault para a tua arte: registas as obras por foto e voz, e a IA estrutura título, técnica, medidas, preço e a história de cada peça. A Vault é gratuita, exportável a qualquer momento e continua a ser tua propriedade." },
-            q2: { q: "Quanto custa o postyour.art?", a: "A Vault é completamente gratuita — não há assinatura e nenhum dado sai do teu espaço pessoal. Só as entregas para os channels custam créditos: os packs começam em 9,90 € (100 créditos), não expiram e os packs maiores ficam mais baratos por crédito. Acompanhamento profissional a pedido." },
+            q2: { q: "Quanto custa o postyour.art?", a: "A Vault é completamente gratuita — não há assinatura e nenhum dado sai do teu espaço pessoal. Só as entregas e os extras custam créditos: os packs começam em 9,90 € (1.000 créditos), não expiram e os packs maiores ficam mais baratos por crédito. A lista de preços completa está na secção de preços; acompanhamento profissional a pedido." },
             q3: { q: "A quem pertencem os meus dados?", a: "A ti. Os teus dados nunca treinam modelos de IA de terceiros nem são usados para publicidade. Podes exportar tudo como ZIP em qualidade original a qualquer momento e apagar a tua conta definitivamente." },
             q4: { q: "Como registo uma obra?", a: "Tira uma foto, diz duas frases — pronto. Funciona diretamente no navegador ou por Telegram a partir do ateliê; o assistente de IA estrutura todos os dados automaticamente." },
             q5: { q: "Preciso de uma app nova?", a: "Não. O registo funciona completamente por Telegram ou navegador — ferramentas que já conheces. Em breve será ainda mais direto, até aos óculos inteligentes." },

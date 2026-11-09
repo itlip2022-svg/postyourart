@@ -9,6 +9,35 @@ export function Pricing() {
   const freeItems = t('pricing.free.items').map((i) => `<li>${i}</li>`).join('');
   const facts = t('pricing.credits.facts').map((f) => `<li>${f}</li>`).join('');
 
+  // Komplette Preisliste als Popup (<dialog>): Speicher, Channel-
+  // Freischaltung, Druck- und Social-Media-Aufträge in Credits.
+  const priceSection = (key) => {
+    const items = t(`pricing.pricelist.sections.${key}.items`)
+      .map(([label, value]) => `
+        <div class="pricelist-row">
+          <span class="pricelist-label">${label}</span>
+          <span class="pricelist-value">${value}</span>
+        </div>
+      `).join('');
+    return `
+      <div class="pricelist-section">
+        <h4>${t(`pricing.pricelist.sections.${key}.title`)}</h4>
+        ${items}
+      </div>
+    `;
+  };
+  const pricelist = `
+    <button type="button" class="pricelist-btn" id="pricelist-open">${t('pricing.pricelist.button')}</button>
+    <dialog class="pricelist-modal" id="pricelist-modal" aria-labelledby="pricelist-title">
+      <div class="pricelist-head">
+        <h3 id="pricelist-title">${t('pricing.pricelist.title')}</h3>
+        <button type="button" class="pricelist-close" id="pricelist-close" aria-label="${t('pricing.pricelist.close')}">&times;</button>
+      </div>
+      ${['s1', 's2', 's3', 's4'].map(priceSection).join('')}
+      <p class="pricing-note">${t('pricing.pricelist.note')}</p>
+    </dialog>
+  `;
+
   const pack = (key, { featured = false, save = true } = {}) => `
     <div class="card pricing-card credit-card${featured ? ' pricing-featured' : ''}">
       <span class="pricing-badge${featured ? '' : ' pricing-badge-muted'}">${t(`pricing.credits.packs.${key}.name`)}${featured ? ` · ${t(`pricing.credits.packs.${key}.flag`)}` : ''}</span>
@@ -43,8 +72,24 @@ export function Pricing() {
         </div>
 
         <ul class="credit-facts">${facts}</ul>
+        ${pricelist}
         <p class="pricing-note pricing-pro-note">${t('pricing.pro')}</p>
       </div>
     </section>
   `;
+}
+
+// Preisliste-Popup: nativer <dialog> mit showModal (Fokusfalle und
+// Esc-Verhalten kommen vom Browser); Klick auf den Hintergrund schließt.
+export function initPriceList() {
+  const dialog = document.getElementById('pricelist-modal');
+  const open = document.getElementById('pricelist-open');
+  const close = document.getElementById('pricelist-close');
+  if (!dialog || !open || !close) return;
+  open.addEventListener('click', () => dialog.showModal());
+  close.addEventListener('click', () => dialog.close());
+  dialog.addEventListener('click', (e) => {
+    // Klick außerhalb des Inhalts trifft das <dialog> selbst (Backdrop)
+    if (e.target === dialog) dialog.close();
+  });
 }

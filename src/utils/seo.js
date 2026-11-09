@@ -99,9 +99,9 @@ export function jsonLd(lang) {
                 ],
                 offers: [
                     { '@type': 'Offer', name: t('pricing.free.title'), price: '0', priceCurrency: 'EUR' },
-                    { '@type': 'Offer', name: `${t('pricing.credits.packs.p1.name')} — 100 Credits`, price: '9.90', priceCurrency: 'EUR' },
-                    { '@type': 'Offer', name: `${t('pricing.credits.packs.p2.name')} — 300 Credits`, price: '24.90', priceCurrency: 'EUR' },
-                    { '@type': 'Offer', name: `${t('pricing.credits.packs.p3.name')} — 1000 Credits`, price: '69.00', priceCurrency: 'EUR' },
+                    { '@type': 'Offer', name: `${t('pricing.credits.packs.p1.name')} — 1000 Credits`, price: '9.90', priceCurrency: 'EUR' },
+                    { '@type': 'Offer', name: `${t('pricing.credits.packs.p2.name')} — 3000 Credits`, price: '24.90', priceCurrency: 'EUR' },
+                    { '@type': 'Offer', name: `${t('pricing.credits.packs.p3.name')} — 10000 Credits`, price: '69.00', priceCurrency: 'EUR' },
                 ],
             },
             {
