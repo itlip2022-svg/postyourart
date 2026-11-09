@@ -199,10 +199,10 @@ export const en = {
                 close: "Close",
                 note: "Your vault with 1 GB stays free forever — you only need credits for more storage, channels and deliveries.",
                 sections: {
-                    s1: { title: "Vault storage", items: [["1 GB", "free"], ["10 GB", "50 credits / month"], ["50 GB", "200 credits / month"], ["200 GB", "500 credits / month"]] },
-                    s2: { title: "Channels", items: [["Unlock per channel", "50 credits / month"]] },
-                    s3: { title: "Print", items: [["Print job (catalog, labels, cards …)", "10 credits / order"]] },
-                    s4: { title: "Social media", items: [["Social media post", "5 credits / order"], ["Premium post (video)", "50 credits / order"]] }
+                    s1: { title: "Vault storage", items: [["1 GB", "free"], ["10 GB", "500 credits / month"], ["50 GB", "2,000 credits / month"], ["200 GB", "5,000 credits / month"]] },
+                    s2: { title: "Channels", items: [["Unlock the channels feature & 1-click connection of your social media accounts", "500 credits / month"]] },
+                    s3: { title: "Print", items: [["Print job (catalog, labels, cards …)", "100 credits / order"]] },
+                    s4: { title: "Social media", items: [["Social media post", "50 credits / order"], ["Premium post (video)", "500 credits / order"]] }
                 }
             },
             pro: "Professional support for working artists — exhibitions, press & PR, personal support by mas.art. Individual offer: hello@mas.art"

@@ -35,10 +35,10 @@ Key facts:
   leaves the artist's personal space. Only deliveries out of the vault (catalogs, social media
   posts, website updates, applications) cost credits. Credit packs: Starter 1,000 credits 9.90 € ·
   Creator 3,000 credits 24.90 € · Studio 10,000 credits 69 €. Credits never expire; larger packs
-  lower the per-credit price. Price list: vault storage 1 GB free, 10 GB 50 credits/month,
-  50 GB 200 credits/month, 200 GB 500 credits/month; channel unlock 50 credits/month per channel;
-  print job 10 credits/order; social media post 5 credits/order, premium post (video)
-  50 credits/order. Professional support on request.
+  lower the per-credit price. Price list: vault storage 1 GB free, 10 GB 500 credits/month,
+  50 GB 2,000 credits/month, 200 GB 5,000 credits/month; unlocking the channels feature incl.
+  1-click connection of social media accounts 500 credits/month; print job 100 credits/order;
+  social media post 50 credits/order, premium post (video) 500 credits/order. Professional support on request.
 - Languages: English (default), German, French, Spanish, Italian, Portuguese, Russian —
   each at https://www.postyour.art/?lang=de|fr|es|it|pt|ru
 - Currently in beta: personal onboarding, free access during the beta phase.

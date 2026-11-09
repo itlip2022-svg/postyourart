@@ -199,10 +199,10 @@ export const it = {
             close: "Chiudi",
             note: "Il tuo Vault con 1 GB resta gratuito per sempre — i crediti servono solo per più spazio, i channels e le pubblicazioni.",
             sections: {
-                s1: { title: "Spazio del Vault", items: [["1 GB", "gratis"], ["10 GB", "50 crediti / mese"], ["50 GB", "200 crediti / mese"], ["200 GB", "500 crediti / mese"]] },
-                s2: { title: "Channels", items: [["Attivazione per channel", "50 crediti / mese"]] },
-                s3: { title: "Stampa", items: [["Ordine di stampa (catalogo, etichette, carte …)", "10 crediti / ordine"]] },
-                s4: { title: "Social media", items: [["Post social", "5 crediti / ordine"], ["Post premium (video)", "50 crediti / ordine"]] }
+                s1: { title: "Spazio del Vault", items: [["1 GB", "gratis"], ["10 GB", "500 crediti / mese"], ["50 GB", "2.000 crediti / mese"], ["200 GB", "5.000 crediti / mese"]] },
+                s2: { title: "Channels", items: [["Attivazione della funzione channels e collegamento in 1 clic dei tuoi account social", "500 crediti / mese"]] },
+                s3: { title: "Stampa", items: [["Ordine di stampa (catalogo, etichette, carte …)", "100 crediti / ordine"]] },
+                s4: { title: "Social media", items: [["Post social", "50 crediti / ordine"], ["Post premium (video)", "500 crediti / ordine"]] }
             }
         },
         pro: "Assistenza professionale per artisti di professione — mostre, stampa e pubbliche relazioni, assistenza personale di mas.art. Offerta individuale: hello@mas.art"

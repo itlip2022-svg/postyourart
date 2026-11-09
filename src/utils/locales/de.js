@@ -199,10 +199,10 @@ export const de = {
                 close: "Schließen",
                 note: "Deine Vault mit 1 GB bleibt für immer kostenlos — Credits brauchst du nur für mehr Speicher, Channels und Auslieferungen.",
                 sections: {
-                    s1: { title: "Speicherkapazität der Vault", items: [["1 GB", "kostenlos"], ["10 GB", "50 Credits / Monat"], ["50 GB", "200 Credits / Monat"], ["200 GB", "500 Credits / Monat"]] },
-                    s2: { title: "Channels", items: [["Freischaltung pro Channel", "50 Credits / Monat"]] },
-                    s3: { title: "Druck", items: [["Druckauftrag (Katalog, Etiketten, Karten …)", "10 Credits / Auftrag"]] },
-                    s4: { title: "Social Media", items: [["Social-Media-Post", "5 Credits / Auftrag"], ["Premium-Post (Video)", "50 Credits / Auftrag"]] }
+                    s1: { title: "Speicherkapazität der Vault", items: [["1 GB", "kostenlos"], ["10 GB", "500 Credits / Monat"], ["50 GB", "2.000 Credits / Monat"], ["200 GB", "5.000 Credits / Monat"]] },
+                    s2: { title: "Channels", items: [["Freischaltung der Channel-Funktion & 1-Klick-Anbindung deiner Social-Media-Konten", "500 Credits / Monat"]] },
+                    s3: { title: "Druck", items: [["Druckauftrag (Katalog, Etiketten, Karten …)", "100 Credits / Auftrag"]] },
+                    s4: { title: "Social Media", items: [["Social-Media-Post", "50 Credits / Auftrag"], ["Premium-Post (Video)", "500 Credits / Auftrag"]] }
                 }
             },
             pro: "Profi-Betreuung für Berufskünstler — Ausstellungen, Presse- & Öffentlichkeitsarbeit, persönliche Betreuung durch mas.art. Individuelles Angebot: hello@mas.art"
