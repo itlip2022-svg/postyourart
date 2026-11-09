@@ -147,6 +147,12 @@ export const de = {
             },
             note: "<strong>Ganz ohne zusätzliche App.</strong> Die Erfassung funktioniert komplett über Telegram: Foto und Sprachnachricht direkt aus dem Atelier an deinen persönlichen Bot schicken — den Rest erledigt der Assistent. Und natürlich geht alles auch direkt im Browser."
         },
+        socialConnect: {
+            title: "Deine Konten. Ein Klick.",
+            lead: "Über die zentrale postyour.art-API verbindest du deine Social-Media-Konten mit einem Klick — Instagram, YouTube, Pinterest & mehr. Danach postest du direkt aus der App auf deine eigenen Konten: ohne komplizierte API-Einrichtung, ohne Download, ohne Speichern oder Bearbeiten außerhalb der App.",
+            badge: "Zentrale API",
+            points: ["Konto verbinden mit einem Klick — keine API-Schlüssel, kein Entwickler-Setup", "Direkt aus der App auf deine Konten posten — nichts herunterladen, nichts zwischenspeichern, nichts extern bearbeiten", "Ein radikal einfacher Ablauf — spart Zeit, Nerven und Aufmerksamkeit"]
+        },
         vaultTour: {
             title: "Ein Blick in die Vault",
             lead: "Alles, was sich im Künstlerleben ansammelt — an einem Ort, immer sortiert.",

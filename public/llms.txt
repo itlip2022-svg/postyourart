@@ -17,6 +17,9 @@ Key facts:
   (sketches, processes, press, documents) with automatic AI categorization and search.
 - Data ownership promise: full ZIP export any time, permanent account deletion, no AI training on
   user data, no advertising use. AI processing only on explicit user command.
+- One-click social media connection: through the central postyour.art API every artist connects
+  their own accounts (Instagram, YouTube, Pinterest and more) with a single click and posts
+  straight from the app — no API setup, no downloads, no storing or editing outside the app.
 - Channels (automated publishing from the vault): print/PDF catalogs and labels, personal artist
   website, Instagram/Pinterest/YouTube/Facebook, Canva-integrated designs, Google presence,
   Shopify, selling on findyour.art, and a personal artist agency for competition and exhibition

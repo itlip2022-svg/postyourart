@@ -147,6 +147,12 @@ export const en = {
             },
             note: "<strong>No extra app needed.</strong> Capturing works entirely through Telegram: send a photo and a voice message to your personal bot straight from the studio — the assistant does the rest. And of course everything also works directly in the browser."
         },
+        socialConnect: {
+            title: "Your Accounts. One Click.",
+            lead: "Through the central postyour.art API you connect your social media accounts with a single click — Instagram, YouTube, Pinterest & more. From then on you post straight from the app to your own accounts: no complicated API setup, no downloads, no storing or editing outside the app.",
+            badge: "Central API",
+            points: ["Connect an account with one click — no API keys, no developer setup", "Post straight from the app to your accounts — nothing to download, cache or edit externally", "A radically simple flow — saves time, nerves and attention"]
+        },
         vaultTour: {
             title: "A Look Inside the Vault",
             lead: "Everything that piles up in an artist's life — in one place, always sorted.",

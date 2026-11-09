@@ -147,6 +147,12 @@ export const fr = {
         },
         note: "<strong>Aucune app supplémentaire nécessaire.</strong> La saisie fonctionne entièrement via Telegram : envoie une photo et un message vocal à ton bot personnel directement depuis l'atelier — l'assistant fait le reste. Et bien sûr, tout fonctionne aussi directement dans le navigateur."
     },
+    socialConnect: {
+        title: "Tes comptes. Un clic.",
+        lead: "Grâce à l'API centrale de postyour.art, tu connectes tes comptes de réseaux sociaux en un seul clic — Instagram, YouTube, Pinterest & plus. Ensuite, tu publies directement depuis l'app sur tes propres comptes : sans configuration d'API compliquée, sans téléchargement, sans stockage ni retouche en dehors de l'app.",
+        badge: "API centrale",
+        points: ["Connecter un compte en un clic — pas de clés API, pas de configuration technique", "Publier directement depuis l'app sur tes comptes — rien à télécharger, à stocker ou à retoucher ailleurs", "Un flux radicalement simple — gain de temps, de nerfs et d'attention"]
+    },
     vaultTour: {
         title: "Un regard dans la Vault",
         lead: "Tout ce qui s'accumule dans une vie d'artiste — à un seul endroit, toujours trié.",

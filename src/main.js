@@ -12,6 +12,7 @@ import { SemanticSpace } from './components/SemanticSpace.js';
 import { SecondBrain } from './components/SecondBrain.js';
 import { MatchingSystem } from './components/MatchingSystem.js';
 import { CollectorBenefits, initChannelsVisual } from './components/CollectorBenefits.js';
+import { SocialConnect } from './components/SocialConnect.js';
 import { CTA } from './components/CTA.js';
 import { Footer } from './components/Footer.js';
 import { Imprint } from './components/Imprint.js';
@@ -116,6 +117,7 @@ function render() {
         ${WhyNow()}
         ${FindYourArt()}
         ${CollectorBenefits()}
+        ${SocialConnect()}
         ${ValueProps()}
         ${SemanticSpace()}
         ${SecondBrain()}
