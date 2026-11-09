@@ -38,6 +38,7 @@ const { SemanticSpace } = await import('../src/components/SemanticSpace.js');
 const { SecondBrain } = await import('../src/components/SecondBrain.js');
 const { MatchingSystem } = await import('../src/components/MatchingSystem.js');
 const { CollectorBenefits } = await import('../src/components/CollectorBenefits.js');
+const { SocialConnect } = await import('../src/components/SocialConnect.js');
 const { CTA } = await import('../src/components/CTA.js');
 const { Footer } = await import('../src/components/Footer.js');
 const { ValueProps } = await import('../src/components/ValueProps.js');
@@ -58,6 +59,7 @@ const appHtml = `
         ${WhyNow()}
         ${FindYourArt()}
         ${CollectorBenefits()}
+        ${SocialConnect()}
         ${ValueProps()}
         ${SemanticSpace()}
         ${SecondBrain()}

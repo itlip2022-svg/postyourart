@@ -861,7 +861,8 @@ body.menu-open .nav-toggle span:nth-child(3) {
     box-shadow: var(--shadow-glow);
 }
 
-.tour-live .app-frame {
+.tour-live .app-frame,
+.tour-live .phone-frame {
     margin: 0 auto;
 }
 
@@ -1160,6 +1161,116 @@ body.menu-open .nav-toggle span:nth-child(3) {
 .pricing-pro-note {
     max-width: 720px;
     margin: 1.5rem auto 0;
+}
+
+/* Komplette Preisliste: Link-Button + Popup (<dialog>) */
+.pricelist-btn {
+    display: inline-block;
+    margin-top: 1.75rem;
+    padding: 0.65rem 1.5rem;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-accent-primary);
+    background: var(--accent-soft);
+    border: 1px solid var(--accent-line);
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.pricelist-btn:hover {
+    background: var(--color-accent-primary);
+    color: #1a1208;
+}
+
+.pricelist-modal {
+    width: min(560px, calc(100vw - 2rem));
+    max-height: min(85vh, 760px);
+    padding: 1.75rem 1.75rem 1.5rem;
+    border: 1px solid var(--color-border-strong);
+    border-radius: var(--radius-lg, 20px);
+    background: var(--color-bg-elevated, #15151d);
+    color: var(--color-text);
+    box-shadow: 0 32px 80px rgba(0, 0, 0, 0.6);
+    text-align: left;
+}
+
+.pricelist-modal::backdrop {
+    background: rgba(5, 5, 10, 0.72);
+    backdrop-filter: blur(4px);
+}
+
+.pricelist-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.pricelist-head h3 {
+    font-size: 1.3rem;
+    color: var(--color-text);
+}
+
+.pricelist-close {
+    flex-shrink: 0;
+    width: 2.2rem;
+    height: 2.2rem;
+    border: 1px solid var(--color-border-strong);
+    border-radius: var(--radius-full);
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--color-text-muted);
+    font-size: 1.3rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.pricelist-close:hover {
+    color: var(--color-text);
+    border-color: var(--accent-line);
+}
+
+.pricelist-section {
+    padding-top: 1rem;
+}
+
+.pricelist-section h4 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-accent-primary);
+    margin-bottom: 0.4rem;
+}
+
+.pricelist-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.45rem 0;
+    border-bottom: 1px dashed var(--color-border-strong);
+}
+
+.pricelist-section .pricelist-row:last-child {
+    border-bottom: 0;
+}
+
+.pricelist-label {
+    color: var(--color-text-soft);
+}
+
+.pricelist-value {
+    color: var(--color-text);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.pricelist-modal .pricing-note {
+    margin-top: 1.25rem;
 }
 
 /* Paket-Reihe: Desktop eine Reihe, mobil wischbares Karussell */

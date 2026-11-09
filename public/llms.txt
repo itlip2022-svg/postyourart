@@ -17,6 +17,9 @@ Key facts:
   (sketches, processes, press, documents) with automatic AI categorization and search.
 - Data ownership promise: full ZIP export any time, permanent account deletion, no AI training on
   user data, no advertising use. AI processing only on explicit user command.
+- One-click social media connection: through the central postyour.art API every artist connects
+  their own accounts (Instagram, YouTube, Pinterest and more) with a single click and posts
+  straight from the app — no API setup, no downloads, no storing or editing outside the app.
 - Channels (automated publishing from the vault): print/PDF catalogs and labels, personal artist
   website, Instagram/Pinterest/YouTube/Facebook, Canva-integrated designs, Google presence,
   Shopify, selling on findyour.art, and a personal artist agency for competition and exhibition
@@ -33,9 +36,12 @@ Key facts:
   individual, semantically rich presentations per visitor.
 - Pricing (credit model, no subscription): the vault itself is completely free, forever — no data
   leaves the artist's personal space. Only deliveries out of the vault (catalogs, social media
-  posts, website updates, applications) cost credits. Credit packs: Starter 100 credits 9.90 € ·
-  Creator 300 credits 24.90 € · Studio 1,000 credits 69 €. Credits never expire; larger packs
-  lower the per-credit price. Professional support on request.
+  posts, website updates, applications) cost credits. Credit packs: Starter 1,000 credits 9.90 € ·
+  Creator 3,000 credits 24.90 € · Studio 10,000 credits 69 €. Credits never expire; larger packs
+  lower the per-credit price. Price list: vault storage 1 GB free, 10 GB 500 credits/month,
+  50 GB 2,000 credits/month, 200 GB 5,000 credits/month; unlocking the channels feature incl.
+  1-click connection of social media accounts 500 credits/month; print job 100 credits/order;
+  social media post 50 credits/order, premium post (video) 500 credits/order. Professional support on request.
 - Languages: English (default), German, French, Spanish, Italian, Portuguese, Russian —
   each at https://www.postyour.art/?lang=de|fr|es|it|pt|ru
 - Currently in beta: personal onboarding, free access during the beta phase.
@@ -45,7 +51,7 @@ FAQ (short answers, also on the page at https://www.postyour.art/#faq):
 - What is postyour.art? The vault for your art: capture works by photo and voice; AI structures
   title, technique, dimensions, price and the story. Free, exportable, the artist's property.
 - What does it cost? The vault is completely free, with no subscription and no data leaving the
-  personal space. Only deliveries to channels cost credits; packs start at 9.90 € (100 credits),
+  personal space. Only deliveries to channels cost credits; packs start at 9.90 € (1,000 credits),
   never expire, and larger packs are cheaper per credit. Professional support on request.
 - Who owns the data? The artist. No third-party AI training, no advertising use, full ZIP export
   and permanent deletion at any time.

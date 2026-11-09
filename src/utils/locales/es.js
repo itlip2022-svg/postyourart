@@ -147,6 +147,12 @@ export const es = {
         },
         note: "<strong>Sin ninguna app adicional.</strong> El registro funciona completamente por Telegram: envía una foto y un mensaje de voz a tu bot personal directamente desde el estudio — el asistente hace el resto. Y por supuesto, todo funciona también directamente en el navegador."
     },
+    socialConnect: {
+        title: "Tus cuentas. Un clic.",
+        lead: "A través de la API central de postyour.art conectas tus cuentas de redes sociales con un solo clic — Instagram, YouTube, Pinterest y más. Después publicas directamente desde la app en tus propias cuentas: sin configuraciones de API complicadas, sin descargas, sin guardar ni editar fuera de la app.",
+        badge: "API central",
+        points: ["Conecta una cuenta con un clic — sin claves API, sin configuración técnica", "Publica directamente desde la app en tus cuentas — nada que descargar, guardar o editar fuera", "Un flujo radicalmente simple — ahorra tiempo, nervios y atención"]
+    },
     vaultTour: {
         title: "Una mirada a la Vault",
         lead: "Todo lo que se acumula en la vida de un artista — en un solo lugar, siempre ordenado.",
@@ -187,11 +193,23 @@ export const es = {
             lead: "Solo lo que sale de tu Vault cuesta créditos: un catálogo, una publicación en redes, una actualización de tu web, una candidatura. Para eso compras packs de créditos — sin suscripción, sin compromiso.",
             unit: "créditos",
             packs: {
-                p1: { name: "Starter", credits: "100", price: "9,90 €", per: "9,9 céntimos por crédito", use: "Para probar y para entregas ocasionales" },
-                p2: { name: "Creator", flag: "Popular", credits: "300", price: "24,90 €", per: "8,3 céntimos por crédito", save: "16 % más barato", use: "Para publicaciones regulares, catálogos y tu web" },
-                p3: { name: "Studio", credits: "1.000", price: "69 €", per: "6,9 céntimos por crédito", save: "30 % más barato", use: "Para una presencia completa en varios channels" }
+                p1: { name: "Starter", credits: "1.000", price: "9,90 €", per: "0,99 céntimos por crédito", use: "Para probar y para entregas ocasionales" },
+                p2: { name: "Creator", flag: "Popular", credits: "3.000", price: "24,90 €", per: "0,83 céntimos por crédito", save: "16 % más barato", use: "Para publicaciones regulares, catálogos y tu web" },
+                p3: { name: "Studio", credits: "10.000", price: "69 €", per: "0,69 céntimos por crédito", save: "30 % más barato", use: "Para una presencia completa en varios channels" }
             },
             facts: ["Sin suscripción — packs solo cuando los necesitas", "Los créditos no caducan", "Los packs grandes reducen el precio por crédito"]
+        },
+        pricelist: {
+            button: "Lista de precios completa",
+            title: "Lista de precios completa",
+            close: "Cerrar",
+            note: "Tu Vault con 1 GB sigue siendo gratis para siempre — los créditos solo hacen falta para más almacenamiento, channels y entregas.",
+            sections: {
+                s1: { title: "Almacenamiento de la Vault", items: [["1 GB", "gratis"], ["10 GB", "500 créditos / mes"], ["50 GB", "2.000 créditos / mes"], ["200 GB", "5.000 créditos / mes"]] },
+                s2: { title: "Channels", items: [["Activación de la función de channels y conexión en 1 clic de tus cuentas de redes", "500 créditos / mes"]] },
+                s3: { title: "Impresión", items: [["Pedido de impresión (catálogo, etiquetas, tarjetas …)", "100 créditos / pedido"]] },
+                s4: { title: "Redes sociales", items: [["Publicación en redes", "50 créditos / pedido"], ["Publicación premium (vídeo)", "500 créditos / pedido"]] }
+            }
         },
         pro: "Acompañamiento profesional para artistas de profesión — exposiciones, prensa y relaciones públicas, atención personal de mas.art. Oferta individual: hello@mas.art"
     },
@@ -200,7 +218,7 @@ export const es = {
         lead: "Respuestas breves — lo esencial sobre la Vault, los precios y los channels.",
         items: {
             q1: { q: "¿Qué es postyour.art?", a: "postyour.art es la Vault para tu arte: registras tus obras por foto y voz, y la IA estructura título, técnica, medidas, precio y la historia de cada pieza. La Vault es gratuita, exportable en cualquier momento y sigue siendo tu propiedad." },
-            q2: { q: "¿Cuánto cuesta postyour.art?", a: "La Vault es completamente gratis — no hay suscripción y ningún dato sale de tu espacio personal. Solo las entregas a los channels cuestan créditos: los packs empiezan en 9,90 € (100 créditos), no caducan y los packs grandes salen más baratos por crédito. Acompañamiento profesional bajo petición." },
+            q2: { q: "¿Cuánto cuesta postyour.art?", a: "La Vault es completamente gratis — no hay suscripción y ningún dato sale de tu espacio personal. Solo las entregas y los extras cuestan créditos: los packs empiezan en 9,90 € (1.000 créditos), no caducan y los packs grandes salen más baratos por crédito. La lista de precios completa está en la sección de precios; acompañamiento profesional bajo petición." },
             q3: { q: "¿A quién pertenecen mis datos?", a: "A ti. Tus datos nunca entrenan modelos de IA ajenos ni se usan para publicidad. Puedes exportarlo todo como ZIP en calidad original en cualquier momento y borrar tu cuenta definitivamente." },
             q4: { q: "¿Cómo registro una obra?", a: "Haz una foto, di dos frases — listo. Funciona directamente en el navegador o por Telegram desde el estudio; el asistente de IA estructura todos los datos automáticamente." },
             q5: { q: "¿Necesito una app nueva?", a: "No. El registro funciona completamente por Telegram o el navegador — herramientas que ya conoces. Pronto será aún más directo, hasta las gafas inteligentes." },

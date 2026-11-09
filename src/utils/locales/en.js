@@ -147,6 +147,12 @@ export const en = {
             },
             note: "<strong>No extra app needed.</strong> Capturing works entirely through Telegram: send a photo and a voice message to your personal bot straight from the studio — the assistant does the rest. And of course everything also works directly in the browser."
         },
+        socialConnect: {
+            title: "Your Accounts. One Click.",
+            lead: "Through the central postyour.art API you connect your social media accounts with a single click — Instagram, YouTube, Pinterest & more. From then on you post straight from the app to your own accounts: no complicated API setup, no downloads, no storing or editing outside the app.",
+            badge: "Central API",
+            points: ["Connect an account with one click — no API keys, no developer setup", "Post straight from the app to your accounts — nothing to download, cache or edit externally", "A radically simple flow — saves time, nerves and attention"]
+        },
         vaultTour: {
             title: "A Look Inside the Vault",
             lead: "Everything that piles up in an artist's life — in one place, always sorted.",
@@ -187,11 +193,23 @@ export const en = {
                 lead: "Only what leaves your Vault costs credits: a catalog, a social media post, a website update, an application. For that you buy credit packs — no subscription, no commitment.",
                 unit: "Credits",
                 packs: {
-                    p1: { name: "Starter", credits: "100", price: "9.90 €", per: "9.9 cents per credit", use: "For trying things out and occasional deliveries" },
-                    p2: { name: "Creator", flag: "Popular", credits: "300", price: "24.90 €", per: "8.3 cents per credit", save: "16% cheaper", use: "For regular posts, catalogs and your website" },
-                    p3: { name: "Studio", credits: "1,000", price: "69 €", per: "6.9 cents per credit", save: "30% cheaper", use: "For the full presence across several channels" }
+                    p1: { name: "Starter", credits: "1,000", price: "9.90 €", per: "0.99 cents per credit", use: "For trying things out and occasional deliveries" },
+                    p2: { name: "Creator", flag: "Popular", credits: "3,000", price: "24.90 €", per: "0.83 cents per credit", save: "16% cheaper", use: "For regular posts, catalogs and your website" },
+                    p3: { name: "Studio", credits: "10,000", price: "69 €", per: "0.69 cents per credit", save: "30% cheaper", use: "For the full presence across several channels" }
                 },
                 facts: ["No subscription — buy packs only when you need them", "Credits never expire", "Bigger packs lower the price per credit"]
+            },
+            pricelist: {
+                button: "Full price list",
+                title: "Full price list",
+                close: "Close",
+                note: "Your vault with 1 GB stays free forever — you only need credits for more storage, channels and deliveries.",
+                sections: {
+                    s1: { title: "Vault storage", items: [["1 GB", "free"], ["10 GB", "500 credits / month"], ["50 GB", "2,000 credits / month"], ["200 GB", "5,000 credits / month"]] },
+                    s2: { title: "Channels", items: [["Unlock the channels feature & 1-click connection of your social media accounts", "500 credits / month"]] },
+                    s3: { title: "Print", items: [["Print job (catalog, labels, cards …)", "100 credits / order"]] },
+                    s4: { title: "Social media", items: [["Social media post", "50 credits / order"], ["Premium post (video)", "500 credits / order"]] }
+                }
             },
             pro: "Professional support for working artists — exhibitions, press & PR, personal support by mas.art. Individual offer: hello@mas.art"
         },
@@ -200,7 +218,7 @@ export const en = {
             lead: "Short answers — everything important about the vault, pricing and channels.",
             items: {
                 q1: { q: "What is postyour.art?", a: "postyour.art is the vault for your art: you capture works by photo and voice, and the AI structures title, technique, dimensions, price and the story behind each piece. The vault is free, exportable at any time and remains your property." },
-                q2: { q: "What does postyour.art cost?", a: "The Vault is completely free — there is no subscription, and no data leaves your personal space. Only deliveries to the channels cost credits: packs start at 9.90 € (100 credits), they never expire, and bigger packs are cheaper per credit. Professional support on request." },
+                q2: { q: "What does postyour.art cost?", a: "The Vault is completely free — there is no subscription, and no data leaves your personal space. Only deliveries and extras cost credits: packs start at 9.90 € (1,000 credits), they never expire, and bigger packs are cheaper per credit. The full price list is in the pricing section; professional support on request." },
                 q3: { q: "Who owns my data?", a: "You do. Your data never trains third-party AI models and is never used for advertising. You can export everything as a ZIP in original quality at any time and delete your account permanently." },
                 q4: { q: "How do I capture an artwork?", a: "Take a photo, say two sentences about it — done. This works directly in the browser or via Telegram from your studio; the AI assistant structures all the details automatically." },
                 q5: { q: "Do I need a new app?", a: "No. Capturing works entirely through Telegram or the browser — tools you already know. Soon it gets even more direct, all the way to smart glasses." },
