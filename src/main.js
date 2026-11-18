@@ -22,6 +22,7 @@ import { HowItWorks } from './components/HowItWorks.js';
 import { VaultTour } from './components/VaultTour.js';
 import { Ownership } from './components/Ownership.js';
 import { WhyNetwork } from './components/WhyNetwork.js';
+import { Worpswede } from './components/Worpswede.js';
 import { Membership } from './components/Membership.js';
 import { Faq } from './components/Faq.js';
 import { BetaSignup, initBetaSignup } from './components/BetaSignup.js';
@@ -116,6 +117,7 @@ function render() {
       <main>
         ${Hero()}
         ${WhyNetwork()}
+        ${Worpswede()}
         ${FindYourArt()}
         ${Membership()}
         ${BetaSignup()}

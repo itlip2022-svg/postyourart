@@ -1,8 +1,8 @@
 // Portugiesisch
 export const pt = {
     meta: {
-        title: "postyour.art – A rede de artistas curada. Os teus dados. Contigo.",
-        description: "A rede de artistas curada com base real em Worpswede: publicação gratuita no findyour.art após curadoria, contactos com exposições e compradores, acompanhamento pessoal da agência de artistas. Sem assinatura — qualidade em vez de massa."
+        title: "postyour.art – A rede de artistas de Worpswede",
+        description: "Um pequeno círculo curado de artistas com raízes na mundialmente famosa colónia de artistas de Worpswede: mostramos a tua arte gratuitamente no findyour.art, ligamos-te às pessoas certas e acompanhamos-te pessoalmente — sem assinatura, sem algoritmo."
     },
     nav: {
         mission: "Missão",
@@ -15,18 +15,18 @@ export const pt = {
     },
     hero: {
         collab: "Um serviço de <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
-        title: "A tua arte não precisa de um algoritmo — <span class=\"text-gradient\">precisa de uma rede.</span>",
-        subtitle: "A rede de artistas curada da postyour.art: publicação gratuita no findyour.art, admissão num verdadeiro pool de contactos — e, se quiseres, acompanhamento pessoal de uma agência de artistas com base real em Worpswede, na Alemanha.",
-        dataSovereignty: "Qualidade em vez de massa: um círculo limitado de artistas, exposições reais, referências reais — e ferramentas que mantêm os teus dados contigo.",
-        cta: "Candidata-te agora à curadoria"
+        title: "Tu fazes a arte. <span class=\"text-gradient\">Nós abrimos as portas.</span>",
+        subtitle: "postyour.art é um pequeno círculo curado de artistas — com raízes na colónia de artistas de Worpswede, mundialmente famosa. Mostramos a tua arte gratuitamente no findyour.art, ligamos-te às pessoas certas e, se quiseres, tratamos pessoalmente de tudo o resto: exposições, candidaturas, visibilidade.",
+        dataSovereignty: "Sem barreiras técnicas, sem assinatura, sem algoritmo — apenas pessoas que se importam de verdade. E os teus dados continuam sempre teus.",
+        cta: "Candidatar agora"
     },
     betaSignup: {
         kicker: "Candidatura",
         title: "Candidata-te à curadoria",
-        lead: "Construímos a rede deliberadamente pequena e de alta qualidade. Inscreve-te — contactamos-te pessoalmente, vemos o teu trabalho e falamos sobre se e como a rede combina contigo.",
-        b1: "Participação na rede gratuita — a curadoria decide",
-        b2: "Conversa pessoal em vez de lista de espera anónima",
-        b3: "Os teus dados permanecem em bruto, portáteis e sob o teu controlo",
+        lead: "Somos um círculo pequeno — e queremos continuar a sê-lo. Fala-nos de ti: contactamos-te pessoalmente, vemos o teu trabalho com calma e descobrimos juntos se combinamos.",
+        b1: "Gratuito — a admissão é decidida pelo olhar sobre a tua arte",
+        b2: "Uma conversa a sério em vez de uma lista de espera anónima",
+        b3: "Os teus dados e as tuas imagens pertencem-te — hoje e sempre",
         nameLabel: "Nome",
         optional: "(opcional)",
         namePh: "O teu nome",
@@ -45,7 +45,7 @@ export const pt = {
         lead: "A documentação da tua arte é o teu capital: catálogo de obras, histórias, preços, exposições. Quem a possui, possui o valor da tua vida artística.",
         para: "É exatamente por isso que ela deve estar num só lugar — estruturada e registada semanticamente, para que fotos e notas se tornem verdadeiro conhecimento sobre a tua obra: pesquisável, ligado, reutilizável para catálogos, candidaturas e vendas. O postyour.art foi construído exatamente para isso — e é completamente gratuito.",
         promises: {
-            c1: { title: "Tua propriedade — exportável, nunca preso", text: "A Vault é tua propriedade: sem senhorio, sem reféns, sem amarras. Um clique exporta tudo em qualidade original — nunca ficas preso ao sistema." },
+            c1: { title: "Tua propriedade — exportável, nunca preso", text: "Fala-nos de ti e da tua arte — contactamos-te pessoalmente." },
             c2: { title: "IA só quando pedes — nunca para publicidade", text: "Nada é processado por IA sem que o peças, nada treina modelos de terceiros. E os teus dados não são comercializados nem cedidos a redes de publicidade." },
             c5: { title: "De pontos de dados nasce uma obra", text: "Cada registo é um ponto: juntos, os teus dados formam uma escultura — o valor da tua vida artística, tornado visível." }
         },
@@ -154,33 +154,43 @@ export const pt = {
         points: ["Liga uma conta com um clique — sem chaves API, sem configuração técnica", "Publica diretamente da app nas tuas contas — nada para descarregar, guardar ou editar fora", "Um fluxo radicalmente simples — poupa tempo, nervos e atenção"]
     },
     whyNetwork: {
-        title: "Porquê uma rede em vez de mais conteúdo?",
-        lead: "Se investes muito tempo no Instagram e volta pouco, não é o teu conteúdo — é o modelo de negócio da plataforma.",
+        title: "Soa-te familiar?",
+        lead: "Passas as noites em publicações e reels — e no fim perguntas-te: para quê, afinal? Não és tu. E certamente não é a tua arte.",
         tiles: {
-            n1: { title: "O alcance não vende arte", text: "Anos de publicações, reels e dicas de gurus — e no fim: zero vendas através da conta sozinha. Produzes entretenimento para a plataforma, não promoção para a tua obra." },
-            n2: { title: "E continua a cair", text: "Alcance dos reels −35 %, alcance orgânico −14 % num ano, segundo as análises do setor. O algoritmo premeia o que a plataforma precisa — não o que a tua arte precisa." },
-            n3: { title: "Quem não paga fica invisível", text: "Alugar visibilidade é o modelo de negócio. O contramodelo: uma rede em que a curadoria decide a admissão — não o teu orçamento." }
+            n1: { title: "Muito aplauso, pouco interesse real", text: "Os likes sabem bem — mas não compram arte nem te convidam para uma exposição. A plataforma ganha, tu dás." },
+            n2: { title: "Está cada vez mais difícil", text: "Mesmo quem faz tudo «certo» chega a cada vez menos pessoas. Não é azar — é o sistema." },
+            n3: { title: "Visível só a pagar", text: "No fim pedem-te para pagar só para seres visto. Acreditamos que sobre a arte deve decidir um olhar — não um orçamento." }
         },
-        pivot: "Não precisas de 20.000 seguidores. Precisas dos contactos certos — pessoas, lugares e ocasiões que abrem portas reais à tua arte."
+        pivot: "Não precisas de 20.000 seguidores. Precisas de pessoas que veem a tua arte, a entendem — e podem fazer algo por ela."
+    },
+    worpswede: {
+        title: "Em casa em Worpswede",
+        lead: "Há mais de 130 anos que a colónia de artistas de Worpswede atrai pintores, escultores e sonhadores — uma aldeia cujo nome ressoa no mundo da arte. É exatamente aí que estamos em casa.",
+        tiles: {
+            w1: { title: "Um lugar com história", text: "A colónia de artistas mundialmente famosa é há gerações um lugar de desejo para a arte — e continua viva: museus, galerias, ateliers e pessoas que ardem pela arte." },
+            w2: { title: "A nossa reputação no local", text: "Vivemos e trabalhamos aqui — com espaços próprios, exposições próprias e relações cultivadas ao longo de anos. Quando prometemos algo, o nosso nome está por trás. E esse nome abre portas aqui." },
+            w3: { title: "O teu nome neste lugar", text: "Uma exposição em Worpswede é mais do que uma data: é uma linha na tua biografia que fica — e uma história que poderás contar para sempre." }
+        },
+        pivot: "É este o alicerce que trazemos quando levamos a tua arte ao mundo."
     },
     membership: {
-        title: "Entrar na rede",
-        lead: "Dois caminhos, um princípio: qualidade em vez de massa. Participar na rede é gratuito — a curadoria decide a admissão. Quem quer mais recebe acompanhamento real em vez de uma assinatura.",
+        title: "Dois caminhos até nós",
+        lead: "Ambos começam da mesma forma: mostras-nos a tua arte e pessoas reais olham para ela. A admissão é decidida apenas pelo nosso olhar sobre a tua obra — não pelo teu orçamento.",
         free: {
             badge: "Gratuito após curadoria",
-            title: "Admissão curada",
+            title: "Parte da rede",
             price: "0 €",
-            items: ["Candidatura com as tuas obras — curadoria pessoal em vez de algoritmo", "Publicação no findyour.art: a tua arte como experiência 3D imersiva", "Admissão no pool de contactos — visível para exposições, projetos e compradores", "Vault e ferramentas da postyour.art incluídas — os teus dados ficam contigo", "Sem assinatura, sem custos escondidos"],
-            note: "A curadoria decide — não o teu orçamento."
+            items: ["Mostra-nos a tua arte — pessoas olham para ela, não um algoritmo", "As tuas obras têm um palco no findyour.art — como mundo 3D imersivo", "Pertences ao nosso círculo: pensamos em ti quando exposições, projetos ou compradores procuram", "A nossa app trata da documentação — quase sozinha, sem conhecimentos técnicos", "Sem assinatura, sem custos, sem letras pequenas"],
+            note: "A admissão é decidida pelo nosso olhar sobre a tua arte — não pela tua carteira."
         },
         agency: {
             badge: "Lugares limitados",
-            title: "Agência de artistas",
+            title: "Acompanhamento pessoal",
             price: "Individual",
-            items: ["Acompanhamento pessoal da mas.art — estratégia, seleção, desenvolvimento", "Exposições e projetos — também em Worpswede, um lugar de relevância histórico-artística", "Candidaturas a concursos, bolsas e exposições", "Imprensa e relações públicas", "Acesso à rede real: associações, organizadores, contactos internacionais", "Referências que ficam na tua biografia"],
-            note: "Projetos concretos com custos transparentes em vez de visibilidade paga. Proposta individual: hello@mas.art"
+            items: ["Tratamos de tudo o que te afasta do trabalho no atelier", "Exposições em lugares reais — também em Worpswede, com o nosso nome e a nossa reputação", "Escrevemos e enviamos as tuas candidaturas: concursos, bolsas, exposições", "Imprensa, público, aparições — nós abrimos as portas, tu atravessa-las", "A nossa rede torna-se tua: associações, organizadores, contactos internacionais", "O que fica: referências e linhas na tua biografia"],
+            note: "Projetos honestos com custos claros — e uma equipa que conhece o teu nome. Escreve-nos: hello@mas.art"
         },
-        principle: "A nossa medida não é quantos participam — mas o que cada artista retira disso."
+        principle: "Não contamos quantos participam. Perguntamo-nos o que tu levas disso."
     },
     vaultTour: {
         title: "Um olhar dentro da Vault",
@@ -223,8 +233,8 @@ export const pt = {
         }
     },
     cta: {
-        title: "Pronto para oportunidades reais?",
-        lead: "Faz parte de uma rede curada — e recupera o teu tempo de atelier.",
+        title: "Pronto para ser visto?",
+        lead: "Entra num círculo que se importa de verdade — e recupera o teu tempo de atelier.",
         cards: {
             c1: { title: "Candidatar agora", text: "Inscreve-te para a curadoria — contactamos-te pessoalmente.", btn: "Iniciar candidatura" },
             c2: { title: "Faz viver a tua arte", text: "O teu palco no findyour.art: a arte como experiência 3D percorrível — descobrir, mergulhar, comprar.", btn: "Descobrir a experiência" },

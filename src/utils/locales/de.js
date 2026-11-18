@@ -1,8 +1,8 @@
 // Deutsch
 export const de = {
         meta: {
-            title: "postyour.art – Das kuratierte Künstlernetzwerk. Deine Daten. Bei dir.",
-            description: "Das kuratierte Künstlernetzwerk mit realem Fundament in Worpswede: kostenlose Veröffentlichung auf findyour.art nach Kuratierung, Kontakte zu Ausstellungen und Käufern, persönliche Betreuung durch die Künstleragentur. Kein Abo — Qualität statt Masse."
+            title: "postyour.art – Das Künstlernetzwerk aus Worpswede",
+            description: "Ein kleiner, kuratierter Kreis von Künstlern mit Wurzeln in der weltberühmten Künstlerkolonie Worpswede: Wir zeigen deine Kunst kostenlos auf findyour.art, verbinden dich mit den richtigen Menschen und betreuen dich persönlich — ohne Abo, ohne Algorithmus."
         },
         nav: {
             mission: "Mission",
@@ -15,18 +15,18 @@ export const de = {
         },
         hero: {
             collab: "Ein Angebot von <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
-            title: "Deine Kunst braucht keinen Algorithmus — <span class=\"text-gradient\">sie braucht ein Netzwerk.</span>",
-            subtitle: "Das kuratierte Künstlernetzwerk von postyour.art: kostenlose Veröffentlichung auf findyour.art, Aufnahme in einen echten Kontaktpool — und auf Wunsch persönliche Betreuung durch eine Künstleragentur mit realem Fundament in Worpswede.",
-            dataSovereignty: "Qualität statt Masse: ein begrenzter Kreis von Künstlern, echte Ausstellungen, echte Referenzen — und Werkzeuge, die deine Daten bei dir lassen.",
-            cta: "Jetzt für die Kuratierung bewerben"
+            title: "Du machst die Kunst. <span class=\"text-gradient\">Wir öffnen die Türen.</span>",
+            subtitle: "postyour.art ist ein kleiner, kuratierter Kreis von Künstlerinnen und Künstlern — mit Wurzeln in der weltberühmten Künstlerkolonie Worpswede. Wir zeigen deine Kunst kostenlos auf findyour.art, bringen dich mit den richtigen Menschen zusammen und kümmern uns, wenn du magst, persönlich um alles Weitere: Ausstellungen, Bewerbungen, Sichtbarkeit.",
+            dataSovereignty: "Keine Technik-Hürden, kein Abo, kein Algorithmus — nur Menschen, die sich wirklich kümmern. Und deine Daten bleiben dabei immer deine.",
+            cta: "Jetzt bewerben"
         },
         betaSignup: {
             kicker: "Bewerbung",
             title: "Bewirb dich für die Kuratierung",
-            lead: "Wir bauen das Netzwerk bewusst klein und hochwertig auf. Trag dich ein — wir melden uns persönlich, schauen uns deine Arbeit an und besprechen, ob und wie das Netzwerk zu dir passt.",
-            b1: "Teilnahme am Netzwerk kostenlos — die Kuratierung entscheidet",
-            b2: "Persönliches Gespräch statt anonymer Warteliste",
-            b3: "Deine Daten bleiben roh, portabel und unter deiner Kontrolle",
+            lead: "Wir sind ein kleiner Kreis — und wollen es bleiben. Erzähl uns von dir: Wir melden uns persönlich, schauen uns deine Arbeit in Ruhe an und finden gemeinsam heraus, ob wir zueinander passen.",
+            b1: "Kostenlos — über die Aufnahme entscheidet der Blick auf deine Kunst",
+            b2: "Ein echtes Gespräch statt einer anonymen Warteliste",
+            b3: "Deine Daten und deine Bilder gehören dir — heute und immer",
             nameLabel: "Vorname",
             optional: "(optional)",
             namePh: "Dein Vorname",
@@ -45,7 +45,7 @@ export const de = {
             lead: "Die Dokumentation deiner Kunst ist dein Kapital: Werkverzeichnis, Geschichten, Preise, Ausstellungen. Wer sie besitzt, besitzt den Wert deines künstlerischen Lebens.",
             para: "Genau deshalb gehört sie an einen Ort — strukturiert und semantisch erfasst, damit aus Fotos und Notizen echtes Wissen über dein Werk wird: durchsuchbar, verknüpft, wiederverwendbar für Kataloge, Bewerbungen und Verkauf. postyour.art ist genau dafür gebaut — und komplett frei und kostenlos.",
             promises: {
-                c1: { title: "Dein Eigentum — exportierbar, nie gebunden", text: "Die Vault ist dein Eigentum: kein Vermieter, keine Geiselhaft, kein Lock-in. Ein Klick exportiert alles in Originalqualität — du bist nie an das System gebunden." },
+                c1: { title: "Dein Eigentum — exportierbar, nie gebunden", text: "Erzähl uns von dir und deiner Kunst — wir melden uns persönlich." },
                 c2: { title: "KI nur auf deinen Auftrag — nie für Werbung", text: "Nichts wird ungefragt von KI verarbeitet, nichts trainiert fremde Modelle. Und deine Daten werden nicht vermarktet und nicht an Werbenetzwerke weitergegeben." },
                 c5: { title: "Aus Datenpunkten wird ein Werk", text: "Jeder Eintrag ein Punkt: Zusammen formen deine Daten eine Skulptur — der Wert deines künstlerischen Lebens, sichtbar gemacht." }
             },
@@ -154,33 +154,43 @@ export const de = {
             points: ["Konto verbinden mit einem Klick — keine API-Schlüssel, kein Entwickler-Setup", "Direkt aus der App auf deine Konten posten — nichts herunterladen, nichts zwischenspeichern, nichts extern bearbeiten", "Ein radikal einfacher Ablauf — spart Zeit, Nerven und Aufmerksamkeit"]
         },
         whyNetwork: {
-            title: "Warum ein Netzwerk statt noch mehr Content?",
-            lead: "Wenn du viel Zeit in Instagram steckst und wenig zurückkommt, liegt das nicht an deinem Content — sondern am Geschäftsmodell der Plattform.",
+            title: "Kommt dir das bekannt vor?",
+            lead: "Du steckst Abende in Posts und Reels — und fragst dich am Ende: Wofür eigentlich? Es liegt nicht an dir. Und erst recht nicht an deiner Kunst.",
             tiles: {
-                n1: { title: "Reichweite verkauft keine Kunst", text: "Jahre voller Posts, Reels und Ratgeber-Tipps — und am Ende: null Verkäufe über das reine Konto. Du produzierst Unterhaltung für die Plattform, nicht Werbung für dein Werk." },
-                n2: { title: "Und sie sinkt weiter", text: "Reel-Reichweite −35 %, organische Reichweite −14 % in einem Jahr, so die Branchenanalysen. Der Algorithmus belohnt, was die Plattform braucht — nicht, was deine Kunst braucht." },
-                n3: { title: "Wer nicht zahlt, bleibt unsichtbar", text: "Sichtbarkeit zu vermieten ist das Geschäftsmodell. Der Gegenentwurf: ein Netzwerk, in dem Kuratierung über die Aufnahme entscheidet — nicht dein Budget." }
+                n1: { title: "Viel Applaus, wenig echtes Interesse", text: "Likes fühlen sich gut an — aber sie kaufen keine Kunst und laden dich zu keiner Ausstellung ein. Die Plattform gewinnt, du gibst." },
+                n2: { title: "Es wird immer zäher", text: "Selbst wer alles „richtig“ macht, erreicht immer weniger Menschen. Das ist kein Zufall — das ist System." },
+                n3: { title: "Sichtbar nur gegen Geld", text: "Am Ende sollst du dafür bezahlen, überhaupt gesehen zu werden. Wir glauben: Über Kunst sollte ein Blick entscheiden — kein Budget." }
             },
-            pivot: "Du brauchst keine 20.000 Follower. Du brauchst die richtigen Kontakte — Menschen, Orte und Gelegenheiten, die deiner Kunst echte Möglichkeiten eröffnen."
+            pivot: "Du brauchst keine 20.000 Follower. Du brauchst Menschen, die deine Kunst sehen, verstehen — und etwas für sie tun können."
+        },
+        worpswede: {
+            title: "Zuhause in Worpswede",
+            lead: "Seit mehr als 130 Jahren zieht die Künstlerkolonie Worpswede Malerinnen, Bildhauer und Träumer an — ein Dorf, dessen Name in der Kunstwelt Klang hat. Genau hier sind wir zu Hause.",
+            tiles: {
+                w1: { title: "Ein Ort mit Geschichte", text: "Die weltberühmte Künstlerkolonie ist seit Generationen ein Sehnsuchtsort der Kunst — und bis heute lebendig: mit Museen, Galerien, Ateliers und Menschen, die für Kunst brennen." },
+                w2: { title: "Unsere Reputation vor Ort", text: "Wir leben und arbeiten hier — mit eigenen Räumen, eigenen Ausstellungen und über Jahre gewachsenen Beziehungen. Wenn wir etwas zusagen, steht unser Name dahinter. Und dieser Name öffnet hier Türen." },
+                w3: { title: "Dein Name an diesem Ort", text: "Eine Ausstellung in Worpswede ist mehr als ein Termin: Sie ist eine Zeile in deiner Biografie, die bleibt — und eine Geschichte, die du für immer erzählen kannst." }
+            },
+            pivot: "Dieses Fundament bringen wir mit, wenn wir deine Kunst in die Welt tragen."
         },
         membership: {
-            title: "Aufnahme ins Netzwerk",
-            lead: "Zwei Wege, ein Prinzip: Qualität statt Masse. Die Teilnahme am Netzwerk ist kostenlos — über die Aufnahme entscheidet die Kuratierung. Wer mehr will, bekommt echte Betreuung statt eines Abos.",
+            title: "Zwei Wege zu uns",
+            lead: "Beide beginnen gleich: Du zeigst uns deine Kunst, und echte Menschen schauen sie sich an. Über die Aufnahme entscheidet allein unser Blick auf dein Werk — nicht dein Budget.",
             free: {
                 badge: "Kostenlos nach Kuratierung",
-                title: "Kuratierte Aufnahme",
+                title: "Teil des Netzwerks",
                 price: "0 €",
-                items: ["Bewerbung mit deinen Werken — persönliche Kuratierung statt Algorithmus", "Veröffentlichung auf findyour.art: deine Kunst als begehbares 3D-Erlebnis", "Aufnahme in den Kontaktpool — sichtbar für Ausstellungen, Projekte und Käufer", "Vault & Werkzeuge von postyour.art inklusive — deine Daten bleiben bei dir", "Kein Abo, keine versteckten Kosten"],
-                note: "Kuratierung entscheidet — nicht dein Budget."
+                items: ["Zeig uns deine Kunst — Menschen schauen sie an, kein Algorithmus", "Deine Werke bekommen eine Bühne auf findyour.art — als begehbare 3D-Welt", "Du gehörst zu unserem Kreis: Wir denken an dich, wenn Ausstellungen, Projekte oder Käufer suchen", "Unsere App nimmt dir die Dokumentation ab — ganz nebenbei, ohne Technikwissen", "Kein Abo, keine Kosten, kein Kleingedrucktes"],
+                note: "Über die Aufnahme entscheidet unser Blick auf deine Kunst — nicht dein Geldbeutel."
             },
             agency: {
                 badge: "Begrenzte Plätze",
-                title: "Künstleragentur",
+                title: "Persönliche Betreuung",
                 price: "Individuell",
-                items: ["Persönliche Betreuung durch mas.art — Strategie, Auswahl, Entwicklung", "Ausstellungen & Projekte — auch in Worpswede, einem kunsthistorisch bedeutenden Ort", "Bewerbungen für Wettbewerbe, Stipendien und Ausstellungen", "Presse- & Öffentlichkeitsarbeit", "Zugang zum realen Netzwerk: Vereine, Veranstalter, internationale Kontakte", "Referenzen, die in deiner Biografie bleiben"],
-                note: "Konkrete Projekte mit transparenten Kosten statt bezahlter Sichtbarkeit. Individuelles Angebot: hello@mas.art"
+                items: ["Wir kümmern uns um alles, was dich vom Arbeiten im Atelier abhält", "Ausstellungen an echten Orten — auch in Worpswede, mit unserem Namen und unserer Reputation", "Wir schreiben und verschicken deine Bewerbungen: Wettbewerbe, Stipendien, Ausstellungen", "Presse, Öffentlichkeit, Auftritte — wir öffnen die Türen, du gehst hindurch", "Unser gewachsenes Netzwerk wird deins: Vereine, Veranstalter, internationale Kontakte", "Was bleibt: Referenzen und Zeilen in deiner Biografie"],
+                note: "Ehrliche Projekte mit klaren Kosten — und ein Team, das deinen Namen kennt. Schreib uns: hello@mas.art"
             },
-            principle: "Unser Maßstab ist nicht, wie viele mitmachen — sondern was für die Einzelnen dabei herauskommt."
+            principle: "Wir zählen nicht, wie viele mitmachen. Wir fragen uns, was für dich dabei herauskommt."
         },
         vaultTour: {
             title: "Ein Blick in die Vault",
@@ -223,8 +233,8 @@ export const de = {
             }
         },
         cta: {
-            title: "Bereit für echte Möglichkeiten?",
-            lead: "Werde Teil eines kuratierten Netzwerks — und hol dir deine Atelierzeit zurück.",
+            title: "Bereit, gesehen zu werden?",
+            lead: "Komm in einen Kreis, der sich wirklich kümmert — und hol dir deine Atelierzeit zurück.",
             cards: {
                 c1: { title: "Jetzt bewerben", text: "Trag dich für die Kuratierung ein — wir melden uns persönlich.", btn: "Bewerbung starten" },
                 c2: { title: "Kunst erleben lassen", text: "Deine Bühne auf findyour.art: Kunst als begehbares 3D-Erlebnis — entdecken, eintauchen, kaufen.", btn: "Erlebnis entdecken" },
