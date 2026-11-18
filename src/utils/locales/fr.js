@@ -1,8 +1,8 @@
 // Französisch
 export const fr = {
     meta: {
-        title: "postyour.art – La Vault pour ton art. Tes données. Chez toi.",
-        description: "Enregistre tes œuvres par photo et voix : catalogue d'œuvres, histoires, dates et prix dans ta propre Vault. Gratuit pour toujours, sans abonnement, exportable à tout moment — avec des channels pour le print, le web, les réseaux sociaux et la vente sur findyour.art."
+        title: "postyour.art – Le réseau d'artistes curaté. Tes données. Chez toi.",
+        description: "Le réseau d'artistes curaté ancré dans le lieu réel de Worpswede : publication gratuite sur findyour.art après curation, contacts vers expositions et acheteurs, accompagnement personnel par l'agence d'artistes. Sans abonnement — la qualité plutôt que la masse."
     },
     nav: {
         mission: "Mission",
@@ -15,27 +15,27 @@ export const fr = {
     },
     hero: {
         collab: "Un service de <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
-        title: "Ton art. Partout - <span class=\"text-gradient\">Tes données. Chez toi !</span>",
-        subtitle: "Tes données, la documentation de ton art, ton journal d'artiste.",
-        dataSovereignty: "Diffusion automatique vers tes channels — plus de valeur, un gain de temps énorme et moins d'attention gaspillée sur les réseaux sociaux.",
-        cta: "Réserver ma place en bêta"
+        title: "Ton art n'a pas besoin d'un algorithme — <span class=\"text-gradient\">il a besoin d'un réseau.</span>",
+        subtitle: "Le réseau d'artistes curaté de postyour.art : publication gratuite sur findyour.art, admission dans un vrai pool de contacts — et, si tu le souhaites, un accompagnement personnel par une agence d'artistes ancrée dans le lieu réel de Worpswede, en Allemagne.",
+        dataSovereignty: "La qualité plutôt que la masse : un cercle limité d'artistes, de vraies expositions, de vraies références — et des outils qui gardent tes données chez toi.",
+        cta: "Postuler à la curation"
     },
     betaSignup: {
-        kicker: "Programme bêta",
-        title: "Réserve ta place dans la bêta",
-        lead: "Nous ouvrons postyour.art pas à pas aux artistes plasticiens. Inscris-toi — nous t'inviterons personnellement dès qu'une place se libère.",
-        b1: "Accès gratuit pendant toute la phase bêta",
-        b2: "Accompagnement personnel plutôt qu'une liste d'attente anonyme",
+        kicker: "Candidature",
+        title: "Postule à la curation",
+        lead: "Nous construisons volontairement un réseau petit et de grande qualité. Inscris-toi — nous te contactons personnellement, regardons ton travail et discutons si et comment le réseau te correspond.",
+        b1: "Participation au réseau gratuite — la curation décide",
+        b2: "Un échange personnel au lieu d'une liste d'attente anonyme",
         b3: "Tes données restent brutes, portables et sous ton contrôle",
         nameLabel: "Prénom",
         optional: "(facultatif)",
         namePh: "Ton prénom",
         emailLabel: "Adresse e-mail",
         emailPh: "toi@email.fr",
-        consent: "Oui, invitez-moi au programme bêta et tenez-moi au courant par e-mail. Désinscription possible à tout moment. La <a href=\"#privacy\">politique de confidentialité</a> s'applique.",
-        submit: "Réserver ma place en bêta",
-        successTitle: "Tu es sur la liste !",
-        successText: "Merci ! Nous t'écrirons personnellement dès que ton accès bêta sera prêt — pas de bombardement de newsletters.",
+        consent: "Oui, contactez-moi pour la curation et tenez-moi informé par e-mail. Désinscription possible à tout moment. La <a href=\"#privacy\">politique de confidentialité</a> s'applique.",
+        submit: "Lancer la candidature",
+        successTitle: "Ta candidature est bien arrivée !",
+        successText: "Merci ! Nous te répondrons personnellement par e-mail et regarderons ton travail avec attention — sans bombardement de newsletters.",
         errorInvalid: "Merci d'indiquer une adresse e-mail valide.",
         errorConsent: "Merci de cocher la case pour que nous puissions t'écrire.",
         errorServer: "Cela n'a malheureusement pas fonctionné. Réessaie plus tard."
@@ -153,6 +153,35 @@ export const fr = {
         badge: "API centrale",
         points: ["Connecter un compte en un clic — pas de clés API, pas de configuration technique", "Publier directement depuis l'app sur tes comptes — rien à télécharger, à stocker ou à retoucher ailleurs", "Un flux radicalement simple — gain de temps, de nerfs et d'attention"]
     },
+    whyNetwork: {
+        title: "Pourquoi un réseau plutôt que plus de contenu ?",
+        lead: "Si tu investis beaucoup de temps dans Instagram et qu'il en revient peu, ce n'est pas ton contenu — c'est le modèle économique de la plateforme.",
+        tiles: {
+            n1: { title: "La portée ne vend pas d'art", text: "Des années de posts, de reels et de conseils de gourous — et au final : zéro vente via le simple compte. Tu produis du divertissement pour la plateforme, pas de la promotion pour ton œuvre." },
+            n2: { title: "Et elle continue de baisser", text: "Portée des reels −35 %, portée organique −14 % en un an, selon les analyses du secteur. L'algorithme récompense ce dont la plateforme a besoin — pas ce dont ton art a besoin." },
+            n3: { title: "Qui ne paie pas reste invisible", text: "Louer de la visibilité, c'est le modèle économique. Le contre-modèle : un réseau où la curation décide de l'admission — pas ton budget." }
+        },
+        pivot: "Tu n'as pas besoin de 20 000 abonnés. Tu as besoin des bons contacts — des personnes, des lieux et des occasions qui ouvrent de vraies portes à ton art."
+    },
+    membership: {
+        title: "Rejoindre le réseau",
+        lead: "Deux voies, un principe : la qualité plutôt que la masse. La participation au réseau est gratuite — la curation décide de l'admission. Qui veut plus reçoit un vrai accompagnement au lieu d'un abonnement.",
+        free: {
+            badge: "Gratuit après curation",
+            title: "Admission curatée",
+            price: "0 €",
+            items: ["Candidature avec tes œuvres — curation personnelle au lieu d'un algorithme", "Publication sur findyour.art : ton art en expérience 3D immersive", "Admission dans le pool de contacts — visible pour expositions, projets et acheteurs", "Vault & outils de postyour.art inclus — tes données restent chez toi", "Pas d'abonnement, pas de frais cachés"],
+            note: "C'est la curation qui décide — pas ton budget."
+        },
+        agency: {
+            badge: "Places limitées",
+            title: "Agence d'artistes",
+            price: "Individuel",
+            items: ["Accompagnement personnel par mas.art — stratégie, sélection, développement", "Expositions & projets — y compris à Worpswede, un lieu important de l'histoire de l'art", "Candidatures pour concours, bourses et expositions", "Presse et relations publiques", "Accès au réseau réel : associations, organisateurs, contacts internationaux", "Des références qui restent dans ta biographie"],
+            note: "Des projets concrets aux coûts transparents au lieu de visibilité payée. Offre individuelle : hello@mas.art"
+        },
+        principle: "Notre mesure n'est pas le nombre de participants — mais ce que chacun en retire."
+    },
     vaultTour: {
         title: "Un regard dans la Vault",
         lead: "Tout ce qui s'accumule dans une vie d'artiste — à un seul endroit, toujours trié.",
@@ -179,46 +208,12 @@ export const fr = {
             p4: "<strong>L'IA uniquement sur ta demande</strong><p>Rien n'est traité sans que tu le demandes — et rien n'entraîne jamais de modèles tiers.</p>"
         }
     },
-    pricing: {
-        title: "La Vault est gratuite. Sans abonnement.",
-        lead: "Tout ce qui se passe dans ta Vault est entièrement gratuit — et aucune donnée ne quitte ton espace personnel. Les crédits ne servent que lorsque tu envoies quelque chose dans le monde : les diffusions vers tes channels se paient avec des packs de crédits, achetés exactement quand tu en as besoin.",
-        free: {
-            badge: "0 € — pour toujours",
-            title: "Ta Vault",
-            text: "Enregistrer, organiser, posséder : tout ton espace privé ne coûte rien — sans abonnement, sans limite, sans frais cachés.",
-            items: ["Saisie IA par chat, photo & voix", "Galerie, stories, dates, archives", "Connexion Telegram", "Aucune donnée ne quitte ton espace personnel", "Export complet & suppression à tout moment", "Tes données, ta propriété"]
-        },
-        credits: {
-            title: "Des crédits pour les diffusions",
-            lead: "Seul ce qui sort de ta Vault coûte des crédits : un catalogue, un post sur les réseaux, une mise à jour de ton site, une candidature. Pour cela, tu achètes des packs de crédits — sans abonnement, sans engagement.",
-            unit: "crédits",
-            packs: {
-                p1: { name: "Starter", credits: "1 000", price: "9,90 €", per: "0,99 centime par crédit", use: "Pour essayer et pour des diffusions occasionnelles" },
-                p2: { name: "Creator", flag: "Populaire", credits: "3 000", price: "24,90 €", per: "0,83 centime par crédit", save: "16 % moins cher", use: "Pour des posts réguliers, des catalogues et ton site" },
-                p3: { name: "Studio", credits: "10 000", price: "69 €", per: "0,69 centime par crédit", save: "30 % moins cher", use: "Pour une présence complète sur plusieurs channels" }
-            },
-            facts: ["Sans abonnement — des packs seulement en cas de besoin", "Les crédits n'expirent jamais", "Les grands packs réduisent le prix par crédit"]
-        },
-        pricelist: {
-            button: "Liste de prix complète",
-            title: "Liste de prix complète",
-            close: "Fermer",
-            note: "Ta Vault avec 1 Go reste gratuite pour toujours — les crédits ne servent que pour plus de stockage, les channels et les diffusions.",
-            sections: {
-                s1: { title: "Stockage de la Vault", items: [["1 Go", "gratuit"], ["10 Go", "500 crédits / mois"], ["50 Go", "2 000 crédits / mois"], ["200 Go", "5 000 crédits / mois"]] },
-                s2: { title: "Channels", items: [["Activation de la fonction channels & connexion en 1 clic de tes comptes sociaux", "500 crédits / mois"]] },
-                s3: { title: "Impression", items: [["Commande d'impression (catalogue, étiquettes, cartes …)", "100 crédits / commande"]] },
-                s4: { title: "Réseaux sociaux", items: [["Post sur les réseaux", "50 crédits / commande"], ["Post premium (vidéo)", "500 crédits / commande"]] }
-            }
-        },
-        pro: "Accompagnement professionnel pour artistes de métier — expositions, presse & relations publiques, suivi personnel par mas.art. Offre individuelle : hello@mas.art"
-    },
     faq: {
         title: "Questions fréquentes",
         lead: "Réponses brèves — l'essentiel sur la Vault, les prix et les channels.",
         items: {
-            q1: { q: "Qu'est-ce que postyour.art ?", a: "postyour.art est la Vault pour ton art : tu enregistres tes œuvres par photo et voix, l'IA structure titre, technique, dimensions, prix et l'histoire de chaque pièce. La Vault est gratuite, exportable à tout moment et reste ta propriété." },
-            q2: { q: "Combien coûte postyour.art ?", a: "La Vault est entièrement gratuite — il n'y a pas d'abonnement et aucune donnée ne quitte ton espace personnel. Seules les diffusions et les extras coûtent des crédits : les packs commencent à 9,90 € (1 000 crédits), ils n'expirent jamais et les grands packs reviennent moins cher par crédit. La liste de prix complète se trouve dans la section prix ; accompagnement professionnel sur demande." },
+            q1: { q: "Qu'est-ce que postyour.art ?", a: "postyour.art est l'entrée d'un réseau d'artistes curaté : tu postules avec tes œuvres, après la curation tu publies gratuitement sur findyour.art et tu rejoins le pool de contacts. La Vault en fait partie : saisir les œuvres par photo et voix, l'IA structure tout — gratuit, exportable, ta propriété." },
+            q2: { q: "Combien coûte postyour.art ?", a: "La participation au réseau et la Vault sont gratuites — la curation décide de l'admission, pas ton budget. Pas d'abonnement. Qui veut plus réserve l'accompagnement personnel de l'agence d'artistes : des projets concrets aux coûts transparents, offre individuelle via hello@mas.art." },
             q3: { q: "À qui appartiennent mes données ?", a: "À toi. Tes données n'entraînent jamais de modèles d'IA tiers et ne servent jamais à la publicité. Tu peux tout exporter en ZIP en qualité d'origine à tout moment et supprimer ton compte définitivement." },
             q4: { q: "Comment enregistrer une œuvre ?", a: "Prends une photo, dis deux phrases — c'est fait. Cela fonctionne directement dans le navigateur ou via Telegram depuis l'atelier ; l'assistant IA structure automatiquement tous les détails." },
             q5: { q: "Ai-je besoin d'une nouvelle app ?", a: "Non. La saisie fonctionne entièrement via Telegram ou le navigateur — des outils que tu connais déjà. Bientôt, ce sera encore plus direct, jusqu'aux lunettes connectées." },
@@ -228,10 +223,10 @@ export const fr = {
         }
     },
     cta: {
-        title: "Prêt à enregistrer ?",
-        lead: "Rejoins la phase bêta de postyour.art et récupère ton temps d'atelier.",
+        title: "Prêt pour de vraies opportunités ?",
+        lead: "Rejoins un réseau curaté — et récupère ton temps d'atelier.",
         cards: {
-            c1: { title: "Commencer maintenant", text: "Inscris-toi à la bêta — nous t'inviterons personnellement.", btn: "Réserver une place en bêta" },
+            c1: { title: "Postuler maintenant", text: "Inscris-toi pour la curation — nous te contactons personnellement.", btn: "Lancer la candidature" },
             c2: { title: "Fais vivre ton art", text: "Ta scène sur findyour.art : l'art comme expérience 3D à parcourir — découvrir, plonger, acheter.", btn: "Découvrir l'expérience" },
             c3: { title: "Devenir partenaire", text: "Connecte ton channel.", btn: "Bientôt disponible" }
         }

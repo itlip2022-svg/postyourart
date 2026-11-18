@@ -1056,221 +1056,50 @@ body.menu-open .nav-toggle span:nth-child(3) {
     box-shadow: var(--shadow-glow);
 }
 
-/* Kostenlose Vault: breite Karte über der Paket-Reihe */
-.pricing-free {
-    max-width: 880px;
-    margin: 2.5rem auto 0;
-}
-
-.pricing-free-text {
-    color: var(--color-text-soft);
-    margin-bottom: 1.1rem;
-    max-width: 680px;
-}
-
-.pricing-free .pricing-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
-    gap: 0.6rem 2rem;
-}
-
-/* Credit-Pakete für Auslieferungen */
-.credits-title {
-    font-family: var(--font-heading);
-    font-size: 1.6rem;
-    margin-top: 3.5rem;
-}
-
-.credits-lead {
-    color: var(--color-text-muted);
-    max-width: 720px;
-    margin: 0.75rem auto 0;
-    line-height: 1.6;
-}
-
-.credit-amount {
-    font-family: var(--font-heading);
-    font-size: 2.6rem;
-    font-weight: 700;
-    color: var(--color-text);
-    margin-top: 0.4rem;
-    line-height: 1.1;
-}
-
-.credit-unit {
-    display: block;
-    font-size: 0.85rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--color-text-muted);
-}
-
-.credit-card .pricing-price {
-    font-size: 1.7rem;
-    margin: 0.9rem 0 0.15rem;
-}
-
-.credit-per {
-    font-size: 0.88rem;
-    color: var(--color-text-muted);
-}
-
-.credit-save {
-    position: absolute;
-    top: 1.1rem;
-    right: 1.25rem;
-    font-size: 0.78rem;
-    font-weight: 700;
-    color: var(--color-accent-primary);
-}
-
-.credit-use {
-    margin-top: 1rem;
-    padding-top: 1rem;
-    border-top: 1px solid var(--color-border-strong);
-    color: var(--color-text-soft);
-    font-size: 0.95rem;
-    line-height: 1.5;
-}
-
-/* Spielregeln der Credits: kompakte Checkliste unter den Paketen */
-.credit-facts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5rem 2rem;
-    margin-top: 1.75rem;
-}
-
-.credit-facts li {
-    color: var(--color-text-soft);
-    padding-left: 1.4rem;
-    position: relative;
-    font-size: 0.95rem;
-}
-
-.credit-facts li::before {
-    content: '✓';
-    position: absolute;
-    left: 0;
-    color: var(--color-accent-primary);
-    font-weight: 700;
-}
-
-.pricing-pro-note {
-    max-width: 720px;
-    margin: 1.5rem auto 0;
-}
-
-/* Komplette Preisliste: Link-Button + Popup (<dialog>) */
-.pricelist-btn {
-    display: inline-block;
-    margin-top: 1.75rem;
-    padding: 0.65rem 1.5rem;
-    font-family: inherit;
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: var(--color-accent-primary);
-    background: var(--accent-soft);
-    border: 1px solid var(--accent-line);
-    border-radius: var(--radius-full);
-    cursor: pointer;
-    transition: background 0.2s ease, color 0.2s ease;
-}
-
-.pricelist-btn:hover {
-    background: var(--color-accent-primary);
-    color: #1a1208;
-}
-
-.pricelist-modal {
-    width: min(560px, calc(100vw - 2rem));
-    max-height: min(85vh, 760px);
-    padding: 1.75rem 1.75rem 1.5rem;
-    border: 1px solid var(--color-border-strong);
-    border-radius: var(--radius-lg, 20px);
-    background: var(--color-bg-elevated, #15151d);
-    color: var(--color-text);
-    box-shadow: 0 32px 80px rgba(0, 0, 0, 0.6);
+/* Warum ein Netzwerk: drei Befunde + Schlusssatz */
+.why-network-card {
     text-align: left;
 }
 
-.pricelist-modal::backdrop {
-    background: rgba(5, 5, 10, 0.72);
-    backdrop-filter: blur(4px);
-}
-
-.pricelist-head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-bottom: 0.75rem;
-}
-
-.pricelist-head h3 {
-    font-size: 1.3rem;
+.why-network-card h3 {
     color: var(--color-text);
+    margin-bottom: 0.6rem;
 }
 
-.pricelist-close {
-    flex-shrink: 0;
-    width: 2.2rem;
-    height: 2.2rem;
-    border: 1px solid var(--color-border-strong);
-    border-radius: var(--radius-full);
-    background: rgba(255, 255, 255, 0.05);
-    color: var(--color-text-muted);
-    font-size: 1.3rem;
-    line-height: 1;
-    cursor: pointer;
-    transition: color 0.2s ease, border-color 0.2s ease;
-}
-
-.pricelist-close:hover {
-    color: var(--color-text);
-    border-color: var(--accent-line);
-}
-
-.pricelist-section {
-    padding-top: 1rem;
-}
-
-.pricelist-section h4 {
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--color-accent-primary);
-    margin-bottom: 0.4rem;
-}
-
-.pricelist-row {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 0.45rem 0;
-    border-bottom: 1px dashed var(--color-border-strong);
-}
-
-.pricelist-section .pricelist-row:last-child {
-    border-bottom: 0;
-}
-
-.pricelist-label {
+.why-network-card p {
     color: var(--color-text-soft);
+    line-height: 1.65;
 }
 
-.pricelist-value {
+.why-network-pivot {
+    max-width: 720px;
+    margin: 2.75rem auto 0;
+    font-family: var(--font-heading);
+    font-size: 1.35rem;
+    line-height: 1.5;
     color: var(--color-text);
-    font-weight: 600;
-    white-space: nowrap;
 }
 
-.pricelist-modal .pricing-note {
-    margin-top: 1.25rem;
+/* Aufnahme ins Netzwerk: zwei Wege (kuratiert kostenlos / Agentur) */
+.membership-plans {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+    gap: 1.75rem;
+    max-width: 980px;
+    margin: 2.5rem auto 0;
+    text-align: left;
+}
+
+.membership-price-individual {
+    color: var(--color-accent-primary);
+    font-size: 1.8rem;
+}
+
+.membership-principle {
+    max-width: 680px;
+    margin: 2rem auto 0;
+    color: var(--color-text-muted);
+    font-style: italic;
 }
 
 /* Paket-Reihe: Desktop eine Reihe, mobil wischbares Karussell */

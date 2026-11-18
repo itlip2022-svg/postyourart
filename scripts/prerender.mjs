@@ -45,7 +45,8 @@ const { ValueProps } = await import('../src/components/ValueProps.js');
 const { HowItWorks } = await import('../src/components/HowItWorks.js');
 const { VaultTour } = await import('../src/components/VaultTour.js');
 const { Ownership } = await import('../src/components/Ownership.js');
-const { Pricing } = await import('../src/components/Pricing.js');
+const { WhyNetwork } = await import('../src/components/WhyNetwork.js');
+const { Membership } = await import('../src/components/Membership.js');
 const { Faq } = await import('../src/components/Faq.js');
 const { BetaSignup } = await import('../src/components/BetaSignup.js');
 const { jsonLd, urlForLang } = await import('../src/utils/seo.js');
@@ -56,8 +57,11 @@ const appHtml = `
       ${Header()}
       <main>
         ${Hero()}
-        ${WhyNow()}
+        ${WhyNetwork()}
         ${FindYourArt()}
+        ${Membership()}
+        ${BetaSignup()}
+        ${WhyNow()}
         ${CollectorBenefits()}
         ${SocialConnect()}
         ${ValueProps()}
@@ -65,10 +69,8 @@ const appHtml = `
         ${SecondBrain()}
         ${MatchingSystem()}
         ${HowItWorks()}
-        ${BetaSignup()}
         ${VaultTour()}
         ${Ownership()}
-        ${Pricing()}
         ${Faq()}
         ${CTA()}
       </main>
