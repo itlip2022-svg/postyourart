@@ -47,6 +47,10 @@ export function FindYourArt() {
         <div class="mt-lg">
           <a href="https://findyour.art/" target="_blank" rel="noopener" class="btn btn-primary btn-lg">${t('findyourart.btn')}</a>
         </div>
+        <p class="section-links">
+          <a href="https://findyour.art/ueber-uns" target="_blank" rel="noopener">${t('findyourart.aboutLink')} →</a>
+          <a href="https://www.mas.art" target="_blank" rel="noopener">${t('findyourart.masartLink')} →</a>
+        </p>
       </div>
     </section>
   `;

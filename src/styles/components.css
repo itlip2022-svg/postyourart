@@ -1459,3 +1459,32 @@ body.menu-open .nav-toggle span:nth-child(3) {
     border-radius: 3px;
     margin: 1.3rem auto 0;
 }
+
+/* ── Querverweise: Orange Textlinks mit Pfeil (wie findyour.art) ──────── */
+.section-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem 1.8rem;
+    margin-top: 1.5rem;
+}
+
+.section-links a {
+    color: var(--color-accent-primary);
+    font-weight: 600;
+}
+
+.section-links a:hover {
+    text-decoration: underline;
+}
+
+/* Markennamen-Links im Fließtext ebenfalls in Akzentfarbe */
+main a[href^="https://findyour.art"]:not(.btn),
+main a[href^="https://www.mas.art"]:not(.btn) {
+    color: var(--color-accent-primary);
+}
+
+main a[href^="https://findyour.art"]:not(.btn):hover,
+main a[href^="https://www.mas.art"]:not(.btn):hover {
+    text-decoration: underline;
+}
