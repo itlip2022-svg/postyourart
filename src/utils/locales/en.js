@@ -1,8 +1,8 @@
 // Englisch — Referenzsprache
 export const en = {
         meta: {
-            title: "postyour.art – The Vault for Your Art. Your Data. With You.",
-            description: "Capture artworks by photo and voice: catalogue of works, stories, dates and prices in your own vault. Free forever, no subscription, exportable any time — with channels for print, web, social media and selling on findyour.art."
+            title: "postyour.art – The Artist Network from Worpswede",
+            description: "A small, curated circle of artists rooted in the world-famous artists' colony of Worpswede: we show your art for free on findyour.art, connect you with the right people and care for you personally — no subscription, no algorithm."
         },
         nav: {
             mission: "Mission",
@@ -15,27 +15,27 @@ export const en = {
         },
         hero: {
             collab: "Provided by <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
-            title: "Your Art. Everywhere - <span class=\"text-gradient\">Your Data. With you!</span>",
-            subtitle: "Your data, your art documentation, your artist diary.",
-            dataSovereignty: "Delivered automatically to your channels — more value, enormous time savings and less attention wasted on social media.",
-            cta: "Secure your beta spot"
+            title: "You make the art. <span class=\"text-gradient\">We open the doors.</span>",
+            subtitle: "postyour.art is a small, curated circle of artists — rooted in the world-famous artists' colony of Worpswede, Germany. We show your art for free on findyour.art, bring you together with the right people, and, if you wish, personally take care of everything else: exhibitions, applications, visibility.",
+            dataSovereignty: "No tech hurdles, no subscription, no algorithm — just people who truly care. And your data always stays yours.",
+            cta: "Apply now"
         },
         betaSignup: {
-            kicker: "Beta program",
-            title: "Secure your spot in the beta",
-            lead: "We are opening postyour.art step by step for visual artists. Sign up — we will invite you personally as soon as a spot opens up.",
-            b1: "Free access during the entire beta phase",
-            b2: "Personal onboarding instead of an anonymous waitlist",
-            b3: "Your data stays raw, portable and under your control",
+            kicker: "Application",
+            title: "Apply for curation",
+            lead: "We are a small circle — and want to stay one. Tell us about yourself: we'll get in touch personally, take a calm look at your work and find out together whether we fit.",
+            b1: "Free — admission is decided by the look at your art",
+            b2: "A real conversation instead of an anonymous waitlist",
+            b3: "Your data and your images belong to you — today and always",
             nameLabel: "First name",
             optional: "(optional)",
             namePh: "Your first name",
             emailLabel: "Email address",
             emailPh: "you@email.com",
-            consent: "Yes, invite me to the beta program and keep me posted by email. Unsubscribe any time. The <a href=\"#privacy\">privacy policy</a> applies.",
-            submit: "Secure my beta spot",
-            successTitle: "You're on the list!",
-            successText: "Thank you! We'll email you personally as soon as your beta access is ready — no newsletter bombardment.",
+            consent: "Yes, contact me about curation and keep me posted by email. Unsubscribe any time. The <a href=\"#privacy\">privacy policy</a> applies.",
+            submit: "Start application",
+            successTitle: "Your application has arrived!",
+            successText: "Thank you! We will get back to you personally by email and take a proper look at your work — no newsletter bombardment.",
             errorInvalid: "Please enter a valid email address.",
             errorConsent: "Please confirm the checkbox so we may email you.",
             errorServer: "That didn't work, unfortunately. Please try again later."
@@ -43,14 +43,14 @@ export const en = {
         appsEcosystem: {
             title: "Your Data. Your Value.",
             lead: "The documentation of your art is your capital: catalogue of works, stories, prices, exhibitions. Whoever owns it owns the value of your artistic life.",
-            para: "That is why it belongs in one place — structured and semantically captured, so photos and notes become real knowledge about your work: searchable, connected, reusable for catalogs, applications and sales. postyour.art is built for exactly that — and it is completely free.",
+            para: "That's exactly why it belongs in a place that belongs to you — where photos and notes become the whole story of your work: easy to find again, easy to understand, ready for catalogs, applications and sales. postyour.art is made for exactly that — and completely free.",
             promises: {
-                c1: { title: "Your Property — Exportable, Never Locked In", text: "The vault is your property: no landlord, no hostage-taking, no lock-in. One click exports everything in original quality — you are never bound to the system." },
+                c1: { title: "Your Property — Exportable, Never Locked In", text: "Everything you keep here belongs to you — and you can take all of it with you at any time. If you leave, everything leaves with you." },
                 c2: { title: "AI Only on Your Command — Never for Advertising", text: "Nothing is processed by AI without you asking, and nothing trains third-party models. Your data is never marketed or passed on to advertising networks." },
-                c5: { title: "Data Points Become a Work", text: "Every entry is a point: together your data forms a sculpture — the value of your artistic life, made visible." }
+                c5: { title: "Data Points Become a Work", text: "Every entry a point of light: together your memories form a sculpture — your artistic life, made visible." }
             },
             highlight: "Free. Yours. Forever.",
-            ctaBeta: "Secure a beta spot",
+            ctaBeta: "Apply now",
             ctaApp: "See how the app works"
         },
         findyourart: {
@@ -93,8 +93,8 @@ export const en = {
             }
         },
         coreFeature: {
-            title: "Smart AI Capture",
-            lead: "postyour.art isn't just an archive. It's an assistant that saves you evenings of admin work.",
+            title: "Just Tell Us About Your Work",
+            lead: "You photograph and talk — your assistant handles the paperwork. No forms, no tech, no lost evenings.",
             list: {
                 l1: "<strong>Capture by Voice & Photo</strong><p>Photograph the piece, talk about it — the assistant extracts title, technique, dimensions and price, and files the story with the work.</p>",
                 l2: "<strong>Storytelling Assistant</strong><p>Get help drafting engaging descriptions for your creative process — in your own tone.</p>",
@@ -102,23 +102,23 @@ export const en = {
             }
         },
         secondBrain: {
-            title: "More Than a Collection: Your Second Brain",
-            lead: "In the future, the vault won't offer your data as a simple collection but truly semantically — understood by content and connected with each other.",
+            title: "A Memory for Your Life's Work",
+            lead: "Nothing you keep here just sits there — it becomes a memory that truly knows your work: every image, every story, every connection.",
             cards: {
-                c1: { icon: "🔍", title: "Searchable & Enriched", text: "All works, photos, videos and entire stories become searchable and editorially prepared — by motif, technique, place and context, not just by file name." },
-                c2: { icon: "🧠", title: "A Second Memory", text: "In the long run your vault becomes the second brain of your artistic practice: nothing gets lost, everything stays retrievable in context — even after years." },
-                c3: { icon: "💡", title: "Context for What's Next", text: "Your entire body of work stands ready as the contextual foundation for future ideas and publications — for catalogs, posts, exhibitions and works yet to come." },
-                c4: { title: "Your Vault as a Knowledge Graph", text: "Works, stories, photos and dates as a living web of nodes and connections — linked like thoughts in a brain." }
+                c1: { icon: "🔍", title: "Find everything again", text: "You don't search for file names — you ask like you'd ask a friend: for motifs, techniques, places, times — and find exactly what you mean." },
+                c2: { icon: "🧠", title: "Nothing gets lost", text: "Even years later you'll remember what you were thinking with a piece — every idea, every note stays in context." },
+                c3: { icon: "💡", title: "A well for new work", text: "Your whole body of work stands ready when something new emerges — for catalogs, texts, exhibitions and the works yet to come." },
+                c4: { title: "Your work as a living web", text: "Works, stories, photos and dates connect like thoughts — a picture of your creative life that turns and grows." }
             }
         },
         channels: {
-            title: "Publish to Channels",
-            lead: "Don't just store data – put it to work. You decide what goes out, where and when — instead of feeding every channel by hand.",
+            title: "Your Art Finds Its Way",
+            lead: "Captured once, shown many times: catalogs, your website, social media, sales — everything grows out of your vault. And nothing goes out without your okay.",
             list: {
                 l1: "<strong>Social Media & Communities</strong><p>Push updates to networks like Instagram or YouTube — prepared from your vault, released by you.</p>",
                 l2: "<strong>Webshop & Galleries</strong><p>Sync released artworks directly to your storefront on findyour.art.</p>",
                 l3: "<strong>Print & Media</strong><p>Export formatted portfolios for exhibition catalogs or press releases.</p>",
-                l4: "<strong>Automated Websites</strong><p>Automated creation and continuous updating of your personal website.</p>",
+                l4: "<strong>Your website</strong><p>Your artist website — builds itself and stays up to date on its own.</p>",
                 l5: "<strong>Canva Integrated</strong><p>Designs are prepared right in Canva from your vault — and you can optionally adjust every design individually before it goes out.</p>",
                 l6: "<strong>Artist Agency</strong><p>Personal contact instead of platform anonymity: support with your applications for exhibitions, art prizes and competitions.</p>"
             },
@@ -149,9 +149,48 @@ export const en = {
         },
         socialConnect: {
             title: "Your Accounts. One Click.",
-            lead: "Through the central postyour.art API you connect your social media accounts with a single click — Instagram, YouTube, Pinterest & more. From then on you post straight from the app to your own accounts: no complicated API setup, no downloads, no storing or editing outside the app.",
-            badge: "Central API",
-            points: ["Connect an account with one click — no API keys, no developer setup", "Post straight from the app to your accounts — nothing to download, cache or edit externally", "A radically simple flow — saves time, nerves and attention"]
+            lead: "Connect Instagram, YouTube or Pinterest with a single click — and post straight from the app to your own accounts. No setup, no downloads, no back and forth between programs: finish, review, release.",
+            badge: "One click",
+            points: ["Click once, connected — no password fiddling, no tech", "Post straight from the app — nothing to download, nothing to edit elsewhere", "That saves hours — and a lot of nerves"]
+        },
+        whyNetwork: {
+            title: "Does this sound familiar?",
+            lead: "You pour evenings into posts and reels — and end up asking: what for? It's not you. And it's certainly not your art.",
+            tiles: {
+                n1: { title: "Lots of applause, little real interest", text: "Likes feel good — but they don't buy art and they don't invite you to an exhibition. The platform wins, you give." },
+                n2: { title: "It keeps getting harder", text: "Even those who do everything \"right\" reach fewer and fewer people. That's not bad luck — that's the system." },
+                n3: { title: "Visible only for money", text: "In the end you're asked to pay just to be seen. We believe a pair of eyes should decide about art — not a budget." }
+            },
+            pivot: "You don't need 20,000 followers. You need people who see your art, understand it — and can do something for it."
+        },
+        worpswede: {
+            title: "At Home in Worpswede",
+            lead: "For more than 130 years the artists' colony of Worpswede has drawn painters, sculptors and dreamers — a village whose name resonates in the art world. This is exactly where we are at home.",
+            tiles: {
+                w1: { title: "A place with history", text: "The world-famous artists' colony has been a place of longing for art for generations — and it is alive to this day: with museums, galleries, studios and people who burn for art." },
+                w2: { title: "Our reputation on site", text: "We live and work here — with our own rooms, our own exhibitions and relationships grown over years. When we promise something, our name stands behind it. And that name opens doors here." },
+                w3: { title: "Your name at this place", text: "An exhibition in Worpswede is more than a date: it is a line in your biography that stays — and a story you can tell forever." }
+            },
+            pivot: "This is the foundation we bring when we carry your art into the world."
+        },
+        membership: {
+            title: "Two Ways to Us",
+            lead: "Both begin the same way: you show us your art, and real people look at it. Admission is decided solely by our view of your work — not by your budget.",
+            free: {
+                badge: "Free after curation",
+                title: "Part of the network",
+                price: "0 €",
+                items: ["Show us your art — people look at it, not an algorithm", "Your works get a stage on findyour.art — as a walkable 3D world", "You belong to our circle: we think of you when exhibitions, projects or buyers are looking", "Our app takes the documentation off your hands — on the side, no tech skills needed", "No subscription, no costs, no fine print"],
+                note: "Admission is decided by our view of your art — not by your wallet."
+            },
+            agency: {
+                badge: "Limited places",
+                title: "Personal care",
+                price: "Individual",
+                items: ["We take care of everything that keeps you from working in the studio", "Exhibitions in real places — including Worpswede, with our name and our reputation", "We write and send your applications: competitions, grants, exhibitions", "Press, public, appearances — we open the doors, you walk through", "Our grown network becomes yours: associations, organizers, international contacts", "What remains: references and lines in your biography"],
+                note: "Honest projects with clear costs — and a team that knows your name. Write to us: hello@mas.art"
+            },
+            principle: "We don't count how many take part. We ask what comes out of it for you."
         },
         vaultTour: {
             title: "A Look Inside the Vault",
@@ -160,7 +199,7 @@ export const en = {
                 badge: "New",
                 title: "Live capture",
                 text: "Camera on, mic on — just work. The app listens and watches: it transcribes what you say in real time, automatically captures keyframes at intervals and summarizes along the way. At the end, the AI turns the session into a studio report or article — with photos, original quotes and the full transcript, ready for your archive, a story or a post.",
-                points: ["Live subtitles & real-time transcription", "Automatic keyframes + interim summaries", "Two modes: objective capture or artistic interpretation", "Three stages: recording → location & web → finished product"]
+                points: ["The app writes along while you speak", "It captures images by itself and summarizes along the way", "You just work — in the end everything is captured", "Your session becomes a finished studio report or article"]
             },
             cards: {
                 c1: { title: "Your gallery", text: "Every work with technique, dimensions, price, motif, color palette and style tags — structured and described by the AI, ready for catalogs." },
@@ -179,46 +218,12 @@ export const en = {
                 p4: "<strong>AI only on your command</strong><p>Nothing is processed without you asking for it — and never used to train third-party models.</p>"
             }
         },
-        pricing: {
-            title: "The Vault Is Free. No Subscription.",
-            lead: "Everything inside your Vault is completely free — and no data ever leaves your personal space. You only need credits when you send something out into the world: deliveries to your channels are paid with credit packs you buy exactly when you need them.",
-            free: {
-                badge: "0 € — forever",
-                title: "Your Vault",
-                text: "Capture, organize, own: your entire private space costs nothing — no subscription, no limits, no hidden fees.",
-                items: ["AI capture via chat, photo & voice", "Gallery, stories, dates, archive", "Telegram connection", "No data leaves your personal space", "Full export & deletion any time", "Your data, your property"]
-            },
-            credits: {
-                title: "Credits for deliveries",
-                lead: "Only what leaves your Vault costs credits: a catalog, a social media post, a website update, an application. For that you buy credit packs — no subscription, no commitment.",
-                unit: "Credits",
-                packs: {
-                    p1: { name: "Starter", credits: "1,000", price: "9.90 €", per: "0.99 cents per credit", use: "For trying things out and occasional deliveries" },
-                    p2: { name: "Creator", flag: "Popular", credits: "3,000", price: "24.90 €", per: "0.83 cents per credit", save: "16% cheaper", use: "For regular posts, catalogs and your website" },
-                    p3: { name: "Studio", credits: "10,000", price: "69 €", per: "0.69 cents per credit", save: "30% cheaper", use: "For the full presence across several channels" }
-                },
-                facts: ["No subscription — buy packs only when you need them", "Credits never expire", "Bigger packs lower the price per credit"]
-            },
-            pricelist: {
-                button: "Full price list",
-                title: "Full price list",
-                close: "Close",
-                note: "Your vault with 1 GB stays free forever — you only need credits for more storage, channels and deliveries.",
-                sections: {
-                    s1: { title: "Vault storage", items: [["1 GB", "free"], ["10 GB", "500 credits / month"], ["50 GB", "2,000 credits / month"], ["200 GB", "5,000 credits / month"]] },
-                    s2: { title: "Channels", items: [["Unlock the channels feature & 1-click connection of your social media accounts", "500 credits / month"]] },
-                    s3: { title: "Print", items: [["Print job (catalog, labels, cards …)", "100 credits / order"]] },
-                    s4: { title: "Social media", items: [["Social media post", "50 credits / order"], ["Premium post (video)", "500 credits / order"]] }
-                }
-            },
-            pro: "Professional support for working artists — exhibitions, press & PR, personal support by mas.art. Individual offer: hello@mas.art"
-        },
         faq: {
             title: "Frequently Asked Questions",
-            lead: "Short answers — everything important about the vault, pricing and channels.",
+            lead: "Short answers to what artists ask us most often.",
             items: {
-                q1: { q: "What is postyour.art?", a: "postyour.art is the vault for your art: you capture works by photo and voice, and the AI structures title, technique, dimensions, price and the story behind each piece. The vault is free, exportable at any time and remains your property." },
-                q2: { q: "What does postyour.art cost?", a: "The Vault is completely free — there is no subscription, and no data leaves your personal space. Only deliveries and extras cost credits: packs start at 9.90 € (1,000 credits), they never expire, and bigger packs are cheaper per credit. The full price list is in the pricing section; professional support on request." },
+                q1: { q: "What is postyour.art?", a: "postyour.art is the entry to a curated artist network: you apply with your works, after curation you publish for free on findyour.art and become part of the contact pool. The vault is part of it: capture works by photo and voice, the AI structures everything — free, exportable, your property." },
+                q2: { q: "What does postyour.art cost?", a: "Taking part in the network and the vault are free — curation decides admission, not your budget. No subscription. Those who want more book the personal support of the artist agency: concrete projects with transparent costs, individual offer via hello@mas.art." },
                 q3: { q: "Who owns my data?", a: "You do. Your data never trains third-party AI models and is never used for advertising. You can export everything as a ZIP in original quality at any time and delete your account permanently." },
                 q4: { q: "How do I capture an artwork?", a: "Take a photo, say two sentences about it — done. This works directly in the browser or via Telegram from your studio; the AI assistant structures all the details automatically." },
                 q5: { q: "Do I need a new app?", a: "No. Capturing works entirely through Telegram or the browser — tools you already know. Soon it gets even more direct, all the way to smart glasses." },
@@ -228,16 +233,16 @@ export const en = {
             }
         },
         cta: {
-            title: "Ready to Capture?",
-            lead: "Join the beta phase of postyour.art and win back your studio time.",
+            title: "Ready to be seen?",
+            lead: "Join a circle that truly cares — and get your studio time back.",
             cards: {
-                c1: { title: "Start Now", text: "Sign up for the beta — we'll invite you personally.", btn: "Secure a beta spot" },
+                c1: { title: "Apply now", text: "Tell us about yourself and your art — we'll get in touch personally.", btn: "Start application" },
                 c2: { title: "Let Your Art Be Experienced", text: "Your stage on findyour.art: art as a walkable 3D experience — discover, dive in, buy.", btn: "Discover the Experience" },
                 c3: { title: "Partner With Us", text: "Connect your channel.", btn: "Coming Soon" }
             }
         },
         footer: {
-            brand: "The vault for your art.",
+            brand: "The artist network from Worpswede.",
             projectOf: "A project by",
             platform: "Platform",
             network: "Network",

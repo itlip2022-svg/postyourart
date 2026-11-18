@@ -1,7 +1,3 @@
-import '@fontsource/outfit/400.css';
-import '@fontsource/outfit/700.css';
-import '@fontsource/inter/400.css';
-import '@fontsource/inter/600.css';
 import './styles/global.css';
 import './styles/components.css';
 import { Header, initHeader } from './components/Header.js';
@@ -21,7 +17,9 @@ import { ValueProps } from './components/ValueProps.js';
 import { HowItWorks } from './components/HowItWorks.js';
 import { VaultTour } from './components/VaultTour.js';
 import { Ownership } from './components/Ownership.js';
-import { Pricing, initPriceList } from './components/Pricing.js';
+import { WhyNetwork } from './components/WhyNetwork.js';
+import { Worpswede } from './components/Worpswede.js';
+import { Membership } from './components/Membership.js';
 import { Faq } from './components/Faq.js';
 import { BetaSignup, initBetaSignup } from './components/BetaSignup.js';
 import { getLanguage } from './utils/i18n.js';
@@ -114,8 +112,12 @@ function render() {
       ${Header()}
       <main>
         ${Hero()}
-        ${WhyNow()}
+        ${WhyNetwork()}
+        ${Worpswede()}
         ${FindYourArt()}
+        ${Membership()}
+        ${BetaSignup()}
+        ${WhyNow()}
         ${CollectorBenefits()}
         ${SocialConnect()}
         ${ValueProps()}
@@ -123,10 +125,8 @@ function render() {
         ${SecondBrain()}
         ${MatchingSystem()}
         ${HowItWorks()}
-        ${BetaSignup()}
         ${VaultTour()}
         ${Ownership()}
-        ${Pricing()}
         ${Faq()}
         ${CTA()}
       </main>
@@ -137,7 +137,6 @@ function render() {
     requestAnimationFrame(() => {
       initHeader();
       initBetaSignup();
-      initPriceList();
       initFyaWorld();
       initReveal();
 
@@ -161,9 +160,9 @@ function render() {
         if (currentView !== 'home') return;
         const heroCleanup = initNetworkAnimation('hero-network-animation');
         const semanticCleanup = initNetworkAnimation('semantic-network-animation', {
-          particleColor: 0xffeb99, // Light yellow
+          particleColor: 0xffb09a, // Helles Orange
           particleOpacity: 0.6,
-          lineColor: 0xaaaa88, // Warm grey
+          lineColor: 0x8a7a72, // Warmes Grau
           lineOpacity: 0.25
         });
         if (heroCleanup) cleanupAnimations.push(heroCleanup);

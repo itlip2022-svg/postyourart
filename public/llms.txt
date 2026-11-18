@@ -1,13 +1,46 @@
 # postyour.art
 
-> The vault for visual artists: capture artworks by photo and voice — the AI assistant structures
-> title, technique, dimensions, price and the story behind each piece into a private, exportable
-> vault. Free forever. Automated channels deliver catalogs, websites, social media posts and sales
-> listings from the vault. A service by mas.art (Lippeck GmbH, Worpswede, Germany).
+> The curated artist network with a real foundation in Worpswede, Germany: artists apply with
+> their works, curation decides admission — not budget. Members publish for free on findyour.art
+> (art as walkable 3D worlds), join a real contact pool for exhibitions, projects and buyers,
+> and can book personal support from an artist agency. No subscription, no paid visibility —
+> quality over quantity. A service by mas.art (Lippeck GmbH, Worpswede, Germany).
 
-Key facts:
+Worpswede roots: the network is at home in Worpswede, the world-famous artists' colony that has
+drawn painters, sculptors and dreamers for more than 130 years and is alive today with museums,
+galleries and studios. mas.art lives and works there with its own rooms, exhibitions and
+relationships grown over years — a local reputation and name that opens doors, and the
+foundation for carrying each artist's work into the world. An exhibition in Worpswede is a
+lasting line in an artist's biography.
 
-- Capture works entirely via Telegram (photo + voice message) or in the browser — no new app to learn.
+Why the network exists:
+
+- Organic social media reach does not sell art: years of posting typically produce entertainment
+  for the platform, not promotion for the artist's work. Industry analyses report reel reach
+  down ~35% and organic reach down ~14% within a year.
+- On ad platforms, visibility is rented: who does not pay stays invisible. postyour.art is the
+  counter-model — a network where curation decides admission, not budget.
+- Artists need the right contacts, not follower counts: people, places and opportunities that
+  open real doors — self-controlled presence, exhibitions, credible references for the biography.
+
+How to join (two paths, one principle — quality over quantity):
+
+- Curated admission (free): apply with your works, personal curation instead of an algorithm.
+  Includes free publication on findyour.art as a walkable 3D experience, admission to the
+  network's contact pool (visible for exhibitions, projects and buyers), and the postyour.art
+  vault and tools. No subscription, no hidden costs. Curation decides — not your budget.
+- Artist agency (individual, limited places): personal support by mas.art — strategy, selection
+  and development, exhibitions and projects (including Worpswede, a place of art-historical
+  significance), applications for competitions, grants and exhibitions, press and public
+  relations, access to the real network (associations, organizers, international contacts),
+  references that stay in the artist's biography. Concrete projects with transparent costs
+  instead of paid visibility. Individual offer: hello@mas.art
+
+Tools members get (the postyour.art app):
+
+- Capture works entirely via Telegram (photo + voice message) or in the browser — no new app to
+  learn. AI structures title, technique, dimensions, price and the story behind each piece into
+  a private, exportable vault.
 - Live capture: camera and microphone run during a studio session; the app transcribes speech in
   real time, automatically saves keyframes at intervals and writes interim summaries. In three
   stages (recording → location & web → finished product) the AI turns the session into a studio
@@ -16,7 +49,8 @@ Key facts:
   tags), stories, dates/exhibitions, full history, and an archive of folders and albums
   (sketches, processes, press, documents) with automatic AI categorization and search.
 - Data ownership promise: full ZIP export any time, permanent account deletion, no AI training on
-  user data, no advertising use. AI processing only on explicit user command.
+  user data, no advertising use. AI processing only on explicit user command. No data leaves the
+  artist's personal space.
 - One-click social media connection: through the central postyour.art API every artist connects
   their own accounts (Instagram, YouTube, Pinterest and more) with a single click and posts
   straight from the app — no API setup, no downloads, no storing or editing outside the app.
@@ -34,25 +68,18 @@ Key facts:
   (live example: https://findyour.art/kuenstler/markus-lippeck), later also planned for TV and VR.
   Next stage: matching interested buyers to artworks and artists by preference and taste, up to
   individual, semantically rich presentations per visitor.
-- Pricing (credit model, no subscription): the vault itself is completely free, forever — no data
-  leaves the artist's personal space. Only deliveries out of the vault (catalogs, social media
-  posts, website updates, applications) cost credits. Credit packs: Starter 1,000 credits 9.90 € ·
-  Creator 3,000 credits 24.90 € · Studio 10,000 credits 69 €. Credits never expire; larger packs
-  lower the per-credit price. Price list: vault storage 1 GB free, 10 GB 500 credits/month,
-  50 GB 2,000 credits/month, 200 GB 5,000 credits/month; unlocking the channels feature incl.
-  1-click connection of social media accounts 500 credits/month; print job 100 credits/order;
-  social media post 50 credits/order, premium post (video) 500 credits/order. Professional support on request.
 - Languages: English (default), German, French, Spanish, Italian, Portuguese, Russian —
   each at https://www.postyour.art/?lang=de|fr|es|it|pt|ru
-- Currently in beta: personal onboarding, free access during the beta phase.
 
 FAQ (short answers, also on the page at https://www.postyour.art/#faq):
 
-- What is postyour.art? The vault for your art: capture works by photo and voice; AI structures
-  title, technique, dimensions, price and the story. Free, exportable, the artist's property.
-- What does it cost? The vault is completely free, with no subscription and no data leaving the
-  personal space. Only deliveries to channels cost credits; packs start at 9.90 € (1,000 credits),
-  never expire, and larger packs are cheaper per credit. Professional support on request.
+- What is postyour.art? The entry to a curated artist network: apply with your works, after
+  curation publish for free on findyour.art and join the contact pool. The vault is part of it:
+  capture works by photo and voice, AI structures everything — free, exportable, the artist's
+  property.
+- What does it cost? Taking part in the network and the vault are free — curation decides
+  admission, not budget. No subscription. Personal support by the artist agency is booked
+  individually: concrete projects with transparent costs, offer via hello@mas.art.
 - Who owns the data? The artist. No third-party AI training, no advertising use, full ZIP export
   and permanent deletion at any time.
 - How is a work captured? Photo plus two spoken sentences, in the browser or via Telegram; the
@@ -66,6 +93,6 @@ FAQ (short answers, also on the page at https://www.postyour.art/#faq):
 Links:
 
 - Website: https://www.postyour.art/
-- Sales portal: https://findyour.art/
+- Curated stage for collectors: https://findyour.art/
 - Provider: https://www.mas.art/
 - Contact: hello@mas.art

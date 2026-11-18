@@ -43,8 +43,8 @@ function upsertLink(rel, href, hreflang) {
     el.setAttribute('href', href);
 }
 
-// Strukturierte Daten: Organisation, Website, Web-App mit dem Credit-Modell
-// (kostenlose Vault + Credit-Pakete für Auslieferungen) und FAQPage — die
+// Strukturierte Daten: Organisation, Website, Web-App (kuratiertes
+// Künstlernetzwerk, Teilnahme kostenlos nach Kuratierung) und FAQPage — die
 // FAQ-Einträge kommen aus denselben Übersetzungen wie die sichtbare
 // FAQ-Sektion, damit Markup und Seiteninhalt übereinstimmen.
 // Exportiert, damit das Build-Prerendering (scripts/prerender.mjs)
@@ -92,16 +92,13 @@ export function jsonLd(lang) {
                 isPartOf: { '@id': `${BASE_URL}#website` },
                 isAccessibleForFree: true,
                 featureList: [
-                    ...t('pricing.free.items'),
+                    ...t('membership.free.items'),
                     t('vaultTour.live.title'),
                     t('vaultTour.cards.c3.title'),
                     t('vaultTour.cards.c4.title'),
                 ],
                 offers: [
-                    { '@type': 'Offer', name: t('pricing.free.title'), price: '0', priceCurrency: 'EUR' },
-                    { '@type': 'Offer', name: `${t('pricing.credits.packs.p1.name')} — 1000 Credits`, price: '9.90', priceCurrency: 'EUR' },
-                    { '@type': 'Offer', name: `${t('pricing.credits.packs.p2.name')} — 3000 Credits`, price: '24.90', priceCurrency: 'EUR' },
-                    { '@type': 'Offer', name: `${t('pricing.credits.packs.p3.name')} — 10000 Credits`, price: '69.00', priceCurrency: 'EUR' },
+                    { '@type': 'Offer', name: t('membership.free.title'), price: '0', priceCurrency: 'EUR' },
                 ],
             },
             {

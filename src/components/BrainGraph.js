@@ -80,7 +80,7 @@ export function initBrainGraph(containerId) {
   function pointsFor(indices, size, opacity) {
     const geo = new THREE.BufferGeometry().setFromPoints(indices.map((i) => nodes[i]));
     const mat = new THREE.PointsMaterial({
-      color: 0xff9e2c, size, transparent: true, opacity, blending: THREE.AdditiveBlending,
+      color: 0xff5a2e, size, transparent: true, opacity, blending: THREE.AdditiveBlending,
     });
     return { mesh: new THREE.Points(geo, mat), geo, mat };
   }
@@ -92,7 +92,7 @@ export function initBrainGraph(containerId) {
   const lineGeo = new THREE.BufferGeometry();
   lineGeo.setAttribute('position', new THREE.BufferAttribute(linePositions, 3));
   const lineMat = new THREE.LineBasicMaterial({
-    color: 0xffb45e, transparent: true, opacity: 0.28, blending: THREE.AdditiveBlending,
+    color: 0xff8a5c, transparent: true, opacity: 0.28, blending: THREE.AdditiveBlending,
   });
   const lines = new THREE.LineSegments(lineGeo, lineMat);
 
