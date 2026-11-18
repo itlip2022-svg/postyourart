@@ -18,6 +18,8 @@ export function Footer() {
           <div class="footer-links">
             <h4>${t('footer.network')}</h4>
             <a href="https://www.mas.art" target="_blank">mas.art</a>
+            <a href="https://findyour.art" target="_blank" rel="noopener">findyour.art</a>
+            <a href="https://findyour.art/ueber-uns" target="_blank" rel="noopener">${t('footer.about')}</a>
             <a href="https://schluh.art" target="_blank">Schluh.art</a>
           </div>
           <div class="footer-links">

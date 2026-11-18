@@ -16,7 +16,7 @@ export const de = {
         hero: {
             collab: "Ein Angebot von <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
             title: "Du machst die Kunst. <span class=\"text-gradient\">Wir öffnen die Türen.</span>",
-            subtitle: "postyour.art ist ein kleiner, kuratierter Kreis von Künstlerinnen und Künstlern — mit Wurzeln in der weltberühmten Künstlerkolonie Worpswede. Wir zeigen deine Kunst kostenlos auf findyour.art, bringen dich mit den richtigen Menschen zusammen und kümmern uns, wenn du magst, persönlich um alles Weitere: Ausstellungen, Bewerbungen, Sichtbarkeit.",
+            subtitle: "postyour.art ist ein kleiner, kuratierter Kreis von Künstlerinnen und Künstlern — mit Wurzeln in der weltberühmten Künstlerkolonie Worpswede. Wir zeigen deine Kunst kostenlos auf <a href=\"https://findyour.art/\" target=\"_blank\" rel=\"noopener\">findyour.art</a>, bringen dich mit den richtigen Menschen zusammen und kümmern uns, wenn du magst, persönlich um alles Weitere: Ausstellungen, Bewerbungen, Sichtbarkeit.",
             dataSovereignty: "Keine Technik-Hürden, kein Abo, kein Algorithmus — nur Menschen, die sich wirklich kümmern. Und deine Daten bleiben dabei immer deine.",
             cta: "Jetzt bewerben"
         },
@@ -69,6 +69,8 @@ export const de = {
                 open: "Im neuen Tab öffnen",
                 caption: "Live-Beispiel: die begehbare 3D-Welt eines Künstlers auf findyour.art"
             },
+            aboutLink: "Über uns",
+            masartLink: "Ein Projekt von mas.art",
             btn: "Zu findyour.art"
         },
         valueProps: {
@@ -171,6 +173,8 @@ export const de = {
                 w2: { title: "Unsere Reputation vor Ort", text: "Wir leben und arbeiten hier — mit eigenen Räumen, eigenen Ausstellungen und über Jahre gewachsenen Beziehungen. Wenn wir etwas zusagen, steht unser Name dahinter. Und dieser Name öffnet hier Türen." },
                 w3: { title: "Dein Name an diesem Ort", text: "Eine Ausstellung in Worpswede ist mehr als ein Termin: Sie ist eine Zeile in deiner Biografie, die bleibt — und eine Geschichte, die du für immer erzählen kannst." }
             },
+            aboutLink: "Mehr über uns auf findyour.art",
+            masartLink: "mas.art kennenlernen",
             pivot: "Dieses Fundament bringen wir mit, wenn wir deine Kunst in die Welt tragen."
         },
         membership: {
@@ -180,7 +184,7 @@ export const de = {
                 badge: "Kostenlos nach Kuratierung",
                 title: "Teil des Netzwerks",
                 price: "0 €",
-                items: ["Zeig uns deine Kunst — Menschen schauen sie an, kein Algorithmus", "Deine Werke bekommen eine Bühne auf findyour.art — als begehbare 3D-Welt", "Du gehörst zu unserem Kreis: Wir denken an dich, wenn Ausstellungen, Projekte oder Käufer suchen", "Unsere App nimmt dir die Dokumentation ab — ganz nebenbei, ohne Technikwissen", "Kein Abo, keine Kosten, kein Kleingedrucktes"],
+                items: ["Zeig uns deine Kunst — Menschen schauen sie an, kein Algorithmus", "Deine Werke bekommen eine Bühne auf <a href=\"https://findyour.art/\" target=\"_blank\" rel=\"noopener\">findyour.art</a> — als begehbare 3D-Welt", "Du gehörst zu unserem Kreis: Wir denken an dich, wenn Ausstellungen, Projekte oder Käufer suchen", "Unsere App nimmt dir die Dokumentation ab — ganz nebenbei, ohne Technikwissen", "Kein Abo, keine Kosten, kein Kleingedrucktes"],
                 note: "Über die Aufnahme entscheidet unser Blick auf deine Kunst — nicht dein Geldbeutel."
             },
             agency: {
@@ -222,7 +226,7 @@ export const de = {
             title: "Häufige Fragen",
             lead: "Kurz beantwortet — was Künstlerinnen und Künstler uns am häufigsten fragen.",
             items: {
-                q1: { q: "Was ist postyour.art?", a: "postyour.art ist der Zugang zu einem kuratierten Künstlernetzwerk: Du bewirbst dich mit deinen Werken, nach der Kuratierung veröffentlichst du kostenlos auf findyour.art und wirst Teil des Kontaktpools. Dazu gehört die Vault: Werke per Foto und Sprache erfassen, die KI strukturiert alles — kostenlos, exportierbar, dein Eigentum." },
+                q1: { q: "Was ist postyour.art?", a: "postyour.art ist der Zugang zu einem kuratierten Künstlernetzwerk: Du bewirbst dich mit deinen Werken, nach der Kuratierung veröffentlichst du kostenlos auf <a href=\"https://findyour.art/\" target=\"_blank\" rel=\"noopener\">findyour.art</a> und wirst Teil des Kontaktpools. Dazu gehört die Vault: Werke per Foto und Sprache erfassen, die KI strukturiert alles — kostenlos, exportierbar, dein Eigentum." },
                 q2: { q: "Was kostet postyour.art?", a: "Die Teilnahme am Netzwerk und die Vault sind kostenlos — über die Aufnahme entscheidet die Kuratierung, nicht dein Budget. Kein Abo. Wer mehr will, bucht die persönliche Betreuung der Künstleragentur: konkrete Projekte mit transparenten Kosten, individuelles Angebot über hello@mas.art." },
                 q3: { q: "Wem gehören meine Daten?", a: "Dir. Deine Daten trainieren keine fremden KI-Modelle und werden nicht für Werbung verwendet. Du kannst jederzeit alles als ZIP in Originalqualität exportieren und dein Konto endgültig löschen." },
                 q4: { q: "Wie erfasse ich ein Kunstwerk?", a: "Foto aufnehmen, zwei Sätze dazu sagen — fertig. Das geht direkt im Browser oder per Telegram aus dem Atelier; der KI-Assistent strukturiert alle Angaben automatisch." },
@@ -246,6 +250,7 @@ export const de = {
             projectOf: "Ein Projekt von",
             platform: "Plattform",
             network: "Netzwerk",
+            about: "Über uns",
             legal: "Info",
             imprint: "Impressum",
             privacy: "Datenschutzerklärung",

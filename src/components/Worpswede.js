@@ -23,6 +23,10 @@ export function Worpswede() {
           ${tile('w3')}
         </div>
         <p class="why-network-pivot">${t('worpswede.pivot')}</p>
+        <p class="section-links">
+          <a href="https://findyour.art/ueber-uns" target="_blank" rel="noopener">${t('worpswede.aboutLink')} →</a>
+          <a href="https://www.mas.art" target="_blank" rel="noopener">${t('worpswede.masartLink')} →</a>
+        </p>
       </div>
     </section>
   `;

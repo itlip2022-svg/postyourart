@@ -16,7 +16,7 @@ export const en = {
         hero: {
             collab: "Provided by <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
             title: "You make the art. <span class=\"text-gradient\">We open the doors.</span>",
-            subtitle: "postyour.art is a small, curated circle of artists — rooted in the world-famous artists' colony of Worpswede, Germany. We show your art for free on findyour.art, bring you together with the right people, and, if you wish, personally take care of everything else: exhibitions, applications, visibility.",
+            subtitle: "postyour.art is a small, curated circle of artists — rooted in the world-famous artists' colony of Worpswede, Germany. We show your art for free on <a href=\"https://findyour.art/\" target=\"_blank\" rel=\"noopener\">findyour.art</a>, bring you together with the right people, and, if you wish, personally take care of everything else: exhibitions, applications, visibility.",
             dataSovereignty: "No tech hurdles, no subscription, no algorithm — just people who truly care. And your data always stays yours.",
             cta: "Apply now"
         },
@@ -69,6 +69,8 @@ export const en = {
                 open: "Open in a new tab",
                 caption: "Live example: an artist's walkable 3D world on findyour.art"
             },
+            aboutLink: "About us",
+            masartLink: "A project by mas.art",
             btn: "Go to findyour.art"
         },
         valueProps: {
@@ -171,6 +173,8 @@ export const en = {
                 w2: { title: "Our reputation on site", text: "We live and work here — with our own rooms, our own exhibitions and relationships grown over years. When we promise something, our name stands behind it. And that name opens doors here." },
                 w3: { title: "Your name at this place", text: "An exhibition in Worpswede is more than a date: it is a line in your biography that stays — and a story you can tell forever." }
             },
+            aboutLink: "More about us on findyour.art",
+            masartLink: "Get to know mas.art",
             pivot: "This is the foundation we bring when we carry your art into the world."
         },
         membership: {
@@ -180,7 +184,7 @@ export const en = {
                 badge: "Free after curation",
                 title: "Part of the network",
                 price: "0 €",
-                items: ["Show us your art — people look at it, not an algorithm", "Your works get a stage on findyour.art — as a walkable 3D world", "You belong to our circle: we think of you when exhibitions, projects or buyers are looking", "Our app takes the documentation off your hands — on the side, no tech skills needed", "No subscription, no costs, no fine print"],
+                items: ["Show us your art — people look at it, not an algorithm", "Your works get a stage on <a href=\"https://findyour.art/\" target=\"_blank\" rel=\"noopener\">findyour.art</a> — as a walkable 3D world", "You belong to our circle: we think of you when exhibitions, projects or buyers are looking", "Our app takes the documentation off your hands — on the side, no tech skills needed", "No subscription, no costs, no fine print"],
                 note: "Admission is decided by our view of your art — not by your wallet."
             },
             agency: {
@@ -222,7 +226,7 @@ export const en = {
             title: "Frequently Asked Questions",
             lead: "Short answers to what artists ask us most often.",
             items: {
-                q1: { q: "What is postyour.art?", a: "postyour.art is the entry to a curated artist network: you apply with your works, after curation you publish for free on findyour.art and become part of the contact pool. The vault is part of it: capture works by photo and voice, the AI structures everything — free, exportable, your property." },
+                q1: { q: "What is postyour.art?", a: "postyour.art is the entry to a curated artist network: you apply with your works, after curation you publish for free on <a href=\"https://findyour.art/\" target=\"_blank\" rel=\"noopener\">findyour.art</a> and become part of the contact pool. The vault is part of it: capture works by photo and voice, the AI structures everything — free, exportable, your property." },
                 q2: { q: "What does postyour.art cost?", a: "Taking part in the network and the vault are free — curation decides admission, not your budget. No subscription. Those who want more book the personal support of the artist agency: concrete projects with transparent costs, individual offer via hello@mas.art." },
                 q3: { q: "Who owns my data?", a: "You do. Your data never trains third-party AI models and is never used for advertising. You can export everything as a ZIP in original quality at any time and delete your account permanently." },
                 q4: { q: "How do I capture an artwork?", a: "Take a photo, say two sentences about it — done. This works directly in the browser or via Telegram from your studio; the AI assistant structures all the details automatically." },
@@ -246,6 +250,7 @@ export const en = {
             projectOf: "A project by",
             platform: "Platform",
             network: "Network",
+            about: "About us",
             legal: "Info",
             imprint: "Imprint",
             privacy: "Privacy Policy",

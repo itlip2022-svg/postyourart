@@ -93,6 +93,7 @@ FAQ (short answers, also on the page at https://www.postyour.art/#faq):
 Links:
 
 - Website: https://www.postyour.art/
+- About us: https://findyour.art/ueber-uns
 - Curated stage for collectors: https://findyour.art/
 - Provider: https://www.mas.art/
 - Contact: hello@mas.art
