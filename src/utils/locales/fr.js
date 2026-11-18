@@ -43,14 +43,14 @@ export const fr = {
     appsEcosystem: {
         title: "Tes données. Ta valeur.",
         lead: "La documentation de ton art est ton capital : catalogue d'œuvres, histoires, prix, expositions. Qui la possède possède la valeur de ta vie artistique.",
-        para: "C'est pourquoi elle doit être réunie en un seul endroit — structurée et enrichie sémantiquement, pour que photos et notes deviennent un vrai savoir sur ton œuvre : consultable, relié, réutilisable pour catalogues, candidatures et ventes. postyour.art est construit exactement pour cela — et c'est entièrement gratuit.",
+        para: "C'est exactement pourquoi elle doit vivre dans un lieu qui t'appartient — où photos et notes deviennent toute l'histoire de ton œuvre : facile à retrouver, à comprendre, prête pour catalogues, candidatures et ventes. postyour.art est fait exactement pour ça — et entièrement gratuit.",
         promises: {
-            c1: { title: "Ta propriété — exportable, jamais enfermé", text: "Parle-nous de toi et de ton art — nous te contactons personnellement." },
+            c1: { title: "Ta propriété — exportable, jamais enfermé", text: "Tout ce que tu gardes ici t'appartient — et tu peux tout emporter à tout moment. Si tu pars, tout part avec toi." },
             c2: { title: "L'IA sur ta demande — jamais pour la publicité", text: "Rien n'est traité par l'IA sans que tu le demandes, rien n'entraîne de modèles tiers. Et tes données ne sont ni commercialisées ni transmises à des réseaux publicitaires." },
-            c5: { title: "Des points de données naît une œuvre", text: "Chaque entrée est un point : ensemble, tes données forment une sculpture — la valeur de ta vie artistique, rendue visible." }
+            c5: { title: "Des points de données naît une œuvre", text: "Chaque entrée, un point de lumière : ensemble, tes souvenirs forment une sculpture — ta vie artistique rendue visible." }
         },
         highlight: "Libre. Gratuit. À toi.",
-        ctaBeta: "Réserver une place en bêta",
+        ctaBeta: "Postuler maintenant",
         ctaApp: "Voir comment fonctionne l'app"
     },
     findyourart: {
@@ -93,8 +93,8 @@ export const fr = {
         }
     },
     coreFeature: {
-        title: "Saisie intelligente par IA",
-        lead: "postyour.art n'est pas qu'une archive. C'est un assistant qui t'épargne des soirées de paperasse.",
+        title: "Raconte simplement ton œuvre",
+        lead: "Tu photographies et tu racontes — ton assistant s'occupe de la paperasse. Pas de formulaires, pas de technique, pas de soirées perdues.",
         list: {
             l1: "<strong>Saisie par voix & photo</strong><p>Photographie l'œuvre, parles-en brièvement — l'assistant extrait titre, technique, dimensions et prix, et range l'histoire avec l'œuvre.</p>",
             l2: "<strong>Assistant de storytelling</strong><p>Fais-toi aider pour rédiger des descriptions captivantes de ton processus créatif — dans ton propre ton.</p>",
@@ -102,23 +102,23 @@ export const fr = {
         }
     },
     secondBrain: {
-        title: "Plus qu'une collection : ton second cerveau",
-        lead: "À l'avenir, la Vault ne présentera pas tes données comme une simple collection, mais de façon vraiment sémantique — comprises dans leur contenu et reliées entre elles.",
+        title: "Une mémoire pour l'œuvre de ta vie",
+        lead: "Rien de ce que tu gardes ici ne reste lettre morte — cela devient une mémoire qui connaît vraiment ton œuvre : chaque image, chaque histoire, chaque lien.",
         cards: {
-            c1: { icon: "🔍", title: "Consultable & enrichi", text: "Toutes les œuvres, photos, vidéos et histoires entières deviennent consultables et préparées par leur contenu — par motif, technique, lieu et contexte, pas seulement par nom de fichier." },
-            c2: { icon: "🧠", title: "Une seconde mémoire", text: "À long terme, ta Vault devient le second cerveau de ta pratique artistique : rien ne se perd, tout reste accessible dans son contexte — même après des années." },
-            c3: { icon: "💡", title: "Du contexte pour la suite", text: "Toute ton œuvre est disponible comme fondement contextuel pour tes idées et publications futures — catalogues, posts, expositions et œuvres à venir." },
-            c4: { title: "Ta Vault en graphe de savoir", text: "Œuvres, histoires, photos et dates en un réseau vivant de nœuds et de liens — reliés comme des pensées dans un cerveau." }
+            c1: { icon: "🔍", title: "Tout retrouver", text: "Tu ne cherches pas des noms de fichiers — tu demandes comme à une amie : motifs, techniques, lieux, époques — et tu trouves exactement ce que tu veux dire." },
+            c2: { icon: "🧠", title: "Rien ne se perd", text: "Même des années plus tard, tu te rappelles ce que tu pensais devant une œuvre — chaque idée, chaque note reste dans son contexte." },
+            c3: { icon: "💡", title: "Un fonds pour le nouveau", text: "Toute ton œuvre est prête quand quelque chose de nouveau naît — pour catalogues, textes, expositions et les œuvres à venir." },
+            c4: { title: "Ton œuvre, un réseau vivant", text: "Œuvres, histoires, photos et dates se relient comme des pensées — une image de ta création qui tourne et grandit." }
         }
     },
     channels: {
-        title: "Channels automatisés",
-        lead: "Ne te contente pas de stocker tes données – fais-les travailler pour toi. Tu décides ce qui part, où et quand — au lieu de nourrir chaque canal à la main.",
+        title: "Ton art trouve son chemin",
+        lead: "Capturé une fois, montré mille fois : catalogues, ton site, réseaux sociaux, vente — tout naît de ta Vault. Et rien ne sort sans ton accord.",
         list: {
             l1: "<strong>Réseaux sociaux & communautés</strong><p>Publie des mises à jour vers des réseaux comme Instagram ou YouTube — préparées depuis ta Vault, validées par toi.</p>",
             l2: "<strong>Boutique en ligne & galeries</strong><p>Synchronise les œuvres publiées directement vers ta vitrine sur findyour.art.</p>",
             l3: "<strong>Print & presse</strong><p>Exporte des portfolios et catalogues mis en page pour expositions ou brochures.</p>",
-            l4: "<strong>Site web automatisé</strong><p>Création automatisée et mise à jour continue de ton site personnel.</p>",
+            l4: "<strong>Ton site</strong><p>Ton site d'artiste — se construit tout seul et reste à jour tout seul.</p>",
             l5: "<strong>Canva intégré</strong><p>Les designs naissent directement dans Canva à partir de ta Vault — et tu peux ajuster chaque design individuellement avant l'envoi.</p>",
             l6: "<strong>Agence d'artistes</strong><p>Un contact personnel plutôt que l'anonymat d'une plateforme : un accompagnement pour tes candidatures aux expositions, prix d'art et concours.</p>"
         },
@@ -149,9 +149,9 @@ export const fr = {
     },
     socialConnect: {
         title: "Tes comptes. Un clic.",
-        lead: "Grâce à l'API centrale de postyour.art, tu connectes tes comptes de réseaux sociaux en un seul clic — Instagram, YouTube, Pinterest & plus. Ensuite, tu publies directement depuis l'app sur tes propres comptes : sans configuration d'API compliquée, sans téléchargement, sans stockage ni retouche en dehors de l'app.",
-        badge: "API centrale",
-        points: ["Connecter un compte en un clic — pas de clés API, pas de configuration technique", "Publier directement depuis l'app sur tes comptes — rien à télécharger, à stocker ou à retoucher ailleurs", "Un flux radicalement simple — gain de temps, de nerfs et d'attention"]
+        lead: "Connecte Instagram, YouTube ou Pinterest en un seul clic — et publie directement depuis l'app sur tes propres comptes. Pas de configuration, pas de téléchargements, pas d'allers-retours entre programmes : terminer, vérifier, publier.",
+        badge: "Un clic",
+        points: ["Un clic, connecté — sans bidouille de mots de passe ni technique", "Publier directement depuis l'app — rien à télécharger, rien à retoucher ailleurs", "Des heures gagnées — et beaucoup de nerfs épargnés"]
     },
     whyNetwork: {
         title: "Ça te dit quelque chose ?",
@@ -199,7 +199,7 @@ export const fr = {
             badge: "Nouveau",
             title: "Capture en direct",
             text: "Caméra allumée, micro allumé — travaille, c'est tout. L'app écoute et observe : elle transcrit en direct ce que tu dis, capture automatiquement des images à intervalles réguliers et résume au fil de la session. À la fin, l'IA en fait un rapport d'atelier ou un article — avec photos, citations originales et transcription complète, prêt pour l'archive, une story ou un post.",
-            points: ["Sous-titres en direct & transcription en temps réel", "Images clés automatiques + résumés intermédiaires", "Deux modes : capture objective ou interprétation artistique", "Trois étapes : enregistrement → lieu & web → produit fini"]
+            points: ["L'app écrit pendant que tu parles", "Elle capture des images toute seule et résume au fil de la séance", "Tu travailles, c'est tout — à la fin, tout est retenu", "Ta séance devient un reportage d'atelier ou un article fini"]
         },
         cards: {
             c1: { title: "Ta galerie", text: "Chaque œuvre avec technique, dimensions, prix, motif, palette de couleurs et tags de style — structurée et décrite par l'IA, prête pour les catalogues." },
@@ -220,7 +220,7 @@ export const fr = {
     },
     faq: {
         title: "Questions fréquentes",
-        lead: "Réponses brèves — l'essentiel sur la Vault, les prix et les channels.",
+        lead: "Réponses courtes aux questions que les artistes nous posent le plus.",
         items: {
             q1: { q: "Qu'est-ce que postyour.art ?", a: "postyour.art est l'entrée d'un réseau d'artistes curaté : tu postules avec tes œuvres, après la curation tu publies gratuitement sur findyour.art et tu rejoins le pool de contacts. La Vault en fait partie : saisir les œuvres par photo et voix, l'IA structure tout — gratuit, exportable, ta propriété." },
             q2: { q: "Combien coûte postyour.art ?", a: "La participation au réseau et la Vault sont gratuites — la curation décide de l'admission, pas ton budget. Pas d'abonnement. Qui veut plus réserve l'accompagnement personnel de l'agence d'artistes : des projets concrets aux coûts transparents, offre individuelle via hello@mas.art." },
@@ -236,13 +236,13 @@ export const fr = {
         title: "Prêt à être vu ?",
         lead: "Rejoins un cercle qui se soucie vraiment — et récupère ton temps d'atelier.",
         cards: {
-            c1: { title: "Postuler maintenant", text: "Inscris-toi pour la curation — nous te contactons personnellement.", btn: "Lancer la candidature" },
+            c1: { title: "Postuler maintenant", text: "Parle-nous de toi et de ton art — nous te contactons personnellement.", btn: "Lancer la candidature" },
             c2: { title: "Fais vivre ton art", text: "Ta scène sur findyour.art : l'art comme expérience 3D à parcourir — découvrir, plonger, acheter.", btn: "Découvrir l'expérience" },
             c3: { title: "Devenir partenaire", text: "Connecte ton channel.", btn: "Bientôt disponible" }
         }
     },
     footer: {
-        brand: "La Vault pour ton art.",
+        brand: "Le réseau d'artistes de Worpswede.",
         projectOf: "Un projet de",
         platform: "Plateforme",
         network: "Réseau",

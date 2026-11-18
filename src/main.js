@@ -1,7 +1,3 @@
-import '@fontsource/outfit/400.css';
-import '@fontsource/outfit/700.css';
-import '@fontsource/inter/400.css';
-import '@fontsource/inter/600.css';
 import './styles/global.css';
 import './styles/components.css';
 import { Header, initHeader } from './components/Header.js';
@@ -164,9 +160,9 @@ function render() {
         if (currentView !== 'home') return;
         const heroCleanup = initNetworkAnimation('hero-network-animation');
         const semanticCleanup = initNetworkAnimation('semantic-network-animation', {
-          particleColor: 0xffeb99, // Light yellow
+          particleColor: 0xffb09a, // Helles Orange
           particleOpacity: 0.6,
-          lineColor: 0xaaaa88, // Warm grey
+          lineColor: 0x8a7a72, // Warmes Grau
           lineOpacity: 0.25
         });
         if (heroCleanup) cleanupAnimations.push(heroCleanup);

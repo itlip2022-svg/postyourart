@@ -24,14 +24,14 @@ export function initDataSculpture(containerId) {
   // Dichte Punktwolke auf der Oberfläche des Knotens ("Datenpunkte")
   const pointGeo = new THREE.TorusKnotGeometry(5.6, 1.7, 190, 20, 2, 3);
   const pointMat = new THREE.PointsMaterial({
-    color: 0xff9e2c, size: 0.22, transparent: true, opacity: 0.85, blending: THREE.AdditiveBlending,
+    color: 0xff5a2e, size: 0.22, transparent: true, opacity: 0.85, blending: THREE.AdditiveBlending,
   });
   const points = new THREE.Points(pointGeo, pointMat);
 
   // Feines Drahtgitter in geringerer Auflösung als "Form" der Skulptur
   const wireGeo = new THREE.WireframeGeometry(new THREE.TorusKnotGeometry(5.6, 1.7, 72, 10, 2, 3));
   const wireMat = new THREE.LineBasicMaterial({
-    color: 0xffb45e, transparent: true, opacity: 0.16, blending: THREE.AdditiveBlending,
+    color: 0xff8a5c, transparent: true, opacity: 0.16, blending: THREE.AdditiveBlending,
   });
   const wire = new THREE.LineSegments(wireGeo, wireMat);
 
