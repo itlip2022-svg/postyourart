@@ -198,7 +198,7 @@ export const en = {
                 title: "Personal care",
                 price: "Individual",
                 items: ["We take care of everything that keeps you from working in the studio", "Exhibitions in real places — including Worpswede, with our name and our reputation", "We write and send your applications: competitions, grants, exhibitions", "Press, public, appearances — we open the doors, you walk through", "Our grown network becomes yours: associations, organizers, international contacts", "What remains: references and lines in your biography"],
-                note: "Honest projects with clear costs — and a team that knows your name. Write to us: hello@mas.art"
+                note: "Honest projects with clear costs — and a team that knows your name. Write to us: markus@lippeck.de"
             },
             principle: "We don't count how many take part. We ask what comes out of it for you."
         },
@@ -233,7 +233,7 @@ export const en = {
             lead: "Short answers to what artists ask us most often.",
             items: {
                 q1: { q: "What is postyour.art?", a: "postyour.art is the entry to a curated artist network: you apply with your works, after curation you publish for free on <a href=\"https://findyour.art/\" target=\"_blank\" rel=\"noopener\">findyour.art</a> and become part of the contact pool. The vault is part of it: capture works by photo and voice, the AI structures everything — free, exportable, your property." },
-                q2: { q: "What does postyour.art cost?", a: "Taking part in the network and the vault are free — curation decides admission, not your budget. No subscription. Those who want more book the personal support of the artist agency: concrete projects with transparent costs, individual offer via hello@mas.art." },
+                q2: { q: "What does postyour.art cost?", a: "Taking part in the network and the vault are free — curation decides admission, not your budget. No subscription. Those who want more book the personal support of the artist agency: concrete projects with transparent costs, individual offer via markus@lippeck.de." },
                 q3: { q: "Who owns my data?", a: "You do. Your data never trains third-party AI models and is never used for advertising. You can export everything as a ZIP in original quality at any time and delete your account permanently." },
                 q4: { q: "How do I capture an artwork?", a: "Take a photo, say two sentences about it — done. This works directly in the browser or via Telegram from your studio; the AI assistant structures all the details automatically." },
                 q5: { q: "Do I need a new app?", a: "No. Capturing works entirely through Telegram or the browser — tools you already know. Soon it gets even more direct, all the way to smart glasses." },
@@ -295,7 +295,7 @@ export const en = {
         <strong>VAT ID:</strong> DE340905729</p>
         <p><strong>Contact:</strong><br>
         Phone: 0162 6412632<br>
-        Email: hello@mas.art</p>
+        Email: markus@lippeck.de</p>
         <p>postyour.art is a service by <a href="https://www.mas.art" target="_blank">mas.art</a>.
         Full legal notice: <a href="https://mas.art/policies/legal-notice" target="_blank">mas.art/policies/legal-notice</a></p>
       `
@@ -309,7 +309,7 @@ export const en = {
         <p><strong>In addition, for the postyour.art app:</strong></p>
         <p>Your vault belongs to you. Works, stories, dates and media that you capture are stored solely to provide the service. They are not sold, not shared with advertising networks, and not used to train AI models. AI processing happens only on your explicit command and only with providers that contractually exclude training on your data.</p>
         <p>You can export your complete data as a ZIP archive at any time and delete your account including all data — permanently and without asking twice.</p>
-        <p><strong>Contact for privacy matters:</strong> hello@mas.art</p>
+        <p><strong>Contact for privacy matters:</strong> markus@lippeck.de</p>
       `
         }
 };

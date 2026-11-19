@@ -58,7 +58,7 @@ export function jsonLd(lang) {
                 '@id': 'https://www.mas.art/#org',
                 name: 'mas.art · Lippeck GmbH',
                 url: 'https://www.mas.art',
-                email: 'hello@mas.art',
+                email: 'markus@lippeck.de',
                 logo: `${BASE_URL}assets/masart-logo.png`,
                 telephone: '+49 162 6412632',
                 sameAs: [
