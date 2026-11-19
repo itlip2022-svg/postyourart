@@ -198,7 +198,7 @@ export const pt = {
             title: "Acompanhamento pessoal",
             price: "Individual",
             items: ["Tratamos de tudo o que te afasta do trabalho no atelier", "Exposições em lugares reais — também em Worpswede, com o nosso nome e a nossa reputação", "Escrevemos e enviamos as tuas candidaturas: concursos, bolsas, exposições", "Imprensa, público, aparições — nós abrimos as portas, tu atravessa-las", "A nossa rede torna-se tua: associações, organizadores, contactos internacionais", "O que fica: referências e linhas na tua biografia"],
-            note: "Projetos honestos com custos claros — e uma equipa que conhece o teu nome. Escreve-nos: hello@mas.art"
+            note: "Projetos honestos com custos claros — e uma equipa que conhece o teu nome. Escreve-nos: markus@lippeck.de"
         },
         principle: "Não contamos quantos participam. Perguntamo-nos o que tu levas disso."
     },
@@ -233,7 +233,7 @@ export const pt = {
         lead: "Respostas curtas ao que os artistas mais nos perguntam.",
         items: {
             q1: { q: "O que é o postyour.art?", a: "postyour.art é a entrada para uma rede de artistas curada: candidatas-te com as tuas obras, após a curadoria publicas gratuitamente no <a href=\"https://findyour.art/\" target=\"_blank\" rel=\"noopener\">findyour.art</a> e passas a fazer parte do pool de contactos. A Vault faz parte disso: registas obras por foto e voz, a IA estrutura tudo — gratuito, exportável, propriedade tua." },
-            q2: { q: "Quanto custa o postyour.art?", a: "Participar na rede e a Vault são gratuitos — a curadoria decide a admissão, não o teu orçamento. Sem assinatura. Quem quer mais reserva o acompanhamento pessoal da agência de artistas: projetos concretos com custos transparentes, proposta individual via hello@mas.art." },
+            q2: { q: "Quanto custa o postyour.art?", a: "Participar na rede e a Vault são gratuitos — a curadoria decide a admissão, não o teu orçamento. Sem assinatura. Quem quer mais reserva o acompanhamento pessoal da agência de artistas: projetos concretos com custos transparentes, proposta individual via markus@lippeck.de." },
             q3: { q: "A quem pertencem os meus dados?", a: "A ti. Os teus dados nunca treinam modelos de IA de terceiros nem são usados para publicidade. Podes exportar tudo como ZIP em qualidade original a qualquer momento e apagar a tua conta definitivamente." },
             q4: { q: "Como registo uma obra?", a: "Tira uma foto, diz duas frases — pronto. Funciona diretamente no navegador ou por Telegram a partir do ateliê; o assistente de IA estrutura todos os dados automaticamente." },
             q5: { q: "Preciso de uma app nova?", a: "Não. O registo funciona completamente por Telegram ou navegador — ferramentas que já conheces. Em breve será ainda mais direto, até aos óculos inteligentes." },
@@ -295,7 +295,7 @@ export const pt = {
         <strong>NIF-IVA:</strong> DE340905729</p>
         <p><strong>Contacto:</strong><br>
         Telefone: +49 162 6412632<br>
-        E-mail: hello@mas.art</p>
+        E-mail: markus@lippeck.de</p>
         <p>O postyour.art é um serviço de <a href="https://www.mas.art" target="_blank">mas.art</a>.
         Aviso legal completo: <a href="https://mas.art/policies/legal-notice" target="_blank">mas.art/policies/legal-notice</a></p>
       `
@@ -309,7 +309,7 @@ export const pt = {
         <p><strong>Adicionalmente, para a app postyour.art:</strong></p>
         <p>A tua Vault pertence-te. As obras, histórias, datas e media que registas são armazenados exclusivamente para prestar o serviço. Não são vendidos, não são cedidos a redes de publicidade e não são usados para treinar modelos de IA. O processamento com IA acontece apenas por teu pedido explícito e apenas com fornecedores que excluem contratualmente o treino com os teus dados.</p>
         <p>Podes exportar todos os teus dados a qualquer momento como arquivo ZIP e apagar a tua conta com todos os dados — definitivamente e sem perguntas.</p>
-        <p><strong>Contacto para questões de privacidade:</strong> hello@mas.art</p>
+        <p><strong>Contacto para questões de privacidade:</strong> markus@lippeck.de</p>
       `
     }
 };
