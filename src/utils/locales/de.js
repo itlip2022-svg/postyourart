@@ -11,7 +11,13 @@ export const de = {
             channels: "Channels",
             findYourArt: "findyour.art",
             howItWorks: "So funktioniert’s",
-            earlyAccess: "Beta Login"
+            earlyAccess: "Beta Login",
+            network: "Netzwerk",
+            worpswede: "Worpswede",
+            offer: "Angebot",
+            contact: "Kontakt",
+            apply: "Jetzt bewerben",
+            login: "Login"
         },
         hero: {
             collab: "Ein Angebot von <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
@@ -244,6 +250,22 @@ export const de = {
                 c2: { title: "Kunst erleben lassen", text: "Deine Bühne auf findyour.art: Kunst als begehbares 3D-Erlebnis — entdecken, eintauchen, kaufen.", btn: "Erlebnis entdecken" },
                 c3: { title: "Partner werden", text: "Verbinde deinen Channel.", btn: "Demnächst" }
             }
+        },
+        contact: {
+            kicker: "Kontakt",
+            title: "Schreib uns einfach.",
+            lead: "Kein Formular, keine Warteschleife: Ein Klick öffnet Messenger, Mail oder Telefon — und die Antwort kommt persönlich von uns zurück.",
+            waGreeting: "Hallo, ich schreibe wegen postyour.art:",
+            waText: "Öffnet den Chat mit vorbereitetem Gruß.",
+            tgText: "Öffnet den Chat, wenn Telegram installiert ist.",
+            mailTitle: "E-Mail",
+            callTitle: "Anrufen",
+            placeTitle: "Im Schluh 71, Worpswede",
+            placeText: "Galerie, Bibliothek und Atelier liegen im selben Haus, dazu die Wohnungen der Art Residence. Besuche nach Vereinbarung — eine kurze Nachricht vorher, und die Tür steht offen.",
+            mapLink: "Auf der Karte ansehen",
+            mobile: "Mobil",
+            gallery: "Galerie",
+            privacy: "WhatsApp und Telegram stehen hier als Verweise, nicht als Einbettung: Es lädt nichts von deren Servern, bevor du klickst. Erst der Klick öffnet die jeweilige App — dann gelten die Bedingungen des Betreibers."
         },
         footer: {
             brand: "Das Künstlernetzwerk aus Worpswede.",

@@ -11,7 +11,13 @@ export const fr = {
         channels: "Channels",
         findYourArt: "findyour.art",
         howItWorks: "Comment ça marche",
-        earlyAccess: "Connexion bêta"
+        earlyAccess: "Connexion bêta",
+        network: "Réseau",
+        worpswede: "Worpswede",
+        offer: "Offre",
+        contact: "Contact",
+        apply: "Postuler",
+        login: "Connexion"
     },
     hero: {
         collab: "Un service de <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
@@ -244,6 +250,22 @@ export const fr = {
             c2: { title: "Fais vivre ton art", text: "Ta scène sur findyour.art : l'art comme expérience 3D à parcourir — découvrir, plonger, acheter.", btn: "Découvrir l'expérience" },
             c3: { title: "Devenir partenaire", text: "Connecte ton channel.", btn: "Bientôt disponible" }
         }
+    },
+    contact: {
+        kicker: "Contact",
+        title: "Écris-nous, tout simplement.",
+        lead: "Pas de formulaire, pas d'attente : un clic ouvre ta messagerie, ton e-mail ou ton téléphone — et la réponse vient personnellement de nous.",
+        waGreeting: "Bonjour, je vous écris au sujet de postyour.art :",
+        waText: "Ouvre le chat avec un message préparé.",
+        tgText: "Ouvre le chat si Telegram est installé.",
+        mailTitle: "E-mail",
+        callTitle: "Appeler",
+        placeTitle: "Im Schluh 71, Worpswede",
+        placeText: "Galerie, bibliothèque et atelier sont dans la même maison, avec les appartements de l'Art Residence. Visites sur rendez-vous — un petit message avant, et la porte est ouverte.",
+        mapLink: "Voir sur la carte",
+        mobile: "Portable",
+        gallery: "Galerie",
+        privacy: "WhatsApp et Telegram figurent ici comme liens, pas comme intégrations : rien ne se charge depuis leurs serveurs avant ton clic. Seul le clic ouvre l'application — les conditions de l'opérateur s'appliquent alors."
     },
     footer: {
         brand: "Le réseau d'artistes de Worpswede.",

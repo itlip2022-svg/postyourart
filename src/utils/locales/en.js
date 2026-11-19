@@ -11,7 +11,13 @@ export const en = {
             channels: "Channels",
             findYourArt: "findyour.art",
             howItWorks: "How it works",
-            earlyAccess: "Beta Login"
+            earlyAccess: "Beta Login",
+            network: "Network",
+            worpswede: "Worpswede",
+            offer: "Offer",
+            contact: "Contact",
+            apply: "Apply now",
+            login: "Login"
         },
         hero: {
             collab: "Provided by <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
@@ -244,6 +250,22 @@ export const en = {
                 c2: { title: "Let Your Art Be Experienced", text: "Your stage on findyour.art: art as a walkable 3D experience — discover, dive in, buy.", btn: "Discover the Experience" },
                 c3: { title: "Partner With Us", text: "Connect your channel.", btn: "Coming Soon" }
             }
+        },
+        contact: {
+            kicker: "Contact",
+            title: "Just write to us.",
+            lead: "No form, no queue: one click opens your messenger, mail or phone — and the answer comes back personally from us.",
+            waGreeting: "Hello, I'm writing about postyour.art:",
+            waText: "Opens the chat with a prepared greeting.",
+            tgText: "Opens the chat if Telegram is installed.",
+            mailTitle: "Email",
+            callTitle: "Call",
+            placeTitle: "Im Schluh 71, Worpswede",
+            placeText: "Gallery, library and studio are in the same house, along with the apartments of the Art Residence. Visits by appointment — a short message beforehand, and the door is open.",
+            mapLink: "View on the map",
+            mobile: "Mobile",
+            gallery: "Gallery",
+            privacy: "WhatsApp and Telegram appear here as links, not embeds: nothing loads from their servers before you click. Only the click opens the app — the operator's terms apply from then on."
         },
         footer: {
             brand: "The artist network from Worpswede.",

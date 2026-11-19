@@ -5,13 +5,14 @@ export function Header() {
   const currentLang = getLanguage();
   const current = languages.find((l) => l.code === currentLang) || languages[0];
 
+  // Navigation entlang der Netzwerk-Story; die Bewerbung ist der orange
+  // Hauptknopf, der Login in die App bleibt als dezenter Nebenlink.
   const links = `
-    <a href="#apps">${t('nav.apps')}</a>
-    <a href="#how-it-works">${t('nav.howItWorks')}</a>
-    <a href="#target-groups">${t('nav.targetGroups')}</a>
-    <a href="#ai-capture">${t('coreFeature.title')}</a>
-    <a href="#channels">${t('nav.channels')}</a>
-    <a href="https://findyour.art/" target="_blank" rel="noopener">${t('nav.findYourArt')}</a>
+    <a href="#why-network">${t('nav.network')}</a>
+    <a href="#worpswede">${t('nav.worpswede')}</a>
+    <a href="#findyourart">${t('nav.findYourArt')}</a>
+    <a href="#membership">${t('nav.offer')}</a>
+    <a href="#kontakt">${t('nav.contact')}</a>
   `;
 
   // Sprachmenü: Knopf mit aktuellem Kürzel, Aufklappliste mit allen
@@ -42,7 +43,8 @@ export function Header() {
         <nav class="site-nav" aria-label="Hauptnavigation">${links}</nav>
         <div class="header-actions">
           ${langMenu}
-          <a href="https://postyourart.vercel.app/" target="_blank" rel="noopener" class="header-cta">${t('nav.earlyAccess')}</a>
+          <a href="https://postyourart.vercel.app/" target="_blank" rel="noopener" class="header-login">${t('nav.login')}</a>
+          <a href="#beta" class="header-cta">${t('nav.apply')}</a>
           <button class="nav-toggle" id="nav-toggle" aria-label="Menü" aria-expanded="false" aria-controls="mobile-nav">
             <span></span><span></span><span></span>
           </button>
@@ -51,7 +53,8 @@ export function Header() {
     </header>
     <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation">
       ${links}
-      <a href="https://postyourart.vercel.app/" target="_blank" rel="noopener"><strong>${t('nav.earlyAccess')}</strong></a>
+      <a href="#beta" class="mobile-nav-cta">${t('nav.apply')}</a>
+      <a href="https://postyourart.vercel.app/" target="_blank" rel="noopener">${t('nav.login')}</a>
     </nav>
   `;
 }
