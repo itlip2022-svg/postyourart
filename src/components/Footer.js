@@ -1,4 +1,5 @@
 import { t } from '../utils/i18n.js';
+import { CONTACT, SOCIAL, ICONS } from './Contact.js';
 
 export function Footer() {
   return `
@@ -14,6 +15,15 @@ export function Footer() {
               </a>
             </div>
             <p>${t('footer.brand')}</p>
+            <p class="footer-contact">
+              Lippeck GmbH · Im Schluh 71 · 27726 Worpswede<br>
+              <a href="${CONTACT.mobileHref}">${CONTACT.mobile}</a> · <a href="mailto:${CONTACT.email}">${CONTACT.email}</a>
+            </p>
+            <div class="footer-social">
+              ${SOCIAL.map((s) => `<a href="${s.href}" target="_blank" rel="noopener" aria-label="${s.label} ${s.handle}">${ICONS[s.key]}</a>`).join('')}
+              <a href="${CONTACT.whatsapp}" target="_blank" rel="noopener" aria-label="WhatsApp">${ICONS.whatsapp}</a>
+              <a href="${CONTACT.telegram}" target="_blank" rel="noopener" aria-label="Telegram">${ICONS.telegram}</a>
+            </div>
           </div>
           <div class="footer-links">
             <h4>${t('footer.network')}</h4>
@@ -21,6 +31,7 @@ export function Footer() {
             <a href="https://findyour.art" target="_blank" rel="noopener">findyour.art</a>
             <a href="https://findyour.art/ueber-uns" target="_blank" rel="noopener">${t('footer.about')}</a>
             <a href="https://schluh.art" target="_blank">Schluh.art</a>
+            <a href="#kontakt">${t('nav.contact')}</a>
           </div>
           <div class="footer-links">
             <h4>${t('footer.legal')}</h4>

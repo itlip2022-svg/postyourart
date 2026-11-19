@@ -60,7 +60,18 @@ export function jsonLd(lang) {
                 url: 'https://www.mas.art',
                 email: 'hello@mas.art',
                 logo: `${BASE_URL}assets/masart-logo.png`,
-                sameAs: ['https://findyour.art', 'https://schluh.art'],
+                telephone: '+49 162 6412632',
+                sameAs: [
+                    'https://findyour.art',
+                    'https://schluh.art',
+                    'https://www.instagram.com/markus.lippeck/',
+                    'https://www.youtube.com/@Markus.Lippeck',
+                    'https://de.pinterest.com/markus_Lippeck/',
+                ],
+                contactPoint: [
+                    { '@type': 'ContactPoint', contactType: 'customer support', telephone: '+49 162 6412632', email: 'markus@lippeck.de', availableLanguage: ['de', 'en'] },
+                    { '@type': 'ContactPoint', contactType: 'gallery', telephone: '+49 4792 9899544' },
+                ],
                 address: {
                     '@type': 'PostalAddress',
                     streetAddress: 'Im Schluh 71',

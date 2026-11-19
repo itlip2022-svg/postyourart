@@ -11,7 +11,13 @@ export const it = {
         channels: "Channels",
         findYourArt: "findyour.art",
         howItWorks: "Come funziona",
-        earlyAccess: "Accesso beta"
+        earlyAccess: "Accesso beta",
+        network: "Rete",
+        worpswede: "Worpswede",
+        offer: "Offerta",
+        contact: "Contatto",
+        apply: "Candidati ora",
+        login: "Accedi"
     },
     hero: {
         collab: "Un servizio di <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
@@ -244,6 +250,22 @@ export const it = {
             c2: { title: "Fai vivere la tua arte", text: "Il tuo palcoscenico su findyour.art: l'arte come esperienza 3D percorribile — scoprire, immergersi, comprare.", btn: "Scopri l'esperienza" },
             c3: { title: "Diventa partner", text: "Collega il tuo channel.", btn: "Prossimamente" }
         }
+    },
+    contact: {
+        kicker: "Contatto",
+        title: "Scrivici e basta.",
+        lead: "Nessun modulo, nessuna attesa: un clic apre messaggistica, e-mail o telefono — e la risposta arriva personalmente da noi.",
+        waGreeting: "Ciao, scrivo a proposito di postyour.art:",
+        waText: "Apre la chat con un saluto già pronto.",
+        tgText: "Apre la chat se Telegram è installato.",
+        mailTitle: "E-mail",
+        callTitle: "Chiama",
+        placeTitle: "Im Schluh 71, Worpswede",
+        placeText: "Galleria, biblioteca e atelier sono nella stessa casa, insieme agli appartamenti dell'Art Residence. Visite su appuntamento — un breve messaggio prima, e la porta è aperta.",
+        mapLink: "Vedi sulla mappa",
+        mobile: "Cellulare",
+        gallery: "Galleria",
+        privacy: "WhatsApp e Telegram sono qui come link, non come contenuti incorporati: nulla viene caricato dai loro server prima del tuo clic. Solo il clic apre l'app — da lì valgono le condizioni del gestore."
     },
     footer: {
         brand: "La rete di artisti di Worpswede.",

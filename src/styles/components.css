@@ -217,7 +217,24 @@
 
 .header-cta:hover {
     filter: brightness(1.06);
-    box-shadow: 0 6px 18px rgba(255, 140, 0, 0.35);
+    box-shadow: 0 6px 18px rgba(255, 90, 46, 0.35);
+}
+
+/* Login in die App: dezenter Nebenlink neben dem Bewerben-Knopf */
+.header-login {
+    color: var(--color-text-soft);
+    font-size: 0.9rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.header-login:hover {
+    color: var(--color-text);
+}
+
+.mobile-nav a.mobile-nav-cta {
+    color: var(--color-accent-primary);
+    font-weight: 700;
 }
 
 /* Mobile-Navigation: Burger + ausklappbares Panel */
@@ -291,8 +308,15 @@ body.menu-open .nav-toggle span:nth-child(3) {
         display: flex;
     }
 
-    .header-cta {
+    /* Bewerben bleibt mobil sichtbar (Ziel der Instagram-Anzeigen),
+       der App-Login wandert ins aufklappbare Menü. */
+    .header-login {
         display: none;
+    }
+
+    .header-cta {
+        padding: 0.45rem 1rem;
+        font-size: 0.82rem;
     }
 }
 
@@ -1092,7 +1116,8 @@ body.menu-open .nav-toggle span:nth-child(3) {
 
 .membership-price-individual {
     color: var(--color-accent-primary);
-    font-size: 1.8rem;
+    font-size: clamp(1.4rem, 6.5vw, 1.8rem);
+    overflow-wrap: break-word;
 }
 
 .membership-principle {
@@ -1487,4 +1512,213 @@ main a[href^="https://www.mas.art"]:not(.btn) {
 main a[href^="https://findyour.art"]:not(.btn):hover,
 main a[href^="https://www.mas.art"]:not(.btn):hover {
     text-decoration: underline;
+}
+
+
+/* ── Kontakt: wie findyour.art/kontakt — kein Formular, ein Klick ────── */
+.contact-kicker {
+    font-size: 0.75rem;
+    letter-spacing: var(--spur-weit);
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-bottom: 0.75rem;
+}
+
+.contact-quick-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+    gap: 1rem;
+    margin-top: 2.5rem;
+}
+
+.card.contact-quick {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 1.5rem;
+    color: var(--color-text);
+}
+
+.contact-quick strong {
+    font-size: 1.1rem;
+}
+
+.contact-quick span:last-child {
+    color: var(--color-text-muted);
+    font-size: 0.92rem;
+}
+
+.contact-icon {
+    color: var(--color-accent-primary);
+    margin-bottom: 0.4rem;
+    display: inline-flex;
+}
+
+.contact-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.contact-place h3 {
+    margin-top: 0.25rem;
+}
+
+.contact-place p {
+    color: var(--color-text-soft);
+    line-height: 1.65;
+}
+
+.contact-maplink {
+    color: var(--color-accent-primary);
+    font-weight: 600;
+}
+
+.contact-address address {
+    font-style: normal;
+    line-height: 1.6;
+    color: var(--color-text-soft);
+    margin-bottom: 1rem;
+}
+
+.contact-address address strong {
+    color: var(--color-text);
+}
+
+.contact-lines {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.35rem 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.contact-lines dt {
+    font-size: 0.72rem;
+    letter-spacing: var(--spur);
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    align-self: center;
+}
+
+.contact-lines dd a {
+    color: var(--color-text);
+}
+
+.contact-lines dd a:hover {
+    color: var(--color-accent-primary);
+}
+
+.contact-social-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.75rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-border-strong);
+}
+
+.contact-social {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: var(--color-text-soft);
+}
+
+.contact-social span {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.85rem;
+    line-height: 1.3;
+}
+
+.contact-social strong {
+    color: var(--color-text);
+    font-size: 0.95rem;
+}
+
+.contact-social:hover,
+.contact-social:hover strong {
+    color: var(--color-accent-primary);
+}
+
+.contact-privacy {
+    max-width: 760px;
+    margin: 1.75rem auto 0;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+}
+
+/* Footer: Adresse + Social-Icons */
+.footer-contact {
+    font-size: 0.88rem;
+    line-height: 1.6;
+}
+
+.footer-contact a:hover {
+    color: var(--color-accent-primary);
+}
+
+.footer-social {
+    display: flex;
+    gap: 0.9rem;
+    margin-top: 0.9rem;
+}
+
+.footer-social a {
+    color: var(--color-text-soft);
+    display: inline-flex;
+}
+
+.footer-social a:hover {
+    color: var(--color-accent-primary);
+}
+
+/* Schmale Handys: Logo, Sprachknopf und Bewerben-Knopf rücken zusammen,
+   damit das Menü-Symbol sichtbar bleibt. */
+@media (max-width: 480px) {
+    .site-header .header-content {
+        padding: 0 0.9rem;
+        gap: 0.5rem;
+    }
+
+    .site-header .logo {
+        font-size: 1.15rem;
+    }
+
+    .header-actions {
+        gap: 0.55rem;
+    }
+
+    .lang-menu-btn {
+        padding: 5px 7px;
+    }
+
+    .lang-menu-btn svg:first-child {
+        display: none;
+    }
+
+    .header-cta {
+        padding: 0.42rem 0.75rem;
+        font-size: 0.76rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .site-header .logo {
+        font-size: 1.05rem;
+    }
+
+    .header-actions {
+        gap: 0.4rem;
+    }
+
+    .header-cta {
+        padding: 0.4rem 0.6rem;
+        font-size: 0.72rem;
+    }
+
+    .nav-toggle {
+        width: 34px;
+    }
 }

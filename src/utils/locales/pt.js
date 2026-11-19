@@ -11,7 +11,13 @@ export const pt = {
         channels: "Channels",
         findYourArt: "findyour.art",
         howItWorks: "Como funciona",
-        earlyAccess: "Acesso beta"
+        earlyAccess: "Acesso beta",
+        network: "Rede",
+        worpswede: "Worpswede",
+        offer: "Oferta",
+        contact: "Contacto",
+        apply: "Candidatar",
+        login: "Entrar"
     },
     hero: {
         collab: "Um serviço de <a href=\"https://www.mas.art\" target=\"_blank\">mas.art</a>",
@@ -244,6 +250,22 @@ export const pt = {
             c2: { title: "Faz viver a tua arte", text: "O teu palco no findyour.art: a arte como experiência 3D percorrível — descobrir, mergulhar, comprar.", btn: "Descobrir a experiência" },
             c3: { title: "Tornar-te parceiro", text: "Liga o teu channel.", btn: "Em breve" }
         }
+    },
+    contact: {
+        kicker: "Contacto",
+        title: "Escreve-nos, simplesmente.",
+        lead: "Sem formulário, sem esperas: um clique abre o teu messenger, e-mail ou telefone — e a resposta vem pessoalmente de nós.",
+        waGreeting: "Olá, escrevo a propósito da postyour.art:",
+        waText: "Abre a conversa com uma saudação preparada.",
+        tgText: "Abre a conversa se o Telegram estiver instalado.",
+        mailTitle: "E-mail",
+        callTitle: "Ligar",
+        placeTitle: "Im Schluh 71, Worpswede",
+        placeText: "Galeria, biblioteca e atelier estão na mesma casa, com os apartamentos da Art Residence. Visitas por marcação — uma mensagem curta antes, e a porta está aberta.",
+        mapLink: "Ver no mapa",
+        mobile: "Telemóvel",
+        gallery: "Galeria",
+        privacy: "O WhatsApp e o Telegram aparecem aqui como ligações, não incorporados: nada é carregado dos seus servidores antes do teu clique. Só o clique abre a app — a partir daí aplicam-se os termos do operador."
     },
     footer: {
         brand: "A rede de artistas de Worpswede.",
