@@ -1,8 +1,8 @@
-import { t } from '../utils/i18n.js';
+import { t, getLanguage } from '../utils/i18n.js';
 
-// Beta-Anmeldung (gleiches Prinzip wie der Worpswede-Funnel):
-// E-Mail-Adressen werden über /api/subscribe in Brevo gesammelt,
-// um potenzielle Nutzer persönlich zum Beta-Programm einzuladen.
+// Bewerbung für das Netzwerk: Name, E-Mail, Link zu den Arbeiten und eine
+// kurze Nachricht gehen an /api/subscribe — dort landen sie in Brevo, als
+// Benachrichtigung bei uns und als Eingangsbestätigung beim Bewerber.
 export function BetaSignup() {
   return `
     <section class="section beta-signup" id="beta">
@@ -24,6 +24,10 @@ export function BetaSignup() {
               <input type="text" id="beta-name" name="name" autocomplete="given-name" placeholder="${t('betaSignup.namePh')}" />
               <label for="beta-email">${t('betaSignup.emailLabel')}</label>
               <input type="email" id="beta-email" name="email" autocomplete="email" required placeholder="${t('betaSignup.emailPh')}" />
+              <label for="beta-portfolio">${t('betaSignup.portfolioLabel')}</label>
+              <input type="text" id="beta-portfolio" name="portfolio" autocomplete="url" required maxlength="300" placeholder="${t('betaSignup.portfolioPh')}" />
+              <label for="beta-message">${t('betaSignup.messageLabel')} <span class="beta-optional">${t('betaSignup.optional')}</span></label>
+              <textarea id="beta-message" name="message" rows="4" maxlength="2000" placeholder="${t('betaSignup.messagePh')}"></textarea>
               <input type="text" name="beta_hp" class="beta-hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
               <label class="beta-consent">
                 <input type="checkbox" id="beta-consent" required />
@@ -60,6 +64,11 @@ export function initBetaSignup() {
       msg.textContent = t('betaSignup.errorInvalid');
       return;
     }
+    const portfolio = document.getElementById('beta-portfolio').value.trim();
+    if (portfolio.length < 3) {
+      msg.textContent = t('betaSignup.errorPortfolio');
+      return;
+    }
     if (!consent.checked) {
       msg.textContent = t('betaSignup.errorConsent');
       return;
@@ -75,7 +84,10 @@ export function initBetaSignup() {
         body: JSON.stringify({
           email,
           name: document.getElementById('beta-name').value.trim(),
-          source: 'postyour.art-beta',
+          portfolio,
+          message: document.getElementById('beta-message').value.trim(),
+          lang: getLanguage(),
+          source: 'postyour.art-bewerbung',
           beta_hp: form.querySelector('.beta-hp').value,
         }),
       });

@@ -1262,7 +1262,8 @@ body.menu-open .nav-toggle span:nth-child(3) {
 }
 
 .beta-card input[type="text"],
-.beta-card input[type="email"] {
+.beta-card input[type="email"],
+.beta-card textarea {
     width: 100%;
     padding: 0.8rem 1rem;
     margin-bottom: var(--spacing-sm);
@@ -1275,9 +1276,16 @@ body.menu-open .nav-toggle span:nth-child(3) {
     transition: border-color var(--transition-fast);
 }
 
-.beta-card input:focus {
+.beta-card input:focus,
+.beta-card textarea:focus {
     outline: none;
     border-color: var(--color-accent-primary);
+}
+
+.beta-card textarea {
+    resize: vertical;
+    min-height: 6rem;
+    line-height: 1.5;
 }
 
 /* Honeypot: für Menschen unsichtbar, Bots füllen es trotzdem aus */
