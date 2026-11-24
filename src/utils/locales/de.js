@@ -256,6 +256,23 @@ export const de = {
                 c3: { title: "Partner werden", text: "Verbinde deinen Channel.", btn: "Demnächst" }
             }
         },
+        about: {
+            kicker: "Wer dahintersteht",
+            title: "Zwei Künstler, ein Haus in Worpswede.",
+            lead: "Hinter postyour.art stehen Anna Schill und Markus Lippeck. mas.art ist die Abkürzung ihrer beiden Namen – und der Name für alles, was daraus gewachsen ist: eine Galerie, ein Kunstverein, Wohnungen für Künstlerinnen, eine Bibliothek und ein Netzwerk bis nach Italien.",
+            people: {
+                anna: { name: "Anna Schill", role: "Malerin · Kunstlehrerin · Vorsitzende des Schluh.art e. V.", text: "Studierte Freie Malerei an der Kunstakademie Nowosibirsk und malt klassisch in Öl und Aquarell – figürlich und symbolisch. Sie unterrichtet Kinder und Erwachsene in Bremen, Grasberg und Worpswede." },
+                markus: { name: "Markus Lippeck", role: "Künstler · Galerist · Kurator", text: "Autodidakt, erste Ausstellung 1989, seitdem in Berlin, Krefeld, Bremen, München und Worpswede. Er arbeitet zwischen Fotografie, Druck, Papier und KI, kuratiert die Galerie SCHLUH und baut findyour.art und postyour.art." }
+            },
+            tiles: {
+                house: { title: "Galerie, Atelier & Art Residence", text: "Galerie, Atelier und Bibliothek unter einem Dach – dazu fünf Wohnungen, in denen Künstlerinnen und Künstler zwei Wochen bis mehrere Monate leben und arbeiten." },
+                verein: { title: "Schluh.art e. V.", text: "Unser gemeinnütziger Kunstverein, gegründet 2024. Er trägt Kurse und Ausstellungen – und holt künftig Künstlerinnen und Künstler für Residenzen nach Worpswede." },
+                europe: { title: "Ein Netz durch Europa", text: "Über die Künstlerkolonie Worpswede gehören wir zu euroart, dem Verbund von 47 Künstlerkolonien in 13 Ländern. Mit der Partnerstadt Olevano Romano in Italien wächst ein Austausch – eine Ausstellung dort ist in Vorbereitung." }
+            },
+            linkMasart: "mas.art ausführlich",
+            linkVerein: "Zum Kunstverein",
+            linkResidence: "Art Residence"
+        },
         contact: {
             kicker: "Kontakt",
             title: "Schreib uns einfach.",

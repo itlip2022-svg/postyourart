@@ -256,6 +256,23 @@ export const it = {
             c3: { title: "Diventa partner", text: "Collega il tuo channel.", btn: "Prossimamente" }
         }
     },
+    about: {
+        kicker: "Chi siamo",
+        title: "Due artisti, una casa a Worpswede.",
+        lead: "Dietro postyour.art ci sono Anna Schill e Markus Lippeck. mas.art è l'abbreviazione dei loro due nomi – e il nome di tutto ciò che ne è nato: una galleria, un'associazione d'arte, alloggi per artisti, una biblioteca e una rete che arriva fino in Italia.",
+        people: {
+            anna: { name: "Anna Schill", role: "Pittrice · insegnante d'arte · presidente di Schluh.art e. V.", text: "Ha studiato pittura all'Accademia di Belle Arti di Novosibirsk e dipinge in modo classico a olio e ad acquerello – figurativa e simbolica. Insegna a bambini e adulti a Brema, Grasberg e Worpswede." },
+            markus: { name: "Markus Lippeck", role: "Artista · gallerista · curatore", text: "Autodidatta, prima mostra nel 1989, poi Berlino, Krefeld, Brema, Monaco e Worpswede. Lavora tra fotografia, stampa, carta e IA, cura la Galerie SCHLUH e costruisce findyour.art e postyour.art." }
+        },
+        tiles: {
+            house: { title: "Galleria, atelier e residenza", text: "Galleria, atelier e biblioteca sotto lo stesso tetto – più cinque alloggi in cui artisti vivono e lavorano da due settimane a diversi mesi." },
+            verein: { title: "Schluh.art e. V.", text: "La nostra associazione d'arte senza scopo di lucro, fondata nel 2024. Sostiene corsi e mostre – e porterà artisti a Worpswede per le residenze." },
+            europe: { title: "Una rete attraverso l'Europa", text: "Attraverso la colonia di artisti di Worpswede facciamo parte di euroart, la federazione di 47 colonie di artisti in 13 paesi. Cresce uno scambio con la città gemellata di Olevano Romano – lì si prepara una mostra." }
+        },
+        linkMasart: "mas.art nel dettaglio",
+        linkVerein: "L'associazione d'arte",
+        linkResidence: "Residenza d'artista"
+    },
     contact: {
         kicker: "Contatto",
         title: "Scrivici e basta.",

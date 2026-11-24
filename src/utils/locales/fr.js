@@ -256,6 +256,23 @@ export const fr = {
             c3: { title: "Devenir partenaire", text: "Connecte ton channel.", btn: "Bientôt disponible" }
         }
     },
+    about: {
+        kicker: "Qui sommes-nous",
+        title: "Deux artistes, une maison à Worpswede.",
+        lead: "Derrière postyour.art, il y a Anna Schill et Markus Lippeck. mas.art est l'abréviation de leurs deux noms – et le nom de tout ce qui en est né : une galerie, une association d'art, des logements pour artistes, une bibliothèque et un réseau qui va jusqu'en Italie.",
+        people: {
+            anna: { name: "Anna Schill", role: "Peintre · professeure d'art · présidente de Schluh.art e. V.", text: "Formée à la peinture à l'Académie des beaux-arts de Novossibirsk, elle peint de façon classique à l'huile et à l'aquarelle – figurative et symbolique. Elle enseigne aux enfants et aux adultes à Brême, Grasberg et Worpswede." },
+            markus: { name: "Markus Lippeck", role: "Artiste · galeriste · commissaire", text: "Autodidacte, première exposition en 1989, puis Berlin, Krefeld, Brême, Munich et Worpswede. Il travaille entre photographie, impression, papier et IA, dirige la Galerie SCHLUH et construit findyour.art et postyour.art." }
+        },
+        tiles: {
+            house: { title: "Galerie, atelier & résidence", text: "Galerie, atelier et bibliothèque sous un même toit – et cinq logements où des artistes vivent et travaillent de deux semaines à plusieurs mois." },
+            verein: { title: "Schluh.art e. V.", text: "Notre association d'art d'utilité publique, fondée en 2024. Elle porte des cours et des expositions – et fera venir des artistes en résidence à Worpswede." },
+            europe: { title: "Un réseau à travers l'Europe", text: "Par la colonie d'artistes de Worpswede, nous faisons partie d'euroart, la fédération de 47 colonies d'artistes dans 13 pays. Un échange grandit avec la ville jumelle d'Olevano Romano en Italie – une exposition y est en préparation." }
+        },
+        linkMasart: "mas.art en détail",
+        linkVerein: "L'association d'art",
+        linkResidence: "Résidence d'artistes"
+    },
     contact: {
         kicker: "Contact",
         title: "Écris-nous, tout simplement.",

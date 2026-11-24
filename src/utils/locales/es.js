@@ -256,6 +256,23 @@ export const es = {
             c3: { title: "Hazte partner", text: "Conecta tu channel.", btn: "Próximamente" }
         }
     },
+    about: {
+        kicker: "Quiénes somos",
+        title: "Dos artistas, una casa en Worpswede.",
+        lead: "Detrás de postyour.art están Anna Schill y Markus Lippeck. mas.art es la abreviatura de sus dos nombres – y el nombre de todo lo que ha crecido a partir de ello: una galería, una asociación de arte, viviendas para artistas, una biblioteca y una red que llega hasta Italia.",
+        people: {
+            anna: { name: "Anna Schill", role: "Pintora · profesora de arte · presidenta de Schluh.art e. V.", text: "Estudió pintura en la Academia de Arte de Novosibirsk y pinta de forma clásica al óleo y a la acuarela – figurativa y simbólica. Da clases a niños y adultos en Bremen, Grasberg y Worpswede." },
+            markus: { name: "Markus Lippeck", role: "Artista · galerista · comisario", text: "Autodidacta, primera exposición en 1989, después en Berlín, Krefeld, Bremen, Múnich y Worpswede. Trabaja entre fotografía, grabado, papel e IA, dirige la Galerie SCHLUH y construye findyour.art y postyour.art." }
+        },
+        tiles: {
+            house: { title: "Galería, taller y residencia", text: "Galería, taller y biblioteca bajo un mismo techo – y cinco viviendas donde artistas viven y trabajan de dos semanas a varios meses." },
+            verein: { title: "Schluh.art e. V.", text: "Nuestra asociación de arte sin ánimo de lucro, fundada en 2024. Sostiene cursos y exposiciones – y traerá artistas a Worpswede para residencias." },
+            europe: { title: "Una red por toda Europa", text: "A través de la colonia de artistas de Worpswede formamos parte de euroart, la federación de 47 colonias de artistas en 13 países. Crece un intercambio con la ciudad hermanada de Olevano Romano en Italia – allí se prepara una exposición." }
+        },
+        linkMasart: "mas.art en detalle",
+        linkVerein: "La asociación de arte",
+        linkResidence: "Residencia artística"
+    },
     contact: {
         kicker: "Contacto",
         title: "Escríbenos sin más.",

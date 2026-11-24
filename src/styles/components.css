@@ -1730,3 +1730,31 @@ main a[href^="https://www.mas.art"]:not(.btn):hover {
         width: 34px;
     }
 }
+
+
+/* ── Wer dahintersteht: zwei Personen, drei Kacheln ───────────────────── */
+.about-people {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+    gap: 1rem;
+    margin-top: 2.5rem;
+    text-align: left;
+}
+
+.about-person h3 {
+    color: var(--color-text);
+    margin-bottom: 0.25rem;
+}
+
+.about-role {
+    font-size: 0.75rem;
+    letter-spacing: var(--spur);
+    text-transform: uppercase;
+    color: var(--color-accent-primary);
+    margin-bottom: 0.9rem;
+}
+
+.about-person p:last-child {
+    color: var(--color-text-soft);
+    line-height: 1.65;
+}

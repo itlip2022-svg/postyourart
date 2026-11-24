@@ -42,6 +42,7 @@ const { SocialConnect } = await import('../src/components/SocialConnect.js');
 const { CTA } = await import('../src/components/CTA.js');
 const { Footer } = await import('../src/components/Footer.js');
 const { Contact } = await import('../src/components/Contact.js');
+const { About } = await import('../src/components/About.js');
 const { ValueProps } = await import('../src/components/ValueProps.js');
 const { HowItWorks } = await import('../src/components/HowItWorks.js');
 const { VaultTour } = await import('../src/components/VaultTour.js');
@@ -77,6 +78,7 @@ const appHtml = `
         ${Faq()}
         ${CTA()}
         ${Contact()}
+        ${About()}
       </main>
       ${Footer()}
     `;

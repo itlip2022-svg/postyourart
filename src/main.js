@@ -12,6 +12,7 @@ import { SocialConnect } from './components/SocialConnect.js';
 import { CTA } from './components/CTA.js';
 import { Footer } from './components/Footer.js';
 import { Contact } from './components/Contact.js';
+import { About } from './components/About.js';
 import { Imprint } from './components/Imprint.js';
 import { Privacy } from './components/Privacy.js';
 import { ValueProps } from './components/ValueProps.js';
@@ -131,6 +132,7 @@ function render() {
         ${Faq()}
         ${CTA()}
         ${Contact()}
+        ${About()}
       </main>
       ${Footer()}
     `;

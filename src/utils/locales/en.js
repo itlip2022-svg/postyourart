@@ -256,6 +256,23 @@ export const en = {
                 c3: { title: "Partner With Us", text: "Connect your channel.", btn: "Coming Soon" }
             }
         },
+        about: {
+            kicker: "Who we are",
+            title: "Two artists, one house in Worpswede.",
+            lead: "Behind postyour.art are Anna Schill and Markus Lippeck. mas.art is short for their two names – and the name for everything that has grown from it: a gallery, an art association, apartments for artists, a library and a network reaching all the way to Italy.",
+            people: {
+                anna: { name: "Anna Schill", role: "Painter · art teacher · chair of Schluh.art e. V.", text: "Studied fine art at the Novosibirsk Academy of Arts and paints classically in oil and watercolour – figurative and symbolic. She teaches children and adults in Bremen, Grasberg and Worpswede." },
+                markus: { name: "Markus Lippeck", role: "Artist · gallerist · curator", text: "Self-taught, first exhibition in 1989, since then in Berlin, Krefeld, Bremen, Munich and Worpswede. He works between photography, print, paper and AI, curates Galerie SCHLUH and builds findyour.art and postyour.art." }
+            },
+            tiles: {
+                house: { title: "Gallery, studio & art residence", text: "Gallery, studio and library under one roof – plus five apartments where artists live and work for two weeks up to several months." },
+                verein: { title: "Schluh.art e. V.", text: "Our non-profit art association, founded in 2024. It supports courses and exhibitions – and will bring artists to Worpswede for residencies." },
+                europe: { title: "A network across Europe", text: "Through the artists' colony of Worpswede we are part of euroart, the federation of 47 artists' colonies in 13 countries. An exchange is growing with the partner town of Olevano Romano in Italy – an exhibition there is being prepared." }
+            },
+            linkMasart: "mas.art in detail",
+            linkVerein: "The art association",
+            linkResidence: "Art residence"
+        },
         contact: {
             kicker: "Contact",
             title: "Just write to us.",
