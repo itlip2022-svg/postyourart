@@ -256,6 +256,24 @@ export const pt = {
             c3: { title: "Tornar-te parceiro", text: "Liga o teu channel.", btn: "Em breve" }
         }
     },
+    about: {
+        kicker: "Quem somos",
+        title: "Dois artistas, uma casa em Worpswede.",
+        lead: "Por trás da postyour.art estão Anna Schill e Markus Lippeck. mas.art é a abreviatura dos seus dois nomes – e o nome de tudo o que daí cresceu: uma galeria, uma associação de arte, casas para artistas, uma biblioteca e uma rede que chega até Itália.",
+        people: {
+            anna: { name: "Anna Schill", role: "Pintora · professora de arte · presidente da Schluh.art e. V.", text: "Estudou pintura na Academia de Artes de Novosibirsk e pinta de forma clássica a óleo e aguarela – figurativa e simbólica. Dá aulas a crianças e adultos em Bremen, Grasberg e Worpswede." },
+            markus: { name: "Markus Lippeck", role: "Artista · galerista · curador", text: "Autodidata, primeira exposição em 1989, depois Berlim, Krefeld, Bremen, Munique e Worpswede. Trabalha entre fotografia, gravura, papel e IA, dirige a Galerie SCHLUH e constrói a findyour.art e a postyour.art." }
+        },
+        tiles: {
+            house: { title: "Galeria, atelier e residência", text: "Galeria, atelier e biblioteca sob o mesmo teto – e cinco casas onde artistas vivem e trabalham de duas semanas a vários meses." },
+            verein: { title: "Schluh.art e. V.", text: "A nossa associação de arte sem fins lucrativos, fundada em 2024. Apoia cursos e exposições – e trará artistas a Worpswede para residências." },
+            europe: { title: "Uma rede pela Europa", text: "Através da colónia de artistas de Worpswede fazemos parte da euroart, a federação de 47 colónias de artistas em 13 países. Cresce um intercâmbio com a cidade geminada de Olevano Romano, em Itália – uma exposição está a ser preparada lá." }
+        },
+        photos: { illustration: "Anna Schill e Markus Lippeck, em desenho", selfie: "Anna Schill e Markus Lippeck", gallery: "Vista de uma exposição em Worpswede", logo: "Logótipo WorpswedeNEXT!*" },
+        linkMasart: "mas.art em detalhe",
+        linkVerein: "A associação de arte",
+        linkResidence: "Residência artística"
+    },
     contact: {
         kicker: "Contacto",
         title: "Escreve-nos, simplesmente.",
