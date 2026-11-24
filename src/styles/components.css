@@ -1758,3 +1758,45 @@ main a[href^="https://www.mas.art"]:not(.btn):hover {
     color: var(--color-text-soft);
     line-height: 1.65;
 }
+
+
+/* Bildreihe in „Wer dahintersteht": Desktop vier nebeneinander, mobil 2×2 */
+.about-photos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 2.5rem;
+}
+
+.about-photo {
+    margin: 0;
+    aspect-ratio: 1 / 1;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    border: 1px solid var(--color-border-strong);
+    background: var(--color-surface);
+}
+
+.about-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Das Logo nicht beschneiden: ganz zeigen, auf seinem weißen Grund */
+.about-photo-logo {
+    background: #fff;
+}
+
+.about-photo-logo img {
+    object-fit: contain;
+    padding: 0.75rem;
+}
+
+@media (max-width: 700px) {
+    .about-photos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+    }
+}

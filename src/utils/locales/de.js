@@ -269,6 +269,7 @@ export const de = {
                 verein: { title: "Schluh.art e. V.", text: "Unser gemeinnütziger Kunstverein, gegründet 2024. Er trägt Kurse und Ausstellungen – und holt künftig Künstlerinnen und Künstler für Residenzen nach Worpswede." },
                 europe: { title: "Ein Netz durch Europa", text: "Über die Künstlerkolonie Worpswede gehören wir zu euroart, dem Verbund von 47 Künstlerkolonien in 13 Ländern. Mit der Partnerstadt Olevano Romano in Italien wächst ein Austausch – eine Ausstellung dort ist in Vorbereitung." }
             },
+            photos: { illustration: "Anna Schill und Markus Lippeck, als Zeichnung", selfie: "Anna Schill und Markus Lippeck", gallery: "Blick in eine Ausstellung in Worpswede", logo: "Logo WorpswedeNEXT!*" },
             linkMasart: "mas.art ausführlich",
             linkVerein: "Zum Kunstverein",
             linkResidence: "Art Residence"

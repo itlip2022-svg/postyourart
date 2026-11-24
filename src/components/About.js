@@ -26,6 +26,19 @@ export function About() {
         <h2 class="section-title">${t('about.title')}</h2>
         <p class="lead" style="max-width: 760px; margin-left: auto; margin-right: auto;">${t('about.lead')}</p>
 
+        <div class="about-photos">
+          ${[
+            ['anna-markus-illustration', 'illustration'],
+            ['anna-markus', 'selfie'],
+            ['galerie-worpswede', 'gallery'],
+            ['worpswede-next', 'logo'],
+          ].map(([file, key]) => `
+            <figure class="about-photo about-photo-${key}">
+              <img src="/about/${file}.webp" alt="${t(`about.photos.${key}`)}" loading="lazy" decoding="async">
+            </figure>
+          `).join('')}
+        </div>
+
         <div class="about-people">
           ${person('anna')}
           ${person('markus')}

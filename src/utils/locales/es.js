@@ -269,6 +269,7 @@ export const es = {
             verein: { title: "Schluh.art e. V.", text: "Nuestra asociación de arte sin ánimo de lucro, fundada en 2024. Sostiene cursos y exposiciones – y traerá artistas a Worpswede para residencias." },
             europe: { title: "Una red por toda Europa", text: "A través de la colonia de artistas de Worpswede formamos parte de euroart, la federación de 47 colonias de artistas en 13 países. Crece un intercambio con la ciudad hermanada de Olevano Romano en Italia – allí se prepara una exposición." }
         },
+        photos: { illustration: "Anna Schill y Markus Lippeck, en dibujo", selfie: "Anna Schill y Markus Lippeck", gallery: "Vista de una exposición en Worpswede", logo: "Logo de WorpswedeNEXT!*" },
         linkMasart: "mas.art en detalle",
         linkVerein: "La asociación de arte",
         linkResidence: "Residencia artística"
