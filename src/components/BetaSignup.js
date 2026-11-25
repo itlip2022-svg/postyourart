@@ -1,8 +1,8 @@
 import { t, getLanguage } from '../utils/i18n.js';
 
 // Bewerbung für das Netzwerk: Name, E-Mail, Link zu den Arbeiten und eine
-// kurze Nachricht gehen an /api/subscribe — dort landen sie in Brevo, als
-// Benachrichtigung bei uns und als Eingangsbestätigung beim Bewerber.
+// kurze Nachricht gehen an /api/subscribe — von dort als E-Mail ins Postfach
+// hello@mas.art und als Eingangsbestätigung an die Bewerberin / den Bewerber.
 export function BetaSignup() {
   return `
     <section class="section beta-signup" id="beta">

@@ -5,7 +5,7 @@ import { t } from '../utils/i18n.js';
 // und Telegram sind reine Verweise, es lädt nichts von deren Servern,
 // bevor jemand klickt.
 export const CONTACT = {
-  email: 'markus@lippeck.de',
+  email: 'hello@mas.art',
   mobile: '+49 162 6412632',
   mobileHref: 'tel:+491626412632',
   gallery: '+49 4792 9899544',
