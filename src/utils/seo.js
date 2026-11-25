@@ -58,7 +58,7 @@ export function jsonLd(lang) {
                 '@id': 'https://www.mas.art/#org',
                 name: 'mas.art · Lippeck GmbH',
                 url: 'https://www.mas.art',
-                email: 'markus@lippeck.de',
+                email: 'hello@mas.art',
                 logo: `${BASE_URL}assets/masart-logo.png`,
                 telephone: '+49 162 6412632',
                 sameAs: [
@@ -69,7 +69,7 @@ export function jsonLd(lang) {
                     'https://de.pinterest.com/markus_Lippeck/',
                 ],
                 contactPoint: [
-                    { '@type': 'ContactPoint', contactType: 'customer support', telephone: '+49 162 6412632', email: 'markus@lippeck.de', availableLanguage: ['de', 'en'] },
+                    { '@type': 'ContactPoint', contactType: 'customer support', telephone: '+49 162 6412632', email: 'hello@mas.art', availableLanguage: ['de', 'en'] },
                     { '@type': 'ContactPoint', contactType: 'gallery', telephone: '+49 4792 9899544' },
                 ],
                 address: {
